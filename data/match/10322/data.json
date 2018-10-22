@@ -963,45 +963,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 3983,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "handle": "unkoe.9342",
-                        "name": "Unkoe",
-                        "homeLocation": "Nevers",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "mercy",
-                                "zenyatta",
-                                "ana"
-                            ],
-                            "hometown": "Nevers, France",
-                            "player_number": 24,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Chevasson",
-                        "givenName": "Benjamin",
-                        "nationality": "FR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P5PDHGFRTOP1522979540099.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 6095,
-                        "stats": null
-                    }
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 3987,
                         "availableLanguages": [
                             "en"
@@ -1378,6 +1339,45 @@
                         "givenName": "Pan-Seung",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/3SWJQYWMYTV11512776700780.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 6095,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 3983,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "handle": "unkoe.9342",
+                        "name": "Unkoe",
+                        "homeLocation": "Nevers",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "mercy",
+                                "zenyatta",
+                                "ana"
+                            ],
+                            "hometown": "Nevers, France",
+                            "player_number": 24,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Chevasson",
+                        "givenName": "Benjamin",
+                        "nationality": "FR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P5PDHGFRTOP1522979540099.png",
                         "erased": false,
                         "type": "PLAYER"
                     },
@@ -2893,6 +2893,46 @@
             "players": [
                 {
                     "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4636,
+                        "availableLanguages": [
+                            "en",
+                            "ko"
+                        ],
+                        "handle": "fate.1459",
+                        "name": "Fate",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "winston",
+                                "reinhardt",
+                                "tracer"
+                            ],
+                            "hometown": "Seoul",
+                            "player_number": 1,
+                            "preferred_slot": "1",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Koo",
+                        "givenName": "Pan-Seung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/3SWJQYWMYTV11512776700780.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 7892,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
                         "id": 4402,
                         "type": "TEAM"
                     },
@@ -3317,46 +3357,6 @@
                         "id": 7892,
                         "stats": null
                     }
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4636,
-                        "availableLanguages": [
-                            "en",
-                            "ko"
-                        ],
-                        "handle": "fate.1459",
-                        "name": "Fate",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "winston",
-                                "reinhardt",
-                                "tracer"
-                            ],
-                            "hometown": "Seoul",
-                            "player_number": 1,
-                            "preferred_slot": "1",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Koo",
-                        "givenName": "Pan-Seung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/3SWJQYWMYTV11512776700780.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 7892,
-                        "stats": null
-                    }
                 }
             ],
             "state": "CONCLUDED",
@@ -3410,220 +3410,240 @@
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 4",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519459200000,
                         "endDate": 1519459200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 4"
                     },
                     {
                         "id": 10983,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 8",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1520064000000,
                         "endDate": 1520064000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 8"
                     },
                     {
                         "id": 10985,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 10",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1520496000000,
                         "endDate": 1520496000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 10"
                     },
                     {
                         "id": 10987,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 11",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1520582400000,
                         "endDate": 1520582400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 11"
                     },
                     {
                         "id": 10091,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 1",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519200000000,
                         "endDate": 1519200000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 1"
                     },
                     {
                         "id": 10981,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 5",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519804800000,
                         "endDate": 1519804800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 5"
                     },
                     {
                         "id": 10994,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 18",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521702000000,
                         "endDate": 1521702000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 18"
                     },
                     {
                         "id": 10977,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 2",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519286400000,
                         "endDate": 1519286400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 2"
                     },
                     {
                         "id": 10978,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 3",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519372800000,
                         "endDate": 1519372800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 3"
                     },
                     {
                         "id": 10982,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 7",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519977600000,
                         "endDate": 1519977600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 7"
                     },
                     {
                         "id": 10984,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 9",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1520409600000,
                         "endDate": 1520409600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 9"
                     },
                     {
                         "id": 10986,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 12",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1520668800000,
                         "endDate": 1520668800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 12"
                     },
                     {
                         "id": 10988,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 13",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521010800000,
                         "endDate": 1521010800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 13"
                     },
                     {
                         "id": 10989,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 14",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521097200000,
                         "endDate": 1521097200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 14"
                     },
                     {
                         "id": 10990,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 15",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521183600000,
                         "endDate": 1521183600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 15"
                     },
                     {
                         "id": 10992,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 17",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521615600000,
                         "endDate": 1521615600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 17"
                     },
                     {
                         "id": 10995,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 20",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521874800000,
                         "endDate": 1521874800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 20"
                     },
                     {
                         "id": 10980,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 6",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1519891200000,
                         "endDate": 1519891200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 6"
                     },
                     {
                         "id": 10991,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 16",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521270000000,
                         "endDate": 1521270000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 16"
                     },
                     {
                         "id": 10993,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 2 - Day 19",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1521788400000,
                         "endDate": 1521788400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 2 - Day 19"
                     }
                 ],
                 "series": {
@@ -3644,6 +3664,7 @@
         "NORMAL",
         "NORMAL"
     ],
+    "timeZone": "America\/Los_Angeles",
     "startDate": 1521255600000,
     "endDate": 1521264300000,
     "showStartTime": true,

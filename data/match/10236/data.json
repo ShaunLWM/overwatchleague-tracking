@@ -846,44 +846,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 3504,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "handle": "tviq.2926",
-                        "name": "TviQ",
-                        "homeLocation": "Vasteras",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "soldier-76",
-                                "genji"
-                            ],
-                            "hometown": null,
-                            "player_number": 2,
-                            "preferred_slot": "2",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Lindstr\u00f6m",
-                        "givenName": "Kevin",
-                        "nationality": "SE",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QTS9SARJEWLL1531244894567.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 5651,
-                        "stats": null
-                    }
-                },
-                {
-                    "team": {
-                        "id": 4407,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4020,
                         "availableLanguages": [
                             "en"
@@ -1263,6 +1225,44 @@
                         "givenName": "Dae-Kuk",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 5651,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 4407,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 3504,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "handle": "tviq.2926",
+                        "name": "TviQ",
+                        "homeLocation": "Vasteras",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "soldier-76",
+                                "genji"
+                            ],
+                            "hometown": null,
+                            "player_number": 2,
+                            "preferred_slot": "2",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Lindstr\u00f6m",
+                        "givenName": "Kevin",
+                        "nationality": "SE",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QTS9SARJEWLL1531244894567.png",
                         "erased": false,
                         "type": "PLAYER"
                     },
@@ -2285,6 +2285,46 @@
             "players": [
                 {
                     "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4647,
+                        "availableLanguages": [
+                            "en",
+                            "ko"
+                        ],
+                        "handle": "kuki.2228",
+                        "name": "KuKi",
+                        "homeLocation": "Seongnam",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "reinhardt",
+                                "winston",
+                                "orisa"
+                            ],
+                            "hometown": null,
+                            "player_number": 11,
+                            "preferred_slot": "0",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Kim",
+                        "givenName": "Dae-Kuk",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 5654,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
                         "id": 4407,
                         "type": "TEAM"
                     },
@@ -2712,46 +2752,6 @@
                         "id": 5654,
                         "stats": null
                     }
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4647,
-                        "availableLanguages": [
-                            "en",
-                            "ko"
-                        ],
-                        "handle": "kuki.2228",
-                        "name": "KuKi",
-                        "homeLocation": "Seongnam",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "reinhardt",
-                                "winston",
-                                "orisa"
-                            ],
-                            "hometown": null,
-                            "player_number": 11,
-                            "preferred_slot": "0",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kim",
-                        "givenName": "Dae-Kuk",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 5654,
-                        "stats": null
-                    }
                 }
             ],
             "state": "CONCLUDED",
@@ -2805,220 +2805,240 @@
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 20",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1518249600000,
                         "endDate": 1518249600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 20"
                     },
                     {
                         "id": 10386,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 12",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517040000000,
                         "endDate": 1517040000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 12"
                     },
                     {
                         "id": 10387,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 13",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517385600000,
                         "endDate": 1517385600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 13"
                     },
                     {
                         "id": 10393,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 19",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1518163200000,
                         "endDate": 1518163200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 19"
                     },
                     {
                         "id": 10376,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 6",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516262400000,
                         "endDate": 1516262400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 6"
                     },
                     {
                         "id": 10359,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 2",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1515657600000,
                         "endDate": 1515657600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 2"
                     },
                     {
                         "id": 10360,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 4",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1515830400000,
                         "endDate": 1515830400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 4"
                     },
                     {
                         "id": 10377,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 8",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516435200000,
                         "endDate": 1516435200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 8"
                     },
                     {
                         "id": 10383,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 9",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516780800000,
                         "endDate": 1516780800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 9"
                     },
                     {
                         "id": 10385,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 10",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516867200000,
                         "endDate": 1516867200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 10"
                     },
                     {
                         "id": 10389,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 15",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517558400000,
                         "endDate": 1517558400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 15"
                     },
                     {
                         "id": 10390,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 16",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517644800000,
                         "endDate": 1517644800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 16"
                     },
                     {
                         "id": 10391,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 17",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517990400000,
                         "endDate": 1517990400000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 17"
                     },
                     {
                         "id": 10087,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 1",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1515571200000,
                         "endDate": 1515571200000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 1"
                     },
                     {
                         "id": 10375,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 5",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516176000000,
                         "endDate": 1516176000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 5"
                     },
                     {
                         "id": 10378,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 7",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516348800000,
                         "endDate": 1516348800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 7"
                     },
                     {
                         "id": 10361,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 3",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1515744000000,
                         "endDate": 1515744000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 3"
                     },
                     {
                         "id": 10384,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 11",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1516953600000,
                         "endDate": 1516953600000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 11"
                     },
                     {
                         "id": 10388,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 14",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1517472000000,
                         "endDate": 1517472000000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 14"
                     },
                     {
                         "id": 10392,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League - Stage 1 - Day 18",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1518076800000,
                         "endDate": 1518076800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League - Stage 1 - Day 18"
                     }
                 ],
                 "series": {
@@ -3039,6 +3059,7 @@
         "NORMAL",
         "NORMAL"
     ],
+    "timeZone": "America\/Los_Angeles",
     "startDate": 1516240200000,
     "endDate": 1516247400000,
     "showStartTime": true,

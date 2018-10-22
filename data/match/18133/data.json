@@ -197,6 +197,44 @@
             "players": [
                 {
                     "team": {
+                        "id": 7583,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5715,
+                        "availableLanguages": [
+                            "en",
+                            "ko"
+                        ],
+                        "handle": "architect.5497",
+                        "name": "Architect",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "genji",
+                                "pharah"
+                            ],
+                            "player_number": 3,
+                            "preferred_slot": "4",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Park",
+                        "givenName": "Minho",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/7YOLZ6HNVS2Y1522979583351.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 14754,
+                        "stats": null
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
                         "id": 7582,
                         "type": "TEAM"
                     },
@@ -226,44 +264,6 @@
                         "givenName": "Terence",
                         "nationality": "FR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/E29MO86JEHJD1512776701352.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 14754,
-                        "stats": null
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
-                        "id": 7583,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5715,
-                        "availableLanguages": [
-                            "en",
-                            "ko"
-                        ],
-                        "handle": "architect.5497",
-                        "name": "Architect",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "genji",
-                                "pharah"
-                            ],
-                            "player_number": 3,
-                            "preferred_slot": "4",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Park",
-                        "givenName": "Minho",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/7YOLZ6HNVS2Y1522979583351.png",
                         "erased": false,
                         "type": "PLAYER"
                     },
@@ -322,11 +322,12 @@
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Overwatch League All-Star Weekend",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1535180400000,
                         "endDate": 1535266800000,
                         "showStartTime": false,
-                        "showEndTime": false
+                        "showEndTime": false,
+                        "name": "Overwatch League All-Star Weekend"
                     }
                 ],
                 "series": {
@@ -347,6 +348,7 @@
         "NORMAL",
         "NORMAL"
     ],
+    "timeZone": "America\/Los_Angeles",
     "startDate": 1535246700000,
     "endDate": 1535247900000,
     "showStartTime": true,

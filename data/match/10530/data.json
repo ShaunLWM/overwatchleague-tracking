@@ -964,45 +964,6 @@
                 },
                 {
                     "team": {
-                        "id": 4403,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4099,
-                        "availableLanguages": [
-                            "en",
-                            "ko"
-                        ],
-                        "handle": "saebyeolbe.6560",
-                        "name": "Saebyeolbe",
-                        "homeLocation": "Yangju",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "tracer",
-                                "roadhog"
-                            ],
-                            "hometown": null,
-                            "player_number": 9,
-                            "preferred_slot": "2",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Park",
-                        "givenName": "Jong-Ryeol",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/U38D6YQ3CHOO1512686065514.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 5595,
-                        "stats": null
-                    }
-                },
-                {
-                    "team": {
                         "id": 4402,
                         "type": "TEAM"
                     },
@@ -1381,6 +1342,45 @@
                         "givenName": "Hae-Seong",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/SATARK69GT121512686065257.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 5595,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
+                        "id": 4403,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4099,
+                        "availableLanguages": [
+                            "en",
+                            "ko"
+                        ],
+                        "handle": "saebyeolbe.6560",
+                        "name": "Saebyeolbe",
+                        "homeLocation": "Yangju",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "tracer",
+                                "roadhog"
+                            ],
+                            "hometown": null,
+                            "player_number": 9,
+                            "preferred_slot": "2",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Park",
+                        "givenName": "Jong-Ryeol",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/U38D6YQ3CHOO1512686065514.png",
                         "erased": false,
                         "type": "PLAYER"
                     },
@@ -2395,6 +2395,46 @@
             "players": [
                 {
                     "team": {
+                        "id": 4403,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4654,
+                        "availableLanguages": [
+                            "en",
+                            "ko"
+                        ],
+                        "handle": "libero.2398",
+                        "name": "Libero",
+                        "homeLocation": "Anyang",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "pharah",
+                                "dva",
+                                "hanzo"
+                            ],
+                            "hometown": null,
+                            "player_number": 10,
+                            "preferred_slot": "4",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Kim",
+                        "givenName": "Hae-Seong",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/SATARK69GT121512686065257.png",
+                        "erased": false,
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 5598,
+                        "stats": null
+                    }
+                },
+                {
+                    "team": {
                         "id": 4402,
                         "type": "TEAM"
                     },
@@ -2819,46 +2859,6 @@
                         "id": 5598,
                         "stats": null
                     }
-                },
-                {
-                    "team": {
-                        "id": 4403,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4654,
-                        "availableLanguages": [
-                            "en",
-                            "ko"
-                        ],
-                        "handle": "libero.2398",
-                        "name": "Libero",
-                        "homeLocation": "Anyang",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "pharah",
-                                "dva",
-                                "hanzo"
-                            ],
-                            "hometown": null,
-                            "player_number": 10,
-                            "preferred_slot": "4",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kim",
-                        "givenName": "Hae-Seong",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/SATARK69GT121512686065257.png",
-                        "erased": false,
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 5598,
-                        "stats": null
-                    }
                 }
             ],
             "state": "CONCLUDED",
@@ -2899,44 +2899,48 @@
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Day 1",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1512604800000,
                         "endDate": 1512628800000,
                         "showStartTime": true,
-                        "showEndTime": true
+                        "showEndTime": true,
+                        "name": "Day 1"
                     },
                     {
                         "id": 10356,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Day 2",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1512684000000,
                         "endDate": 1512707700000,
                         "showStartTime": true,
-                        "showEndTime": true
+                        "showEndTime": true,
+                        "name": "Day 2"
                     },
                     {
                         "id": 10357,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Day 3",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1512777600000,
                         "endDate": 1512798000000,
                         "showStartTime": true,
-                        "showEndTime": true
+                        "showEndTime": true,
+                        "name": "Day 3"
                     },
                     {
                         "id": 10358,
                         "availableLanguages": [
                             "en"
                         ],
-                        "name": "Day 4",
+                        "timeZone": "America\/Los_Angeles",
                         "startDate": 1512846000000,
                         "endDate": 1512864300000,
                         "showStartTime": true,
-                        "showEndTime": true
+                        "showEndTime": true,
+                        "name": "Day 4"
                     }
                 ],
                 "series": {
@@ -2957,6 +2961,7 @@
         "NORMAL",
         "NORMAL"
     ],
+    "timeZone": "America\/Los_Angeles",
     "startDate": 1512699600000,
     "endDate": 1512707700000,
     "showStartTime": true,

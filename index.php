@@ -86,6 +86,7 @@ function writeToFile($dir, $data)
     $myfile = fopen($dir, "w") or die("Unable to open file!");
     fwrite($myfile, json_encode(json_decode($data, true), JSON_PRETTY_PRINT));
     fclose($myfile);
+	echo "Done " . $dir . "\n";
 }
 
 function humanSleep()
