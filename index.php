@@ -2,7 +2,7 @@
 
 $base = "https://api.overwatchleague.com/";
 
-mkdir("./data", 0755, true);
+@mkdir("./data", 0755, true);
 writeToFile("./data/about.json", get("about"));
 $schedule = get("schedule");
 writeToFile("./data/schedule.json", $schedule);
@@ -15,10 +15,10 @@ foreach ($schedule["data"]["stages"] as $s) {
 }
 
 echo "Stages: " . sizeof($stages) . "\n";
-mkdir("./data/match", 0755, true);
+@mkdir("./data/match", 0755, true);
 foreach ($stages as $id) {
     echo "Stage: " . $id . "\n";
-    mkdir("./data/match/" . $id, 0755, true);
+    @mkdir("./data/match/" . $id, 0755, true);
     writeToFile("./data/match/" . $id . "/data.json", get("match/" . $id));
     humanSleep();
 }
@@ -31,8 +31,14 @@ foreach ($stages as $i) {
         $c = 1;
         foreach ($p["games"] as $o) {
             $tel = get("stats/matches/" . $mid . "/maps/" . $c);
-            $dec = json_decode($tel, true);
-            writeToFile("./data/match/" . $mid . "/map-" . $c . ".json", $tel);
+			echo "stats/matches/" . $mid . "/maps/" . $c . "\n";
+			if (!$tel) {
+				echo "failed to fetch content\n";
+			} else {
+				$dec = json_decode($tel, true);
+				writeToFile("./data/match/" . $mid . "/map-" . $c . ".json", $tel);
+			}
+			
             humanSleep();
             $c++;
         }
@@ -45,7 +51,7 @@ $teams = get("teams?expand=team.content&locale=en_US");
 $decT = json_decode($teams, true);
 writeToFile("./data/teams.json", $teams);
 humanSleep();
-mkdir("./data/teams", 0755, true);
+@mkdir("./data/teams", 0755, true);
 foreach ($decT["competitors"] as $team) {
     echo "Team: " . $team["competitor"]["id"] . "\n";
     writeToFile("./data/teams/" . $team["competitor"]["id"] . ".json", get("team/" . $team["competitor"]["id"]));
@@ -78,12 +84,12 @@ echo "Done.\n";
 function get($url)
 {
     global $base;
-    return file_get_contents($base . $url);
+    return @file_get_contents($base . $url);
 }
 
 function writeToFile($dir, $data)
 {
-    $myfile = fopen($dir, "w") or die("Unable to open file!");
+    $myfile = @fopen($dir, "w") or die("Unable to open file!");
     fwrite($myfile, json_encode(json_decode($data, true), JSON_PRETTY_PRINT));
     fclose($myfile);
 	echo "Done " . $dir . "\n";
