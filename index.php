@@ -71,7 +71,7 @@ humanSleep();
 writeToFile("./data/vods.json", get("vods"));
 humanSleep();
 
-writeToFile("./data/stats.json", get("stats/players"));
+writeToFile("./data/stats.json", get("stats/players?allPlayers=true"));
 humanSleep();
 
 writeToFile("./data/upcoming.json", get("live-match?expand=team.content&locale=en-us"));
