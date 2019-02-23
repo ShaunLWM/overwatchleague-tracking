@@ -79,6 +79,9 @@ humanSleep();
 
 writeToFile("./data/maps.json", get("maps"));
 humanSleep();
+
+writeToFile("./data/players.json", get("players"));
+humanSleep();
 echo "Done.\n";
 
 function get($url)
