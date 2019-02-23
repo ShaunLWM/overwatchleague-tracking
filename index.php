@@ -100,5 +100,5 @@ function writeToFile($dir, $data)
 
 function humanSleep()
 {
-    sleep(mt_rand(1, 3));
+    // sleep(mt_rand(1, 3));
 }
