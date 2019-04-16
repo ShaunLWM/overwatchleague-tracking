@@ -60,6 +60,37 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 9602,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "name": "im37",
+                        "homeLocation": "Cheonan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "widowmaker"
+                            ],
+                            "player_number": 37,
+                            "preferred_slot": "0",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Hong",
+                        "givenName": "Jin",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 7695,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 8753,
                         "availableLanguages": [
                             "en",
@@ -82,69 +113,6 @@
                         "givenName": "Kyeongmu",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QNQD02M7J3I81549576800289.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 7695,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8752,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Stellar",
-                        "homeLocation": "Uijeongbu",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "tracer"
-                            ],
-                            "player_number": 52,
-                            "preferred_slot": "0",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Lee",
-                        "givenName": "Dohyung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KLQJZR9IR3CL1549576800290.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 7695,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8751,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Aid",
-                        "homeLocation": "Anyang",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "lucio",
-                                "mercy"
-                            ],
-                            "player_number": 6,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Ko",
-                        "givenName": "Jae Yoon",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZGI7V1MVHSKF1549576799699.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -178,6 +146,38 @@
                         "givenName": "JooSung",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ERSLKU1OPDR71549576800064.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 7695,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8751,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "Aid",
+                        "homeLocation": "Anyang",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "lucio",
+                                "mercy"
+                            ],
+                            "player_number": 6,
+                            "preferred_slot": "5",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Ko",
+                        "givenName": "Jae Yoon",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZGI7V1MVHSKF1549576799699.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -347,7 +347,7 @@
                                 "winston"
                             ],
                             "player_number": 37,
-                            "preferred_slot": "3",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -419,7 +419,7 @@
                             ],
                             "hometown": "Jyv\u00e4skyl\u00e4",
                             "player_number": 10,
-                            "preferred_slot": "1",
+                            "preferred_slot": "4",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -455,7 +455,7 @@
                             ],
                             "hometown": "Monte Claros",
                             "player_number": 99,
-                            "preferred_slot": "0",
+                            "preferred_slot": "5",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -491,7 +491,7 @@
                             ],
                             "hometown": "Kokkola",
                             "player_number": 0,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -592,7 +592,7 @@
                                 "zarya"
                             ],
                             "player_number": 57,
-                            "preferred_slot": "4",
+                            "preferred_slot": "0",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -625,6 +625,7 @@
                                 "zenyatta"
                             ],
                             "player_number": 12,
+                            "preferred_slot": "4",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.2",
@@ -652,7 +653,7 @@
                         "game": "OVERWATCH",
                         "attributes": {
                             "player_number": 17,
-                            "preferred_slot": "5",
+                            "preferred_slot": "2",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
