@@ -51,22 +51,22 @@
             "records": [
                 {
                     "matchWin": 12,
-                    "matchLoss": 0,
+                    "matchLoss": 1,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 40,
-                    "gameLoss": 7,
+                    "gameWin": 41,
+                    "gameLoss": 10,
                     "gameTie": 2,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
                         {
                             "key": "MATCH_DIFFERENTIAL",
-                            "value": 12
+                            "value": 11
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": 33
+                            "value": 31
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -326,87 +326,6 @@
         },
         {
             "competitor": {
-                "id": 4402,
-                "availableLanguages": [
-                    "en",
-                    "ja",
-                    "zh-tw",
-                    "zh-cn",
-                    "th",
-                    "ko",
-                    "ru"
-                ],
-                "handle": "boston.8698",
-                "name": "Boston Uprising",
-                "homeLocation": "Boston, MA",
-                "primaryColor": "174b97",
-                "secondaryColor": "f2df00",
-                "game": "OVERWATCH",
-                "divisions": [
-                    {
-                        "competitor": {
-                            "id": 4402
-                        },
-                        "division": {
-                            "id": 61
-                        }
-                    },
-                    {
-                        "competitor": {
-                            "id": 4402
-                        },
-                        "division": {
-                            "id": 79
-                        }
-                    }
-                ],
-                "abbreviatedName": "BOS",
-                "addressCountry": "US",
-                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/43UINMGMA83X1513383982827.png",
-                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/W4FGQ24HKCB51513383982827.svg",
-                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/W4FGQ24HKCB51513383982827.svg",
-                "type": "TEAM"
-            },
-            "placement": 5,
-            "advantage": 0,
-            "records": [
-                {
-                    "matchWin": 6,
-                    "matchLoss": 4,
-                    "matchDraw": 0,
-                    "matchBye": 0,
-                    "gameWin": 24,
-                    "gameLoss": 20,
-                    "gameTie": 1,
-                    "gamePointsFor": 0,
-                    "gamePointsAgainst": 0,
-                    "comparisons": [
-                        {
-                            "key": "MATCH_DIFFERENTIAL",
-                            "value": 2
-                        },
-                        {
-                            "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": 4
-                        },
-                        {
-                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
-                        },
-                        {
-                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
-                        },
-                        {
-                            "key": "ADVANTAGE",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "competitor": {
                 "id": 4524,
                 "availableLanguages": [
                     "en",
@@ -452,17 +371,98 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/template_resource\/LAKZ6R7QEG6S1507822883033.svg",
                 "type": "TEAM"
             },
+            "placement": 5,
+            "advantage": 0,
+            "records": [
+                {
+                    "matchWin": 8,
+                    "matchLoss": 5,
+                    "matchDraw": 0,
+                    "matchBye": 0,
+                    "gameWin": 29,
+                    "gameLoss": 23,
+                    "gameTie": 2,
+                    "gamePointsFor": 0,
+                    "gamePointsAgainst": 0,
+                    "comparisons": [
+                        {
+                            "key": "MATCH_DIFFERENTIAL",
+                            "value": 3
+                        },
+                        {
+                            "key": "MATCH_GAME_DIFFERENTIAL",
+                            "value": 6
+                        },
+                        {
+                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "ADVANTAGE",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "competitor": {
+                "id": 4402,
+                "availableLanguages": [
+                    "en",
+                    "ja",
+                    "zh-tw",
+                    "zh-cn",
+                    "th",
+                    "ko",
+                    "ru"
+                ],
+                "handle": "boston.8698",
+                "name": "Boston Uprising",
+                "homeLocation": "Boston, MA",
+                "primaryColor": "174b97",
+                "secondaryColor": "f2df00",
+                "game": "OVERWATCH",
+                "divisions": [
+                    {
+                        "competitor": {
+                            "id": 4402
+                        },
+                        "division": {
+                            "id": 61
+                        }
+                    },
+                    {
+                        "competitor": {
+                            "id": 4402
+                        },
+                        "division": {
+                            "id": 79
+                        }
+                    }
+                ],
+                "abbreviatedName": "BOS",
+                "addressCountry": "US",
+                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/43UINMGMA83X1513383982827.png",
+                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/W4FGQ24HKCB51513383982827.svg",
+                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/W4FGQ24HKCB51513383982827.svg",
+                "type": "TEAM"
+            },
             "placement": 6,
             "advantage": 0,
             "records": [
                 {
-                    "matchWin": 7,
-                    "matchLoss": 5,
+                    "matchWin": 6,
+                    "matchLoss": 4,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 25,
-                    "gameLoss": 23,
-                    "gameTie": 2,
+                    "gameWin": 24,
+                    "gameLoss": 20,
+                    "gameTie": 1,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
@@ -472,15 +472,15 @@
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": 2
+                            "value": 4
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "ADVANTAGE",
@@ -538,7 +538,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/template_resource\/HCS229B4DP021507822883016.svg",
                 "type": "TEAM"
             },
-            "placement": 6,
+            "placement": 7,
             "advantage": 0,
             "records": [
                 {
@@ -562,11 +562,11 @@
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "ADVANTAGE",
@@ -659,6 +659,83 @@
         },
         {
             "competitor": {
+                "id": 7698,
+                "availableLanguages": [
+                    "en",
+                    "ko",
+                    "zh-cn"
+                ],
+                "handle": "atlanta.7813",
+                "name": "Atlanta Reign",
+                "homeLocation": "Atlanta, GA",
+                "primaryColor": "c4c4c4",
+                "secondaryColor": "910f1b",
+                "game": "OVERWATCH",
+                "divisions": [
+                    {
+                        "competitor": {
+                            "id": 7698
+                        },
+                        "division": {
+                            "id": 61
+                        }
+                    },
+                    {
+                        "competitor": {
+                            "id": 7698
+                        },
+                        "division": {
+                            "id": 79
+                        }
+                    }
+                ],
+                "abbreviatedName": "ATL",
+                "addressCountry": "US",
+                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/32\/32MTX0PLEDY31542673991836.png",
+                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
+                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
+                "type": "TEAM"
+            },
+            "placement": 9,
+            "advantage": 0,
+            "records": [
+                {
+                    "matchWin": 6,
+                    "matchLoss": 6,
+                    "matchDraw": 0,
+                    "matchBye": 0,
+                    "gameWin": 28,
+                    "gameLoss": 24,
+                    "gameTie": 0,
+                    "gamePointsFor": 0,
+                    "gamePointsAgainst": 0,
+                    "comparisons": [
+                        {
+                            "key": "MATCH_DIFFERENTIAL",
+                            "value": 0
+                        },
+                        {
+                            "key": "MATCH_GAME_DIFFERENTIAL",
+                            "value": 4
+                        },
+                        {
+                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "ADVANTAGE",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "competitor": {
                 "id": 7695,
                 "availableLanguages": [
                     "en",
@@ -696,7 +773,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/vc\/VCXAU8C5WLJT1542674151813.svg",
                 "type": "TEAM"
             },
-            "placement": 9,
+            "placement": 10,
             "advantage": 0,
             "records": [
                 {
@@ -773,7 +850,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/65\/652SCYN8YQPB1542674099514.svg",
                 "type": "TEAM"
             },
-            "placement": 10,
+            "placement": 11,
             "advantage": 0,
             "records": [
                 {
@@ -813,22 +890,22 @@
         },
         {
             "competitor": {
-                "id": 7698,
+                "id": 7693,
                 "availableLanguages": [
                     "en",
-                    "ko",
-                    "zh-cn"
+                    "zh-cn",
+                    "ko"
                 ],
-                "handle": "atlanta.7813",
-                "name": "Atlanta Reign",
-                "homeLocation": "Atlanta, GA",
-                "primaryColor": "c4c4c4",
-                "secondaryColor": "910f1b",
+                "handle": "hangzhou.6980",
+                "name": "Hangzhou Spark",
+                "homeLocation": "Hangzhou",
+                "primaryColor": "fb7299",
+                "secondaryColor": "5788ce",
                 "game": "OVERWATCH",
                 "divisions": [
                     {
                         "competitor": {
-                            "id": 7698
+                            "id": 7693
                         },
                         "division": {
                             "id": 61
@@ -836,49 +913,49 @@
                     },
                     {
                         "competitor": {
-                            "id": 7698
+                            "id": 7693
                         },
                         "division": {
-                            "id": 79
+                            "id": 80
                         }
                     }
                 ],
-                "abbreviatedName": "ATL",
-                "addressCountry": "US",
-                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/32\/32MTX0PLEDY31542673991836.png",
-                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
-                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
+                "abbreviatedName": "HZS",
+                "addressCountry": "CN",
+                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QQ8MNSYYJGDK1544640571357.png",
+                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZQTMF62BVMHV1544640580461.svg",
+                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZQTMF62BVMHV1544640580461.svg",
                 "type": "TEAM"
             },
-            "placement": 11,
+            "placement": 12,
             "advantage": 0,
             "records": [
                 {
                     "matchWin": 5,
-                    "matchLoss": 6,
+                    "matchLoss": 5,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 25,
-                    "gameLoss": 23,
-                    "gameTie": 0,
+                    "gameWin": 18,
+                    "gameLoss": 24,
+                    "gameTie": 1,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
                         {
                             "key": "MATCH_DIFFERENTIAL",
-                            "value": -1
+                            "value": 0
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": 2
+                            "value": -6
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "ADVANTAGE",
@@ -935,7 +1012,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/E9MU0AK0JIXT1507858876249.svg",
                 "type": "TEAM"
             },
-            "placement": 11,
+            "placement": 13,
             "advantage": 0,
             "records": [
                 {
@@ -959,88 +1036,11 @@
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
-                        },
-                        {
-                            "key": "ADVANTAGE",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "competitor": {
-                "id": 7693,
-                "availableLanguages": [
-                    "en",
-                    "zh-cn",
-                    "ko"
-                ],
-                "handle": "hangzhou.6980",
-                "name": "Hangzhou Spark",
-                "homeLocation": "Hangzhou",
-                "primaryColor": "fb7299",
-                "secondaryColor": "5788ce",
-                "game": "OVERWATCH",
-                "divisions": [
-                    {
-                        "competitor": {
-                            "id": 7693
-                        },
-                        "division": {
-                            "id": 61
-                        }
-                    },
-                    {
-                        "competitor": {
-                            "id": 7693
-                        },
-                        "division": {
-                            "id": 80
-                        }
-                    }
-                ],
-                "abbreviatedName": "HZS",
-                "addressCountry": "CN",
-                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QQ8MNSYYJGDK1544640571357.png",
-                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZQTMF62BVMHV1544640580461.svg",
-                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZQTMF62BVMHV1544640580461.svg",
-                "type": "TEAM"
-            },
-            "placement": 13,
-            "advantage": 0,
-            "records": [
-                {
-                    "matchWin": 4,
-                    "matchLoss": 5,
-                    "matchDraw": 0,
-                    "matchBye": 0,
-                    "gameWin": 15,
-                    "gameLoss": 22,
-                    "gameTie": 1,
-                    "gamePointsFor": 0,
-                    "gamePointsAgainst": 0,
-                    "comparisons": [
-                        {
-                            "key": "MATCH_DIFFERENTIAL",
-                            "value": -1
-                        },
-                        {
-                            "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": -7
-                        },
-                        {
-                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
-                        },
-                        {
-                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
+                            "value": null
                         },
                         {
                             "key": "ADVANTAGE",
@@ -1089,7 +1089,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/w4\/W4C99JABL26E1542674142979.svg",
                 "type": "TEAM"
             },
-            "placement": 13,
+            "placement": 14,
             "advantage": 0,
             "records": [
                 {
@@ -1110,87 +1110,6 @@
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
                             "value": -7
-                        },
-                        {
-                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
-                        },
-                        {
-                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": 0
-                        },
-                        {
-                            "key": "ADVANTAGE",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "competitor": {
-                "id": 4525,
-                "availableLanguages": [
-                    "en",
-                    "ko",
-                    "ru",
-                    "ja",
-                    "zh-tw",
-                    "zh-cn",
-                    "th"
-                ],
-                "handle": "houston.4749",
-                "name": "Houston Outlaws",
-                "homeLocation": "Houston, TX",
-                "primaryColor": "000000",
-                "secondaryColor": "97d700",
-                "game": "OVERWATCH",
-                "divisions": [
-                    {
-                        "competitor": {
-                            "id": 4525
-                        },
-                        "division": {
-                            "id": 61
-                        }
-                    },
-                    {
-                        "competitor": {
-                            "id": 4525
-                        },
-                        "division": {
-                            "id": 79
-                        }
-                    }
-                ],
-                "abbreviatedName": "HOU",
-                "addressCountry": "US",
-                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2YF5VLIMGZVA1546557680222.png",
-                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BGP1O8PKAI091546557676638.svg",
-                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BGP1O8PKAI091546557676638.svg",
-                "type": "TEAM"
-            },
-            "placement": 15,
-            "advantage": 0,
-            "records": [
-                {
-                    "matchWin": 3,
-                    "matchLoss": 5,
-                    "matchDraw": 0,
-                    "matchBye": 0,
-                    "gameWin": 14,
-                    "gameLoss": 19,
-                    "gameTie": 1,
-                    "gamePointsFor": 0,
-                    "gamePointsAgainst": 0,
-                    "comparisons": [
-                        {
-                            "key": "MATCH_DIFFERENTIAL",
-                            "value": -2
-                        },
-                        {
-                            "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": -5
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -1254,7 +1173,7 @@
                 "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/template_resource\/ZIVUVIWXNIFL1507822883114.svg",
                 "type": "TEAM"
             },
-            "placement": 16,
+            "placement": 15,
             "advantage": 0,
             "records": [
                 {
@@ -1275,6 +1194,87 @@
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
                             "value": -7
+                        },
+                        {
+                            "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
+                            "value": null
+                        },
+                        {
+                            "key": "ADVANTAGE",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "competitor": {
+                "id": 4525,
+                "availableLanguages": [
+                    "en",
+                    "ko",
+                    "ru",
+                    "ja",
+                    "zh-tw",
+                    "zh-cn",
+                    "th"
+                ],
+                "handle": "houston.4749",
+                "name": "Houston Outlaws",
+                "homeLocation": "Houston, TX",
+                "primaryColor": "000000",
+                "secondaryColor": "97d700",
+                "game": "OVERWATCH",
+                "divisions": [
+                    {
+                        "competitor": {
+                            "id": 4525
+                        },
+                        "division": {
+                            "id": 61
+                        }
+                    },
+                    {
+                        "competitor": {
+                            "id": 4525
+                        },
+                        "division": {
+                            "id": 79
+                        }
+                    }
+                ],
+                "abbreviatedName": "HOU",
+                "addressCountry": "US",
+                "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2YF5VLIMGZVA1546557680222.png",
+                "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BGP1O8PKAI091546557676638.svg",
+                "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BGP1O8PKAI091546557676638.svg",
+                "type": "TEAM"
+            },
+            "placement": 16,
+            "advantage": 0,
+            "records": [
+                {
+                    "matchWin": 3,
+                    "matchLoss": 6,
+                    "matchDraw": 0,
+                    "matchBye": 0,
+                    "gameWin": 14,
+                    "gameLoss": 23,
+                    "gameTie": 1,
+                    "gamePointsFor": 0,
+                    "gamePointsAgainst": 0,
+                    "comparisons": [
+                        {
+                            "key": "MATCH_DIFFERENTIAL",
+                            "value": -3
+                        },
+                        {
+                            "key": "MATCH_GAME_DIFFERENTIAL",
+                            "value": -9
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -1336,22 +1336,22 @@
             "records": [
                 {
                     "matchWin": 3,
-                    "matchLoss": 8,
+                    "matchLoss": 9,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 15,
-                    "gameLoss": 32,
+                    "gameWin": 17,
+                    "gameLoss": 35,
                     "gameTie": 0,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
                         {
                             "key": "MATCH_DIFFERENTIAL",
-                            "value": -5
+                            "value": -6
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": -17
+                            "value": -18
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -1416,23 +1416,23 @@
             "advantage": 0,
             "records": [
                 {
-                    "matchWin": 1,
+                    "matchWin": 2,
                     "matchLoss": 9,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 14,
-                    "gameLoss": 27,
+                    "gameWin": 17,
+                    "gameLoss": 28,
                     "gameTie": 3,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
                         {
                             "key": "MATCH_DIFFERENTIAL",
-                            "value": -8
+                            "value": -7
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": -13
+                            "value": -11
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -1494,30 +1494,30 @@
             "records": [
                 {
                     "matchWin": 1,
-                    "matchLoss": 10,
+                    "matchLoss": 11,
                     "matchDraw": 0,
                     "matchBye": 0,
-                    "gameWin": 12,
-                    "gameLoss": 33,
+                    "gameWin": 13,
+                    "gameLoss": 36,
                     "gameTie": 1,
                     "gamePointsFor": 0,
                     "gamePointsAgainst": 0,
                     "comparisons": [
                         {
                             "key": "MATCH_DIFFERENTIAL",
-                            "value": -9
+                            "value": -10
                         },
                         {
                             "key": "MATCH_GAME_DIFFERENTIAL",
-                            "value": -21
+                            "value": -23
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
+                            "value": 0
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
+                            "value": 1
                         },
                         {
                             "key": "ADVANTAGE",
@@ -1596,11 +1596,11 @@
                         },
                         {
                             "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
+                            "value": 0
                         },
                         {
                             "key": "MATCH_HEAD_TO_HEAD_DIFFERENTIAL",
-                            "value": null
+                            "value": -1
                         },
                         {
                             "key": "ADVANTAGE",
@@ -1619,6 +1619,6 @@
         "ADVANTAGE"
     ],
     "totalMatches": 280,
-    "matchesConcluded": 106,
+    "matchesConcluded": 110,
     "playoffCutoff": "6"
 }
