@@ -79,9 +79,19 @@ humanSleep();
 
 writeToFile("./data/maps.json", get("maps"));
 humanSleep();
+@mkdir("./data/players", 0755, true);
 
-writeToFile("./data/players.json", get("players"));
+$players = get("players");
+writeToFile("./data/players.json", $players);
 humanSleep();
+
+$playersJson = json_decode($players, true);
+// print($players);
+foreach ($playersJson["content"] as $player) {
+	echo "Player: " . $player["name"] . "\n";
+	writeToFile("./data/players/" . $player["id"] . ".json", get("players/" . $player["id"] . "?expand=stats,stats.ranks"));
+}
+
 echo "Done.\n";
 
 function get($url)
