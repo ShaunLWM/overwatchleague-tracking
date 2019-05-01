@@ -4,7 +4,7 @@ shell_exec("php index.php");
 $output = shell_exec("git status");
 if (strpos($output, "modified:") !== false || strpos($output, "Untracked files:") !== false || strpos($output, "Changes not staged for commit") !== false) {
 	shell_exec("git add .");
-	shell_exec('git commit -m "' . date("nS F Y") . '"');
+	shell_exec('git commit -m "' . date("jS F Y", strtotime("now")) . '"');
 	shell_exec("git push");
 } else {
 	echo "Nothing to commit";
