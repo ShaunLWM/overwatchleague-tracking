@@ -1,3 +1,3 @@
 d:
 cd D:\overwatchleague-tracking\
-php job.php"
+php job.php
