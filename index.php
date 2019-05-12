@@ -102,7 +102,7 @@ function get($url)
 
 function writeToFile($dir, $data)
 {
-	if ($data == null || $data == "null" || $data == "") { return; }
+	if ($data == null || $data == "null" || $data == "") { echo "ERROR: " . $dir . "|" . $data . "\n"; return; }
     $myfile = @fopen($dir, "w") or die("Unable to open file!");
     fwrite($myfile, json_encode(json_decode($data, true), JSON_PRETTY_PRINT));
     fclose($myfile);
