@@ -2925,6 +2925,13 @@
                         "isPublic": true
                     },
                     {
+                        "id": 2285,
+                        "competitorId": 4403,
+                        "value": "https:\/\/twitter.com\/NYXL",
+                        "accountType": "TWITTER",
+                        "isPublic": true
+                    },
+                    {
                         "id": 2282,
                         "competitorId": 4403,
                         "value": "https:\/\/www.facebook.com\/NYXL",
@@ -2943,13 +2950,6 @@
                         "competitorId": 4403,
                         "value": "https:\/\/reddit.com\/r\/nyxl",
                         "accountType": "REDDIT_SUB",
-                        "isPublic": true
-                    },
-                    {
-                        "id": 2285,
-                        "competitorId": 4403,
-                        "value": "https:\/\/twitter.com\/NYXL",
-                        "accountType": "TWITTER",
                         "isPublic": true
                     }
                 ],
@@ -3236,78 +3236,6 @@
                             "type": "TEAM"
                         },
                         "player": {
-                            "id": 4653,
-                            "availableLanguages": [
-                                "en",
-                                "zh-cn",
-                                "ko"
-                            ],
-                            "handle": "jjonak.8711",
-                            "name": "JJONAK",
-                            "homeLocation": "Osan",
-                            "accounts": [
-                                {
-                                    "id": 1289,
-                                    "competitorId": 4653,
-                                    "value": "https:\/\/www.facebook.com\/JJoNakLove",
-                                    "accountType": "FACEBOOK",
-                                    "isPublic": true
-                                },
-                                {
-                                    "id": 1291,
-                                    "competitorId": 4653,
-                                    "value": "https:\/\/www.twitch.tv\/jjonaklove",
-                                    "accountType": "TWITCH",
-                                    "isPublic": true
-                                },
-                                {
-                                    "id": 1290,
-                                    "competitorId": 4653,
-                                    "value": "https:\/\/twitter.com\/JJoNakLove",
-                                    "accountType": "TWITTER",
-                                    "isPublic": true
-                                },
-                                {
-                                    "id": 13343,
-                                    "competitorId": 4653,
-                                    "value": "https:\/\/www.instagram.com\/jjonaklove",
-                                    "accountType": "INSTAGRAM",
-                                    "isPublic": true
-                                },
-                                {
-                                    "id": 13344,
-                                    "competitorId": 4653,
-                                    "value": "https:\/\/www.youtube.com\/channel\/UCeq0Nrch5KY3VrZyn_BB32g",
-                                    "accountType": "YOUTUBE_CHANNEL",
-                                    "isPublic": true
-                                }
-                            ],
-                            "game": "OVERWATCH",
-                            "attributes": {
-                                "hero_image": null,
-                                "heroes": [
-                                    "zenyatta"
-                                ],
-                                "hometown": "Osan",
-                                "player_number": 44,
-                                "preferred_slot": "1",
-                                "role": "support"
-                            },
-                            "attributesVersion": "1.0.0",
-                            "familyName": "Bang",
-                            "givenName": "SeongHyun",
-                            "nationality": "KR",
-                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
-                            "type": "PLAYER"
-                        },
-                        "flags": []
-                    },
-                    {
-                        "team": {
-                            "id": 4403,
-                            "type": "TEAM"
-                        },
-                        "player": {
                             "id": 4093,
                             "availableLanguages": [
                                 "en",
@@ -3372,6 +3300,78 @@
                             "givenName": "Dong-Gyu",
                             "nationality": "KR",
                             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/G12QBLHKB4E11549652238882.png",
+                            "type": "PLAYER"
+                        },
+                        "flags": []
+                    },
+                    {
+                        "team": {
+                            "id": 4403,
+                            "type": "TEAM"
+                        },
+                        "player": {
+                            "id": 4653,
+                            "availableLanguages": [
+                                "en",
+                                "zh-cn",
+                                "ko"
+                            ],
+                            "handle": "jjonak.8711",
+                            "name": "JJONAK",
+                            "homeLocation": "Osan",
+                            "accounts": [
+                                {
+                                    "id": 1289,
+                                    "competitorId": 4653,
+                                    "value": "https:\/\/www.facebook.com\/JJoNakLove",
+                                    "accountType": "FACEBOOK",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 1291,
+                                    "competitorId": 4653,
+                                    "value": "https:\/\/www.twitch.tv\/jjonaklove",
+                                    "accountType": "TWITCH",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 1290,
+                                    "competitorId": 4653,
+                                    "value": "https:\/\/twitter.com\/JJoNakLove",
+                                    "accountType": "TWITTER",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 13343,
+                                    "competitorId": 4653,
+                                    "value": "https:\/\/www.instagram.com\/jjonaklove",
+                                    "accountType": "INSTAGRAM",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 13344,
+                                    "competitorId": 4653,
+                                    "value": "https:\/\/www.youtube.com\/channel\/UCeq0Nrch5KY3VrZyn_BB32g",
+                                    "accountType": "YOUTUBE_CHANNEL",
+                                    "isPublic": true
+                                }
+                            ],
+                            "game": "OVERWATCH",
+                            "attributes": {
+                                "hero_image": null,
+                                "heroes": [
+                                    "zenyatta"
+                                ],
+                                "hometown": "Osan",
+                                "player_number": 44,
+                                "preferred_slot": "1",
+                                "role": "support"
+                            },
+                            "attributesVersion": "1.0.0",
+                            "familyName": "Bang",
+                            "givenName": "SeongHyun",
+                            "nationality": "KR",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
                             "type": "PLAYER"
                         },
                         "flags": []
@@ -8343,6 +8343,43 @@
                             "type": "TEAM"
                         },
                         "player": {
+                            "id": 8790,
+                            "availableLanguages": [
+                                "en",
+                                "zh-cn"
+                            ],
+                            "name": "Krillin",
+                            "homeLocation": "Seoul",
+                            "accounts": [
+                                {
+                                    "id": 13140,
+                                    "competitorId": 8790,
+                                    "value": "https:\/\/twitter.com\/Krillin_1",
+                                    "accountType": "TWITTER",
+                                    "isPublic": true
+                                }
+                            ],
+                            "game": "OVERWATCH",
+                            "attributes": {
+                                "player_number": 11,
+                                "preferred_slot": "1",
+                                "role": "support"
+                            },
+                            "attributesVersion": "1.0.2",
+                            "familyName": "Jeong",
+                            "givenName": "Young Hoon",
+                            "nationality": "KR",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/7ZOAR8M4RUVA1549580262046.png",
+                            "type": "PLAYER"
+                        },
+                        "flags": []
+                    },
+                    {
+                        "team": {
+                            "id": 4410,
+                            "type": "TEAM"
+                        },
+                        "player": {
                             "id": 4662,
                             "availableLanguages": [
                                 "en",
@@ -8393,43 +8430,6 @@
                             "givenName": "Junyoung",
                             "nationality": "KR",
                             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/XYAERBBSJ9LD1549580262279.png",
-                            "type": "PLAYER"
-                        },
-                        "flags": []
-                    },
-                    {
-                        "team": {
-                            "id": 4410,
-                            "type": "TEAM"
-                        },
-                        "player": {
-                            "id": 8790,
-                            "availableLanguages": [
-                                "en",
-                                "zh-cn"
-                            ],
-                            "name": "Krillin",
-                            "homeLocation": "Seoul",
-                            "accounts": [
-                                {
-                                    "id": 13140,
-                                    "competitorId": 8790,
-                                    "value": "https:\/\/twitter.com\/Krillin_1",
-                                    "accountType": "TWITTER",
-                                    "isPublic": true
-                                }
-                            ],
-                            "game": "OVERWATCH",
-                            "attributes": {
-                                "player_number": 11,
-                                "preferred_slot": "1",
-                                "role": "support"
-                            },
-                            "attributesVersion": "1.0.2",
-                            "familyName": "Jeong",
-                            "givenName": "Young Hoon",
-                            "nationality": "KR",
-                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/7ZOAR8M4RUVA1549580262046.png",
                             "type": "PLAYER"
                         },
                         "flags": []
@@ -10273,53 +10273,6 @@
                             "type": "TEAM"
                         },
                         "player": {
-                            "id": 9602,
-                            "availableLanguages": [
-                                "en"
-                            ],
-                            "name": "im37",
-                            "homeLocation": "Cheonan",
-                            "accounts": [
-                                {
-                                    "id": 13941,
-                                    "competitorId": 9602,
-                                    "value": "https:\/\/www.twitch.tv\/im37_ow",
-                                    "accountType": "TWITCH",
-                                    "isPublic": true
-                                },
-                                {
-                                    "id": 13932,
-                                    "competitorId": 9602,
-                                    "value": "https:\/\/twitter.com\/im37_ow",
-                                    "accountType": "TWITTER",
-                                    "isPublic": true
-                                }
-                            ],
-                            "game": "OVERWATCH",
-                            "attributes": {
-                                "heroes": [
-                                    "mccree",
-                                    "widowmaker"
-                                ],
-                                "player_number": 37,
-                                "preferred_slot": "3",
-                                "role": "offense"
-                            },
-                            "attributesVersion": "1.0.2",
-                            "familyName": "Hong",
-                            "givenName": "Jin",
-                            "nationality": "KR",
-                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/HHJHEGNJYE7X1555459293082.png",
-                            "type": "PLAYER"
-                        },
-                        "flags": []
-                    },
-                    {
-                        "team": {
-                            "id": 7695,
-                            "type": "TEAM"
-                        },
-                        "player": {
                             "id": 8753,
                             "availableLanguages": [
                                 "en",
@@ -10365,6 +10318,108 @@
                             "givenName": "Kyeongmu",
                             "nationality": "KR",
                             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QNQD02M7J3I81549576800289.png",
+                            "type": "PLAYER"
+                        },
+                        "flags": []
+                    },
+                    {
+                        "team": {
+                            "id": 7695,
+                            "type": "TEAM"
+                        },
+                        "player": {
+                            "id": 10032,
+                            "availableLanguages": [
+                                "en"
+                            ],
+                            "name": "sharyk",
+                            "homeLocation": "Mansfield",
+                            "accounts": [
+                                {
+                                    "id": 14193,
+                                    "competitorId": 10032,
+                                    "value": "https:\/\/twitter.com\/sharykOW",
+                                    "accountType": "TWITTER",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 14204,
+                                    "competitorId": 10032,
+                                    "value": "https:\/\/www.twitch.tv\/sharyk",
+                                    "accountType": "TWITCH",
+                                    "isPublic": true
+                                }
+                            ],
+                            "game": "OVERWATCH",
+                            "attributes": {
+                                "heroes": [
+                                    "reinhardt",
+                                    "winston"
+                                ],
+                                "player_number": 77,
+                                "role": "tank"
+                            },
+                            "attributesVersion": "1.0.2",
+                            "familyName": "Faterins",
+                            "givenName": "Normunds",
+                            "nationality": "GB",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
+                            "type": "PLAYER"
+                        },
+                        "flags": []
+                    },
+                    {
+                        "team": {
+                            "id": 7695,
+                            "type": "TEAM"
+                        },
+                        "player": {
+                            "id": 8687,
+                            "availableLanguages": [
+                                "en",
+                                "zh-cn"
+                            ],
+                            "name": "RoKy",
+                            "homeLocation": "Seoul",
+                            "accounts": [
+                                {
+                                    "id": 13148,
+                                    "competitorId": 8687,
+                                    "value": "https:\/\/twitter.com\/OW_RoKY",
+                                    "accountType": "TWITTER",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 13149,
+                                    "competitorId": 8687,
+                                    "value": "https:\/\/www.twitch.tv\/wntjd9254",
+                                    "accountType": "TWITCH",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 13110,
+                                    "competitorId": 8687,
+                                    "value": "https:\/\/www.instagram.com\/roky_ow_parkjoosung",
+                                    "accountType": "INSTAGRAM",
+                                    "isPublic": true
+                                }
+                            ],
+                            "game": "OVERWATCH",
+                            "attributes": {
+                                "heroes": [
+                                    "ana",
+                                    "lucio",
+                                    "mercy"
+                                ],
+                                "player_number": 7,
+                                "preferred_slot": "5",
+                                "role": "support"
+                            },
+                            "attributesVersion": "1.0.2",
+                            "familyName": "Park",
+                            "givenName": "JooSung",
+                            "nationality": "KR",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ERSLKU1OPDR71549576800064.png",
                             "type": "PLAYER"
                         },
                         "flags": []
@@ -10430,52 +10485,103 @@
                             "type": "TEAM"
                         },
                         "player": {
-                            "id": 8687,
+                            "id": 4634,
                             "availableLanguages": [
                                 "en",
-                                "zh-cn"
+                                "zh-cn",
+                                "ko"
                             ],
-                            "name": "RoKy",
+                            "handle": "envy.3537",
+                            "name": "Envy",
                             "homeLocation": "Seoul",
                             "accounts": [
                                 {
-                                    "id": 13148,
-                                    "competitorId": 8687,
-                                    "value": "https:\/\/twitter.com\/OW_RoKY",
-                                    "accountType": "TWITTER",
+                                    "id": 1244,
+                                    "competitorId": 4634,
+                                    "value": "https:\/\/www.facebook.com\/envy0w",
+                                    "accountType": "FACEBOOK",
                                     "isPublic": true
                                 },
                                 {
-                                    "id": 13149,
-                                    "competitorId": 8687,
-                                    "value": "https:\/\/www.twitch.tv\/wntjd9254",
+                                    "id": 1245,
+                                    "competitorId": 4634,
+                                    "value": "https:\/\/www.twitch.tv\/envy0w",
                                     "accountType": "TWITCH",
                                     "isPublic": true
                                 },
                                 {
-                                    "id": 13110,
-                                    "competitorId": 8687,
-                                    "value": "https:\/\/www.instagram.com\/roky_ow_parkjoosung",
-                                    "accountType": "INSTAGRAM",
+                                    "id": 1243,
+                                    "competitorId": 4634,
+                                    "value": "https:\/\/twitter.com\/envyow",
+                                    "accountType": "TWITTER",
+                                    "isPublic": true
+                                }
+                            ],
+                            "game": "OVERWATCH",
+                            "attributes": {
+                                "hero_image": null,
+                                "heroes": [
+                                    "dva",
+                                    "zarya",
+                                    "roadhog"
+                                ],
+                                "hometown": "Seoul",
+                                "player_number": 10,
+                                "preferred_slot": "1",
+                                "role": "tank"
+                            },
+                            "attributesVersion": "1.0.0",
+                            "familyName": "Lee",
+                            "givenName": "Kang-Jae",
+                            "nationality": "KR",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/RTY8KTXBA5ND1549576799705.png",
+                            "type": "PLAYER"
+                        },
+                        "flags": []
+                    },
+                    {
+                        "team": {
+                            "id": 7695,
+                            "type": "TEAM"
+                        },
+                        "player": {
+                            "id": 9602,
+                            "availableLanguages": [
+                                "en"
+                            ],
+                            "name": "im37",
+                            "homeLocation": "Cheonan",
+                            "accounts": [
+                                {
+                                    "id": 13941,
+                                    "competitorId": 9602,
+                                    "value": "https:\/\/www.twitch.tv\/im37_ow",
+                                    "accountType": "TWITCH",
+                                    "isPublic": true
+                                },
+                                {
+                                    "id": 13932,
+                                    "competitorId": 9602,
+                                    "value": "https:\/\/twitter.com\/im37_ow",
+                                    "accountType": "TWITTER",
                                     "isPublic": true
                                 }
                             ],
                             "game": "OVERWATCH",
                             "attributes": {
                                 "heroes": [
-                                    "ana",
-                                    "lucio",
-                                    "mercy"
+                                    "mccree",
+                                    "widowmaker"
                                 ],
-                                "player_number": 7,
-                                "preferred_slot": "5",
-                                "role": "support"
+                                "player_number": 37,
+                                "preferred_slot": "3",
+                                "role": "offense"
                             },
                             "attributesVersion": "1.0.2",
-                            "familyName": "Park",
-                            "givenName": "JooSung",
+                            "familyName": "Hong",
+                            "givenName": "Jin",
                             "nationality": "KR",
-                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ERSLKU1OPDR71549576800064.png",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/HHJHEGNJYE7X1555459293082.png",
                             "type": "PLAYER"
                         },
                         "flags": []
@@ -10599,56 +10705,48 @@
                             "type": "TEAM"
                         },
                         "player": {
-                            "id": 4634,
+                            "id": 10051,
                             "availableLanguages": [
-                                "en",
-                                "zh-cn",
-                                "ko"
+                                "en"
                             ],
-                            "handle": "envy.3537",
-                            "name": "Envy",
-                            "homeLocation": "Seoul",
+                            "name": "Gods",
+                            "homeLocation": "Jackson, Mississippi",
                             "accounts": [
                                 {
-                                    "id": 1244,
-                                    "competitorId": 4634,
-                                    "value": "https:\/\/www.facebook.com\/envy0w",
-                                    "accountType": "FACEBOOK",
+                                    "id": 14222,
+                                    "competitorId": 10051,
+                                    "value": "https:\/\/twitter.com\/gods_live",
+                                    "accountType": "TWITTER",
                                     "isPublic": true
                                 },
                                 {
-                                    "id": 1245,
-                                    "competitorId": 4634,
-                                    "value": "https:\/\/www.twitch.tv\/envy0w",
+                                    "id": 14194,
+                                    "competitorId": 10051,
+                                    "value": "https:\/\/www.twitch.tv\/gods_live",
                                     "accountType": "TWITCH",
                                     "isPublic": true
                                 },
                                 {
-                                    "id": 1243,
-                                    "competitorId": 4634,
-                                    "value": "https:\/\/twitter.com\/envyow",
-                                    "accountType": "TWITTER",
+                                    "id": 14195,
+                                    "competitorId": 10051,
+                                    "value": "https:\/\/www.youtube.com\/channel\/UCYS9cN7NYZYZ9HwDxLrPKbA",
+                                    "accountType": "YOUTUBE_CHANNEL",
                                     "isPublic": true
                                 }
                             ],
                             "game": "OVERWATCH",
                             "attributes": {
-                                "hero_image": null,
                                 "heroes": [
                                     "dva",
-                                    "zarya",
                                     "roadhog"
                                 ],
-                                "hometown": "Seoul",
-                                "player_number": 10,
-                                "preferred_slot": "1",
+                                "player_number": 11,
                                 "role": "tank"
                             },
-                            "attributesVersion": "1.0.0",
-                            "familyName": "Lee",
-                            "givenName": "Kang-Jae",
-                            "nationality": "KR",
-                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/RTY8KTXBA5ND1549576799705.png",
+                            "attributesVersion": "1.0.2",
+                            "familyName": "Graeser",
+                            "givenName": "Daniel",
+                            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
                             "type": "PLAYER"
                         },
                         "flags": []
