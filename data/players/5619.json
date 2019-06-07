@@ -40,6 +40,7 @@
                     "zarya"
                 ],
                 "player_number": 42,
+                "preferred_slot": "4",
                 "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -153,15 +154,68 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 0,
-                "deaths_avg_per_10m": 0,
-                "hero_damage_avg_per_10m": 0,
+                "eliminations_avg_per_10m": 18.838682761002417,
+                "deaths_avg_per_10m": 3.7146698401976597,
+                "hero_damage_avg_per_10m": 11678.94186587628,
                 "healing_avg_per_10m": 0,
-                "ultimates_earned_avg_per_10m": 0,
-                "final_blows_avg_per_10m": 0,
-                "time_played_total": 0
+                "ultimates_earned_avg_per_10m": 5.041337640268252,
+                "final_blows_avg_per_10m": 6.898672560367082,
+                "time_played_total": 2261.304600775242
             },
-            "heroes": []
+            "heroes": [
+                {
+                    "hero_id": "0x02E0000000000005",
+                    "name": "hanzo",
+                    "stats": {
+                        "eliminations_avg_per_10m": 27.634217836818674,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 13082.917019495999,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 7.208926392213567,
+                        "final_blows_avg_per_10m": 10.81338958832035,
+                        "time_played_total": 499.3808792233467
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000012F",
+                    "name": "doomfist",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 11316.74951754877,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 4.861821532249451
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000068",
+                    "name": "zarya",
+                    "stats": {
+                        "eliminations_avg_per_10m": 16.537724890807333,
+                        "deaths_avg_per_10m": 4.9166209134832615,
+                        "hero_damage_avg_per_10m": 11490.667887970383,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 4.9166209134832615,
+                        "final_blows_avg_per_10m": 5.363586451072648,
+                        "time_played_total": 1342.3853732347488
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000008",
+                    "name": "pharah",
+                    "stats": {
+                        "eliminations_avg_per_10m": 15.916020256009297,
+                        "deaths_avg_per_10m": 4.340732797093445,
+                        "hero_damage_avg_per_10m": 10601.906709279372,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 2.893821864728963,
+                        "final_blows_avg_per_10m": 7.234554661822408,
+                        "time_played_total": 414.67652678489685
+                    }
+                }
+            ]
         }
     },
     "meta": []
