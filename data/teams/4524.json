@@ -7714,7 +7714,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -7884,6 +7884,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 27,
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -7920,7 +7921,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -7985,7 +7986,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -8669,7 +8670,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -8750,7 +8751,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -8831,7 +8832,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9104,7 +9105,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9226,7 +9227,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9348,7 +9349,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9745,7 +9746,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9826,7 +9827,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -9907,7 +9908,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -10263,7 +10264,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -10344,7 +10345,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -10425,7 +10426,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -16139,6 +16140,38 @@
                     "players": [
                         {
                             "team": {
+                                "id": 4407,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 8706,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Kris",
+                                "homeLocation": "Jinju",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "player_number": 96,
+                                    "preferred_slot": "0",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.2",
+                                "familyName": "Choe",
+                                "givenName": "Junsu",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 21051,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -16180,35 +16213,44 @@
                         },
                         {
                             "team": {
-                                "id": 4407,
+                                "id": 4524,
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 8706,
+                                "id": 4083,
                                 "availableLanguages": [
                                     "en",
                                     "zh-cn"
                                 ],
-                                "name": "Kris",
-                                "homeLocation": "Jinju",
+                                "handle": "eqo.8442",
+                                "name": "eqo",
+                                "homeLocation": "Netenya",
                                 "game": "OVERWATCH",
                                 "attributes": {
-                                    "player_number": 96,
-                                    "preferred_slot": "0",
-                                    "role": "support"
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "genji",
+                                        "hanzo",
+                                        "soldier-76",
+                                        "tracer"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 15,
+                                    "preferred_slot": "1",
+                                    "role": "offense"
                                 },
-                                "attributesVersion": "1.0.2",
-                                "familyName": "Choe",
-                                "givenName": "Junsu",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Corona",
+                                "givenName": "Josue ",
+                                "nationality": "IL",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 21051,
                                 "stats": null
                             },
-                            "sortIndex": 0
+                            "sortIndex": 1
                         },
                         {
                             "team": {
@@ -16241,47 +16283,6 @@
                                 "givenName": "Kevin",
                                 "nationality": "SE",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8UJ3CFZ5KXOT1549664655207.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 21051,
-                                "stats": null
-                            },
-                            "sortIndex": 1
-                        },
-                        {
-                            "team": {
-                                "id": 4524,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4083,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "eqo.8442",
-                                "name": "eqo",
-                                "homeLocation": "Netenya",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "genji",
-                                        "hanzo",
-                                        "soldier-76",
-                                        "tracer"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 15,
-                                    "preferred_slot": "1",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Corona",
-                                "givenName": "Josue ",
-                                "nationality": "IL",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -16625,6 +16626,38 @@
                     "players": [
                         {
                             "team": {
+                                "id": 4407,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 8706,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Kris",
+                                "homeLocation": "Jinju",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "player_number": 96,
+                                    "preferred_slot": "0",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.2",
+                                "familyName": "Choe",
+                                "givenName": "Junsu",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 21053,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -16666,35 +16699,44 @@
                         },
                         {
                             "team": {
-                                "id": 4407,
+                                "id": 4524,
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 8706,
+                                "id": 4083,
                                 "availableLanguages": [
                                     "en",
                                     "zh-cn"
                                 ],
-                                "name": "Kris",
-                                "homeLocation": "Jinju",
+                                "handle": "eqo.8442",
+                                "name": "eqo",
+                                "homeLocation": "Netenya",
                                 "game": "OVERWATCH",
                                 "attributes": {
-                                    "player_number": 96,
-                                    "preferred_slot": "0",
-                                    "role": "support"
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "genji",
+                                        "hanzo",
+                                        "soldier-76",
+                                        "tracer"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 15,
+                                    "preferred_slot": "1",
+                                    "role": "offense"
                                 },
-                                "attributesVersion": "1.0.2",
-                                "familyName": "Choe",
-                                "givenName": "Junsu",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Corona",
+                                "givenName": "Josue ",
+                                "nationality": "IL",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 21053,
                                 "stats": null
                             },
-                            "sortIndex": 0
+                            "sortIndex": 1
                         },
                         {
                             "team": {
@@ -16727,47 +16769,6 @@
                                 "givenName": "Kevin",
                                 "nationality": "SE",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8UJ3CFZ5KXOT1549664655207.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 21053,
-                                "stats": null
-                            },
-                            "sortIndex": 1
-                        },
-                        {
-                            "team": {
-                                "id": 4524,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4083,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "eqo.8442",
-                                "name": "eqo",
-                                "homeLocation": "Netenya",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "genji",
-                                        "hanzo",
-                                        "soldier-76",
-                                        "tracer"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 15,
-                                    "preferred_slot": "1",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Corona",
-                                "givenName": "Josue ",
-                                "nationality": "IL",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -18433,7 +18434,7 @@
                                         "winston"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -18829,7 +18830,7 @@
                                     "winston"
                                 ],
                                 "player_number": 2,
-                                "preferred_slot": "0",
+                                "preferred_slot": "2",
                                 "role": "tank"
                             },
                             "attributesVersion": "1.0.0",
@@ -19144,7 +19145,7 @@
                                         "winston"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -19650,7 +19651,7 @@
                                         "winston"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -20156,7 +20157,7 @@
                                         "winston"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -20664,7 +20665,7 @@
                                         "winston"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -29558,7 +29559,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -29614,7 +29615,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 1,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -30084,7 +30085,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -30568,7 +30569,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -31052,7 +31053,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -31536,7 +31537,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -32735,7 +32736,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -32770,7 +32771,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -32916,7 +32917,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -33096,7 +33097,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 11,
-                                "preferred_slot": "0",
+                                "preferred_slot": "5",
                                 "role": "tank"
                             },
                             "attributesVersion": "1.0.0",
@@ -33131,7 +33132,7 @@
                                     "mercy"
                                 ],
                                 "player_number": 97,
-                                "preferred_slot": "4",
+                                "preferred_slot": "0",
                                 "role": "support"
                             },
                             "attributesVersion": "1.0.0",
@@ -33277,7 +33278,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 10,
-                                "preferred_slot": "4",
+                                "preferred_slot": "5",
                                 "role": "offense"
                             },
                             "attributesVersion": "1.0.0",
@@ -33446,7 +33447,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -33761,7 +33762,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -33841,7 +33842,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -33886,45 +33887,6 @@
                     },
                     "attributesVersion": "0.5.0",
                     "players": [
-                        {
-                            "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4841,
-                                "availableLanguages": [
-                                    "en",
-                                    "ko",
-                                    "zh-cn"
-                                ],
-                                "handle": "anamo.3363",
-                                "name": "Anamo",
-                                "homeLocation": "Pohang",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "heroes": [
-                                        "ana",
-                                        "lucio",
-                                        "mercy"
-                                    ],
-                                    "player_number": 97,
-                                    "preferred_slot": "4",
-                                    "role": "support"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Jung",
-                                "givenName": "Tae-Sung",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3WU4MLXDRHV31549652238589.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22489,
-                                "stats": null
-                            },
-                            "sortIndex": 0
-                        },
                         {
                             "team": {
                                 "id": 4524,
@@ -33972,6 +33934,45 @@
                                 "type": "TEAM"
                             },
                             "player": {
+                                "id": 4841,
+                                "availableLanguages": [
+                                    "en",
+                                    "ko",
+                                    "zh-cn"
+                                ],
+                                "handle": "anamo.3363",
+                                "name": "Anamo",
+                                "homeLocation": "Pohang",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "heroes": [
+                                        "ana",
+                                        "lucio",
+                                        "mercy"
+                                    ],
+                                    "player_number": 97,
+                                    "preferred_slot": "0",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Jung",
+                                "givenName": "Tae-Sung",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3WU4MLXDRHV31549652238589.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22489,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
                                 "id": 4653,
                                 "availableLanguages": [
                                     "en",
@@ -34048,6 +34049,38 @@
                         },
                         {
                             "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 8236,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Nenne",
+                                "homeLocation": "Taebaek",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "player_number": 31,
+                                    "preferred_slot": "2",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Jeong",
+                                "givenName": "Yeon-Gwan",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5K5SPUQZ7TMS1549652239242.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22489,
+                                "stats": null
+                            },
+                            "sortIndex": 2
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -34079,38 +34112,6 @@
                                 "givenName": "Sumin",
                                 "nationality": "KR",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5D3GZ0V7N6ZT1549652290929.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22489,
-                                "stats": null
-                            },
-                            "sortIndex": 2
-                        },
-                        {
-                            "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 8236,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "name": "Nenne",
-                                "homeLocation": "Taebaek",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "player_number": 31,
-                                    "preferred_slot": "2",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Jeong",
-                                "givenName": "Yeon-Gwan",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5K5SPUQZ7TMS1549652239242.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -34202,6 +34203,47 @@
                         },
                         {
                             "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4654,
+                                "availableLanguages": [
+                                    "en",
+                                    "ko",
+                                    "zh-cn"
+                                ],
+                                "handle": "libero.2398",
+                                "name": "Libero",
+                                "homeLocation": "Anyang",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "pharah",
+                                        "dva",
+                                        "hanzo"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 10,
+                                    "preferred_slot": "5",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Kim",
+                                "givenName": "Haeseong",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/D0XHMUMBGZVA1549652238886.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22489,
+                                "stats": null
+                            },
+                            "sortIndex": 4
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -34246,40 +34288,39 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 4654,
+                                "id": 4649,
                                 "availableLanguages": [
                                     "en",
-                                    "ko",
-                                    "zh-cn"
+                                    "zh-cn",
+                                    "ko"
                                 ],
-                                "handle": "libero.2398",
-                                "name": "Libero",
-                                "homeLocation": "Anyang",
+                                "handle": "mek0.1853",
+                                "name": "MekO",
+                                "homeLocation": "Busan",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "hero_image": null,
                                     "heroes": [
-                                        "pharah",
                                         "dva",
-                                        "hanzo"
+                                        "zarya"
                                     ],
                                     "hometown": null,
-                                    "player_number": 10,
-                                    "preferred_slot": "4",
-                                    "role": "offense"
+                                    "player_number": 11,
+                                    "preferred_slot": "5",
+                                    "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
                                 "familyName": "Kim",
-                                "givenName": "Haeseong",
+                                "givenName": "Tae-Hong",
                                 "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/D0XHMUMBGZVA1549652238886.png",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2SXFUVQU46CN1549652238912.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 22489,
                                 "stats": null
                             },
-                            "sortIndex": 4
+                            "sortIndex": 5
                         },
                         {
                             "team": {
@@ -34313,46 +34354,6 @@
                                 "givenName": "Alberto",
                                 "nationality": "ES",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/6DITJ26GFNDO1549652290648.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22489,
-                                "stats": null
-                            },
-                            "sortIndex": 5
-                        },
-                        {
-                            "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4649,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn",
-                                    "ko"
-                                ],
-                                "handle": "mek0.1853",
-                                "name": "MekO",
-                                "homeLocation": "Busan",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "dva",
-                                        "zarya"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 11,
-                                    "preferred_slot": "0",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Kim",
-                                "givenName": "Tae-Hong",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2SXFUVQU46CN1549652238912.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -34454,7 +34455,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -34769,7 +34770,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -34809,7 +34810,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -34955,7 +34956,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -35270,7 +35271,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -35310,7 +35311,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -37718,6 +37719,38 @@
                     "players": [
                         {
                             "team": {
+                                "id": 4407,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 8706,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Kris",
+                                "homeLocation": "Jinju",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "player_number": 96,
+                                    "preferred_slot": "0",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.2",
+                                "familyName": "Choe",
+                                "givenName": "Junsu",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22681,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -37763,31 +37796,38 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 8706,
+                                "id": 5442,
                                 "availableLanguages": [
                                     "en",
-                                    "zh-cn"
+                                    "zh-cn",
+                                    "ko"
                                 ],
-                                "name": "Kris",
-                                "homeLocation": "Jinju",
+                                "handle": "sayaplayer.1525",
+                                "name": "sayaplayer",
+                                "homeLocation": "Daegu",
                                 "game": "OVERWATCH",
                                 "attributes": {
-                                    "player_number": 96,
-                                    "preferred_slot": "0",
-                                    "role": "support"
+                                    "heroes": [
+                                        "mccree",
+                                        "tracer",
+                                        "widowmaker"
+                                    ],
+                                    "player_number": 4,
+                                    "preferred_slot": "1",
+                                    "role": "offense"
                                 },
-                                "attributesVersion": "1.0.2",
-                                "familyName": "Choe",
-                                "givenName": "Junsu",
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Ha",
+                                "givenName": "Jeongwoo",
                                 "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/SRTYWJNSMFTW1549664654992.png",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/TEK3QQ4MRJXK1549664655009.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 22681,
                                 "stats": null
                             },
-                            "sortIndex": 0
+                            "sortIndex": 1
                         },
                         {
                             "team": {
@@ -37822,45 +37862,6 @@
                                 "givenName": "Josue ",
                                 "nationality": "IL",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22681,
-                                "stats": null
-                            },
-                            "sortIndex": 1
-                        },
-                        {
-                            "team": {
-                                "id": 4407,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 5442,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn",
-                                    "ko"
-                                ],
-                                "handle": "sayaplayer.1525",
-                                "name": "sayaplayer",
-                                "homeLocation": "Daegu",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "heroes": [
-                                        "mccree",
-                                        "tracer",
-                                        "widowmaker"
-                                    ],
-                                    "player_number": 4,
-                                    "preferred_slot": "1",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Ha",
-                                "givenName": "Jeongwoo",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/TEK3QQ4MRJXK1549664655009.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -39021,7 +39022,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -39052,7 +39053,7 @@
                                         "widowmaker"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -39107,7 +39108,7 @@
                                     "en"
                                 ],
                                 "name": "sharyk",
-                                "homeLocation": "Mansfield",
+                                "homeLocation": "Riga",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "heroes": [
@@ -39115,12 +39116,13 @@
                                         "winston"
                                     ],
                                     "player_number": 77,
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
                                 "familyName": "Faterins",
                                 "givenName": "Normunds",
-                                "nationality": "GB",
+                                "nationality": "LV",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
                                 "type": "PLAYER"
                             },
@@ -39216,7 +39218,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -39247,6 +39249,7 @@
                                         "roadhog"
                                     ],
                                     "player_number": 11,
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -40119,7 +40122,7 @@
                                         "widowmaker"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -40272,7 +40275,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -40434,7 +40437,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -40558,41 +40561,6 @@
                     "players": [
                         {
                             "team": {
-                                "id": 7695,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 9602,
-                                "availableLanguages": [
-                                    "en"
-                                ],
-                                "name": "im37",
-                                "homeLocation": "Cheonan",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "heroes": [
-                                        "mccree",
-                                        "widowmaker"
-                                    ],
-                                    "player_number": 37,
-                                    "preferred_slot": "3",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.2",
-                                "familyName": "Hong",
-                                "givenName": "Jin",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/HHJHEGNJYE7X1555459293082.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22645,
-                                "stats": null
-                            },
-                            "sortIndex": 0
-                        },
-                        {
-                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -40634,6 +40602,77 @@
                         },
                         {
                             "team": {
+                                "id": 7695,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 9602,
+                                "availableLanguages": [
+                                    "en"
+                                ],
+                                "name": "im37",
+                                "homeLocation": "Cheonan",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "heroes": [
+                                        "mccree",
+                                        "widowmaker"
+                                    ],
+                                    "player_number": 37,
+                                    "preferred_slot": "0",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.2",
+                                "familyName": "Hong",
+                                "givenName": "Jin",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/HHJHEGNJYE7X1555459293082.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22645,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
+                                "id": 7695,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 8753,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Yakpung",
+                                "homeLocation": "Gwangju",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "heroes": [
+                                        "reinhardt",
+                                        "winston"
+                                    ],
+                                    "player_number": 1,
+                                    "preferred_slot": "4",
+                                    "role": "tank"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Cho",
+                                "givenName": "Kyeongmu",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QNQD02M7J3I81549576800289.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22645,
+                                "stats": null
+                            },
+                            "sortIndex": 1
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -40665,42 +40704,6 @@
                                 "givenName": "Josue ",
                                 "nationality": "IL",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22645,
-                                "stats": null
-                            },
-                            "sortIndex": 1
-                        },
-                        {
-                            "team": {
-                                "id": 7695,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 8753,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "name": "Yakpung",
-                                "homeLocation": "Gwangju",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "heroes": [
-                                        "reinhardt",
-                                        "winston"
-                                    ],
-                                    "player_number": 1,
-                                    "preferred_slot": "4",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Cho",
-                                "givenName": "Kyeongmu",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QNQD02M7J3I81549576800289.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -40769,7 +40772,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -40931,7 +40934,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -41113,7 +41116,7 @@
                                         "widowmaker"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -41266,7 +41269,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -41428,7 +41431,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -41610,7 +41613,7 @@
                                         "widowmaker"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -41763,7 +41766,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -41925,7 +41928,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -42395,7 +42398,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -42565,6 +42568,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 27,
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -42601,7 +42605,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -42666,7 +42670,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -43113,7 +43117,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 7,
-                                "preferred_slot": "0",
+                                "preferred_slot": "3",
                                 "role": "tank"
                             },
                             "attributesVersion": "1.0.0",
@@ -43283,6 +43287,7 @@
                                     "mercy"
                                 ],
                                 "player_number": 27,
+                                "preferred_slot": "0",
                                 "role": "support"
                             },
                             "attributesVersion": "1.0.2",
@@ -43319,7 +43324,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 19,
-                                "preferred_slot": "0",
+                                "preferred_slot": "5",
                                 "role": "tank"
                             },
                             "attributesVersion": "1.0.0",
@@ -43384,7 +43389,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 13,
-                                "preferred_slot": "5",
+                                "preferred_slot": "4",
                                 "role": "offense"
                             },
                             "attributesVersion": "1.0.0",
@@ -43699,7 +43704,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -43780,7 +43785,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -43861,7 +43866,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44257,7 +44262,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44298,7 +44303,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44419,7 +44424,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44735,7 +44740,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44856,7 +44861,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -44937,7 +44942,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -45293,7 +45298,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 7,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -45374,7 +45379,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "4",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -45455,7 +45460,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 19,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -45881,7 +45886,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -45916,7 +45921,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -46062,7 +46067,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -46603,7 +46608,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 11,
-                                "preferred_slot": "0",
+                                "preferred_slot": "5",
                                 "role": "tank"
                             },
                             "attributesVersion": "1.0.0",
@@ -46638,7 +46643,7 @@
                                     "mercy"
                                 ],
                                 "player_number": 97,
-                                "preferred_slot": "4",
+                                "preferred_slot": "0",
                                 "role": "support"
                             },
                             "attributesVersion": "1.0.0",
@@ -46784,7 +46789,7 @@
                                 ],
                                 "hometown": null,
                                 "player_number": 10,
-                                "preferred_slot": "4",
+                                "preferred_slot": "5",
                                 "role": "offense"
                             },
                             "attributesVersion": "1.0.0",
@@ -46953,7 +46958,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -47034,7 +47039,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -47348,7 +47353,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -47395,38 +47400,6 @@
                     "players": [
                         {
                             "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 8236,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "name": "Nenne",
-                                "homeLocation": "Taebaek",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "player_number": 31,
-                                    "preferred_slot": "2",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Jeong",
-                                "givenName": "Yeon-Gwan",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5K5SPUQZ7TMS1549652239242.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22744,
-                                "stats": null
-                            },
-                            "sortIndex": 0
-                        },
-                        {
-                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -47471,6 +47444,38 @@
                                 "type": "TEAM"
                             },
                             "player": {
+                                "id": 8236,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "name": "Nenne",
+                                "homeLocation": "Taebaek",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "player_number": 31,
+                                    "preferred_slot": "2",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Jeong",
+                                "givenName": "Yeon-Gwan",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5K5SPUQZ7TMS1549652239242.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22744,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
                                 "id": 4841,
                                 "availableLanguages": [
                                     "en",
@@ -47488,7 +47493,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -47544,6 +47549,47 @@
                                 "stats": null
                             },
                             "sortIndex": 1
+                        },
+                        {
+                            "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4654,
+                                "availableLanguages": [
+                                    "en",
+                                    "ko",
+                                    "zh-cn"
+                                ],
+                                "handle": "libero.2398",
+                                "name": "Libero",
+                                "homeLocation": "Anyang",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "pharah",
+                                        "dva",
+                                        "hanzo"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 10,
+                                    "preferred_slot": "5",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Kim",
+                                "givenName": "Haeseong",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/D0XHMUMBGZVA1549652238886.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22744,
+                                "stats": null
+                            },
+                            "sortIndex": 2
                         },
                         {
                             "team": {
@@ -47591,47 +47637,6 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 4654,
-                                "availableLanguages": [
-                                    "en",
-                                    "ko",
-                                    "zh-cn"
-                                ],
-                                "handle": "libero.2398",
-                                "name": "Libero",
-                                "homeLocation": "Anyang",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "pharah",
-                                        "dva",
-                                        "hanzo"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 10,
-                                    "preferred_slot": "4",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Kim",
-                                "givenName": "Haeseong",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/D0XHMUMBGZVA1549652238886.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22744,
-                                "stats": null
-                            },
-                            "sortIndex": 2
-                        },
-                        {
-                            "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
                                 "id": 4093,
                                 "availableLanguages": [
                                     "en",
@@ -47710,45 +47715,6 @@
                         },
                         {
                             "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4653,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn",
-                                    "ko"
-                                ],
-                                "handle": "jjonak.8711",
-                                "name": "JJONAK",
-                                "homeLocation": "Osan",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "zenyatta"
-                                    ],
-                                    "hometown": "Osan",
-                                    "player_number": 44,
-                                    "preferred_slot": "1",
-                                    "role": "support"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Bang",
-                                "givenName": "SeongHyun",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22744,
-                                "stats": null
-                            },
-                            "sortIndex": 4
-                        },
-                        {
-                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -47789,6 +47755,85 @@
                         },
                         {
                             "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4653,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn",
+                                    "ko"
+                                ],
+                                "handle": "jjonak.8711",
+                                "name": "JJONAK",
+                                "homeLocation": "Osan",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "zenyatta"
+                                    ],
+                                    "hometown": "Osan",
+                                    "player_number": 44,
+                                    "preferred_slot": "1",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Bang",
+                                "givenName": "SeongHyun",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22744,
+                                "stats": null
+                            },
+                            "sortIndex": 4
+                        },
+                        {
+                            "team": {
+                                "id": 4403,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4649,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn",
+                                    "ko"
+                                ],
+                                "handle": "mek0.1853",
+                                "name": "MekO",
+                                "homeLocation": "Busan",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "dva",
+                                        "zarya"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 11,
+                                    "preferred_slot": "5",
+                                    "role": "tank"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Kim",
+                                "givenName": "Tae-Hong",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2SXFUVQU46CN1549652238912.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 22744,
+                                "stats": null
+                            },
+                            "sortIndex": 5
+                        },
+                        {
+                            "team": {
                                 "id": 4524,
                                 "type": "TEAM"
                             },
@@ -47820,46 +47865,6 @@
                                 "givenName": "Josue ",
                                 "nationality": "IL",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/Z6SL41KU0RED1549652290643.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 22744,
-                                "stats": null
-                            },
-                            "sortIndex": 5
-                        },
-                        {
-                            "team": {
-                                "id": 4403,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4649,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn",
-                                    "ko"
-                                ],
-                                "handle": "mek0.1853",
-                                "name": "MekO",
-                                "homeLocation": "Busan",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "dva",
-                                        "zarya"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 11,
-                                    "preferred_slot": "0",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Kim",
-                                "givenName": "Tae-Hong",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/2SXFUVQU46CN1549652238912.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -47961,7 +47966,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -48042,7 +48047,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -48356,7 +48361,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -48465,7 +48470,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 11,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -48546,7 +48551,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -48860,7 +48865,7 @@
                                         "mercy"
                                     ],
                                     "player_number": 97,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "0",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49609,7 +49614,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49681,7 +49686,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49717,7 +49722,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 49,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49818,7 +49823,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49854,7 +49859,7 @@
                                     ],
                                     "hometown": "San Diego, CA",
                                     "player_number": 76,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "3",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49890,7 +49895,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -49926,7 +49931,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 69,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50407,7 +50412,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50447,7 +50452,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50604,7 +50609,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50684,7 +50689,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 49,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50764,7 +50769,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -50873,7 +50878,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51070,7 +51075,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51111,7 +51116,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51231,7 +51236,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51271,7 +51276,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 69,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51421,7 +51426,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51461,7 +51466,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51618,7 +51623,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51738,7 +51743,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51778,7 +51783,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 69,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -51928,7 +51933,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -52009,7 +52014,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -52125,7 +52130,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -52245,7 +52250,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -52325,7 +52330,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 69,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57273,7 +57278,7 @@
                                         "winston"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57345,7 +57350,7 @@
                                     ],
                                     "hometown": "Jyv\u00e4skyl\u00e4",
                                     "player_number": 10,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57381,7 +57386,7 @@
                                     ],
                                     "hometown": "Monte Claros",
                                     "player_number": 99,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57417,7 +57422,7 @@
                                     ],
                                     "hometown": "Kokkola",
                                     "player_number": 0,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57518,7 +57523,7 @@
                                         "zarya"
                                     ],
                                     "player_number": 57,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "1",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -57579,7 +57584,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 17,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "3",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -58751,6 +58756,7 @@
                                         "zenyatta"
                                     ],
                                     "player_number": 21,
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -58954,7 +58960,7 @@
                                         "winston"
                                     ],
                                     "player_number": 25,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "1",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -60591,6 +60597,7 @@
                                         "zenyatta"
                                     ],
                                     "player_number": 21,
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -60794,7 +60801,7 @@
                                         "winston"
                                     ],
                                     "player_number": 25,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "1",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -65919,7 +65926,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 17,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -65991,7 +65998,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 13,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -66027,7 +66034,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 49,
-                                    "preferred_slot": "4",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -66128,7 +66135,7 @@
                                     ],
                                     "hometown": "New York City, NY",
                                     "player_number": 1,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -66164,7 +66171,7 @@
                                     ],
                                     "hometown": "San Diego, CA",
                                     "player_number": 76,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "3",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -66200,7 +66207,7 @@
                                     ],
                                     "hometown": "Wonder Lake, illinois",
                                     "player_number": 6,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -66236,7 +66243,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 69,
-                                    "preferred_slot": "5",
+                                    "preferred_slot": "0",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -67335,7 +67342,7 @@
                                         "hanzo"
                                     ],
                                     "player_number": 2,
-                                    "preferred_slot": "2",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -67366,7 +67373,7 @@
                                         "widowmaker"
                                     ],
                                     "player_number": 37,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -67421,7 +67428,7 @@
                                     "en"
                                 ],
                                 "name": "sharyk",
-                                "homeLocation": "Mansfield",
+                                "homeLocation": "Riga",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "heroes": [
@@ -67429,12 +67436,13 @@
                                         "winston"
                                     ],
                                     "player_number": 77,
+                                    "preferred_slot": "2",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
                                 "familyName": "Faterins",
                                 "givenName": "Normunds",
-                                "nationality": "GB",
+                                "nationality": "LV",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
                                 "type": "PLAYER"
                             },
@@ -67530,7 +67538,7 @@
                                     ],
                                     "hometown": "Changwon",
                                     "player_number": 79,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "4",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -67561,6 +67569,7 @@
                                         "roadhog"
                                     ],
                                     "player_number": 11,
+                                    "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.2",
@@ -68194,7 +68203,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 10,
-                                    "preferred_slot": "3",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -68250,7 +68259,7 @@
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "player_number": 1,
-                                    "preferred_slot": "0",
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.2",

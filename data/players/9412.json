@@ -29,6 +29,7 @@
                     "zenyatta"
                 ],
                 "player_number": 21,
+                "preferred_slot": "4",
                 "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -142,15 +143,55 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 0,
-                "deaths_avg_per_10m": 0,
-                "hero_damage_avg_per_10m": 0,
-                "healing_avg_per_10m": 0,
-                "ultimates_earned_avg_per_10m": 0,
-                "final_blows_avg_per_10m": 0,
-                "time_played_total": 0
+                "eliminations_avg_per_10m": 6.669728802616999,
+                "deaths_avg_per_10m": 5.643616679137461,
+                "hero_damage_avg_per_10m": 7947.267086752288,
+                "healing_avg_per_10m": 10854.056680445856,
+                "ultimates_earned_avg_per_10m": 4.874032586527807,
+                "final_blows_avg_per_10m": 1.0261121234795383,
+                "time_played_total": 2338.925683736801
             },
-            "heroes": []
+            "heroes": [
+                {
+                    "hero_id": "0x02E000000000012F",
+                    "name": "doomfist",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 18.67260199275289,
+                        "hero_damage_avg_per_10m": 8000.745532183674,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 32.13264012336731
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000003",
+                    "name": "tracer",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 0,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 3.8996260166168213
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000020",
+                    "name": "zenyatta",
+                    "stats": {
+                        "eliminations_avg_per_10m": 6.774086842577097,
+                        "deaths_avg_per_10m": 5.471377834389193,
+                        "hero_damage_avg_per_10m": 7959.978472189155,
+                        "healing_avg_per_10m": 11023.884887005423,
+                        "ultimates_earned_avg_per_10m": 4.950294231114032,
+                        "final_blows_avg_per_10m": 1.0421672065503225,
+                        "time_played_total": 2302.893417596817
+                    }
+                }
+            ]
         }
     },
     "meta": []
