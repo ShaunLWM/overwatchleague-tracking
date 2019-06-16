@@ -225,7 +225,7 @@
                             ],
                             "hometown": null,
                             "player_number": 7,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -491,7 +491,7 @@
                                 "winston"
                             ],
                             "player_number": 2,
-                            "preferred_slot": "0",
+                            "preferred_slot": "5",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -528,7 +528,7 @@
                             ],
                             "hometown": "Seoul",
                             "player_number": 99,
-                            "preferred_slot": "3",
+                            "preferred_slot": "2",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -564,7 +564,7 @@
                             ],
                             "hometown": null,
                             "player_number": 10,
-                            "preferred_slot": "5",
+                            "preferred_slot": "0",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -631,7 +631,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -736,7 +736,7 @@
                                 "widowmaker"
                             ],
                             "player_number": 27,
-                            "preferred_slot": "1",
+                            "preferred_slot": "4",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -806,7 +806,7 @@
                             ],
                             "hometown": "Blairmore, AB",
                             "player_number": 9,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -1057,7 +1057,7 @@
                         ],
                         "hometown": null,
                         "player_number": 7,
-                        "preferred_slot": "4",
+                        "preferred_slot": "1",
                         "role": "support"
                     },
                     "attributesVersion": "1.0.0",
@@ -1325,7 +1325,7 @@
                             ],
                             "hometown": null,
                             "player_number": 10,
-                            "preferred_slot": "5",
+                            "preferred_slot": "0",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -1401,7 +1401,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -1449,6 +1449,46 @@
                 },
                 {
                     "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4142,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "agilities.5443",
+                        "name": "Agilities",
+                        "homeLocation": "Lethbridge",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "genji",
+                                "tracer",
+                                "pharah"
+                            ],
+                            "hometown": "Blairmore, AB",
+                            "player_number": 9,
+                            "preferred_slot": "3",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Girardi",
+                        "givenName": "Brady",
+                        "nationality": "CA",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22858,
+                        "stats": null
+                    },
+                    "sortIndex": 2
+                },
+                {
+                    "team": {
                         "id": 4409,
                         "type": "TEAM"
                     },
@@ -1478,84 +1518,6 @@
                         "stats": null
                     },
                     "sortIndex": 2
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4142,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "agilities.5443",
-                        "name": "Agilities",
-                        "homeLocation": "Lethbridge",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "genji",
-                                "tracer",
-                                "pharah"
-                            ],
-                            "hometown": "Blairmore, AB",
-                            "player_number": 9,
-                            "preferred_slot": "2",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Girardi",
-                        "givenName": "Brady",
-                        "nationality": "CA",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22858,
-                        "stats": null
-                    },
-                    "sortIndex": 2
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5872,
-                        "availableLanguages": [
-                            "en",
-                            "ko",
-                            "zh-cn"
-                        ],
-                        "handle": "izayaki.6264",
-                        "name": "IZaYaKI",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "ana",
-                                "zenyatta"
-                            ],
-                            "player_number": 22,
-                            "preferred_slot": "3",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kim",
-                        "givenName": "Min chul",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/6CAXRPU6LNR21549580254584.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22858,
-                        "stats": null
-                    },
-                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -1604,38 +1566,37 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 5865,
+                        "id": 5872,
                         "availableLanguages": [
                             "en",
+                            "ko",
                             "zh-cn"
                         ],
-                        "handle": "ksf.4600",
-                        "name": "KSF",
-                        "homeLocation": "Puyallup, WA",
+                        "handle": "izayaki.6264",
+                        "name": "IZaYaKI",
+                        "homeLocation": "Seoul",
                         "game": "OVERWATCH",
                         "attributes": {
                             "heroes": [
-                                "genji",
-                                "soldier-76",
-                                "sombra",
-                                "widowmaker"
+                                "ana",
+                                "zenyatta"
                             ],
-                            "player_number": 27,
-                            "preferred_slot": "1",
-                            "role": "offense"
+                            "player_number": 22,
+                            "preferred_slot": "3",
+                            "role": "support"
                         },
                         "attributesVersion": "1.0.0",
-                        "familyName": "Frandanisa",
-                        "givenName": "Kyle",
-                        "nationality": "US",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
+                        "familyName": "Kim",
+                        "givenName": "Min chul",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/6CAXRPU6LNR21549580254584.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 22858,
                         "stats": null
                     },
-                    "sortIndex": 4
+                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -1680,6 +1641,45 @@
                 },
                 {
                     "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5865,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "ksf.4600",
+                        "name": "KSF",
+                        "homeLocation": "Puyallup, WA",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "genji",
+                                "soldier-76",
+                                "sombra",
+                                "widowmaker"
+                            ],
+                            "player_number": 27,
+                            "preferred_slot": "4",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Frandanisa",
+                        "givenName": "Kyle",
+                        "nationality": "US",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22858,
+                        "stats": null
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
                         "id": 4409,
                         "type": "TEAM"
                     },
@@ -1703,7 +1703,7 @@
                             ],
                             "hometown": null,
                             "player_number": 7,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -1791,6 +1791,46 @@
             "players": [
                 {
                     "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 3577,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "custa.8424",
+                        "name": "Custa",
+                        "homeLocation": "Blackwood, South Australia",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "zenyatta",
+                                "lucio",
+                                "mercy"
+                            ],
+                            "hometown": null,
+                            "player_number": 10,
+                            "preferred_slot": "0",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Kennedy",
+                        "givenName": "Scott",
+                        "nationality": "AU",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22859,
+                        "stats": null
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
                         "id": 4409,
                         "type": "TEAM"
                     },
@@ -1831,46 +1871,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 3577,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "custa.8424",
-                        "name": "Custa",
-                        "homeLocation": "Blackwood, South Australia",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "zenyatta",
-                                "lucio",
-                                "mercy"
-                            ],
-                            "hometown": null,
-                            "player_number": 10,
-                            "preferred_slot": "5",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kennedy",
-                        "givenName": "Scott",
-                        "nationality": "AU",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22859,
-                        "stats": null
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4637,
                         "availableLanguages": [
                             "en",
@@ -1889,7 +1889,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -1937,38 +1937,6 @@
                 },
                 {
                     "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8242,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Michelle",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 99,
-                            "preferred_slot": "1",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Choi",
-                        "givenName": "Min Hyuk",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/98C5MD1D57HC1549652303863.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22859,
-                        "stats": null
-                    },
-                    "sortIndex": 2
-                },
-                {
-                    "team": {
                         "id": 4405,
                         "type": "TEAM"
                     },
@@ -1991,7 +1959,7 @@
                             ],
                             "hometown": "Blairmore, AB",
                             "player_number": 9,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -1999,6 +1967,38 @@
                         "givenName": "Brady",
                         "nationality": "CA",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22859,
+                        "stats": null
+                    },
+                    "sortIndex": 2
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8242,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "Michelle",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "player_number": 99,
+                            "preferred_slot": "1",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Choi",
+                        "givenName": "Min Hyuk",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/98C5MD1D57HC1549652303863.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -2150,7 +2150,7 @@
                                 "widowmaker"
                             ],
                             "player_number": 27,
-                            "preferred_slot": "1",
+                            "preferred_slot": "4",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -2165,6 +2165,47 @@
                         "stats": null
                     },
                     "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4104,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "tobi.3306",
+                        "name": "tobi",
+                        "homeLocation": "Ulsan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy",
+                                "torbjorn"
+                            ],
+                            "hometown": null,
+                            "player_number": 7,
+                            "preferred_slot": "1",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Yang",
+                        "givenName": "Jinmo",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22859,
+                        "stats": null
+                    },
+                    "sortIndex": 5
                 },
                 {
                     "team": {
@@ -2199,47 +2240,6 @@
                         "givenName": "Pan Seung",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22859,
-                        "stats": null
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4104,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "tobi.3306",
-                        "name": "tobi",
-                        "homeLocation": "Ulsan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy",
-                                "torbjorn"
-                            ],
-                            "hometown": null,
-                            "player_number": 7,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Yang",
-                        "givenName": "Jinmo",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -2301,7 +2301,7 @@
                             ],
                             "hometown": null,
                             "player_number": 10,
-                            "preferred_slot": "5",
+                            "preferred_slot": "0",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -2407,7 +2407,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -2479,7 +2479,7 @@
                             ],
                             "hometown": "Blairmore, AB",
                             "player_number": 9,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -2494,6 +2494,47 @@
                         "stats": null
                     },
                     "sortIndex": 2
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4642,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "munchkin.6037",
+                        "name": "Munchkin",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "tracer",
+                                "mccree",
+                                "widowmaker"
+                            ],
+                            "hometown": null,
+                            "player_number": 27,
+                            "preferred_slot": "5",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Byun",
+                        "givenName": "Sangbeom",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22860,
+                        "stats": null
+                    },
+                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -2539,86 +2580,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 4642,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "munchkin.6037",
-                        "name": "Munchkin",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "tracer",
-                                "mccree",
-                                "widowmaker"
-                            ],
-                            "hometown": null,
-                            "player_number": 27,
-                            "preferred_slot": "5",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Byun",
-                        "givenName": "Sangbeom",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22860,
-                        "stats": null
-                    },
-                    "sortIndex": 3
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5865,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "ksf.4600",
-                        "name": "KSF",
-                        "homeLocation": "Puyallup, WA",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "genji",
-                                "soldier-76",
-                                "sombra",
-                                "widowmaker"
-                            ],
-                            "player_number": 27,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Frandanisa",
-                        "givenName": "Kyle",
-                        "nationality": "US",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22860,
-                        "stats": null
-                    },
-                    "sortIndex": 4
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4105,
                         "availableLanguages": [
                             "en",
@@ -2660,6 +2621,86 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 5865,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "ksf.4600",
+                        "name": "KSF",
+                        "homeLocation": "Puyallup, WA",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "genji",
+                                "soldier-76",
+                                "sombra",
+                                "widowmaker"
+                            ],
+                            "player_number": 27,
+                            "preferred_slot": "4",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Frandanisa",
+                        "givenName": "Kyle",
+                        "nationality": "US",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22860,
+                        "stats": null
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4104,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "tobi.3306",
+                        "name": "tobi",
+                        "homeLocation": "Ulsan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy",
+                                "torbjorn"
+                            ],
+                            "hometown": null,
+                            "player_number": 7,
+                            "preferred_slot": "1",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Yang",
+                        "givenName": "Jinmo",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22860,
+                        "stats": null
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 4636,
                         "availableLanguages": [
                             "en",
@@ -2687,47 +2728,6 @@
                         "givenName": "Pan Seung",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22860,
-                        "stats": null
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4104,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "tobi.3306",
-                        "name": "tobi",
-                        "homeLocation": "Ulsan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy",
-                                "torbjorn"
-                            ],
-                            "hometown": null,
-                            "player_number": 7,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Yang",
-                        "givenName": "Jinmo",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -2767,6 +2767,46 @@
             "players": [
                 {
                     "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 3577,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "custa.8424",
+                        "name": "Custa",
+                        "homeLocation": "Blackwood, South Australia",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "zenyatta",
+                                "lucio",
+                                "mercy"
+                            ],
+                            "hometown": null,
+                            "player_number": 10,
+                            "preferred_slot": "0",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Kennedy",
+                        "givenName": "Scott",
+                        "nationality": "AU",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22861,
+                        "stats": null
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
                         "id": 4409,
                         "type": "TEAM"
                     },
@@ -2803,43 +2843,33 @@
                 },
                 {
                     "team": {
-                        "id": 4405,
+                        "id": 4409,
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 3577,
+                        "id": 8218,
                         "availableLanguages": [
-                            "en",
-                            "zh-cn"
+                            "en"
                         ],
-                        "handle": "custa.8424",
-                        "name": "Custa",
-                        "homeLocation": "Blackwood, South Australia",
+                        "name": "Marve1",
                         "game": "OVERWATCH",
                         "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "zenyatta",
-                                "lucio",
-                                "mercy"
-                            ],
-                            "hometown": null,
-                            "player_number": 10,
-                            "preferred_slot": "5",
-                            "role": "support"
+                            "player_number": 11,
+                            "preferred_slot": "3",
+                            "role": "tank"
                         },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kennedy",
-                        "givenName": "Scott",
-                        "nationality": "AU",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Hwang",
+                        "givenName": "Min Seo",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/A2XYGD183P501549652303862.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 22861,
                         "stats": null
                     },
-                    "sortIndex": 0
+                    "sortIndex": 1
                 },
                 {
                     "team": {
@@ -2865,7 +2895,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -2873,36 +2903,6 @@
                         "givenName": "Indy",
                         "nationality": "US",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZIO22Z0N194T1549580254961.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22861,
-                        "stats": null
-                    },
-                    "sortIndex": 1
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8218,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "name": "Marve1",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 11,
-                            "preferred_slot": "3",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Hwang",
-                        "givenName": "Min Seo",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/A2XYGD183P501549652303862.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -2967,7 +2967,7 @@
                             ],
                             "hometown": "Blairmore, AB",
                             "player_number": 9,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -3026,47 +3026,6 @@
                 },
                 {
                     "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4636,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "fate.1459",
-                        "name": "Fate",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "winston",
-                                "reinhardt",
-                                "tracer"
-                            ],
-                            "hometown": "Seoul",
-                            "player_number": 1,
-                            "preferred_slot": "4",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Koo",
-                        "givenName": "Pan Seung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22861,
-                        "stats": null
-                    },
-                    "sortIndex": 4
-                },
-                {
-                    "team": {
                         "id": 4409,
                         "type": "TEAM"
                     },
@@ -3112,6 +3071,47 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 4636,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "fate.1459",
+                        "name": "Fate",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "winston",
+                                "reinhardt",
+                                "tracer"
+                            ],
+                            "hometown": "Seoul",
+                            "player_number": 1,
+                            "preferred_slot": "4",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Koo",
+                        "givenName": "Pan Seung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22861,
+                        "stats": null
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 5865,
                         "availableLanguages": [
                             "en",
@@ -3129,7 +3129,7 @@
                                 "widowmaker"
                             ],
                             "player_number": 27,
-                            "preferred_slot": "1",
+                            "preferred_slot": "4",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -3144,47 +3144,6 @@
                         "stats": null
                     },
                     "sortIndex": 4
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4635,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "kariv.3355",
-                        "name": "KariV",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "zenyatta",
-                                "ana",
-                                "widowmaker"
-                            ],
-                            "hometown": "Seoul",
-                            "player_number": 99,
-                            "preferred_slot": "3",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Bak",
-                        "givenName": "YoungSeo",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0XC7APD8GX0E1549580254588.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22861,
-                        "stats": null
-                    },
-                    "sortIndex": 5
                 },
                 {
                     "team": {
@@ -3211,7 +3170,7 @@
                             ],
                             "hometown": null,
                             "player_number": 7,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -3219,6 +3178,47 @@
                         "givenName": "Jinmo",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22861,
+                        "stats": null
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4635,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "kariv.3355",
+                        "name": "KariV",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "zenyatta",
+                                "ana",
+                                "widowmaker"
+                            ],
+                            "hometown": "Seoul",
+                            "player_number": 99,
+                            "preferred_slot": "2",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Bak",
+                        "givenName": "YoungSeo",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0XC7APD8GX0E1549580254588.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -3280,7 +3280,7 @@
                             ],
                             "hometown": null,
                             "player_number": 10,
-                            "preferred_slot": "5",
+                            "preferred_slot": "0",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -3386,7 +3386,7 @@
                             ],
                             "hometown": "New York City, New York",
                             "player_number": 16,
-                            "preferred_slot": "4",
+                            "preferred_slot": "1",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -3458,7 +3458,7 @@
                             ],
                             "hometown": "Blairmore, AB",
                             "player_number": 9,
-                            "preferred_slot": "2",
+                            "preferred_slot": "3",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -3473,44 +3473,6 @@
                         "stats": null
                     },
                     "sortIndex": 2
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5872,
-                        "availableLanguages": [
-                            "en",
-                            "ko",
-                            "zh-cn"
-                        ],
-                        "handle": "izayaki.6264",
-                        "name": "IZaYaKI",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "ana",
-                                "zenyatta"
-                            ],
-                            "player_number": 22,
-                            "preferred_slot": "3",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Kim",
-                        "givenName": "Min chul",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/6CAXRPU6LNR21549580254584.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 23891,
-                        "stats": null
-                    },
-                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -3559,6 +3521,44 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 5872,
+                        "availableLanguages": [
+                            "en",
+                            "ko",
+                            "zh-cn"
+                        ],
+                        "handle": "izayaki.6264",
+                        "name": "IZaYaKI",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "ana",
+                                "zenyatta"
+                            ],
+                            "player_number": 22,
+                            "preferred_slot": "3",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Kim",
+                        "givenName": "Min chul",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/6CAXRPU6LNR21549580254584.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 23891,
+                        "stats": null
+                    },
+                    "sortIndex": 3
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 5865,
                         "availableLanguages": [
                             "en",
@@ -3576,7 +3576,7 @@
                                 "widowmaker"
                             ],
                             "player_number": 27,
-                            "preferred_slot": "1",
+                            "preferred_slot": "4",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -3635,6 +3635,47 @@
                 },
                 {
                     "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4104,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "tobi.3306",
+                        "name": "tobi",
+                        "homeLocation": "Ulsan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy",
+                                "torbjorn"
+                            ],
+                            "hometown": null,
+                            "player_number": 7,
+                            "preferred_slot": "1",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Yang",
+                        "givenName": "Jinmo",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 23891,
+                        "stats": null
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
                         "id": 4405,
                         "type": "TEAM"
                     },
@@ -3666,47 +3707,6 @@
                         "givenName": "Pan Seung",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/S02042JXNHF81515718127993.png",
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 23891,
-                        "stats": null
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4104,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "tobi.3306",
-                        "name": "tobi",
-                        "homeLocation": "Ulsan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy",
-                                "torbjorn"
-                            ],
-                            "hometown": null,
-                            "player_number": 7,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Yang",
-                        "givenName": "Jinmo",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3DAL0ZWWUYZP1549652304251.png",
                         "type": "PLAYER"
                     },
                     "matchGame": {

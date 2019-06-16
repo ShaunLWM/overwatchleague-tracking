@@ -96,13 +96,6 @@
                                 "isPublic": true
                             },
                             {
-                                "id": 2278,
-                                "competitorId": 4402,
-                                "value": "https:\/\/www.facebook.com\/BostonUprising",
-                                "accountType": "FACEBOOK",
-                                "isPublic": true
-                            },
-                            {
                                 "id": 2376,
                                 "competitorId": 4402,
                                 "value": "https:\/\/www.instagram.com\/BostonUprising",
@@ -121,6 +114,13 @@
                                 "competitorId": 4402,
                                 "value": "https:\/\/www.youtube.com\/channel\/UCgLEC0fd5tH0ENrmoMHUINA",
                                 "accountType": "YOUTUBE_CHANNEL",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2278,
+                                "competitorId": 4402,
+                                "value": "https:\/\/www.facebook.com\/BostonUprising",
+                                "accountType": "FACEBOOK",
                                 "isPublic": true
                             }
                         ],
@@ -168,15 +168,28 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 15.983127951446367,
-                "deaths_avg_per_10m": 4.255465932565385,
-                "hero_damage_avg_per_10m": 7356.576349183556,
-                "healing_avg_per_10m": 148.16002475419512,
-                "ultimates_earned_avg_per_10m": 4.970294855620987,
-                "final_blows_avg_per_10m": 4.333650346024592,
-                "time_played_total": 53719.147003531456
+                "eliminations_avg_per_10m": 15.762643246808878,
+                "deaths_avg_per_10m": 4.337948141492362,
+                "hero_damage_avg_per_10m": 7267.32047398678,
+                "healing_avg_per_10m": 161.40173323967235,
+                "ultimates_earned_avg_per_10m": 4.928510388477708,
+                "final_blows_avg_per_10m": 4.273523169093961,
+                "time_played_total": 55878.9529274106
             },
             "heroes": [
+                {
+                    "hero_id": "0x02E0000000000009",
+                    "name": "winston",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 26.81453877603907,
+                        "hero_damage_avg_per_10m": 8934.443413917743,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 22.375920951366425
+                    }
+                },
                 {
                     "hero_id": "0x02E000000000013B",
                     "name": "ana",
@@ -230,6 +243,19 @@
                     }
                 },
                 {
+                    "hero_id": "0x02E0000000000040",
+                    "name": "roadhog",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 0,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 0.9750874638557434
+                    }
+                },
+                {
                     "hero_id": "0x02E0000000000029",
                     "name": "genji",
                     "stats": {
@@ -259,26 +285,26 @@
                     "hero_id": "0x02E000000000007A",
                     "name": "dva",
                     "stats": {
-                        "eliminations_avg_per_10m": 15.009903843210918,
-                        "deaths_avg_per_10m": 4.212338210901103,
-                        "hero_damage_avg_per_10m": 7509.772475526433,
-                        "healing_avg_per_10m": 0.14607988746763811,
-                        "ultimates_earned_avg_per_10m": 4.9481178110585,
-                        "final_blows_avg_per_10m": 4.653805970995542,
-                        "time_played_total": 32618.46345680952
+                        "eliminations_avg_per_10m": 14.92794540825406,
+                        "deaths_avg_per_10m": 4.207631671444159,
+                        "hero_damage_avg_per_10m": 7509.679038885868,
+                        "healing_avg_per_10m": 0.1452822488497907,
+                        "ultimates_earned_avg_per_10m": 4.939393701260534,
+                        "final_blows_avg_per_10m": 4.628394838588575,
+                        "time_played_total": 32797.54759347439
                     }
                 },
                 {
                     "hero_id": "0x02E000000000012E",
                     "name": "sombra",
                     "stats": {
-                        "eliminations_avg_per_10m": 17.413234629575246,
-                        "deaths_avg_per_10m": 4.272282607933013,
-                        "hero_damage_avg_per_10m": 7095.49134595485,
-                        "healing_avg_per_10m": 383.82529992196487,
-                        "ultimates_earned_avg_per_10m": 5.038347075562381,
-                        "final_blows_avg_per_10m": 3.7713943021753495,
-                        "time_played_total": 20363.821400403976
+                        "eliminations_avg_per_10m": 16.885230318151635,
+                        "deaths_avg_per_10m": 4.463293364352184,
+                        "hero_damage_avg_per_10m": 6894.3918026182455,
+                        "healing_avg_per_10m": 397.7564960382832,
+                        "ultimates_earned_avg_per_10m": 4.947264933980734,
+                        "final_blows_avg_per_10m": 3.71044870048555,
+                        "time_played_total": 22315.360400795937
                     }
                 },
                 {
@@ -305,6 +331,19 @@
                         "ultimates_earned_avg_per_10m": 0,
                         "final_blows_avg_per_10m": 0,
                         "time_played_total": 2.920790135860443
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000012F",
+                    "name": "doomfist",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 0,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 5.831778407096863
                     }
                 },
                 {
