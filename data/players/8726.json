@@ -27,6 +27,7 @@
             "game": "OVERWATCH",
             "attributes": {
                 "player_number": 18,
+                "preferred_slot": "1",
                 "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -140,15 +141,42 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 0,
-                "deaths_avg_per_10m": 0,
-                "hero_damage_avg_per_10m": 0,
-                "healing_avg_per_10m": 0,
-                "ultimates_earned_avg_per_10m": 0,
-                "final_blows_avg_per_10m": 0,
-                "time_played_total": 0
+                "eliminations_avg_per_10m": 15.912163779842617,
+                "deaths_avg_per_10m": 5.304054593280872,
+                "hero_damage_avg_per_10m": 3252.9975414194682,
+                "healing_avg_per_10m": 5226.417252388883,
+                "ultimates_earned_avg_per_10m": 3.5360363955205814,
+                "final_blows_avg_per_10m": 5.893393992534302,
+                "time_played_total": 1018.0890684723854
             },
-            "heroes": []
+            "heroes": [
+                {
+                    "hero_id": "0x02E000000000013B",
+                    "name": "ana",
+                    "stats": {
+                        "eliminations_avg_per_10m": 15.353588943832367,
+                        "deaths_avg_per_10m": 4.724181213486882,
+                        "hero_damage_avg_per_10m": 3126.9617114894886,
+                        "healing_avg_per_10m": 6143.561931519214,
+                        "ultimates_earned_avg_per_10m": 4.724181213486882,
+                        "final_blows_avg_per_10m": 5.905226516858603,
+                        "time_played_total": 508.02454257011414
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000020",
+                    "name": "zenyatta",
+                    "stats": {
+                        "eliminations_avg_per_10m": 16.46850461741275,
+                        "deaths_avg_per_10m": 5.881608791933125,
+                        "hero_damage_avg_per_10m": 3378.529295925154,
+                        "healing_avg_per_10m": 4312.9406579097895,
+                        "ultimates_earned_avg_per_10m": 2.35264351677325,
+                        "final_blows_avg_per_10m": 5.881608791933125,
+                        "time_played_total": 510.06452590227127
+                    }
+                }
+            ]
         }
     },
     "meta": []
