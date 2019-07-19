@@ -522,41 +522,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 4653,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "jjonak.8711",
-                        "name": "JJONAK",
-                        "homeLocation": "Osan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "zenyatta"
-                            ],
-                            "hometown": "Osan",
-                            "player_number": 44,
-                            "preferred_slot": "1",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Bang",
-                        "givenName": "SeongHyun",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4403,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4093,
                         "availableLanguages": [
                             "en",
@@ -584,6 +549,41 @@
                         "givenName": "Dong-Gyu",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/G12QBLHKB4E11549652238882.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 4403,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4653,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "jjonak.8711",
+                        "name": "JJONAK",
+                        "homeLocation": "Osan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "zenyatta"
+                            ],
+                            "hometown": "Osan",
+                            "player_number": 44,
+                            "preferred_slot": "1",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Bang",
+                        "givenName": "SeongHyun",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/BK8ZCWMAV6OR1549652238753.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -706,7 +706,72 @@
     "status": "PENDING",
     "statusReason": "NORMAL",
     "attributes": [],
-    "games": [],
+    "games": [
+        {
+            "id": 27127,
+            "number": 1,
+            "attributes": {
+                "mapGuid": "0x080000000000066D"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21511
+            }
+        },
+        {
+            "id": 27128,
+            "number": 2,
+            "attributes": {
+                "mapGuid": "0x08000000000001DB"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21511
+            }
+        },
+        {
+            "id": 27129,
+            "number": 3,
+            "attributes": {
+                "mapGuid": "0x08000000000002AF"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21511
+            }
+        },
+        {
+            "id": 27130,
+            "number": 4,
+            "attributes": {
+                "mapGuid": "0x0800000000000756"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21511
+            }
+        }
+    ],
     "clientHints": [],
     "bracket": {
         "id": 4691,

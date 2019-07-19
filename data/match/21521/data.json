@@ -49,7 +49,7 @@
                             "heroes": [
                                 "winston"
                             ],
-                            "player_number": 2,
+                            "player_number": 5,
                             "preferred_slot": "2",
                             "role": "tank"
                         },
@@ -245,6 +245,42 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 4626,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "nevix.5457",
+                        "name": "Nevix",
+                        "homeLocation": "Edsbruk",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "dva",
+                                "pharah",
+                                "junkrat"
+                            ],
+                            "hometown": "Helgen\u00e4s , Sweden",
+                            "player_number": 9,
+                            "preferred_slot": "2",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Karlsson",
+                        "givenName": "Andreas",
+                        "nationality": "SE",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3Q03820QB64K1549652299642.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 4404,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 4658,
                         "availableLanguages": [
                             "en",
@@ -272,42 +308,6 @@
                         "givenName": "DongJun",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZJEKOTWJKW8U1549652299643.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4404,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4626,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "nevix.5457",
-                        "name": "Nevix",
-                        "homeLocation": "Edsbruk",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "dva",
-                                "pharah",
-                                "junkrat"
-                            ],
-                            "hometown": "Helgen\u00e4s , Sweden",
-                            "player_number": 9,
-                            "preferred_slot": "2",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Karlsson",
-                        "givenName": "Andreas",
-                        "nationality": "SE",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3Q03820QB64K1549652299642.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -713,7 +713,72 @@
     "status": "PENDING",
     "statusReason": "NORMAL",
     "attributes": [],
-    "games": [],
+    "games": [
+        {
+            "id": 27197,
+            "number": 1,
+            "attributes": {
+                "mapGuid": "0x0800000000000662"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21521
+            }
+        },
+        {
+            "id": 27198,
+            "number": 2,
+            "attributes": {
+                "mapGuid": "0x08000000000001DB"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21521
+            }
+        },
+        {
+            "id": 27199,
+            "number": 3,
+            "attributes": {
+                "mapGuid": "0x08000000000000D4"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21521
+            }
+        },
+        {
+            "id": 27200,
+            "number": 4,
+            "attributes": {
+                "mapGuid": "0x0800000000000A44"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21521
+            }
+        }
+    ],
     "clientHints": [],
     "bracket": {
         "id": 4691,

@@ -130,43 +130,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 4642,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "munchkin.6037",
-                        "name": "Munchkin",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "tracer",
-                                "mccree",
-                                "widowmaker"
-                            ],
-                            "hometown": null,
-                            "player_number": 27,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Byun",
-                        "givenName": "Sangbeom",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4098,
                         "availableLanguages": [
                             "en",
@@ -199,6 +162,43 @@
                     "flags": [
                         "STARTER"
                     ]
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4642,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "munchkin.6037",
+                        "name": "Munchkin",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "tracer",
+                                "mccree",
+                                "widowmaker"
+                            ],
+                            "hometown": null,
+                            "player_number": 27,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Byun",
+                        "givenName": "Sangbeom",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
                 },
                 {
                     "team": {
@@ -747,7 +747,72 @@
     "status": "PENDING",
     "statusReason": "NORMAL",
     "attributes": [],
-    "games": [],
+    "games": [
+        {
+            "id": 27007,
+            "number": 1,
+            "attributes": {
+                "mapGuid": "0x080000000000066D"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21427
+            }
+        },
+        {
+            "id": 27008,
+            "number": 2,
+            "attributes": {
+                "mapGuid": "0x0800000000000165"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21427
+            }
+        },
+        {
+            "id": 27009,
+            "number": 3,
+            "attributes": {
+                "mapGuid": "0x080000000000075E"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21427
+            }
+        },
+        {
+            "id": 27010,
+            "number": 4,
+            "attributes": {
+                "mapGuid": "0x08000000000005BB"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21427
+            }
+        }
+    ],
     "clientHints": [],
     "bracket": {
         "id": 4691,

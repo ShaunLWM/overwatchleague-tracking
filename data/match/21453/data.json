@@ -130,43 +130,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 4642,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "munchkin.6037",
-                        "name": "Munchkin",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "tracer",
-                                "mccree",
-                                "widowmaker"
-                            ],
-                            "hometown": null,
-                            "player_number": 27,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Byun",
-                        "givenName": "Sangbeom",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4409,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 4098,
                         "availableLanguages": [
                             "en",
@@ -199,6 +162,43 @@
                     "flags": [
                         "STARTER"
                     ]
+                },
+                {
+                    "team": {
+                        "id": 4409,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4642,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "munchkin.6037",
+                        "name": "Munchkin",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "tracer",
+                                "mccree",
+                                "widowmaker"
+                            ],
+                            "hometown": null,
+                            "player_number": 27,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Byun",
+                        "givenName": "Sangbeom",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4UKP4KYQ7Y741549652304248.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
                 },
                 {
                     "team": {
@@ -452,7 +452,7 @@
                             "heroes": [
                                 "winston"
                             ],
-                            "player_number": 2,
+                            "player_number": 5,
                             "preferred_slot": "2",
                             "role": "tank"
                         },
@@ -648,6 +648,42 @@
                         "type": "TEAM"
                     },
                     "player": {
+                        "id": 4626,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "handle": "nevix.5457",
+                        "name": "Nevix",
+                        "homeLocation": "Edsbruk",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "dva",
+                                "pharah",
+                                "junkrat"
+                            ],
+                            "hometown": "Helgen\u00e4s , Sweden",
+                            "player_number": 9,
+                            "preferred_slot": "2",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Karlsson",
+                        "givenName": "Andreas",
+                        "nationality": "SE",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3Q03820QB64K1549652299642.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 4404,
+                        "type": "TEAM"
+                    },
+                    "player": {
                         "id": 4658,
                         "availableLanguages": [
                             "en",
@@ -675,42 +711,6 @@
                         "givenName": "DongJun",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZJEKOTWJKW8U1549652299643.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4404,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4626,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "nevix.5457",
-                        "name": "Nevix",
-                        "homeLocation": "Edsbruk",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "dva",
-                                "pharah",
-                                "junkrat"
-                            ],
-                            "hometown": "Helgen\u00e4s , Sweden",
-                            "player_number": 9,
-                            "preferred_slot": "2",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Karlsson",
-                        "givenName": "Andreas",
-                        "nationality": "SE",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3Q03820QB64K1549652299642.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -802,7 +802,72 @@
     "status": "PENDING",
     "statusReason": "NORMAL",
     "attributes": [],
-    "games": [],
+    "games": [
+        {
+            "id": 26980,
+            "number": 1,
+            "attributes": {
+                "mapGuid": "0x08000000000007E2"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21453
+            }
+        },
+        {
+            "id": 27011,
+            "number": 2,
+            "attributes": {
+                "mapGuid": "0x080000000000005B"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21453
+            }
+        },
+        {
+            "id": 27012,
+            "number": 3,
+            "attributes": {
+                "mapGuid": "0x08000000000002AF"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21453
+            }
+        },
+        {
+            "id": 27013,
+            "number": 4,
+            "attributes": {
+                "mapGuid": "0x0800000000000A44"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21453
+            }
+        }
+    ],
     "clientHints": [],
     "bracket": {
         "id": 4691,

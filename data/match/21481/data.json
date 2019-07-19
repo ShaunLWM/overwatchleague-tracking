@@ -509,38 +509,6 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 10041,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "name": "Shax",
-                        "homeLocation": "Skive",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 12,
-                            "preferred_slot": "4",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Nielsen",
-                        "givenName": "Johannes",
-                        "nationality": "DK",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/ap\/APW3YAAHWKZS1562697132698.png",
-                        "type": "PLAYER"
-                    },
-                    "flags": []
-                },
-                {
-                    "team": {
-                        "id": 4405,
-                        "type": "TEAM"
-                    },
-                    "player": {
                         "id": 5865,
                         "availableLanguages": [
                             "en",
@@ -566,6 +534,38 @@
                         "givenName": "Kyle",
                         "nationality": "US",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                },
+                {
+                    "team": {
+                        "id": 4405,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 10041,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "name": "Shax",
+                        "homeLocation": "Skive",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 12,
+                            "preferred_slot": "4",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Nielsen",
+                        "givenName": "Johannes",
+                        "nationality": "DK",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/ap\/APW3YAAHWKZS1562697132698.png",
                         "type": "PLAYER"
                     },
                     "flags": []
@@ -696,7 +696,72 @@
     "status": "PENDING",
     "statusReason": "NORMAL",
     "attributes": [],
-    "games": [],
+    "games": [
+        {
+            "id": 26988,
+            "number": 1,
+            "attributes": {
+                "mapGuid": "0x0800000000000662"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21481
+            }
+        },
+        {
+            "id": 26989,
+            "number": 2,
+            "attributes": {
+                "mapGuid": "0x080000000000005B"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21481
+            }
+        },
+        {
+            "id": 26990,
+            "number": 3,
+            "attributes": {
+                "mapGuid": "0x080000000000075E"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21481
+            }
+        },
+        {
+            "id": 27021,
+            "number": 4,
+            "attributes": {
+                "mapGuid": "0x08000000000005BB"
+            },
+            "attributesVersion": "0.6.0",
+            "players": [],
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "stats": null,
+            "match": {
+                "id": 21481
+            }
+        }
+    ],
     "clientHints": [],
     "bracket": {
         "id": 4691,
