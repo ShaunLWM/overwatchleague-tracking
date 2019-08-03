@@ -31,7 +31,7 @@
                     "widowmaker"
                 ],
                 "player_number": 12,
-                "preferred_slot": "1",
+                "preferred_slot": "0",
                 "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -145,15 +145,28 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 16.607057205052865,
-                "deaths_avg_per_10m": 5.299469089553047,
-                "hero_damage_avg_per_10m": 6032.773568037253,
-                "healing_avg_per_10m": 192.73674432236828,
-                "ultimates_earned_avg_per_10m": 4.251899618362328,
-                "final_blows_avg_per_10m": 5.6383886243500445,
-                "time_played_total": 19473.648823320866
+                "eliminations_avg_per_10m": 17.077305271725326,
+                "deaths_avg_per_10m": 5.603868207977759,
+                "hero_damage_avg_per_10m": 6396.40048643611,
+                "healing_avg_per_10m": 285.6129994192286,
+                "ultimates_earned_avg_per_10m": 4.1787465516385875,
+                "final_blows_avg_per_10m": 6.5458977774222955,
+                "time_played_total": 24839.98460239172
             },
             "heroes": [
+                {
+                    "hero_id": "0x02E0000000000005",
+                    "name": "hanzo",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 7.804522141577341,
+                        "hero_damage_avg_per_10m": 4089.5696021865274,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 76.87850570678711
+                    }
+                },
                 {
                     "hero_id": "0x02E0000000000040",
                     "name": "roadhog",
@@ -168,16 +181,29 @@
                     }
                 },
                 {
+                    "hero_id": "0x02E0000000000002",
+                    "name": "reaper",
+                    "stats": {
+                        "eliminations_avg_per_10m": 22.313779140726847,
+                        "deaths_avg_per_10m": 7.437926380242282,
+                        "hero_damage_avg_per_10m": 9699.647200925494,
+                        "healing_avg_per_10m": 1621.7331543888813,
+                        "ultimates_earned_avg_per_10m": 3.5702046625162955,
+                        "final_blows_avg_per_10m": 12.198199263597342,
+                        "time_played_total": 2016.6911089420319
+                    }
+                },
+                {
                     "hero_id": "0x02E000000000000A",
                     "name": "widowmaker",
                     "stats": {
-                        "eliminations_avg_per_10m": 13.618663621042263,
-                        "deaths_avg_per_10m": 5.734174156228321,
-                        "hero_damage_avg_per_10m": 6017.7645342812775,
+                        "eliminations_avg_per_10m": 12.258772129755563,
+                        "deaths_avg_per_10m": 7.858187262663822,
+                        "hero_damage_avg_per_10m": 6169.510145989098,
                         "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 4.30063061717124,
-                        "final_blows_avg_per_10m": 10.7515765429281,
-                        "time_played_total": 837.0865392684937
+                        "ultimates_earned_avg_per_10m": 4.400584867091741,
+                        "final_blows_avg_per_10m": 8.486842243676929,
+                        "time_played_total": 1908.837178170681
                     }
                 },
                 {
@@ -207,29 +233,55 @@
                     }
                 },
                 {
+                    "hero_id": "0x02E0000000000042",
+                    "name": "mccree",
+                    "stats": {
+                        "eliminations_avg_per_10m": 25.25177054276655,
+                        "deaths_avg_per_10m": 4.676253804216028,
+                        "hero_damage_avg_per_10m": 10550.614526500474,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 4.676253804216028,
+                        "final_blows_avg_per_10m": 15.899262934334494,
+                        "time_played_total": 641.5391733646393
+                    }
+                },
+                {
                     "hero_id": "0x02E000000000012E",
                     "name": "sombra",
                     "stats": {
-                        "eliminations_avg_per_10m": 17.231857967098833,
-                        "deaths_avg_per_10m": 4.939067570187564,
-                        "hero_damage_avg_per_10m": 5983.141480722272,
-                        "healing_avg_per_10m": 166.10498166586123,
-                        "ultimates_earned_avg_per_10m": 4.207353856085703,
-                        "final_blows_avg_per_10m": 5.743952655699611,
-                        "time_played_total": 16399.85662251711
+                        "eliminations_avg_per_10m": 17.420316483955673,
+                        "deaths_avg_per_10m": 4.835026615955044,
+                        "hero_damage_avg_per_10m": 5934.558277991509,
+                        "healing_avg_per_10m": 165.6054614719513,
+                        "ultimates_earned_avg_per_10m": 4.195096622666876,
+                        "final_blows_avg_per_10m": 5.759369939593508,
+                        "time_played_total": 16876.846082031727
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000006E",
+                    "name": "soldier-76",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 0,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 1.9504438042640686
                     }
                 },
                 {
                     "hero_id": "0x02E0000000000003",
                     "name": "tracer",
                     "stats": {
-                        "eliminations_avg_per_10m": 36.26979492064423,
-                        "deaths_avg_per_10m": 18.134897460322115,
-                        "hero_damage_avg_per_10m": 12733.839026989146,
+                        "eliminations_avg_per_10m": 15.62469370374437,
+                        "deaths_avg_per_10m": 6.465390498101119,
+                        "hero_damage_avg_per_10m": 5756.253890283938,
                         "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 0,
-                        "final_blows_avg_per_10m": 18.134897460322115,
-                        "time_played_total": 33.08538144826889
+                        "ultimates_earned_avg_per_10m": 3.771477790558986,
+                        "final_blows_avg_per_10m": 7.542955581117972,
+                        "time_played_total": 1113.6218302845955
                     }
                 }
             ]
