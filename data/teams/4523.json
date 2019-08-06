@@ -894,26 +894,26 @@
     "advantage": 0,
     "ranking": {
         "matchWin": 22,
-        "matchLoss": 1,
+        "matchLoss": 2,
         "matchDraw": 0,
         "matchBye": 0,
         "gameWin": 77,
-        "gameLoss": 17,
+        "gameLoss": 21,
         "gameTie": 0,
         "gamePointsFor": 0,
         "gamePointsAgainst": 0,
         "comparisons": [
             {
                 "key": "MATCH_WIN_PERCENTAGE",
-                "value": 0.95652174
+                "value": 0.91666667
             },
             {
                 "key": "MATCH_DIFFERENTIAL",
-                "value": 21
+                "value": 20
             },
             {
                 "key": "MATCH_GAME_DIFFERENTIAL",
-                "value": 60
+                "value": 56
             },
             {
                 "key": "GAME_HEAD_TO_HEAD_DIFFERENTIAL",
@@ -45694,7 +45694,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 49,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -47616,7 +47616,7 @@
                                     ],
                                     "hometown": null,
                                     "player_number": 49,
-                                    "preferred_slot": "1",
+                                    "preferred_slot": "0",
                                     "role": "offense"
                                 },
                                 "attributesVersion": "1.0.0",
@@ -80818,6 +80818,42 @@
                     "players": [
                         {
                             "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 10041,
+                                "availableLanguages": [
+                                    "en"
+                                ],
+                                "name": "Shax",
+                                "homeLocation": "Skive",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "heroes": [
+                                        "mccree",
+                                        "tracer",
+                                        "widowmaker"
+                                    ],
+                                    "player_number": 12,
+                                    "preferred_slot": "0",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.2",
+                                "familyName": "Nielsen",
+                                "givenName": "Johannes",
+                                "nationality": "DK",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/ap\/APW3YAAHWKZS1562697132698.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27091,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
                                 "id": 4523,
                                 "type": "TEAM"
                             },
@@ -80863,35 +80899,38 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 10041,
+                                "id": 5865,
                                 "availableLanguages": [
-                                    "en"
+                                    "en",
+                                    "zh-cn"
                                 ],
-                                "name": "Shax",
-                                "homeLocation": "Skive",
+                                "handle": "ksf.4600",
+                                "name": "KSF",
+                                "homeLocation": "Puyallup, WA",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "heroes": [
-                                        "mccree",
-                                        "tracer",
+                                        "genji",
+                                        "soldier-76",
+                                        "sombra",
                                         "widowmaker"
                                     ],
-                                    "player_number": 12,
-                                    "preferred_slot": "0",
+                                    "player_number": 27,
+                                    "preferred_slot": "1",
                                     "role": "offense"
                                 },
-                                "attributesVersion": "1.0.2",
-                                "familyName": "Nielsen",
-                                "givenName": "Johannes",
-                                "nationality": "DK",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/ap\/APW3YAAHWKZS1562697132698.png",
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Frandanisa",
+                                "givenName": "Kyle",
+                                "nationality": "US",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 27091,
                                 "stats": null
                             },
-                            "sortIndex": 0
+                            "sortIndex": 1
                         },
                         {
                             "team": {
@@ -80925,45 +80964,6 @@
                                 "givenName": "Timo",
                                 "nationality": "FI",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/DFRBV085AX601550194285520.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27091,
-                                "stats": null
-                            },
-                            "sortIndex": 1
-                        },
-                        {
-                            "team": {
-                                "id": 4405,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 5865,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "ksf.4600",
-                                "name": "KSF",
-                                "homeLocation": "Puyallup, WA",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "heroes": [
-                                        "genji",
-                                        "soldier-76",
-                                        "sombra",
-                                        "widowmaker"
-                                    ],
-                                    "player_number": 27,
-                                    "preferred_slot": "1",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Frandanisa",
-                                "givenName": "Kyle",
-                                "nationality": "US",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FDHS3GHI2JY31549580254953.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -81049,6 +81049,44 @@
                         },
                         {
                             "team": {
+                                "id": 4523,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4607,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "note.6771",
+                                "name": "NotE",
+                                "homeLocation": "Barrie",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "dva"
+                                    ],
+                                    "hometown": "Barrie",
+                                    "player_number": 3,
+                                    "preferred_slot": "3",
+                                    "role": "tank"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Meissner",
+                                "givenName": "Lucas",
+                                "nationality": "CA",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27091,
+                                "stats": null
+                            },
+                            "sortIndex": 3
+                        },
+                        {
+                            "team": {
                                 "id": 4405,
                                 "type": "TEAM"
                             },
@@ -81094,37 +81132,40 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 4607,
+                                "id": 4663,
                                 "availableLanguages": [
                                     "en",
+                                    "ko",
                                     "zh-cn"
                                 ],
-                                "handle": "note.6771",
-                                "name": "NotE",
-                                "homeLocation": "Barrie",
+                                "handle": "closer.2567",
+                                "name": "Closer",
+                                "homeLocation": "Seoul",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "hero_image": null,
                                     "heroes": [
-                                        "dva"
+                                        "lucio",
+                                        "mercy",
+                                        "torbjorn"
                                     ],
-                                    "hometown": "Barrie",
-                                    "player_number": 3,
-                                    "preferred_slot": "3",
-                                    "role": "tank"
+                                    "hometown": null,
+                                    "player_number": 17,
+                                    "preferred_slot": "5",
+                                    "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
-                                "familyName": "Meissner",
-                                "givenName": "Lucas",
-                                "nationality": "CA",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
+                                "familyName": "Jung",
+                                "givenName": "Wonsik",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 27091,
                                 "stats": null
                             },
-                            "sortIndex": 3
+                            "sortIndex": 4
                         },
                         {
                             "team": {
@@ -81158,47 +81199,6 @@
                                 "givenName": "Scott",
                                 "nationality": "AU",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27091,
-                                "stats": null
-                            },
-                            "sortIndex": 4
-                        },
-                        {
-                            "team": {
-                                "id": 4523,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4663,
-                                "availableLanguages": [
-                                    "en",
-                                    "ko",
-                                    "zh-cn"
-                                ],
-                                "handle": "closer.2567",
-                                "name": "Closer",
-                                "homeLocation": "Seoul",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "lucio",
-                                        "mercy",
-                                        "torbjorn"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 17,
-                                    "preferred_slot": "5",
-                                    "role": "support"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Jung",
-                                "givenName": "Wonsik",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -81553,46 +81553,6 @@
                         },
                         {
                             "team": {
-                                "id": 4405,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 3577,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "custa.8424",
-                                "name": "Custa",
-                                "homeLocation": "Blackwood, South Australia",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "zenyatta",
-                                        "lucio",
-                                        "mercy"
-                                    ],
-                                    "hometown": null,
-                                    "player_number": 10,
-                                    "preferred_slot": "5",
-                                    "role": "support"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Kennedy",
-                                "givenName": "Scott",
-                                "nationality": "AU",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27092,
-                                "stats": null
-                            },
-                            "sortIndex": 3
-                        },
-                        {
-                            "team": {
                                 "id": 4523,
                                 "type": "TEAM"
                             },
@@ -81623,6 +81583,46 @@
                                 "givenName": "Benjamin",
                                 "nationality": "FR",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/OQ3P1HR9TB6T1549664649484.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27092,
+                                "stats": null
+                            },
+                            "sortIndex": 3
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 3577,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "custa.8424",
+                                "name": "Custa",
+                                "homeLocation": "Blackwood, South Australia",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "zenyatta",
+                                        "lucio",
+                                        "mercy"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 10,
+                                    "preferred_slot": "5",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Kennedy",
+                                "givenName": "Scott",
+                                "nationality": "AU",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -81712,46 +81712,6 @@
                         },
                         {
                             "team": {
-                                "id": 4405,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4637,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "space.7513",
-                                "name": "SPACE",
-                                "homeLocation": "New York City, NY",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "zarya",
-                                        "roadhog",
-                                        "dva"
-                                    ],
-                                    "hometown": "New York City, New York",
-                                    "player_number": 16,
-                                    "preferred_slot": "3",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Halpern",
-                                "givenName": "Indy",
-                                "nationality": "US",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZIO22Z0N194T1549580254961.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27092,
-                                "stats": null
-                            },
-                            "sortIndex": 5
-                        },
-                        {
-                            "team": {
                                 "id": 4523,
                                 "type": "TEAM"
                             },
@@ -81783,6 +81743,46 @@
                                 "givenName": "Wonsik",
                                 "nationality": "KR",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27092,
+                                "stats": null
+                            },
+                            "sortIndex": 5
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4637,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "space.7513",
+                                "name": "SPACE",
+                                "homeLocation": "New York City, NY",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "zarya",
+                                        "roadhog",
+                                        "dva"
+                                    ],
+                                    "hometown": "New York City, New York",
+                                    "player_number": 16,
+                                    "preferred_slot": "3",
+                                    "role": "tank"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Halpern",
+                                "givenName": "Indy",
+                                "nationality": "US",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZIO22Z0N194T1549580254961.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -81822,46 +81822,6 @@
                     "players": [
                         {
                             "team": {
-                                "id": 4405,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4142,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "agilities.5443",
-                                "name": "Agilities",
-                                "homeLocation": "Lethbridge",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "genji",
-                                        "tracer",
-                                        "pharah"
-                                    ],
-                                    "hometown": "Blairmore, AB",
-                                    "player_number": 9,
-                                    "preferred_slot": "0",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Girardi",
-                                "givenName": "Brady",
-                                "nationality": "CA",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27093,
-                                "stats": null
-                            },
-                            "sortIndex": 0
-                        },
-                        {
-                            "team": {
                                 "id": 4523,
                                 "type": "TEAM"
                             },
@@ -81893,6 +81853,46 @@
                                 "givenName": "Zachary",
                                 "nationality": "US",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/9HWW7CZV9TN21549664649495.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27093,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4142,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "agilities.5443",
+                                "name": "Agilities",
+                                "homeLocation": "Lethbridge",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "genji",
+                                        "tracer",
+                                        "pharah"
+                                    ],
+                                    "hometown": "Blairmore, AB",
+                                    "player_number": 9,
+                                    "preferred_slot": "0",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Girardi",
+                                "givenName": "Brady",
+                                "nationality": "CA",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -82057,44 +82057,6 @@
                         },
                         {
                             "team": {
-                                "id": 4523,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4607,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "note.6771",
-                                "name": "NotE",
-                                "homeLocation": "Barrie",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "dva"
-                                    ],
-                                    "hometown": "Barrie",
-                                    "player_number": 3,
-                                    "preferred_slot": "3",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Meissner",
-                                "givenName": "Lucas",
-                                "nationality": "CA",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27093,
-                                "stats": null
-                            },
-                            "sortIndex": 3
-                        },
-                        {
-                            "team": {
                                 "id": 4405,
                                 "type": "TEAM"
                             },
@@ -82136,43 +82098,41 @@
                         },
                         {
                             "team": {
-                                "id": 4405,
+                                "id": 4523,
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 4637,
+                                "id": 4607,
                                 "availableLanguages": [
                                     "en",
                                     "zh-cn"
                                 ],
-                                "handle": "space.7513",
-                                "name": "SPACE",
-                                "homeLocation": "New York City, NY",
+                                "handle": "note.6771",
+                                "name": "NotE",
+                                "homeLocation": "Barrie",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "hero_image": null,
                                     "heroes": [
-                                        "zarya",
-                                        "roadhog",
                                         "dva"
                                     ],
-                                    "hometown": "New York City, New York",
-                                    "player_number": 16,
+                                    "hometown": "Barrie",
+                                    "player_number": 3,
                                     "preferred_slot": "3",
                                     "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
-                                "familyName": "Halpern",
-                                "givenName": "Indy",
-                                "nationality": "US",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZIO22Z0N194T1549580254961.png",
+                                "familyName": "Meissner",
+                                "givenName": "Lucas",
+                                "nationality": "CA",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 27093,
                                 "stats": null
                             },
-                            "sortIndex": 4
+                            "sortIndex": 3
                         },
                         {
                             "team": {
@@ -82206,6 +82166,46 @@
                                 "givenName": "Benjamin",
                                 "nationality": "FR",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/OQ3P1HR9TB6T1549664649484.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27093,
+                                "stats": null
+                            },
+                            "sortIndex": 4
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4637,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "space.7513",
+                                "name": "SPACE",
+                                "homeLocation": "New York City, NY",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "zarya",
+                                        "roadhog",
+                                        "dva"
+                                    ],
+                                    "hometown": "New York City, New York",
+                                    "player_number": 16,
+                                    "preferred_slot": "3",
+                                    "role": "tank"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Halpern",
+                                "givenName": "Indy",
+                                "nationality": "US",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/ZIO22Z0N194T1549580254961.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -82326,46 +82326,6 @@
                     "players": [
                         {
                             "team": {
-                                "id": 4405,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4142,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "agilities.5443",
-                                "name": "Agilities",
-                                "homeLocation": "Lethbridge",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "genji",
-                                        "tracer",
-                                        "pharah"
-                                    ],
-                                    "hometown": "Blairmore, AB",
-                                    "player_number": 9,
-                                    "preferred_slot": "0",
-                                    "role": "offense"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Girardi",
-                                "givenName": "Brady",
-                                "nationality": "CA",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27038,
-                                "stats": null
-                            },
-                            "sortIndex": 0
-                        },
-                        {
-                            "team": {
                                 "id": 4523,
                                 "type": "TEAM"
                             },
@@ -82397,6 +82357,46 @@
                                 "givenName": "Zachary",
                                 "nationality": "US",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/9HWW7CZV9TN21549664649495.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27038,
+                                "stats": null
+                            },
+                            "sortIndex": 0
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 4142,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "agilities.5443",
+                                "name": "Agilities",
+                                "homeLocation": "Lethbridge",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "genji",
+                                        "tracer",
+                                        "pharah"
+                                    ],
+                                    "hometown": "Blairmore, AB",
+                                    "player_number": 9,
+                                    "preferred_slot": "0",
+                                    "role": "offense"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Girardi",
+                                "givenName": "Brady",
+                                "nationality": "CA",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GIW0FGEDJAIM1549580254275.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
@@ -82559,44 +82559,6 @@
                         },
                         {
                             "team": {
-                                "id": 4523,
-                                "type": "TEAM"
-                            },
-                            "player": {
-                                "id": 4607,
-                                "availableLanguages": [
-                                    "en",
-                                    "zh-cn"
-                                ],
-                                "handle": "note.6771",
-                                "name": "NotE",
-                                "homeLocation": "Barrie",
-                                "game": "OVERWATCH",
-                                "attributes": {
-                                    "hero_image": null,
-                                    "heroes": [
-                                        "dva"
-                                    ],
-                                    "hometown": "Barrie",
-                                    "player_number": 3,
-                                    "preferred_slot": "3",
-                                    "role": "tank"
-                                },
-                                "attributesVersion": "1.0.0",
-                                "familyName": "Meissner",
-                                "givenName": "Lucas",
-                                "nationality": "CA",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
-                                "type": "PLAYER"
-                            },
-                            "matchGame": {
-                                "id": 27038,
-                                "stats": null
-                            },
-                            "sortIndex": 3
-                        },
-                        {
-                            "team": {
                                 "id": 4405,
                                 "type": "TEAM"
                             },
@@ -82641,40 +82603,37 @@
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 4663,
+                                "id": 4607,
                                 "availableLanguages": [
                                     "en",
-                                    "ko",
                                     "zh-cn"
                                 ],
-                                "handle": "closer.2567",
-                                "name": "Closer",
-                                "homeLocation": "Seoul",
+                                "handle": "note.6771",
+                                "name": "NotE",
+                                "homeLocation": "Barrie",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "hero_image": null,
                                     "heroes": [
-                                        "lucio",
-                                        "mercy",
-                                        "torbjorn"
+                                        "dva"
                                     ],
-                                    "hometown": null,
-                                    "player_number": 17,
-                                    "preferred_slot": "5",
-                                    "role": "support"
+                                    "hometown": "Barrie",
+                                    "player_number": 3,
+                                    "preferred_slot": "3",
+                                    "role": "tank"
                                 },
                                 "attributesVersion": "1.0.0",
-                                "familyName": "Jung",
-                                "givenName": "Wonsik",
-                                "nationality": "KR",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
+                                "familyName": "Meissner",
+                                "givenName": "Lucas",
+                                "nationality": "CA",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 27038,
                                 "stats": null
                             },
-                            "sortIndex": 4
+                            "sortIndex": 3
                         },
                         {
                             "team": {
@@ -82719,43 +82678,44 @@
                         },
                         {
                             "team": {
-                                "id": 4405,
+                                "id": 4523,
                                 "type": "TEAM"
                             },
                             "player": {
-                                "id": 3577,
+                                "id": 4663,
                                 "availableLanguages": [
                                     "en",
+                                    "ko",
                                     "zh-cn"
                                 ],
-                                "handle": "custa.8424",
-                                "name": "Custa",
-                                "homeLocation": "Blackwood, South Australia",
+                                "handle": "closer.2567",
+                                "name": "Closer",
+                                "homeLocation": "Seoul",
                                 "game": "OVERWATCH",
                                 "attributes": {
                                     "hero_image": null,
                                     "heroes": [
-                                        "zenyatta",
                                         "lucio",
-                                        "mercy"
+                                        "mercy",
+                                        "torbjorn"
                                     ],
                                     "hometown": null,
-                                    "player_number": 10,
+                                    "player_number": 17,
                                     "preferred_slot": "5",
                                     "role": "support"
                                 },
                                 "attributesVersion": "1.0.0",
-                                "familyName": "Kennedy",
-                                "givenName": "Scott",
-                                "nationality": "AU",
-                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
+                                "familyName": "Jung",
+                                "givenName": "Wonsik",
+                                "nationality": "KR",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
                                 "id": 27038,
                                 "stats": null
                             },
-                            "sortIndex": 5
+                            "sortIndex": 4
                         },
                         {
                             "team": {
@@ -82789,6 +82749,46 @@
                                 "givenName": "Benjamin",
                                 "nationality": "FR",
                                 "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/OQ3P1HR9TB6T1549664649484.png",
+                                "type": "PLAYER"
+                            },
+                            "matchGame": {
+                                "id": 27038,
+                                "stats": null
+                            },
+                            "sortIndex": 5
+                        },
+                        {
+                            "team": {
+                                "id": 4405,
+                                "type": "TEAM"
+                            },
+                            "player": {
+                                "id": 3577,
+                                "availableLanguages": [
+                                    "en",
+                                    "zh-cn"
+                                ],
+                                "handle": "custa.8424",
+                                "name": "Custa",
+                                "homeLocation": "Blackwood, South Australia",
+                                "game": "OVERWATCH",
+                                "attributes": {
+                                    "hero_image": null,
+                                    "heroes": [
+                                        "zenyatta",
+                                        "lucio",
+                                        "mercy"
+                                    ],
+                                    "hometown": null,
+                                    "player_number": 10,
+                                    "preferred_slot": "5",
+                                    "role": "support"
+                                },
+                                "attributesVersion": "1.0.0",
+                                "familyName": "Kennedy",
+                                "givenName": "Scott",
+                                "nationality": "AU",
+                                "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/FY0VMK6HXVJQ1549580254274.png",
                                 "type": "PLAYER"
                             },
                             "matchGame": {
