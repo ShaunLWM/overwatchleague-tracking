@@ -48,7 +48,80 @@
             "givenName": "Ethan",
             "nationality": "US",
             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QARVHM6UJZW41549576974172.png",
-            "teams": [],
+            "teams": [
+                {
+                    "team": {
+                        "id": 7697,
+                        "availableLanguages": [
+                            "en",
+                            "ko",
+                            "zh-cn"
+                        ],
+                        "handle": "washington.8916",
+                        "name": "Washington Justice",
+                        "homeLocation": "Washington, DC",
+                        "primaryColor": "990034",
+                        "secondaryColor": "003768",
+                        "accounts": [
+                            {
+                                "id": 13067,
+                                "competitorId": 7697,
+                                "value": "https:\/\/twitter.com\/WashJustice",
+                                "accountType": "TWITTER",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 13068,
+                                "competitorId": 7697,
+                                "value": "https:\/\/www.instagram.com\/WashingtonDCJustice",
+                                "accountType": "INSTAGRAM",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 13069,
+                                "competitorId": 7697,
+                                "value": "https:\/\/www.facebook.com\/washjustice",
+                                "accountType": "FACEBOOK",
+                                "isPublic": true
+                            }
+                        ],
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "team_guid": "0x0D70000000000053"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "divisions": [
+                            {
+                                "competitor": {
+                                    "id": 7697
+                                },
+                                "division": {
+                                    "id": 61
+                                }
+                            },
+                            {
+                                "competitor": {
+                                    "id": 7697
+                                },
+                                "division": {
+                                    "id": 79
+                                }
+                            }
+                        ],
+                        "abbreviatedName": "WAS",
+                        "addressCountry": "US",
+                        "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/95UE5OJKSFQF1543968718489.png",
+                        "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/VH7IGPLX4UJ61543968702521.svg",
+                        "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/VH7IGPLX4UJ61543968702521.svg",
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8783,
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                }
+            ],
             "user": {
                 "id": 1736
             },
@@ -56,13 +129,13 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 15.275817584330031,
-                "deaths_avg_per_10m": 5.229122976569393,
-                "hero_damage_avg_per_10m": 6527.858540172845,
-                "healing_avg_per_10m": 1304.0602692370283,
-                "ultimates_earned_avg_per_10m": 3.800797719080531,
-                "final_blows_avg_per_10m": 5.495420905931723,
-                "time_played_total": 24784.270819544792
+                "eliminations_avg_per_10m": 15.457171435965657,
+                "deaths_avg_per_10m": 5.260181074442985,
+                "hero_damage_avg_per_10m": 6510.530733384867,
+                "healing_avg_per_10m": 1209.6891885832051,
+                "ultimates_earned_avg_per_10m": 3.8157870908869196,
+                "final_blows_avg_per_10m": 5.411087908545857,
+                "time_played_total": 27831.741517663002
             },
             "heroes": [
                 {
@@ -82,26 +155,26 @@
                     "hero_id": "0x02E0000000000005",
                     "name": "hanzo",
                     "stats": {
-                        "eliminations_avg_per_10m": 13.282108822438728,
-                        "deaths_avg_per_10m": 7.492471643426974,
-                        "hero_damage_avg_per_10m": 7408.490391692874,
+                        "eliminations_avg_per_10m": 13.46171128931439,
+                        "deaths_avg_per_10m": 7.200450224517,
+                        "hero_damage_avg_per_10m": 7642.660460783791,
                         "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 4.086802714596532,
-                        "final_blows_avg_per_10m": 9.195306107842196,
-                        "time_played_total": 1761.7684294581413
+                        "ultimates_earned_avg_per_10m": 4.069819692118305,
+                        "final_blows_avg_per_10m": 9.078828543956217,
+                        "time_played_total": 1916.5468227267265
                     }
                 },
                 {
                     "hero_id": "0x02E00000000000DD",
                     "name": "mei",
                     "stats": {
-                        "eliminations_avg_per_10m": 18.656091375824325,
-                        "deaths_avg_per_10m": 4.039883533937628,
-                        "hero_damage_avg_per_10m": 6310.00941059603,
-                        "healing_avg_per_10m": 403.4905694678707,
-                        "ultimates_earned_avg_per_10m": 3.994491584118104,
-                        "final_blows_avg_per_10m": 5.083898379786678,
-                        "time_played_total": 13218.20283961296
+                        "eliminations_avg_per_10m": 18.389134056928874,
+                        "deaths_avg_per_10m": 4.289554597458054,
+                        "hero_damage_avg_per_10m": 6277.259279025771,
+                        "healing_avg_per_10m": 415.3404213286925,
+                        "ultimates_earned_avg_per_10m": 3.991150799374016,
+                        "final_blows_avg_per_10m": 4.998263617907646,
+                        "time_played_total": 16085.58614474535
                     }
                 },
                 {
@@ -147,13 +220,13 @@
                     "hero_id": "0x02E0000000000065",
                     "name": "junkrat",
                     "stats": {
-                        "eliminations_avg_per_10m": 6.027504198829876,
-                        "deaths_avg_per_10m": 5.166432170425608,
-                        "hero_damage_avg_per_10m": 7840.615375330972,
+                        "eliminations_avg_per_10m": 5.816249564383367,
+                        "deaths_avg_per_10m": 5.816249564383367,
+                        "hero_damage_avg_per_10m": 7911.0664055495545,
                         "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 3.4442881136170715,
-                        "final_blows_avg_per_10m": 2.583216085212804,
-                        "time_played_total": 696.8058190345764
+                        "ultimates_earned_avg_per_10m": 3.323571179647638,
+                        "final_blows_avg_per_10m": 2.4926783847357283,
+                        "time_played_total": 722.114818751812
                     }
                 },
                 {

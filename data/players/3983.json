@@ -57,7 +57,101 @@
             "givenName": "Benjamin",
             "nationality": "FR",
             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/OQ3P1HR9TB6T1549664649484.png",
-            "teams": [],
+            "teams": [
+                {
+                    "team": {
+                        "id": 4523,
+                        "availableLanguages": [
+                            "en",
+                            "ru",
+                            "ja",
+                            "zh-tw",
+                            "zh-cn",
+                            "th",
+                            "ko"
+                        ],
+                        "handle": "fuel.6990",
+                        "name": "Dallas Fuel",
+                        "homeLocation": "Dallas, TX",
+                        "primaryColor": "0c2340",
+                        "secondaryColor": "0072ce",
+                        "accounts": [
+                            {
+                                "id": 2268,
+                                "competitorId": 4523,
+                                "value": "https:\/\/twitter.com\/DallasFuel",
+                                "accountType": "TWITTER",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2424,
+                                "competitorId": 4523,
+                                "value": "https:\/\/discord.gg\/dallasfuel",
+                                "accountType": "DISCORD",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2372,
+                                "competitorId": 4523,
+                                "value": "https:\/\/www.instagram.com\/DallasFuel",
+                                "accountType": "INSTAGRAM",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2267,
+                                "competitorId": 4523,
+                                "value": "https:\/\/www.facebook.com\/TheDallasFuel",
+                                "accountType": "FACEBOOK",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2269,
+                                "competitorId": 4523,
+                                "value": "https:\/\/www.youtube.com\/channel\/UCj4XSmDqIhRT4frKzRTMyrA",
+                                "accountType": "YOUTUBE_CHANNEL",
+                                "isPublic": true
+                            }
+                        ],
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "city": null,
+                            "hero_image": null,
+                            "manager": null,
+                            "team_guid": "0x0D70000000000002"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "divisions": [
+                            {
+                                "competitor": {
+                                    "id": 4523
+                                },
+                                "division": {
+                                    "id": 61
+                                }
+                            },
+                            {
+                                "competitor": {
+                                    "id": 4523
+                                },
+                                "division": {
+                                    "id": 80
+                                }
+                            }
+                        ],
+                        "abbreviatedName": "DAL",
+                        "addressCountry": "US",
+                        "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/NO44N7DDJAPF1508792362936.png",
+                        "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/template_resource\/YX6JZ6FR89LU1507822882865.svg",
+                        "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/template_resource\/YX6JZ6FR89LU1507822882865.svg",
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 3983,
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                }
+            ],
             "user": {
                 "id": 1987
             },
@@ -65,26 +159,26 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 13.332070703447105,
-                "deaths_avg_per_10m": 4.827576542844571,
-                "hero_damage_avg_per_10m": 6121.657350992032,
-                "healing_avg_per_10m": 9600.85048791276,
-                "ultimates_earned_avg_per_10m": 4.663196696403627,
-                "final_blows_avg_per_10m": 3.3741126374720123,
-                "time_played_total": 69351.5674021244
+                "eliminations_avg_per_10m": 13.218242573258166,
+                "deaths_avg_per_10m": 4.848070160097822,
+                "hero_damage_avg_per_10m": 6021.080360550368,
+                "healing_avg_per_10m": 9552.466969060075,
+                "ultimates_earned_avg_per_10m": 4.640887674623556,
+                "final_blows_avg_per_10m": 3.2983451687503127,
+                "time_played_total": 72399.94232940674
             },
             "heroes": [
                 {
                     "hero_id": "0x02E000000000013B",
                     "name": "ana",
                     "stats": {
-                        "eliminations_avg_per_10m": 9.371812062063993,
-                        "deaths_avg_per_10m": 5.138054858587716,
-                        "hero_damage_avg_per_10m": 2763.387462549547,
-                        "healing_avg_per_10m": 9123.31049025355,
-                        "ultimates_earned_avg_per_10m": 4.727010469900699,
-                        "final_blows_avg_per_10m": 1.6441775547480693,
-                        "time_played_total": 14596.963649511337
+                        "eliminations_avg_per_10m": 9.27926127292545,
+                        "deaths_avg_per_10m": 5.264560477292397,
+                        "hero_damage_avg_per_10m": 2767.807345468367,
+                        "healing_avg_per_10m": 8905.921927816877,
+                        "ultimates_earned_avg_per_10m": 4.620693368558795,
+                        "final_blows_avg_per_10m": 1.5907305039300768,
+                        "time_played_total": 15841.77831363678
                     }
                 },
                 {
@@ -117,26 +211,26 @@
                     "hero_id": "0x02E0000000000020",
                     "name": "zenyatta",
                     "stats": {
-                        "eliminations_avg_per_10m": 14.445613233569055,
-                        "deaths_avg_per_10m": 4.766194697080884,
-                        "hero_damage_avg_per_10m": 7404.157635915673,
-                        "healing_avg_per_10m": 9611.627273361577,
-                        "ultimates_earned_avg_per_10m": 4.655922840336083,
-                        "final_blows_avg_per_10m": 3.94528198575847,
-                        "time_played_total": 48969.883698403835
+                        "eliminations_avg_per_10m": 14.318134636914499,
+                        "deaths_avg_per_10m": 4.792631042907107,
+                        "hero_damage_avg_per_10m": 7328.219339030178,
+                        "healing_avg_per_10m": 9512.950612713365,
+                        "ultimates_earned_avg_per_10m": 4.625307265848006,
+                        "final_blows_avg_per_10m": 3.884301967443416,
+                        "time_played_total": 50202.07018774748
                     }
                 },
                 {
                     "hero_id": "0x02E00000000001A2",
                     "name": "moira",
                     "stats": {
-                        "eliminations_avg_per_10m": 17.831934738926446,
-                        "deaths_avg_per_10m": 4.052712440665101,
-                        "hero_damage_avg_per_10m": 4697.59971220648,
-                        "healing_avg_per_10m": 14793.047239625655,
-                        "ultimates_earned_avg_per_10m": 5.471161794897887,
-                        "final_blows_avg_per_10m": 3.242169952532081,
-                        "time_played_total": 2960.979880928993
+                        "eliminations_avg_per_10m": 18.0049921996389,
+                        "deaths_avg_per_10m": 3.5670267565322344,
+                        "hero_damage_avg_per_10m": 4662.010371966101,
+                        "healing_avg_per_10m": 15503.371023246924,
+                        "ultimates_earned_avg_per_10m": 5.7751861772426665,
+                        "final_blows_avg_per_10m": 3.227309922576784,
+                        "time_played_total": 3532.353654742241
                     }
                 },
                 {

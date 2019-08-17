@@ -49,7 +49,101 @@
             "givenName": "Dusttin",
             "nationality": "US",
             "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/A288GD0EYROD1550196318046.png",
-            "teams": [],
+            "teams": [
+                {
+                    "team": {
+                        "id": 7698,
+                        "availableLanguages": [
+                            "en",
+                            "ko",
+                            "zh-cn"
+                        ],
+                        "handle": "atlanta.7813",
+                        "name": "Atlanta Reign",
+                        "homeLocation": "Atlanta, GA",
+                        "primaryColor": "c4c4c4",
+                        "secondaryColor": "910f1b",
+                        "accounts": [
+                            {
+                                "id": 12834,
+                                "competitorId": 7698,
+                                "value": "https:\/\/www.instagram.com\/ATLReign",
+                                "accountType": "INSTAGRAM",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 12885,
+                                "competitorId": 7698,
+                                "value": "https:\/\/www.twitch.tv\/ATLReign",
+                                "accountType": "TWITCH",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 12886,
+                                "competitorId": 7698,
+                                "value": "https:\/\/www.facebook.com\/ATLReign",
+                                "accountType": "FACEBOOK",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 12873,
+                                "competitorId": 7698,
+                                "value": "https:\/\/discord.gg\/ATLReign",
+                                "accountType": "DISCORD",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 12835,
+                                "competitorId": 7698,
+                                "value": "https:\/\/twitter.com\/ATLReign",
+                                "accountType": "TWITTER",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 12902,
+                                "competitorId": 7698,
+                                "value": "https:\/\/www.youtube.com\/channel\/UCcRYeBK7oHYcuChC4RhU6aQ",
+                                "accountType": "YOUTUBE_CHANNEL",
+                                "isPublic": true
+                            }
+                        ],
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "team_guid": "0x0D70000000000061"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "divisions": [
+                            {
+                                "competitor": {
+                                    "id": 7698
+                                },
+                                "division": {
+                                    "id": 61
+                                }
+                            },
+                            {
+                                "competitor": {
+                                    "id": 7698
+                                },
+                                "division": {
+                                    "id": 79
+                                }
+                            }
+                        ],
+                        "abbreviatedName": "ATL",
+                        "addressCountry": "US",
+                        "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/32\/32MTX0PLEDY31542673991836.png",
+                        "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
+                        "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 9251,
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                }
+            ],
             "user": {
                 "id": 438
             },
@@ -57,26 +151,26 @@
         },
         "stats": {
             "all": {
-                "eliminations_avg_per_10m": 14.733566123515423,
-                "deaths_avg_per_10m": 5.185275549164312,
-                "hero_damage_avg_per_10m": 6577.225728012136,
-                "healing_avg_per_10m": 8906.558123476445,
-                "ultimates_earned_avg_per_10m": 4.8077069412154545,
-                "final_blows_avg_per_10m": 3.700172357898805,
-                "time_played_total": 71510.18233925104
+                "eliminations_avg_per_10m": 14.65443124198632,
+                "deaths_avg_per_10m": 5.1503767132736105,
+                "hero_damage_avg_per_10m": 6473.690497730136,
+                "healing_avg_per_10m": 8919.61553649828,
+                "ultimates_earned_avg_per_10m": 4.796288314236049,
+                "final_blows_avg_per_10m": 3.6374535537494874,
+                "time_played_total": 74557.65303736925
             },
             "heroes": [
                 {
                     "hero_id": "0x02E000000000013B",
                     "name": "ana",
                     "stats": {
-                        "eliminations_avg_per_10m": 11.107265418669545,
-                        "deaths_avg_per_10m": 4.362126055332039,
-                        "hero_damage_avg_per_10m": 3463.7206413742724,
-                        "healing_avg_per_10m": 7760.184188356606,
-                        "ultimates_earned_avg_per_10m": 4.84680672814671,
-                        "final_blows_avg_per_10m": 1.9387226912586841,
-                        "time_played_total": 14855.141547501087
+                        "eliminations_avg_per_10m": 11.017502396079076,
+                        "deaths_avg_per_10m": 4.282421426037803,
+                        "hero_damage_avg_per_10m": 3475.51923832051,
+                        "healing_avg_per_10m": 7675.61913292192,
+                        "ultimates_earned_avg_per_10m": 4.827456880260796,
+                        "final_blows_avg_per_10m": 1.9465551936535466,
+                        "time_played_total": 15411.841440618038
                     }
                 },
                 {
@@ -161,26 +255,26 @@
                     "hero_id": "0x02E0000000000020",
                     "name": "zenyatta",
                     "stats": {
-                        "eliminations_avg_per_10m": 15.304274986407151,
-                        "deaths_avg_per_10m": 5.4127795726573025,
-                        "hero_damage_avg_per_10m": 7728.228866365075,
-                        "healing_avg_per_10m": 9068.288016910823,
-                        "ultimates_earned_avg_per_10m": 4.825995946417904,
-                        "final_blows_avg_per_10m": 4.251187496224208,
-                        "time_played_total": 50103.64755475521
+                        "eliminations_avg_per_10m": 15.160529264025165,
+                        "deaths_avg_per_10m": 5.392749992836111,
+                        "hero_damage_avg_per_10m": 7637.270535332449,
+                        "healing_avg_per_10m": 8988.31118421033,
+                        "ultimates_earned_avg_per_10m": 4.796155091242529,
+                        "final_blows_avg_per_10m": 4.222956068142812,
+                        "time_played_total": 51291.085321485996
                     }
                 },
                 {
                     "hero_id": "0x02E00000000001A2",
                     "name": "moira",
                     "stats": {
-                        "eliminations_avg_per_10m": 20.615265662151693,
-                        "deaths_avg_per_10m": 5.213055684682036,
-                        "hero_damage_avg_per_10m": 5275.0148836182525,
-                        "healing_avg_per_10m": 11573.037972914488,
-                        "ultimates_earned_avg_per_10m": 5.094577146393808,
-                        "final_blows_avg_per_10m": 3.5543561486468436,
-                        "time_played_total": 5064.208325564861
+                        "eliminations_avg_per_10m": 20.07054099810712,
+                        "deaths_avg_per_10m": 5.182534060544092,
+                        "hero_damage_avg_per_10m": 5090.945000430374,
+                        "healing_avg_per_10m": 12099.106424429716,
+                        "ultimates_earned_avg_per_10m": 5.182534060544092,
+                        "final_blows_avg_per_10m": 3.109520436326455,
+                        "time_played_total": 6367.541363835335
                     }
                 },
                 {
