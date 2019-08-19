@@ -715,7 +715,7 @@
                             ],
                             "hometown": null,
                             "player_number": 7,
-                            "preferred_slot": "0",
+                            "preferred_slot": "2",
                             "role": "tank"
                         },
                         "attributesVersion": "1.0.0",
@@ -1142,7 +1142,7 @@
                         ],
                         "hometown": null,
                         "player_number": 7,
-                        "preferred_slot": "0",
+                        "preferred_slot": "2",
                         "role": "tank"
                     },
                     "attributesVersion": "1.0.0",
@@ -1385,6 +1385,47 @@
                 },
                 {
                     "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5197,
+                        "availableLanguages": [
+                            "en",
+                            "ko",
+                            "zh-cn"
+                        ],
+                        "handle": "ado.1587",
+                        "name": "Ado",
+                        "homeLocation": "Chungju",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "doomfist",
+                                "genji",
+                                "pharah"
+                            ],
+                            "player_number": 17,
+                            "preferred_slot": "2",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Chon",
+                        "givenName": "Gi Hyeon",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
+                        "user": {
+                            "id": 372
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25021
+                    },
+                    "sortIndex": 1
+                },
+                {
+                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -1417,47 +1458,6 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/OQ3P1HR9TB6T1549664649484.png",
                         "user": {
                             "id": 1987
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25021
-                    },
-                    "sortIndex": 1
-                },
-                {
-                    "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5197,
-                        "availableLanguages": [
-                            "en",
-                            "ko",
-                            "zh-cn"
-                        ],
-                        "handle": "ado.1587",
-                        "name": "Ado",
-                        "homeLocation": "Chungju",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "doomfist",
-                                "genji",
-                                "pharah"
-                            ],
-                            "player_number": 17,
-                            "preferred_slot": "2",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Chon",
-                        "givenName": "Gi Hyeon",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
-                        "user": {
-                            "id": 372
                         },
                         "type": "PLAYER"
                     },
@@ -1630,48 +1630,6 @@
                 },
                 {
                     "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4652,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "ark.2298",
-                        "name": "ArK",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy"
-                            ],
-                            "hometown": null,
-                            "player_number": 2,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Hong",
-                        "givenName": "Yeonjun",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
-                        "user": {
-                            "id": 2775
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25021
-                    },
-                    "sortIndex": 4
-                },
-                {
-                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -1705,6 +1663,48 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/9HWW7CZV9TN21549664649495.png",
                         "user": {
                             "id": 763
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25021
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4652,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "ark.2298",
+                        "name": "ArK",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy"
+                            ],
+                            "hometown": null,
+                            "player_number": 2,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Hong",
+                        "givenName": "Yeonjun",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
+                        "user": {
+                            "id": 2775
                         },
                         "type": "PLAYER"
                     },
@@ -1908,48 +1908,6 @@
                 },
                 {
                     "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4652,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "ark.2298",
-                        "name": "ArK",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy"
-                            ],
-                            "hometown": null,
-                            "player_number": 2,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Hong",
-                        "givenName": "Yeonjun",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
-                        "user": {
-                            "id": 2775
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25022
-                    },
-                    "sortIndex": 1
-                },
-                {
-                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -1995,40 +1953,41 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 5197,
+                        "id": 4652,
                         "availableLanguages": [
                             "en",
-                            "ko",
-                            "zh-cn"
+                            "zh-cn",
+                            "ko"
                         ],
-                        "handle": "ado.1587",
-                        "name": "Ado",
-                        "homeLocation": "Chungju",
+                        "handle": "ark.2298",
+                        "name": "ArK",
+                        "homeLocation": "Seoul",
                         "game": "OVERWATCH",
                         "attributes": {
+                            "hero_image": null,
                             "heroes": [
-                                "doomfist",
-                                "genji",
-                                "pharah"
+                                "lucio",
+                                "mercy"
                             ],
-                            "player_number": 17,
-                            "preferred_slot": "2",
-                            "role": "offense"
+                            "hometown": null,
+                            "player_number": 2,
+                            "preferred_slot": "4",
+                            "role": "support"
                         },
                         "attributesVersion": "1.0.0",
-                        "familyName": "Chon",
-                        "givenName": "Gi Hyeon",
+                        "familyName": "Hong",
+                        "givenName": "Yeonjun",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
                         "user": {
-                            "id": 372
+                            "id": 2775
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 25022
                     },
-                    "sortIndex": 2
+                    "sortIndex": 1
                 },
                 {
                     "team": {
@@ -2079,38 +2038,40 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 8730,
+                        "id": 5197,
                         "availableLanguages": [
                             "en",
+                            "ko",
                             "zh-cn"
                         ],
-                        "name": "Sansam",
-                        "homeLocation": "Incheon",
+                        "handle": "ado.1587",
+                        "name": "Ado",
+                        "homeLocation": "Chungju",
                         "game": "OVERWATCH",
                         "attributes": {
                             "heroes": [
-                                "dva",
-                                "roadhog",
-                                "zarya"
+                                "doomfist",
+                                "genji",
+                                "pharah"
                             ],
-                            "player_number": 33,
-                            "preferred_slot": "3",
-                            "role": "tank"
+                            "player_number": 17,
+                            "preferred_slot": "2",
+                            "role": "offense"
                         },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Kim",
-                        "givenName": "Hyang Gi",
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Chon",
+                        "givenName": "Gi Hyeon",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4CBNQCE3XA4K1549576974165.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
                         "user": {
-                            "id": 550
+                            "id": 372
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 25022
                     },
-                    "sortIndex": 3
+                    "sortIndex": 2
                 },
                 {
                     "team": {
@@ -2147,6 +2108,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/9HWW7CZV9TN21549664649495.png",
                         "user": {
                             "id": 763
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25022
+                    },
+                    "sortIndex": 3
+                },
+                {
+                    "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8730,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "Sansam",
+                        "homeLocation": "Incheon",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "dva",
+                                "roadhog",
+                                "zarya"
+                            ],
+                            "player_number": 33,
+                            "preferred_slot": "3",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Kim",
+                        "givenName": "Hyang Gi",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4CBNQCE3XA4K1549576974165.png",
+                        "user": {
+                            "id": 550
                         },
                         "type": "PLAYER"
                     },
@@ -2239,46 +2239,6 @@
                 },
                 {
                     "team": {
-                        "id": 4523,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5717,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "oge.9154",
-                        "name": "OGE",
-                        "homeLocation": "Gimcheon",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "reinhardt",
-                                "winston"
-                            ],
-                            "player_number": 2,
-                            "preferred_slot": "3",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Son",
-                        "givenName": "Minseok",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8HAXIV7M5TAM1549664649273.png",
-                        "user": {
-                            "id": 492
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25022
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
                         "id": 7697,
                         "type": "TEAM"
                     },
@@ -2311,6 +2271,46 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/iu\/IUGGMA16X97Q1562697181326.png",
                         "user": {
                             "id": 557
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25022
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
+                        "id": 4523,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5717,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "oge.9154",
+                        "name": "OGE",
+                        "homeLocation": "Gimcheon",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "reinhardt",
+                                "winston"
+                            ],
+                            "player_number": 2,
+                            "preferred_slot": "3",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Son",
+                        "givenName": "Minseok",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8HAXIV7M5TAM1549664649273.png",
+                        "user": {
+                            "id": 492
                         },
                         "type": "PLAYER"
                     },
@@ -2351,45 +2351,6 @@
             "players": [
                 {
                     "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8784,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Corey",
-                        "homeLocation": "Bensalem, Philadelphia",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 11,
-                            "preferred_slot": "0",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Nigra",
-                        "givenName": "Corey",
-                        "nationality": "US",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GATRQCCZ13I71549576973628.png",
-                        "user": {
-                            "id": 1515
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25023
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -2423,6 +2384,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
                         "user": {
                             "id": 26
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25023
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8784,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "Corey",
+                        "homeLocation": "Bensalem, Philadelphia",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 11,
+                            "preferred_slot": "0",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Nigra",
+                        "givenName": "Corey",
+                        "nationality": "US",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GATRQCCZ13I71549576973628.png",
+                        "user": {
+                            "id": 1515
                         },
                         "type": "PLAYER"
                     },
@@ -2516,46 +2516,6 @@
                 },
                 {
                     "team": {
-                        "id": 4523,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 5717,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "oge.9154",
-                        "name": "OGE",
-                        "homeLocation": "Gimcheon",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "reinhardt",
-                                "winston"
-                            ],
-                            "player_number": 2,
-                            "preferred_slot": "3",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Son",
-                        "givenName": "Minseok",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8HAXIV7M5TAM1549664649273.png",
-                        "user": {
-                            "id": 492
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25023
-                    },
-                    "sortIndex": 2
-                },
-                {
-                    "team": {
                         "id": 7697,
                         "type": "TEAM"
                     },
@@ -2588,6 +2548,46 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/4S8IJ7171U7D1549576973932.png",
                         "user": {
                             "id": 2619
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25023
+                    },
+                    "sortIndex": 2
+                },
+                {
+                    "team": {
+                        "id": 4523,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5717,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "oge.9154",
+                        "name": "OGE",
+                        "homeLocation": "Gimcheon",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "reinhardt",
+                                "winston"
+                            ],
+                            "player_number": 2,
+                            "preferred_slot": "3",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Son",
+                        "givenName": "Minseok",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8HAXIV7M5TAM1549664649273.png",
+                        "user": {
+                            "id": 492
                         },
                         "type": "PLAYER"
                     },
@@ -2678,6 +2678,48 @@
                 },
                 {
                     "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4652,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "ark.2298",
+                        "name": "ArK",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy"
+                            ],
+                            "hometown": null,
+                            "player_number": 2,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Hong",
+                        "givenName": "Yeonjun",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
+                        "user": {
+                            "id": 2775
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 25023
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -2725,41 +2767,41 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 4652,
+                        "id": 4488,
                         "availableLanguages": [
                             "en",
-                            "zh-cn",
-                            "ko"
+                            "zh-cn"
                         ],
-                        "handle": "ark.2298",
-                        "name": "ArK",
-                        "homeLocation": "Seoul",
+                        "handle": "leepy.5762",
+                        "name": "sleepy",
+                        "homeLocation": "Lakeland, FL",
                         "game": "OVERWATCH",
                         "attributes": {
                             "hero_image": null,
                             "heroes": [
-                                "lucio",
+                                "ana",
+                                "zenyatta",
                                 "mercy"
                             ],
-                            "hometown": null,
-                            "player_number": 2,
-                            "preferred_slot": "4",
+                            "hometown": "Lakeland, Flordia",
+                            "player_number": 0,
+                            "preferred_slot": "5",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
-                        "familyName": "Hong",
-                        "givenName": "Yeonjun",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
+                        "familyName": "Andrews",
+                        "givenName": "Nikola",
+                        "nationality": "US",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/iu\/IUGGMA16X97Q1562697181326.png",
                         "user": {
-                            "id": 2775
+                            "id": 557
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 25023
                     },
-                    "sortIndex": 4
+                    "sortIndex": 5
                 },
                 {
                     "team": {
@@ -2793,48 +2835,6 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/10V577SUYZ3R1555459272031.png",
                         "user": {
                             "id": 2321
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 25023
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4488,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "handle": "leepy.5762",
-                        "name": "sleepy",
-                        "homeLocation": "Lakeland, FL",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "ana",
-                                "zenyatta",
-                                "mercy"
-                            ],
-                            "hometown": "Lakeland, Flordia",
-                            "player_number": 0,
-                            "preferred_slot": "5",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Andrews",
-                        "givenName": "Nikola",
-                        "nationality": "US",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/iu\/IUGGMA16X97Q1562697181326.png",
-                        "user": {
-                            "id": 557
                         },
                         "type": "PLAYER"
                     },
@@ -2875,45 +2875,6 @@
             "players": [
                 {
                     "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8784,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Corey",
-                        "homeLocation": "Bensalem, Philadelphia",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 11,
-                            "preferred_slot": "0",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Nigra",
-                        "givenName": "Corey",
-                        "nationality": "US",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GATRQCCZ13I71549576973628.png",
-                        "user": {
-                            "id": 1515
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 24998
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -2958,40 +2919,38 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 5197,
+                        "id": 8784,
                         "availableLanguages": [
                             "en",
-                            "ko",
                             "zh-cn"
                         ],
-                        "handle": "ado.1587",
-                        "name": "Ado",
-                        "homeLocation": "Chungju",
+                        "name": "Corey",
+                        "homeLocation": "Bensalem, Philadelphia",
                         "game": "OVERWATCH",
                         "attributes": {
                             "heroes": [
-                                "doomfist",
-                                "genji",
-                                "pharah"
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
                             ],
-                            "player_number": 17,
-                            "preferred_slot": "2",
+                            "player_number": 11,
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Chon",
-                        "givenName": "Gi Hyeon",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Nigra",
+                        "givenName": "Corey",
+                        "nationality": "US",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/GATRQCCZ13I71549576973628.png",
                         "user": {
-                            "id": 372
+                            "id": 1515
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 24998
                     },
-                    "sortIndex": 1
+                    "sortIndex": 0
                 },
                 {
                     "team": {
@@ -3028,6 +2987,47 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/9HWW7CZV9TN21549664649495.png",
                         "user": {
                             "id": 763
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 24998
+                    },
+                    "sortIndex": 1
+                },
+                {
+                    "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 5197,
+                        "availableLanguages": [
+                            "en",
+                            "ko",
+                            "zh-cn"
+                        ],
+                        "handle": "ado.1587",
+                        "name": "Ado",
+                        "homeLocation": "Chungju",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "doomfist",
+                                "genji",
+                                "pharah"
+                            ],
+                            "player_number": 17,
+                            "preferred_slot": "2",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Chon",
+                        "givenName": "Gi Hyeon",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/8P51SUG05N171549576973629.png",
+                        "user": {
+                            "id": 372
                         },
                         "type": "PLAYER"
                     },
@@ -3284,48 +3284,6 @@
                 },
                 {
                     "team": {
-                        "id": 7697,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4652,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "ark.2298",
-                        "name": "ArK",
-                        "homeLocation": "Seoul",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "lucio",
-                                "mercy"
-                            ],
-                            "hometown": null,
-                            "player_number": 2,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Hong",
-                        "givenName": "Yeonjun",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
-                        "user": {
-                            "id": 2775
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 24998
-                    },
-                    "sortIndex": 5
-                },
-                {
-                    "team": {
                         "id": 4523,
                         "type": "TEAM"
                     },
@@ -3359,6 +3317,48 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/KRV5M2J8YM9T1549664649014.png",
                         "user": {
                             "id": 26
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 24998
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
+                        "id": 7697,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 4652,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn",
+                            "ko"
+                        ],
+                        "handle": "ark.2298",
+                        "name": "ArK",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "hero_image": null,
+                            "heroes": [
+                                "lucio",
+                                "mercy"
+                            ],
+                            "hometown": null,
+                            "player_number": 2,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Hong",
+                        "givenName": "Yeonjun",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/55A1TBPY9H1N1555459297154.png",
+                        "user": {
+                            "id": 2775
                         },
                         "type": "PLAYER"
                     },
