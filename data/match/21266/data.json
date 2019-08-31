@@ -567,7 +567,7 @@
                                 "brigitte"
                             ],
                             "player_number": 33,
-                            "preferred_slot": "1",
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -741,7 +741,7 @@
                                 "zenyatta"
                             ],
                             "player_number": 22,
-                            "preferred_slot": "5",
+                            "preferred_slot": "4",
                             "role": "support"
                         },
                         "attributesVersion": "1.0.0",
@@ -963,7 +963,7 @@
                             "brigitte"
                         ],
                         "player_number": 33,
-                        "preferred_slot": "1",
+                        "preferred_slot": "0",
                         "role": "offense"
                     },
                     "attributesVersion": "1.0.0",
@@ -1137,7 +1137,7 @@
                             "zenyatta"
                         ],
                         "player_number": 22,
-                        "preferred_slot": "5",
+                        "preferred_slot": "4",
                         "role": "support"
                     },
                     "attributesVersion": "1.0.0",
@@ -1329,6 +1329,40 @@
                 },
                 {
                     "team": {
+                        "id": 4410,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8789,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "Guard",
+                        "homeLocation": "Yeoju",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "player_number": 10,
+                            "preferred_slot": "0",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Lee",
+                        "givenName": "Hee dong",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0PFZDIGHMWL81549580262045.png",
+                        "user": {
+                            "id": 541
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20834
+                    },
+                    "sortIndex": 2
+                },
+                {
+                    "team": {
                         "id": 4408,
                         "type": "TEAM"
                     },
@@ -1360,40 +1394,6 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/IBX6S5M0J2CU1549652308660.png",
                         "user": {
                             "id": 2155
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20834
-                    },
-                    "sortIndex": 2
-                },
-                {
-                    "team": {
-                        "id": 4410,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8789,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Guard",
-                        "homeLocation": "Yeoju",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 10,
-                            "preferred_slot": "0",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Lee",
-                        "givenName": "Hee dong",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0PFZDIGHMWL81549580262045.png",
-                        "user": {
-                            "id": 541
                         },
                         "type": "PLAYER"
                     },
@@ -1490,45 +1490,6 @@
                 },
                 {
                     "team": {
-                        "id": 4408,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8893,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "diem",
-                        "homeLocation": "Busan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 21,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Bae",
-                        "givenName": "Min Sung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
-                        "user": {
-                            "id": 1743
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20834
-                    },
-                    "sortIndex": 4
-                },
-                {
-                    "team": {
                         "id": 4410,
                         "type": "TEAM"
                     },
@@ -1562,6 +1523,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/XYAERBBSJ9LD1549580262279.png",
                         "user": {
                             "id": 157
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20834
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8893,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "diem",
+                        "homeLocation": "Busan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 21,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Bae",
+                        "givenName": "Min Sung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "user": {
+                            "id": 1743
                         },
                         "type": "PLAYER"
                     },
@@ -1632,7 +1632,7 @@
                                 "brigitte"
                             ],
                             "player_number": 33,
-                            "preferred_slot": "1",
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -1682,38 +1682,6 @@
             "players": [
                 {
                     "team": {
-                        "id": 4408,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8891,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "name": "Luffy",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 66,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Yang",
-                        "givenName": "Sunghyeon",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/214ASTNYM34F1549652309230.png",
-                        "user": {
-                            "id": 955
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20835
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
                         "id": 4410,
                         "type": "TEAM"
                     },
@@ -1745,6 +1713,38 @@
                         "givenName": "Seungtae",
                         "nationality": "KR",
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QK3JIPEBML3B1549580261732.png",
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20835
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8891,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "name": "Luffy",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "player_number": 66,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Yang",
+                        "givenName": "Sunghyeon",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/214ASTNYM34F1549652309230.png",
+                        "user": {
+                            "id": 955
+                        },
                         "type": "PLAYER"
                     },
                     "matchGame": {
@@ -1908,45 +1908,6 @@
                 },
                 {
                     "team": {
-                        "id": 4408,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8893,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "diem",
-                        "homeLocation": "Busan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 21,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Bae",
-                        "givenName": "Min Sung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
-                        "user": {
-                            "id": 1743
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20835
-                    },
-                    "sortIndex": 3
-                },
-                {
-                    "team": {
                         "id": 4410,
                         "type": "TEAM"
                     },
@@ -1980,6 +1941,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/UIRNGJDS2CW81549580262042.png",
                         "user": {
                             "id": 1848
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20835
+                    },
+                    "sortIndex": 3
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8893,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "diem",
+                        "homeLocation": "Busan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 21,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Bae",
+                        "givenName": "Min Sung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "user": {
+                            "id": 1743
                         },
                         "type": "PLAYER"
                     },
@@ -2050,7 +2050,7 @@
                                 "brigitte"
                             ],
                             "player_number": 33,
-                            "preferred_slot": "1",
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -2326,40 +2326,6 @@
                 },
                 {
                     "team": {
-                        "id": 4410,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8789,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "Guard",
-                        "homeLocation": "Yeoju",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 10,
-                            "preferred_slot": "0",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Lee",
-                        "givenName": "Hee dong",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0PFZDIGHMWL81549580262045.png",
-                        "user": {
-                            "id": 541
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20836
-                    },
-                    "sortIndex": 2
-                },
-                {
-                    "team": {
                         "id": 4408,
                         "type": "TEAM"
                     },
@@ -2403,42 +2369,37 @@
                 },
                 {
                     "team": {
-                        "id": 4408,
+                        "id": 4410,
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 8893,
+                        "id": 8789,
                         "availableLanguages": [
                             "en",
                             "zh-cn"
                         ],
-                        "name": "diem",
-                        "homeLocation": "Busan",
+                        "name": "Guard",
+                        "homeLocation": "Yeoju",
                         "game": "OVERWATCH",
                         "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 21,
-                            "preferred_slot": "1",
+                            "player_number": 10,
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.2",
-                        "familyName": "Bae",
-                        "givenName": "Min Sung",
+                        "familyName": "Lee",
+                        "givenName": "Hee dong",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/0PFZDIGHMWL81549580262045.png",
                         "user": {
-                            "id": 1743
+                            "id": 541
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 20836
                     },
-                    "sortIndex": 3
+                    "sortIndex": 2
                 },
                 {
                     "team": {
@@ -2489,36 +2450,38 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 8894,
+                        "id": 8893,
                         "availableLanguages": [
                             "en",
                             "zh-cn"
                         ],
-                        "name": "YOUNGJIN",
-                        "homeLocation": "Geojedo Island",
+                        "name": "diem",
+                        "homeLocation": "Busan",
                         "game": "OVERWATCH",
                         "attributes": {
                             "heroes": [
-                                "brigitte"
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
                             ],
-                            "player_number": 33,
+                            "player_number": 21,
                             "preferred_slot": "1",
                             "role": "offense"
                         },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Jin",
-                        "givenName": "YoungJin",
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Bae",
+                        "givenName": "Min Sung",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3ABK5QG7KEG41549652309231.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
                         "user": {
-                            "id": 1627
+                            "id": 1743
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 20836
                     },
-                    "sortIndex": 4
+                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -2569,38 +2532,36 @@
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 8863,
+                        "id": 8894,
                         "availableLanguages": [
                             "en",
                             "zh-cn"
                         ],
-                        "name": "GuardiaN",
-                        "homeLocation": "Seoul",
+                        "name": "YOUNGJIN",
+                        "homeLocation": "Geojedo Island",
                         "game": "OVERWATCH",
                         "attributes": {
                             "heroes": [
-                                "dva",
-                                "reinhardt",
-                                "zarya"
+                                "brigitte"
                             ],
-                            "player_number": 11,
-                            "preferred_slot": "2",
-                            "role": "tank"
+                            "player_number": 33,
+                            "preferred_slot": "0",
+                            "role": "offense"
                         },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Jo",
-                        "givenName": "JunHwan",
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Jin",
+                        "givenName": "YoungJin",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/AMJLJ4X88JTY1549652309226.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/3ABK5QG7KEG41549652309231.png",
                         "user": {
-                            "id": 1005
+                            "id": 1627
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 20836
                     },
-                    "sortIndex": 5
+                    "sortIndex": 4
                 },
                 {
                     "team": {
@@ -2637,6 +2598,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/HCNEZRY839OS1549580261731.png",
                         "user": {
                             "id": 868
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20836
+                    },
+                    "sortIndex": 5
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8863,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "GuardiaN",
+                        "homeLocation": "Seoul",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "dva",
+                                "reinhardt",
+                                "zarya"
+                            ],
+                            "player_number": 11,
+                            "preferred_slot": "2",
+                            "role": "tank"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Jo",
+                        "givenName": "JunHwan",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/AMJLJ4X88JTY1549652309226.png",
+                        "user": {
+                            "id": 1005
                         },
                         "type": "PLAYER"
                     },
@@ -2903,45 +2903,6 @@
                 },
                 {
                     "team": {
-                        "id": 4408,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8893,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn"
-                        ],
-                        "name": "diem",
-                        "homeLocation": "Busan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
-                            ],
-                            "player_number": 21,
-                            "preferred_slot": "1",
-                            "role": "offense"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Bae",
-                        "givenName": "Min Sung",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
-                        "user": {
-                            "id": 1743
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 20837
-                    },
-                    "sortIndex": 3
-                },
-                {
-                    "team": {
                         "id": 4410,
                         "type": "TEAM"
                     },
@@ -2975,6 +2936,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/UIRNGJDS2CW81549580262042.png",
                         "user": {
                             "id": 1848
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 20837
+                    },
+                    "sortIndex": 3
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8893,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "diem",
+                        "homeLocation": "Busan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 21,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Bae",
+                        "givenName": "Min Sung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "user": {
+                            "id": 1743
                         },
                         "type": "PLAYER"
                     },
@@ -3045,7 +3045,7 @@
                                 "brigitte"
                             ],
                             "player_number": 33,
-                            "preferred_slot": "1",
+                            "preferred_slot": "0",
                             "role": "offense"
                         },
                         "attributesVersion": "1.0.0",
@@ -3172,38 +3172,6 @@
             "players": [
                 {
                     "team": {
-                        "id": 4408,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8891,
-                        "availableLanguages": [
-                            "en"
-                        ],
-                        "name": "Luffy",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "player_number": 66,
-                            "preferred_slot": "4",
-                            "role": "support"
-                        },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Yang",
-                        "givenName": "Sunghyeon",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/214ASTNYM34F1549652309230.png",
-                        "user": {
-                            "id": 955
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22405
-                    },
-                    "sortIndex": 0
-                },
-                {
-                    "team": {
                         "id": 4410,
                         "type": "TEAM"
                     },
@@ -3237,6 +3205,38 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/QKWUGALXT56T1549580262199.png",
                         "user": {
                             "id": 812
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22405
+                    },
+                    "sortIndex": 0
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8891,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "name": "Luffy",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "player_number": 66,
+                            "preferred_slot": "4",
+                            "role": "support"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Yang",
+                        "givenName": "Sunghyeon",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/214ASTNYM34F1549652309230.png",
+                        "user": {
+                            "id": 955
                         },
                         "type": "PLAYER"
                     },
@@ -3396,49 +3396,6 @@
                 },
                 {
                     "team": {
-                        "id": 4410,
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 4666,
-                        "availableLanguages": [
-                            "en",
-                            "zh-cn",
-                            "ko"
-                        ],
-                        "handle": "gesture.2414",
-                        "name": "Gesture",
-                        "homeLocation": "Gunsan",
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "hero_image": null,
-                            "heroes": [
-                                "winston",
-                                "reinhardt",
-                                "roadhog"
-                            ],
-                            "hometown": null,
-                            "player_number": 7,
-                            "preferred_slot": "2",
-                            "role": "tank"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "familyName": "Hong",
-                        "givenName": "Jaehui",
-                        "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/UIRNGJDS2CW81549580262042.png",
-                        "user": {
-                            "id": 1848
-                        },
-                        "type": "PLAYER"
-                    },
-                    "matchGame": {
-                        "id": 22405
-                    },
-                    "sortIndex": 3
-                },
-                {
-                    "team": {
                         "id": 4408,
                         "type": "TEAM"
                     },
@@ -3482,42 +3439,46 @@
                 },
                 {
                     "team": {
-                        "id": 4408,
+                        "id": 4410,
                         "type": "TEAM"
                     },
                     "player": {
-                        "id": 8893,
+                        "id": 4666,
                         "availableLanguages": [
                             "en",
-                            "zh-cn"
+                            "zh-cn",
+                            "ko"
                         ],
-                        "name": "diem",
-                        "homeLocation": "Busan",
+                        "handle": "gesture.2414",
+                        "name": "Gesture",
+                        "homeLocation": "Gunsan",
                         "game": "OVERWATCH",
                         "attributes": {
+                            "hero_image": null,
                             "heroes": [
-                                "mccree",
-                                "tracer",
-                                "widowmaker"
+                                "winston",
+                                "reinhardt",
+                                "roadhog"
                             ],
-                            "player_number": 21,
-                            "preferred_slot": "1",
-                            "role": "offense"
+                            "hometown": null,
+                            "player_number": 7,
+                            "preferred_slot": "2",
+                            "role": "tank"
                         },
-                        "attributesVersion": "1.0.2",
-                        "familyName": "Bae",
-                        "givenName": "Min Sung",
+                        "attributesVersion": "1.0.0",
+                        "familyName": "Hong",
+                        "givenName": "Jaehui",
                         "nationality": "KR",
-                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/UIRNGJDS2CW81549580262042.png",
                         "user": {
-                            "id": 1743
+                            "id": 1848
                         },
                         "type": "PLAYER"
                     },
                     "matchGame": {
                         "id": 22405
                     },
-                    "sortIndex": 4
+                    "sortIndex": 3
                 },
                 {
                     "team": {
@@ -3554,6 +3515,45 @@
                         "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/XYAERBBSJ9LD1549580262279.png",
                         "user": {
                             "id": 157
+                        },
+                        "type": "PLAYER"
+                    },
+                    "matchGame": {
+                        "id": 22405
+                    },
+                    "sortIndex": 4
+                },
+                {
+                    "team": {
+                        "id": 4408,
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8893,
+                        "availableLanguages": [
+                            "en",
+                            "zh-cn"
+                        ],
+                        "name": "diem",
+                        "homeLocation": "Busan",
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "heroes": [
+                                "mccree",
+                                "tracer",
+                                "widowmaker"
+                            ],
+                            "player_number": 21,
+                            "preferred_slot": "1",
+                            "role": "offense"
+                        },
+                        "attributesVersion": "1.0.2",
+                        "familyName": "Bae",
+                        "givenName": "Min Sung",
+                        "nationality": "KR",
+                        "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/28F2GFKQKS8S1549652308197.png",
+                        "user": {
+                            "id": 1743
                         },
                         "type": "PLAYER"
                     },
