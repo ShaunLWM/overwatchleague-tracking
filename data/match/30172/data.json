@@ -3708,7 +3708,15 @@
                 "prize": "$3,500,000.00 USD",
                 "handle": "tournament-ad511615-d0fc-5e42-aff9-8166850574c0",
                 "title": "Overwatch League 2019 Post-Season",
-                "attributes": [],
+                "attributes": {
+                    "program": {
+                        "environment": "prod",
+                        "phase": "playoffs",
+                        "season_id": "2019",
+                        "type": "owl"
+                    }
+                },
+                "attributesVersion": "1.1.0",
                 "subEvents": [
                     {
                         "id": 26807,
