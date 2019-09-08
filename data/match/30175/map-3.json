@@ -15,7 +15,7 @@
             "stats": [
                 {
                     "name": "deaths",
-                    "value": 16,
+                    "value": 36,
                     "id": "0x086000000000002A"
                 }
             ],
@@ -94,6 +94,11 @@
                     ],
                     "heroes": [
                         {
+                            "hero_id": "0x02E0000000000005",
+                            "name": "hanzo",
+                            "stats": []
+                        },
+                        {
                             "hero_id": "0x02E000000000012F",
                             "name": "doomfist",
                             "stats": [
@@ -121,21 +126,42 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 3903.7780723571777,
+                            "value": 9649.152896374464,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 2,
+                            "value": 4,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 8,
+                            "value": 18,
                             "id": "0x086000000000001F"
                         }
                     ],
                     "heroes": [
+                        {
+                            "hero_id": "0x02E000000000007A",
+                            "name": "dva",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 5745.374824017286,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 2,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 10,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
                         {
                             "hero_id": "0x02E000000000023B",
                             "name": "sigma",
@@ -164,21 +190,47 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 6706.090727329254,
+                            "value": 16884.826378822327,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 1,
+                            "value": 7,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 19,
+                            "value": 30,
                             "id": "0x086000000000001F"
+                        },
+                        {
+                            "name": "healing",
+                            "value": 121.88194161653519,
+                            "id": "0x08600000000001C1"
                         }
                     ],
                     "heroes": [
+                        {
+                            "hero_id": "0x02E0000000000002",
+                            "name": "reaper",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 675.7048463821411,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 121.88194161653519,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
+                        },
                         {
                             "hero_id": "0x02E000000000012E",
                             "name": "sombra",
@@ -190,17 +242,17 @@
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 6706.090727329254,
+                                    "value": 16209.121532440186,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
                                     "name": "deaths",
-                                    "value": 1,
+                                    "value": 6,
                                     "id": "0x086000000000002A"
                                 },
                                 {
                                     "name": "eliminations",
-                                    "value": 19,
+                                    "value": 30,
                                     "id": "0x086000000000001F"
                                 }
                             ]
@@ -209,12 +261,80 @@
                 },
                 {
                     "esports_player_id": 8892,
-                    "stats": [],
+                    "stats": [
+                        {
+                            "name": "damage",
+                            "value": 519.626277923584,
+                            "id": "0x08600000000001BF"
+                        },
+                        {
+                            "name": "deaths",
+                            "value": 6,
+                            "id": "0x086000000000002A"
+                        },
+                        {
+                            "name": "eliminations",
+                            "value": 1,
+                            "id": "0x086000000000001F"
+                        },
+                        {
+                            "name": "healing",
+                            "value": 8443.801799118519,
+                            "id": "0x08600000000001C1"
+                        }
+                    ],
                     "heroes": [
                         {
                             "hero_id": "0x02E0000000000221",
                             "name": "baptiste",
                             "stats": []
+                        },
+                        {
+                            "hero_id": "0x02E0000000000079",
+                            "name": "lucio",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 287.5,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 695.691622197628,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000004",
+                            "name": "mercy",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 232.12627792358398,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 5,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 1,
+                                    "id": "0x086000000000001F"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 7748.110176920891,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -223,16 +343,42 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 449.7908477783203,
+                            "value": 8004.404214560986,
                             "id": "0x08600000000001BF"
                         },
                         {
+                            "name": "deaths",
+                            "value": 6,
+                            "id": "0x086000000000002A"
+                        },
+                        {
                             "name": "eliminations",
-                            "value": 2,
+                            "value": 17,
                             "id": "0x086000000000001F"
                         }
                     ],
                     "heroes": [
+                        {
+                            "hero_id": "0x02E000000000013E",
+                            "name": "orisa",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 4299.86821937561,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 2,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 9,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
                         {
                             "hero_id": "0x02E00000000001CA",
                             "name": "wreckingball",
@@ -248,6 +394,27 @@
                                     "id": "0x086000000000001F"
                                 }
                             ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000009",
+                            "name": "winston",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 3254.745147407055,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 4,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 6,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -258,7 +425,7 @@
             "stats": [
                 {
                     "name": "deaths",
-                    "value": 17,
+                    "value": 50,
                     "id": "0x086000000000002A"
                 }
             ],
@@ -268,26 +435,52 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 1222.64608836174,
+                            "value": 8993.458759725094,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 2,
+                            "value": 7,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 3,
+                            "value": 23,
                             "id": "0x086000000000001F"
                         },
                         {
                             "name": "healing",
-                            "value": 201.92308676242828,
+                            "value": 272.76308876276016,
                             "id": "0x08600000000001C1"
                         }
                     ],
                     "heroes": [
+                        {
+                            "hero_id": "0x02E0000000000002",
+                            "name": "reaper",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 287.2320055961609,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 1,
+                                    "id": "0x086000000000001F"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 70.84000200033188,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
+                        },
                         {
                             "hero_id": "0x02E00000000000DD",
                             "name": "mei",
@@ -313,6 +506,43 @@
                                     "id": "0x08600000000001C1"
                                 }
                             ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000003",
+                            "name": "tracer",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 6752.531929194927,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 3,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 19,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000008",
+                            "name": "pharah",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 731.0487365722656,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -321,22 +551,22 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 1293,
+                            "value": 4214.04266834259,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 4,
+                            "value": 6,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 1,
+                            "value": 11,
                             "id": "0x086000000000001F"
                         },
                         {
                             "name": "healing",
-                            "value": 2256.83834952116,
+                            "value": 6161.234481498599,
                             "id": "0x08600000000001C1"
                         }
                     ],
@@ -347,22 +577,38 @@
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 1293,
+                                    "value": 4214.04266834259,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
                                     "name": "deaths",
-                                    "value": 4,
+                                    "value": 5,
                                     "id": "0x086000000000002A"
                                 },
                                 {
                                     "name": "eliminations",
-                                    "value": 1,
+                                    "value": 11,
                                     "id": "0x086000000000001F"
                                 },
                                 {
                                     "name": "healing",
-                                    "value": 2256.83834952116,
+                                    "value": 5203.339037761092,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000004",
+                            "name": "mercy",
+                            "stats": [
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 957.8954437375069,
                                     "id": "0x08600000000001C1"
                                 }
                             ]
@@ -374,38 +620,106 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 1449.3891901373863,
+                            "value": 9968.908121407032,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 3,
+                            "value": 10,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 1,
+                            "value": 15,
                             "id": "0x086000000000001F"
+                        },
+                        {
+                            "name": "healing",
+                            "value": 100.40292239189148,
+                            "id": "0x08600000000001C1"
                         }
                     ],
                     "heroes": [
+                        {
+                            "hero_id": "0x02E0000000000002",
+                            "name": "reaper",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 1163.7836871147156,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 4,
+                                    "id": "0x086000000000001F"
+                                },
+                                {
+                                    "name": "healing",
+                                    "value": 100.40292239189148,
+                                    "id": "0x08600000000001C1"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E000000000000A",
+                            "name": "widowmaker",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 1332.582664489746,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 3,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E0000000000042",
+                            "name": "mccree",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 3469.0010871887207,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 1,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 4,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
                         {
                             "hero_id": "0x02E000000000012F",
                             "name": "doomfist",
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 659.8092176318169,
+                                    "value": 3213.96071010828,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
                                     "name": "deaths",
-                                    "value": 2,
+                                    "value": 7,
                                     "id": "0x086000000000002A"
                                 },
                                 {
                                     "name": "eliminations",
-                                    "value": 1,
+                                    "value": 4,
                                     "id": "0x086000000000001F"
                                 }
                             ]
@@ -433,17 +747,17 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 4731.8290194272995,
+                            "value": 9124.367707371712,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 3,
+                            "value": 8,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 13,
+                            "value": 19,
                             "id": "0x086000000000001F"
                         }
                     ],
@@ -475,12 +789,38 @@
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 3171.0790194272995,
+                                    "value": 6117.370437264442,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
+                                    "name": "deaths",
+                                    "value": 3,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
                                     "name": "eliminations",
-                                    "value": 8,
+                                    "value": 9,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E00000000001CA",
+                            "name": "wreckingball",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 1446.2472701072693,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 2,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 5,
                                     "id": "0x086000000000001F"
                                 }
                             ]
@@ -492,22 +832,22 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 3646.7655639648438,
+                            "value": 5344.205597877502,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 4,
+                            "value": 9,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 11,
+                            "value": 13,
                             "id": "0x086000000000001F"
                         },
                         {
                             "name": "healing",
-                            "value": 5205.120292901993,
+                            "value": 8211.583633184433,
                             "id": "0x08600000000001C1"
                         }
                     ],
@@ -518,22 +858,22 @@
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 3646.7655639648438,
+                                    "value": 5344.205597877502,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
                                     "name": "deaths",
-                                    "value": 4,
+                                    "value": 9,
                                     "id": "0x086000000000002A"
                                 },
                                 {
                                     "name": "eliminations",
-                                    "value": 11,
+                                    "value": 13,
                                     "id": "0x086000000000001F"
                                 },
                                 {
                                     "name": "healing",
-                                    "value": 5205.120292901993,
+                                    "value": 8211.583633184433,
                                     "id": "0x08600000000001C1"
                                 }
                             ]
@@ -545,17 +885,17 @@
                     "stats": [
                         {
                             "name": "damage",
-                            "value": 1898.658719241619,
+                            "value": 5218.454255074263,
                             "id": "0x08600000000001BF"
                         },
                         {
                             "name": "deaths",
-                            "value": 1,
+                            "value": 10,
                             "id": "0x086000000000002A"
                         },
                         {
                             "name": "eliminations",
-                            "value": 10,
+                            "value": 18,
                             "id": "0x086000000000001F"
                         }
                     ],
@@ -582,17 +922,59 @@
                             ]
                         },
                         {
+                            "hero_id": "0x02E00000000001CA",
+                            "name": "wreckingball",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 296.43665504455566,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 4,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
+                        {
                             "hero_id": "0x02E0000000000009",
                             "name": "winston",
                             "stats": [
                                 {
                                     "name": "damage",
-                                    "value": 1660.231930911541,
+                                    "value": 4030.216225594282,
                                     "id": "0x08600000000001BF"
                                 },
                                 {
+                                    "name": "deaths",
+                                    "value": 6,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
                                     "name": "eliminations",
-                                    "value": 9,
+                                    "value": 12,
+                                    "id": "0x086000000000001F"
+                                }
+                            ]
+                        },
+                        {
+                            "hero_id": "0x02E000000000023B",
+                            "name": "sigma",
+                            "stats": [
+                                {
+                                    "name": "damage",
+                                    "value": 653.3745861053467,
+                                    "id": "0x08600000000001BF"
+                                },
+                                {
+                                    "name": "deaths",
+                                    "value": 3,
+                                    "id": "0x086000000000002A"
+                                },
+                                {
+                                    "name": "eliminations",
+                                    "value": 1,
                                     "id": "0x086000000000001F"
                                 }
                             ]
@@ -605,7 +987,7 @@
     "stats": [
         {
             "name": "total_game_time",
-            "value": 0
+            "value": 819625
         }
     ]
 }
