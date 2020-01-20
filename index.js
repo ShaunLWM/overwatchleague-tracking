@@ -19,10 +19,10 @@ const API_BASE = "https://api.overwatchleague.com/";
     for (const id of stages) {
         console.log(`Stage: ${id}`);
         fs.ensureDirSync(`./data/match/${id}`);
-        const sresult = await get(`match/${id}`);
-        for (const i = 0; i < sresult["competitors"].length; i += 1)
+        let sresult = await get(`match/${id}`);
+        for (let i = 0; i < sresult["competitors"].length; i += 1)
             sresult["competitors"][i]["players"] = sresult["competitors"][i]["players"].sort((a, b) => (a["player"]["id"] > b["player"]["id"]) ? 1 : ((b["player"]["id"] > a["player"]["id"]) ? -1 : 0));
-        writeToFile(`./data/match/${id}/data.json`);
+        writeToFile(`./data/match/${id}/data.json`, sresult);
         await sleep();
     }
 
@@ -54,7 +54,7 @@ const API_BASE = "https://api.overwatchleague.com/";
         console.log(`Team: ${team["competitor"]["id"]}`);
         const sresult = await get(`team/${team["competitor"]["id"]}`);
         sresult["players"] = sresult["players"].sort((a, b) => (a["id"] > b["id"]) ? 1 : ((b["id"] > a["id"]) ? -1 : 0));
-        for (const i = 0; i < sresult["schedule"].length; i += 1) {
+        for (let i = 0; i < sresult["schedule"].length; i += 1) {
             for (const p = 0; p < sresult["schedule"][i]["competitors"]; p += 1)
                 sresult["schedule"][i]["competitors"][p]["players"] = sresult["schedule"][i]["competitors"][p]["players"].sort((a, b) => (a["player"]["id"] > b["player"]["id"]) ? 1 : ((b["player"]["id"] > a["player"]["id"]) ? -1 : 0));
         }
@@ -115,6 +115,6 @@ function writeToFile(dir, data) {
     fs.writeFileSync(dir, JSON.stringify(data, null, 2));
 }
 
-async function sleep(ms = 500) {
+async function sleep(ms = 0) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
