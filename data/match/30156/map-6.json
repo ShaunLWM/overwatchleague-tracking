@@ -1,947 +1,947 @@
 {
-    "game_id": "matchgame-c69b17e7-99d3-704e-9cfc-4066b0f8f28e",
-    "match_id": "match-b4e57fa5-8500-244a-87fa-6a8dc23241a1",
-    "tournament_id": "tournament-ad511615-d0fc-5e42-aff9-8166850574c0",
-    "tournament_type": "owl",
-    "season_id": "2019",
-    "game_number": 6,
-    "map_id": "0x08000000000001D4",
-    "map_type": "HYBRID",
-    "esports_tournament_id": 6990,
-    "esports_match_id": 30156,
-    "teams": [
+  "game_id": "matchgame-c69b17e7-99d3-704e-9cfc-4066b0f8f28e",
+  "match_id": "match-b4e57fa5-8500-244a-87fa-6a8dc23241a1",
+  "tournament_id": "tournament-ad511615-d0fc-5e42-aff9-8166850574c0",
+  "tournament_type": "owl",
+  "season_id": "2019",
+  "game_number": 6,
+  "map_id": "0x08000000000001D4",
+  "map_type": "HYBRID",
+  "esports_tournament_id": 6990,
+  "esports_match_id": 30156,
+  "teams": [
+    {
+      "esports_team_id": 4403,
+      "stats": [
         {
-            "esports_team_id": 4403,
-            "stats": [
+          "name": "deaths",
+          "value": 45,
+          "id": "0x086000000000002A"
+        }
+      ],
+      "players": [
+        {
+          "esports_player_id": 4654,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 24540.310608506203,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 10,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 53,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 161.80769982933998,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E000000000012F",
+              "name": "doomfist",
+              "stats": [
                 {
-                    "name": "deaths",
-                    "value": 45,
-                    "id": "0x086000000000002A"
+                  "name": "damage",
+                  "value": 12133.048477470875,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 6,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 18,
+                  "id": "0x086000000000001F"
                 }
-            ],
-            "players": [
+              ]
+            },
+            {
+              "hero_id": "0x02E000000000012E",
+              "name": "sombra",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E00000000000DD",
+              "name": "mei",
+              "stats": [
                 {
-                    "esports_player_id": 4654,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 24540.310608506203,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 10,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 53,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 161.80769982933998,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E000000000012F",
-                            "name": "doomfist",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 12133.048477470875,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 6,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 18,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E000000000012E",
-                            "name": "sombra",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E00000000000DD",
-                            "name": "mei",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 8358.956826984882,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 3,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 25,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 161.80769982933998,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000008",
-                            "name": "pharah",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 4048.3053040504456,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 10,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
+                  "name": "damage",
+                  "value": 8358.956826984882,
+                  "id": "0x08600000000001BF"
                 },
                 {
-                    "esports_player_id": 4093,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 26741.072838306427,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 8,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 46,
-                            "id": "0x086000000000001F"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E000000000013E",
-                            "name": "orisa",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 26741.072838306427,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 8,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 46,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
+                  "name": "deaths",
+                  "value": 3,
+                  "id": "0x086000000000002A"
                 },
                 {
-                    "esports_player_id": 4099,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 44077.76681423187,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 10,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 60,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 3788.249254465103,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000002",
-                            "name": "reaper",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 30227.394731521606,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 8,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 49,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 3465.3242082595825,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000016",
-                            "name": "symmetra",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E0000000000015",
-                            "name": "bastion",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 13850.372082710266,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 2,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 11,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 322.92504620552063,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        }
-                    ]
+                  "name": "eliminations",
+                  "value": 25,
+                  "id": "0x086000000000001F"
                 },
                 {
-                    "esports_player_id": 4653,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 18624.127816438675,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 6,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 66,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 32665.071343533695,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000221",
-                            "name": "baptiste",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 1099.369047164917,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 2,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 5,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 5330.0436844825745,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E000000000013B",
-                            "name": "ana",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E0000000000195",
-                            "name": "brigitte",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E00000000001A2",
-                            "name": "moira",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 17524.758769273758,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 4,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 61,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 27335.02765905112,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 4649,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 33361.203454494476,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 6,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 43,
-                            "id": "0x086000000000001F"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E00000000001CA",
-                            "name": "wreckingball",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E000000000023B",
-                            "name": "sigma",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 33361.203454494476,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 6,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 43,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 4841,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 15843.012280464172,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 5,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 44,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 20641.80303004384,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000079",
-                            "name": "lucio",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 15212.866738319397,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 4,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 39,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 17167.73600104451,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000004",
-                            "name": "mercy",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 630.1455421447754,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 5,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 3474.0670289993286,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        }
-                    ]
+                  "name": "healing",
+                  "value": 161.80769982933998,
+                  "id": "0x08600000000001C1"
                 }
-            ]
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000008",
+              "name": "pharah",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 4048.3053040504456,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 10,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            }
+          ]
         },
         {
-            "esports_team_id": 7696,
-            "stats": [
+          "esports_player_id": 4093,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 26741.072838306427,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 8,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 46,
+              "id": "0x086000000000001F"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E000000000013E",
+              "name": "orisa",
+              "stats": [
                 {
-                    "name": "deaths",
-                    "value": 89,
-                    "id": "0x086000000000002A"
+                  "name": "damage",
+                  "value": 26741.072838306427,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 8,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 46,
+                  "id": "0x086000000000001F"
                 }
-            ],
-            "players": [
-                {
-                    "esports_player_id": 8749,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 17992.498010635376,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 12,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 22,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 14847.609299510717,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000079",
-                            "name": "lucio",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 17912.498010635376,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 11,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 22,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 14424.794413894415,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000004",
-                            "name": "mercy",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 80,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 422.8148856163025,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 8750,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 29615.034351199865,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 17,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 31,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 365.6595951318741,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E000000000012F",
-                            "name": "doomfist",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 17277.83831036091,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 11,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 20,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E000000000012E",
-                            "name": "sombra",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E00000000000DD",
-                            "name": "mei",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 6646.049523085356,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 5,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 7,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 365.6595951318741,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000008",
-                            "name": "pharah",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 5691.146517753601,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 4,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 8728,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 32225.790440917015,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 14,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 31,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 2500.124070107937,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000002",
-                            "name": "reaper",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 28484.569028258324,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 13,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 28,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 2500.124070107937,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E0000000000015",
-                            "name": "bastion",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 3741.2214126586914,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 3,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 8729,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 19513.5967387259,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 14,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 32,
-                            "id": "0x086000000000001F"
-                        },
-                        {
-                            "name": "healing",
-                            "value": 28979.512292042375,
-                            "id": "0x08600000000001C1"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000221",
-                            "name": "baptiste",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 166,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 2,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 2242.09814620018,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E000000000013B",
-                            "name": "ana",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 910.9400291442871,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 3,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 1,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 1648.8683395385742,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E00000000001A2",
-                            "name": "moira",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 18436.656709581614,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 10,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 29,
-                                    "id": "0x086000000000001F"
-                                },
-                                {
-                                    "name": "healing",
-                                    "value": 25088.54580630362,
-                                    "id": "0x08600000000001C1"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 8748,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 40263.75044441223,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 16,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 27,
-                            "id": "0x086000000000001F"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E000000000023B",
-                            "name": "sigma",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 40263.75044441223,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 16,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 27,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "esports_player_id": 5718,
-                    "stats": [
-                        {
-                            "name": "damage",
-                            "value": 26677.56275856495,
-                            "id": "0x08600000000001BF"
-                        },
-                        {
-                            "name": "deaths",
-                            "value": 16,
-                            "id": "0x086000000000002A"
-                        },
-                        {
-                            "name": "eliminations",
-                            "value": 28,
-                            "id": "0x086000000000001F"
-                        }
-                    ],
-                    "heroes": [
-                        {
-                            "hero_id": "0x02E0000000000007",
-                            "name": "reinhardt",
-                            "stats": []
-                        },
-                        {
-                            "hero_id": "0x02E000000000013E",
-                            "name": "orisa",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 26114.142478108406,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 15,
-                                    "id": "0x086000000000002A"
-                                },
-                                {
-                                    "name": "eliminations",
-                                    "value": 28,
-                                    "id": "0x086000000000001F"
-                                }
-                            ]
-                        },
-                        {
-                            "hero_id": "0x02E00000000001CA",
-                            "name": "wreckingball",
-                            "stats": [
-                                {
-                                    "name": "damage",
-                                    "value": 563.420280456543,
-                                    "id": "0x08600000000001BF"
-                                },
-                                {
-                                    "name": "deaths",
-                                    "value": 1,
-                                    "id": "0x086000000000002A"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "stats": [
+              ]
+            }
+          ]
+        },
         {
-            "name": "total_game_time",
-            "value": 1413258
+          "esports_player_id": 4099,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 44077.76681423187,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 10,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 60,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 3788.249254465103,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000002",
+              "name": "reaper",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 30227.394731521606,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 8,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 49,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 3465.3242082595825,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000016",
+              "name": "symmetra",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E0000000000015",
+              "name": "bastion",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 13850.372082710266,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 2,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 11,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 322.92504620552063,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 4653,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 18624.127816438675,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 6,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 66,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 32665.071343533695,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000221",
+              "name": "baptiste",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 1099.369047164917,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 2,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 5,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 5330.0436844825745,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E000000000013B",
+              "name": "ana",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E0000000000195",
+              "name": "brigitte",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E00000000001A2",
+              "name": "moira",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 17524.758769273758,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 4,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 61,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 27335.02765905112,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 4649,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 33361.203454494476,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 6,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 43,
+              "id": "0x086000000000001F"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E00000000001CA",
+              "name": "wreckingball",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E000000000023B",
+              "name": "sigma",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 33361.203454494476,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 6,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 43,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 4841,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 15843.012280464172,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 5,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 44,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 20641.80303004384,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000079",
+              "name": "lucio",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 15212.866738319397,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 4,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 39,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 17167.73600104451,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000004",
+              "name": "mercy",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 630.1455421447754,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 5,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 3474.0670289993286,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "esports_team_id": 7696,
+      "stats": [
+        {
+          "name": "deaths",
+          "value": 89,
+          "id": "0x086000000000002A"
+        }
+      ],
+      "players": [
+        {
+          "esports_player_id": 8749,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 17992.498010635376,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 12,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 22,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 14847.609299510717,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000079",
+              "name": "lucio",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 17912.498010635376,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 11,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 22,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 14424.794413894415,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000004",
+              "name": "mercy",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 80,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "healing",
+                  "value": 422.8148856163025,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 8750,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 29615.034351199865,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 17,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 31,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 365.6595951318741,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E000000000012F",
+              "name": "doomfist",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 17277.83831036091,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 11,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 20,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E000000000012E",
+              "name": "sombra",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E00000000000DD",
+              "name": "mei",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 6646.049523085356,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 5,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 7,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 365.6595951318741,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000008",
+              "name": "pharah",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 5691.146517753601,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 4,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 8728,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 32225.790440917015,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 14,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 31,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 2500.124070107937,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000002",
+              "name": "reaper",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 28484.569028258324,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 13,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 28,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 2500.124070107937,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E0000000000015",
+              "name": "bastion",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 3741.2214126586914,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 3,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 8729,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 19513.5967387259,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 14,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 32,
+              "id": "0x086000000000001F"
+            },
+            {
+              "name": "healing",
+              "value": 28979.512292042375,
+              "id": "0x08600000000001C1"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000221",
+              "name": "baptiste",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 166,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 2,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 2242.09814620018,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E000000000013B",
+              "name": "ana",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 910.9400291442871,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 3,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 1,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 1648.8683395385742,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E00000000001A2",
+              "name": "moira",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 18436.656709581614,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 10,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 29,
+                  "id": "0x086000000000001F"
+                },
+                {
+                  "name": "healing",
+                  "value": 25088.54580630362,
+                  "id": "0x08600000000001C1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 8748,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 40263.75044441223,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 16,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 27,
+              "id": "0x086000000000001F"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E000000000023B",
+              "name": "sigma",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 40263.75044441223,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 16,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 27,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "esports_player_id": 5718,
+          "stats": [
+            {
+              "name": "damage",
+              "value": 26677.56275856495,
+              "id": "0x08600000000001BF"
+            },
+            {
+              "name": "deaths",
+              "value": 16,
+              "id": "0x086000000000002A"
+            },
+            {
+              "name": "eliminations",
+              "value": 28,
+              "id": "0x086000000000001F"
+            }
+          ],
+          "heroes": [
+            {
+              "hero_id": "0x02E0000000000007",
+              "name": "reinhardt",
+              "stats": []
+            },
+            {
+              "hero_id": "0x02E000000000013E",
+              "name": "orisa",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 26114.142478108406,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 15,
+                  "id": "0x086000000000002A"
+                },
+                {
+                  "name": "eliminations",
+                  "value": 28,
+                  "id": "0x086000000000001F"
+                }
+              ]
+            },
+            {
+              "hero_id": "0x02E00000000001CA",
+              "name": "wreckingball",
+              "stats": [
+                {
+                  "name": "damage",
+                  "value": 563.420280456543,
+                  "id": "0x08600000000001BF"
+                },
+                {
+                  "name": "deaths",
+                  "value": 1,
+                  "id": "0x086000000000002A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "name": "total_game_time",
+      "value": 1413258
+    }
+  ]
 }
