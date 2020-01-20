@@ -30,7 +30,7 @@ const API_BASE = "https://api.overwatchleague.com/";
 
     stages = schedule["data"]["stages"];
     for (const i of stages) {
-        for (const p of $i["matches"]) {
+        for (const p of i["matches"]) {
             let mid = p["id"];
             let c = 1;
             for (const o of p["games"]) {
