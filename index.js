@@ -94,7 +94,7 @@ const API_BASE = "https://api.overwatchleague.com/";
     await sleep();
 
     const playersJson = Object.assign({}, players);
-    for (const player of $playersJson["content"]) {
+    for (const player of playersJson["content"]) {
         console.log(`Player: ${player["name"]}`);
         writeToFile(`./data/players/${player["id"]}.json`, await get(`players/${player["id"]}?expand=stats,stats.ranks`));
     }
