@@ -52,7 +52,7 @@ const API_BASE = "https://api.overwatchleague.com/";
     writeToFile(`./data/teams.json`, teams);
     await sleep();
     fs.ensureDirSync("./data/teams");
-    for (const t of teams["competitors"]) {
+    for (const team of teams["competitors"]) {
         console.log(`Team: ${team["competitor"]["id"]}`);
         const sresult = await get(`team/${team["competitor"]["id"]}`);
         sresult["players"] = sresult["players"].sort((a, b) => (a["id"] > b["id"]) ? 1 : ((b["id"] > a["id"]) ? -1 : 0));
