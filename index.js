@@ -20,10 +20,12 @@ const API_BASE = "https://api.overwatchleague.com/";
         console.log(`Stage: ${id}`);
         fs.ensureDirSync(`./data/match/${id}`);
         let sresult = await get(`match/${id}`);
-        for (let i = 0; i < sresult["competitors"].length; i += 1)
-            sresult["competitors"][i]["players"] = sresult["competitors"][i]["players"].sort((a, b) => (a["player"]["id"] > b["player"]["id"]) ? 1 : ((b["player"]["id"] > a["player"]["id"]) ? -1 : 0));
-        writeToFile(`./data/match/${id}/data.json`, sresult);
-        await sleep();
+        if (typeof sresult["competitors"] !== "undefined" && sresult["competitors"].length > 0) {
+            for (let i = 0; i < sresult["competitors"].length; i += 1)
+                sresult["competitors"][i]["players"] = sresult["competitors"][i]["players"].sort((a, b) => (a["player"]["id"] > b["player"]["id"]) ? 1 : ((b["player"]["id"] > a["player"]["id"]) ? -1 : 0));
+            writeToFile(`./data/match/${id}/data.json`, sresult);
+            await sleep();
+        }
     }
 
     stages = schedule["data"]["stages"];
