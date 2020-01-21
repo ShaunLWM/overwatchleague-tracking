@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Singapore');
-shell_exec("php index.php");
+shell_exec("node index.js");
 $output = shell_exec("git status");
 if (strpos($output, "modified:") !== false || strpos($output, "Untracked files:") !== false || strpos($output, "Changes not staged for commit") !== false) {
 	shell_exec("git add .");
