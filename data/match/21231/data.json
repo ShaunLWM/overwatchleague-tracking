@@ -567,6 +567,36 @@
           "type": "TEAM"
         },
         "player": {
+          "id": 8218,
+          "availableLanguages": [
+            "en"
+          ],
+          "name": "Marve1",
+          "game": "OVERWATCH",
+          "attributes": {
+            "player_number": 11,
+            "preferred_slot": "2",
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.2",
+          "familyName": "Hwang",
+          "givenName": "Min Seo",
+          "nationality": "KR",
+          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
+          "user": {
+            "id": 1078
+          },
+          "@etag": "ae5c073d",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4409,
+          "type": "TEAM"
+        },
+        "player": {
           "id": 4666,
           "availableLanguages": [
             "en",
@@ -598,36 +628,6 @@
             "id": 1848
           },
           "@etag": "719e979b",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4409,
-          "type": "TEAM"
-        },
-        "player": {
-          "id": 8218,
-          "availableLanguages": [
-            "en"
-          ],
-          "name": "Marve1",
-          "game": "OVERWATCH",
-          "attributes": {
-            "player_number": 11,
-            "preferred_slot": "2",
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.2",
-          "familyName": "Hwang",
-          "givenName": "Min Seo",
-          "nationality": "KR",
-          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
-          "user": {
-            "id": 1078
-          },
-          "@etag": "ae5c073d",
           "type": "PLAYER"
         },
         "flags": []
@@ -1134,46 +1134,6 @@
         },
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4643,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
-              ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20893
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1218,46 +1178,43 @@
         },
         {
           "team": {
-            "id": 4409,
+            "id": 4406,
             "type": "TEAM"
           },
           "player": {
-            "id": 4105,
+            "id": 4643,
             "availableLanguages": [
               "en",
-              "ko",
               "zh-cn"
             ],
-            "handle": "ryujehong.9666",
-            "name": "ryujehong",
-            "homeLocation": "Incheon",
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
+                "mccree",
+                "genji",
+                "soldier-76"
               ],
-              "hometown": null,
+              "hometown": "Kokkola",
+              "player_number": 0,
               "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Ryu",
-            "givenName": "Jehong",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 1511
-            },
-            "@etag": "ff08303a",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20893
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1292,6 +1249,49 @@
               "id": 390
             },
             "@etag": "2cf31fe6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20893
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4105,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "ryujehong.9666",
+            "name": "ryujehong",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "ana",
+                "zenyatta",
+                "mercy"
+              ],
+              "hometown": null,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ryu",
+            "givenName": "Jehong",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 1511
+            },
+            "@etag": "ff08303a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1408,6 +1408,49 @@
       "players": [
         {
           "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4144,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "surefour.7524",
+            "name": "Surefour",
+            "homeLocation": "Calgary",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "widowmaker"
+              ],
+              "hometown": "Calgary",
+              "player_number": 4,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Roberts",
+            "givenName": "Lane",
+            "nationality": "CA",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 2084
+            },
+            "@etag": "60957105",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20894
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1456,42 +1499,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4144,
+            "id": 4645,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "surefour.7524",
-            "name": "Surefour",
-            "homeLocation": "Calgary",
+            "handle": "hydration.7861",
+            "name": "Hydration",
+            "homeLocation": "Monte Claros",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "mccree",
+                "pharah",
                 "genji",
-                "widowmaker"
+                "junkrat"
               ],
-              "hometown": "Calgary",
-              "player_number": 4,
+              "hometown": "Monte Claros",
+              "player_number": 99,
               "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Roberts",
-            "givenName": "Lane",
-            "nationality": "CA",
+            "familyName": "Goes Telles",
+            "givenName": "João Pedro",
+            "nationality": "BR",
             "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
             "user": {
-              "id": 2084
+              "id": 2314
             },
-            "@etag": "60957105",
+            "@etag": "33b921a5",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20894
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1530,49 +1573,6 @@
               "id": 1281
             },
             "@etag": "051a5098",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20894
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4645,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "hydration.7861",
-            "name": "Hydration",
-            "homeLocation": "Monte Claros",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "pharah",
-                "genji",
-                "junkrat"
-              ],
-              "hometown": "Monte Claros",
-              "player_number": 99,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Goes Telles",
-            "givenName": "João Pedro",
-            "nationality": "BR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2314
-            },
-            "@etag": "33b921a5",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1660,6 +1660,46 @@
         },
         {
           "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4643,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "soldier-76"
+              ],
+              "hometown": "Kokkola",
+              "player_number": 0,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20894
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1708,39 +1748,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4643,
+            "id": 8222,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
+            "name": "rOar",
+            "homeLocation": "Incheon",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
               "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
+                "orisa",
+                "reinhardt",
+                "winston"
               ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 37,
+              "preferred_slot": "2",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
+            "familyName": "Gye",
+            "givenName": "Chang-hoon",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 390
+            },
+            "@etag": "2cf31fe6",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20894
           },
-          "sortIndex": 3
+          "sortIndex": 4
         },
         {
           "team": {
@@ -1778,46 +1818,6 @@
               "id": 1511
             },
             "@etag": "ff08303a",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20894
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8222,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "rOar",
-            "homeLocation": "Incheon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 37,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Gye",
-            "givenName": "Chang-hoon",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 390
-            },
-            "@etag": "2cf31fe6",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1934,6 +1934,49 @@
       "players": [
         {
           "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4144,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "surefour.7524",
+            "name": "Surefour",
+            "homeLocation": "Calgary",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "widowmaker"
+              ],
+              "hometown": "Calgary",
+              "player_number": 4,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Roberts",
+            "givenName": "Lane",
+            "nationality": "CA",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 2084
+            },
+            "@etag": "60957105",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20895
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1982,42 +2025,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4144,
+            "id": 4645,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "surefour.7524",
-            "name": "Surefour",
-            "homeLocation": "Calgary",
+            "handle": "hydration.7861",
+            "name": "Hydration",
+            "homeLocation": "Monte Claros",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "mccree",
+                "pharah",
                 "genji",
-                "widowmaker"
+                "junkrat"
               ],
-              "hometown": "Calgary",
-              "player_number": 4,
+              "hometown": "Monte Claros",
+              "player_number": 99,
               "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Roberts",
-            "givenName": "Lane",
-            "nationality": "CA",
+            "familyName": "Goes Telles",
+            "givenName": "João Pedro",
+            "nationality": "BR",
             "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
             "user": {
-              "id": 2084
+              "id": 2314
             },
-            "@etag": "60957105",
+            "@etag": "33b921a5",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20895
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2069,84 +2112,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4645,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "hydration.7861",
-            "name": "Hydration",
-            "homeLocation": "Monte Claros",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "pharah",
-                "genji",
-                "junkrat"
-              ],
-              "hometown": "Monte Claros",
-              "player_number": 99,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Goes Telles",
-            "givenName": "João Pedro",
-            "nationality": "BR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2314
-            },
-            "@etag": "33b921a5",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20895
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8242,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Michelle",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 99,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Choi",
-            "givenName": "Min Hyuk",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/98C5MD1D57HC1549652303863.png",
-            "user": {
-              "id": 2294
-            },
-            "@etag": "81c533bc",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20895
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 4644,
             "availableLanguages": [
               "en",
@@ -2186,43 +2151,38 @@
         },
         {
           "team": {
-            "id": 4406,
+            "id": 4409,
             "type": "TEAM"
           },
           "player": {
-            "id": 4643,
+            "id": 8242,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
+            "name": "Michelle",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
-              ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 99,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
+            "familyName": "Choi",
+            "givenName": "Min Hyuk",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/98C5MD1D57HC1549652303863.png",
+            "user": {
+              "id": 2294
+            },
+            "@etag": "81c533bc",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20895
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -2274,39 +2234,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8222,
+            "id": 4643,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "rOar",
-            "homeLocation": "Incheon",
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
+                "mccree",
+                "genji",
+                "soldier-76"
               ],
-              "player_number": 37,
-              "preferred_slot": "2",
-              "role": "tank"
+              "hometown": "Kokkola",
+              "player_number": 0,
+              "preferred_slot": "4",
+              "role": "support"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Gye",
-            "givenName": "Chang-hoon",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 390
-            },
-            "@etag": "2cf31fe6",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20895
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2353,37 +2313,43 @@
         },
         {
           "team": {
-            "id": 4409,
+            "id": 4406,
             "type": "TEAM"
           },
           "player": {
-            "id": 8179,
+            "id": 8222,
             "availableLanguages": [
-              "en"
+              "en",
+              "zh-cn"
             ],
-            "name": "Jecse",
-            "homeLocation": "Seoul",
+            "name": "rOar",
+            "homeLocation": "Incheon",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 13,
-              "preferred_slot": "5",
-              "role": "support"
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 37,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "SeungSoo",
+            "attributesVersion": "1.0.0",
+            "familyName": "Gye",
+            "givenName": "Chang-hoon",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/KWWQ2U3K5I6M1549652303859.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
             "user": {
-              "id": 905
+              "id": 390
             },
-            "@etag": "e0eae75d",
+            "@etag": "2cf31fe6",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20895
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2420,6 +2386,40 @@
               "id": 1982
             },
             "@etag": "3d99bce3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20895
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8179,
+            "availableLanguages": [
+              "en"
+            ],
+            "name": "Jecse",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 13,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Lee",
+            "givenName": "SeungSoo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/KWWQ2U3K5I6M1549652303859.png",
+            "user": {
+              "id": 905
+            },
+            "@etag": "e0eae75d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2547,6 +2547,49 @@
         },
         {
           "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4645,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "hydration.7861",
+            "name": "Hydration",
+            "homeLocation": "Monte Claros",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "pharah",
+                "genji",
+                "junkrat"
+              ],
+              "hometown": "Monte Claros",
+              "player_number": 99,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Goes Telles",
+            "givenName": "João Pedro",
+            "nationality": "BR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 2314
+            },
+            "@etag": "33b921a5",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20896
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -2582,49 +2625,6 @@
               "id": 1281
             },
             "@etag": "051a5098",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20896
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4645,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "hydration.7861",
-            "name": "Hydration",
-            "homeLocation": "Monte Claros",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "pharah",
-                "genji",
-                "junkrat"
-              ],
-              "hometown": "Monte Claros",
-              "player_number": 99,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Goes Telles",
-            "givenName": "João Pedro",
-            "nationality": "BR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2314
-            },
-            "@etag": "33b921a5",
             "type": "PLAYER"
           },
           "matchGame": {
