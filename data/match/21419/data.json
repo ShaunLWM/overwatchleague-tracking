@@ -211,7 +211,7 @@
         "city": null,
         "hero_image": null,
         "manager": null,
-        "team_guid": "0x0D70000000000005"
+        "team_guid": "0x0D700000000000C5"
       },
       "attributesVersion": "1.0.0",
       "abbreviatedName": "VAL",
@@ -495,7 +495,7 @@
         }
       ],
       "secondaryPhoto": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt554552c3fb615a11/5e14d288a1690a59bc5f1e35/OWL_LAValiant_Icon_2020_SVG.svg",
-      "@etag": "71f95fb9",
+      "@etag": "84bfef91",
       "type": "TEAM"
     }
   ],
@@ -728,49 +728,6 @@
       "players": [
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4144,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "surefour.7524",
-            "name": "Surefour",
-            "homeLocation": "Calgary",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "widowmaker"
-              ],
-              "hometown": "Calgary",
-              "player_number": 4,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Roberts",
-            "givenName": "Lane",
-            "nationality": "CA",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2084
-            },
-            "@etag": "60957105",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27251
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -814,45 +771,46 @@
         },
         {
           "team": {
-            "id": 4405,
+            "id": 4406,
             "type": "TEAM"
           },
           "player": {
-            "id": 5865,
+            "id": 4144,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "ksf.4600",
-            "name": "KSF",
-            "homeLocation": "Puyallup, WA",
+            "handle": "surefour.7524",
+            "name": "Surefour",
+            "homeLocation": "Calgary",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
+                "mccree",
                 "genji",
-                "soldier-76",
-                "sombra",
                 "widowmaker"
               ],
-              "player_number": 27,
-              "preferred_slot": "0",
+              "hometown": "Calgary",
+              "player_number": 4,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Frandanisa",
-            "givenName": "Kyle",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FDHS3GHI2JY31549580254953.png",
+            "familyName": "Roberts",
+            "givenName": "Lane",
+            "nationality": "CA",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
             "user": {
-              "id": 151
+              "id": 2084
             },
-            "@etag": "3f7b29a2",
+            "@etag": "60957105",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27251
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -903,39 +861,41 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5624,
+            "id": 5865,
             "availableLanguages": [
-              "en"
+              "en",
+              "zh-cn"
             ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
+            "handle": "ksf.4600",
+            "name": "KSF",
+            "homeLocation": "Puyallup, WA",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
+                "genji",
+                "soldier-76",
+                "sombra",
+                "widowmaker"
               ],
-              "player_number": 2,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 27,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
+            "familyName": "Frandanisa",
+            "givenName": "Kyle",
             "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FDHS3GHI2JY31549580254953.png",
             "user": {
-              "id": 1913
+              "id": 151
             },
-            "@etag": "17118de9",
+            "@etag": "3f7b29a2",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27251
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -983,42 +943,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4637,
+            "id": 5624,
             "availableLanguages": [
-              "en",
-              "zh-cn"
+              "en"
             ],
-            "handle": "space.7513",
-            "name": "SPACE",
-            "homeLocation": "New York City, NY",
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
               "heroes": [
-                "zarya",
-                "roadhog",
-                "dva"
+                "orisa",
+                "reinhardt",
+                "winston"
               ],
-              "hometown": "New York City, New York",
-              "player_number": 16,
-              "preferred_slot": "3",
+              "player_number": 2,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Halpern",
-            "givenName": "Indy",
+            "familyName": "Campbell",
+            "givenName": "Russell",
             "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
             "user": {
-              "id": 3356
+              "id": 1913
             },
-            "@etag": "b779af01",
+            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27251
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1064,43 +1021,46 @@
         },
         {
           "team": {
-            "id": 4406,
+            "id": 4405,
             "type": "TEAM"
           },
           "player": {
-            "id": 4643,
+            "id": 4637,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
+            "handle": "space.7513",
+            "name": "SPACE",
+            "homeLocation": "New York City, NY",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
+                "zarya",
+                "roadhog",
+                "dva"
               ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
+              "hometown": "New York City, New York",
+              "player_number": 16,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
+            "familyName": "Halpern",
+            "givenName": "Indy",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 3356
+            },
+            "@etag": "b779af01",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27251
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1139,6 +1099,46 @@
               "id": 604
             },
             "@etag": "6a3112a9",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27251
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4643,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "soldier-76"
+              ],
+              "hometown": "Kokkola",
+              "player_number": 0,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1677,49 +1677,6 @@
         },
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4644,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "shaz.9014",
-            "name": "Shaz",
-            "homeLocation": "Jyväskylä",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zenyatta",
-                "ana",
-                "sombra"
-              ],
-              "hometown": "Jyväskylä",
-              "player_number": 10,
-              "preferred_slot": "0",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Suovaara",
-            "givenName": "Jonas",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FM7YV7ZGS2PD1550093224913.png",
-            "user": {
-              "id": 3150
-            },
-            "@etag": "38e65f90",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27243
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -1760,6 +1717,49 @@
             "id": 27243
           },
           "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4644,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "shaz.9014",
+            "name": "Shaz",
+            "homeLocation": "Jyväskylä",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zenyatta",
+                "ana",
+                "sombra"
+              ],
+              "hometown": "Jyväskylä",
+              "player_number": 10,
+              "preferred_slot": "0",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Suovaara",
+            "givenName": "Jonas",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FM7YV7ZGS2PD1550093224913.png",
+            "user": {
+              "id": 3150
+            },
+            "@etag": "38e65f90",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27243
+          },
+          "sortIndex": 5
         }
       ],
       "state": "CONCLUDED",
@@ -1792,49 +1792,6 @@
       },
       "attributesVersion": "0.6.0",
       "players": [
-        {
-          "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4144,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "surefour.7524",
-            "name": "Surefour",
-            "homeLocation": "Calgary",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "widowmaker"
-              ],
-              "hometown": "Calgary",
-              "player_number": 4,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Roberts",
-            "givenName": "Lane",
-            "nationality": "CA",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2084
-            },
-            "@etag": "60957105",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27244
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4405,
@@ -1871,6 +1828,49 @@
               "id": 1808
             },
             "@etag": "4b199a50",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27244
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4144,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "surefour.7524",
+            "name": "Surefour",
+            "homeLocation": "Calgary",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "widowmaker"
+              ],
+              "hometown": "Calgary",
+              "player_number": 4,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Roberts",
+            "givenName": "Lane",
+            "nationality": "CA",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 2084
+            },
+            "@etag": "60957105",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1957,46 +1957,6 @@
         },
         {
           "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5624,
-            "availableLanguages": [
-              "en"
-            ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 2,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
-            "user": {
-              "id": 1913
-            },
-            "@etag": "17118de9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27244
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 4406,
             "type": "TEAM"
           },
@@ -2028,6 +1988,46 @@
               "id": 390
             },
             "@etag": "2cf31fe6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27244
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5624,
+            "availableLanguages": [
+              "en"
+            ],
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Campbell",
+            "givenName": "Russell",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
+            "user": {
+              "id": 1913
+            },
+            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2122,46 +2122,6 @@
         },
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4643,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
-              ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27244
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -2197,6 +2157,46 @@
               "id": 604
             },
             "@etag": "6a3112a9",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27244
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4643,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "soldier-76"
+              ],
+              "hometown": "Kokkola",
+              "player_number": 0,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2323,49 +2323,6 @@
       "players": [
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4144,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "surefour.7524",
-            "name": "Surefour",
-            "homeLocation": "Calgary",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "widowmaker"
-              ],
-              "hometown": "Calgary",
-              "player_number": 4,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Roberts",
-            "givenName": "Lane",
-            "nationality": "CA",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 2084
-            },
-            "@etag": "60957105",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27245
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -2400,6 +2357,49 @@
               "id": 1808
             },
             "@etag": "4b199a50",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27245
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4144,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "surefour.7524",
+            "name": "Surefour",
+            "homeLocation": "Calgary",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "genji",
+                "widowmaker"
+              ],
+              "hometown": "Calgary",
+              "player_number": 4,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Roberts",
+            "givenName": "Lane",
+            "nationality": "CA",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 2084
+            },
+            "@etag": "60957105",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2486,46 +2486,6 @@
         },
         {
           "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5624,
-            "availableLanguages": [
-              "en"
-            ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 2,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
-            "user": {
-              "id": 1913
-            },
-            "@etag": "17118de9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27245
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 4406,
             "type": "TEAM"
           },
@@ -2557,6 +2517,46 @@
               "id": 390
             },
             "@etag": "2cf31fe6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27245
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5624,
+            "availableLanguages": [
+              "en"
+            ],
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Campbell",
+            "givenName": "Russell",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
+            "user": {
+              "id": 1913
+            },
+            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2651,46 +2651,6 @@
         },
         {
           "team": {
-            "id": 4406,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4643,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "bigg00se.5792",
-            "name": "BigG00se",
-            "homeLocation": "Kokkola",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "genji",
-                "soldier-76"
-              ],
-              "hometown": "Kokkola",
-              "player_number": 0,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Isohanni",
-            "givenName": "Benjamin",
-            "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
-            "@etag": "d1dec125",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27245
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -2739,42 +2699,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4644,
+            "id": 4643,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "shaz.9014",
-            "name": "Shaz",
-            "homeLocation": "Jyväskylä",
+            "handle": "bigg00se.5792",
+            "name": "BigG00se",
+            "homeLocation": "Kokkola",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "zenyatta",
-                "ana",
-                "sombra"
+                "mccree",
+                "genji",
+                "soldier-76"
               ],
-              "hometown": "Jyväskylä",
-              "player_number": 10,
-              "preferred_slot": "0",
+              "hometown": "Kokkola",
+              "player_number": 0,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Suovaara",
-            "givenName": "Jonas",
+            "familyName": "Isohanni",
+            "givenName": "Benjamin",
             "nationality": "FI",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FM7YV7ZGS2PD1550093224913.png",
-            "user": {
-              "id": 3150
-            },
-            "@etag": "38e65f90",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A22LDS4FMGX61550093224594.png",
+            "@etag": "d1dec125",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27245
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2812,6 +2769,49 @@
               "id": 1489
             },
             "@etag": "5e096577",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27245
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4406,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4644,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "shaz.9014",
+            "name": "Shaz",
+            "homeLocation": "Jyväskylä",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zenyatta",
+                "ana",
+                "sombra"
+              ],
+              "hometown": "Jyväskylä",
+              "player_number": 10,
+              "preferred_slot": "0",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Suovaara",
+            "givenName": "Jonas",
+            "nationality": "FI",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FM7YV7ZGS2PD1550093224913.png",
+            "user": {
+              "id": 3150
+            },
+            "@etag": "38e65f90",
             "type": "PLAYER"
           },
           "matchGame": {
