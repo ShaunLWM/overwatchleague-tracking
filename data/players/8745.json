@@ -1,213 +1,235 @@
 {
-    "data": {
-        "player": {
-            "id": 8745,
+  "data": {
+    "player": {
+      "id": 8745,
+      "availableLanguages": [
+        "en",
+        "zh-cn"
+      ],
+      "name": "LhCloudy",
+      "homeLocation": "Kotka",
+      "accounts": [
+        {
+          "id": 12935,
+          "competitorId": 8745,
+          "value": "https://www.twitch.tv/lhcloudy27",
+          "accountType": "TWITCH",
+          "isPublic": true
+        },
+        {
+          "id": 12919,
+          "competitorId": 8745,
+          "value": "https://twitter.com/LhCloudy",
+          "accountType": "TWITTER",
+          "isPublic": true
+        }
+      ],
+      "game": "OVERWATCH",
+      "attributes": {
+        "player_number": 27,
+        "preferred_slot": "2",
+        "role": "tank"
+      },
+      "attributesVersion": "1.0.2",
+      "familyName": "Tiihonen",
+      "givenName": "Roni",
+      "nationality": "FI",
+      "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+      "teams": [
+        {
+          "team": {
+            "id": 4406,
             "availableLanguages": [
-                "en",
-                "zh-cn"
+              "en",
+              "zh-cn",
+              "th",
+              "ko",
+              "ru",
+              "ja",
+              "zh-tw"
             ],
-            "name": "LhCloudy",
-            "homeLocation": "Kotka",
+            "handle": "los-angeles-b.3827",
+            "name": "Los Angeles Gladiators",
+            "homeLocation": "Los Angeles, CA",
+            "primaryColor": "3c1053",
+            "secondaryColor": "000000",
             "accounts": [
-                {
-                    "id": 12935,
-                    "competitorId": 8745,
-                    "value": "https:\/\/www.twitch.tv\/lhcloudy27",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                },
-                {
-                    "id": 12919,
-                    "competitorId": 8745,
-                    "value": "https:\/\/twitter.com\/LhCloudy",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                }
+              {
+                "id": 2297,
+                "competitorId": 4406,
+                "value": "https://twitter.com/LAGladiators",
+                "accountType": "TWITTER",
+                "isPublic": true
+              },
+              {
+                "id": 2430,
+                "competitorId": 4406,
+                "value": "https://discord.gg/gladiators",
+                "accountType": "DISCORD",
+                "isPublic": true
+              },
+              {
+                "id": 2295,
+                "competitorId": 4406,
+                "value": "https://www.twitch.tv/LAGladiators",
+                "accountType": "TWITCH",
+                "isPublic": true
+              },
+              {
+                "id": 2298,
+                "competitorId": 4406,
+                "value": "https://www.youtube.com/channel/UCmrw0M9fGg-lB2SS_kBpHsw",
+                "accountType": "YOUTUBE_CHANNEL",
+                "isPublic": true
+              },
+              {
+                "id": 2380,
+                "competitorId": 4406,
+                "value": "https://www.instagram.com/LAGladiators",
+                "accountType": "INSTAGRAM",
+                "isPublic": true
+              },
+              {
+                "id": 2296,
+                "competitorId": 4406,
+                "value": "https://www.facebook.com/LAGladiators",
+                "accountType": "FACEBOOK",
+                "isPublic": true
+              }
             ],
             "game": "OVERWATCH",
             "attributes": {
-                "player_number": 27,
-                "preferred_slot": "2",
-                "role": "tank"
+              "city": null,
+              "hero_image": null,
+              "manager": null,
+              "team_guid": "0x0D70000000000004"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tiihonen",
-            "givenName": "Roni",
-            "nationality": "FI",
-            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/5ILKOYQ5OCQM1549652245649.png",
-            "teams": [
-                {
-                    "team": {
-                        "id": 7694,
-                        "availableLanguages": [
-                            "en",
-                            "ko",
-                            "zh-cn"
-                        ],
-                        "handle": "paris.5582",
-                        "name": "Paris Eternal",
-                        "homeLocation": "Paris",
-                        "primaryColor": "303d56",
-                        "secondaryColor": "8d042d",
-                        "accounts": [
-                            {
-                                "id": 12932,
-                                "competitorId": 7694,
-                                "value": "https:\/\/twitter.com\/ParisEternal",
-                                "accountType": "TWITTER",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12933,
-                                "competitorId": 7694,
-                                "value": "https:\/\/www.instagram.com\/ParisEternal",
-                                "accountType": "INSTAGRAM",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12934,
-                                "competitorId": 7694,
-                                "value": "https:\/\/www.facebook.com\/ParisEternal",
-                                "accountType": "FACEBOOK",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 13128,
-                                "competitorId": 7694,
-                                "value": "https:\/\/www.twitch.tv\/pariseternal",
-                                "accountType": "TWITCH",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 13129,
-                                "competitorId": 7694,
-                                "value": "https:\/\/www.youtube.com\/channel\/UCMhH_P7vszwOI5aqvDhCRAA",
-                                "accountType": "YOUTUBE_CHANNEL",
-                                "isPublic": true
-                            }
-                        ],
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "team_guid": "0x0D70000000000059"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "divisions": [
-                            {
-                                "competitor": {
-                                    "id": 7694
-                                },
-                                "division": {
-                                    "id": 61
-                                }
-                            },
-                            {
-                                "competitor": {
-                                    "id": 7694
-                                },
-                                "division": {
-                                    "id": 79
-                                }
-                            }
-                        ],
-                        "abbreviatedName": "PAR",
-                        "addressCountry": "FR",
-                        "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/qm\/QM7JE0THABVT1542674071412.png",
-                        "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/w4\/W4C99JABL26E1542674142979.svg",
-                        "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/w4\/W4C99JABL26E1542674142979.svg",
-                        "@etag": "cf1e5873",
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8745,
-                        "type": "PLAYER"
-                    },
-                    "flags": []
+            "attributesVersion": "1.0.0",
+            "divisions": [
+              {
+                "competitor": {
+                  "id": 4406
+                },
+                "division": {
+                  "id": 61
                 }
+              },
+              {
+                "competitor": {
+                  "id": 4406
+                },
+                "division": {
+                  "id": 234
+                }
+              },
+              {
+                "competitor": {
+                  "id": 4406
+                },
+                "division": {
+                  "id": 80
+                }
+              }
             ],
-            "user": {
-                "id": 2270
-            },
-            "@etag": "9e43d321",
+            "abbreviatedName": "GLA",
+            "addressCountry": "US",
+            "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/3AEMOZZL76PF1508792362892.PNG",
+            "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/CHTRRZCBEYGN1507822882862.svg",
+            "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/CHTRRZCBEYGN1507822882862.svg",
+            "@etag": "571932e4",
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8745,
             "type": "PLAYER"
-        },
-        "stats": {
-            "all": {
-                "eliminations_avg_per_10m": 14.8893212342334,
-                "deaths_avg_per_10m": 6.393432734765787,
-                "hero_damage_avg_per_10m": 5925.746430236635,
-                "healing_avg_per_10m": 0,
-                "ultimates_earned_avg_per_10m": 3.5778633188785465,
-                "final_blows_avg_per_10m": 4.008190522180089,
-                "time_played_total": 48800.075474858284
-            },
-            "heroes": [
-                {
-                    "hero_id": "0x02E0000000000009",
-                    "name": "winston",
-                    "stats": {
-                        "eliminations_avg_per_10m": 15.997689992942794,
-                        "deaths_avg_per_10m": 6.841117431192643,
-                        "hero_damage_avg_per_10m": 6667.725037680452,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 3.6836786167960383,
-                        "final_blows_avg_per_10m": 3.6836786167960383,
-                        "time_played_total": 5700.823058843613
-                    }
-                },
-                {
-                    "hero_id": "0x02E000000000013E",
-                    "name": "orisa",
-                    "stats": {
-                        "eliminations_avg_per_10m": 15.006696212274411,
-                        "deaths_avg_per_10m": 5.806611097211707,
-                        "hero_damage_avg_per_10m": 4947.90984013319,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 3.2677897949676273,
-                        "final_blows_avg_per_10m": 3.494021396157694,
-                        "time_played_total": 23869.34438687563
-                    }
-                },
-                {
-                    "hero_id": "0x02E000000000007A",
-                    "name": "dva",
-                    "stats": {
-                        "eliminations_avg_per_10m": 0,
-                        "deaths_avg_per_10m": 26.041133913983945,
-                        "hero_damage_avg_per_10m": 2876.4108953012765,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 0,
-                        "final_blows_avg_per_10m": 0,
-                        "time_played_total": 69.12141406536102
-                    }
-                },
-                {
-                    "hero_id": "0x02E0000000000007",
-                    "name": "reinhardt",
-                    "stats": {
-                        "eliminations_avg_per_10m": 13.927412295651827,
-                        "deaths_avg_per_10m": 6.9908022806968315,
-                        "hero_damage_avg_per_10m": 7799.832686636204,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 4.497958056572379,
-                        "final_blows_avg_per_10m": 5.039880713990739,
-                        "time_played_total": 11071.690614640713
-                    }
-                },
-                {
-                    "hero_id": "0x02E00000000001CA",
-                    "name": "wreckingball",
-                    "stats": {
-                        "eliminations_avg_per_10m": 15.205654623633649,
-                        "deaths_avg_per_10m": 6.824001099386808,
-                        "hero_damage_avg_per_10m": 5749.200217530979,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 3.1894787747133995,
-                        "final_blows_avg_per_10m": 4.376261574606757,
-                        "time_played_total": 8089.096000432968
-                    }
-                }
-            ]
+          },
+          "flags": []
         }
+      ],
+      "user": {
+        "id": 2270
+      },
+      "@etag": "a5fc34af",
+      "type": "PLAYER"
     },
-    "meta": []
+    "stats": {
+      "all": {
+        "eliminations_avg_per_10m": 14.8893212342334,
+        "deaths_avg_per_10m": 6.393432734765787,
+        "hero_damage_avg_per_10m": 5925.746430236635,
+        "healing_avg_per_10m": 0,
+        "ultimates_earned_avg_per_10m": 3.5778633188785465,
+        "final_blows_avg_per_10m": 4.008190522180089,
+        "time_played_total": 48800.075474858284
+      },
+      "heroes": [
+        {
+          "hero_id": "0x02E0000000000009",
+          "name": "winston",
+          "stats": {
+            "eliminations_avg_per_10m": 15.997689992942794,
+            "deaths_avg_per_10m": 6.841117431192643,
+            "hero_damage_avg_per_10m": 6667.725037680452,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 3.6836786167960383,
+            "final_blows_avg_per_10m": 3.6836786167960383,
+            "time_played_total": 5700.823058843613
+          }
+        },
+        {
+          "hero_id": "0x02E000000000013E",
+          "name": "orisa",
+          "stats": {
+            "eliminations_avg_per_10m": 15.006696212274411,
+            "deaths_avg_per_10m": 5.806611097211707,
+            "hero_damage_avg_per_10m": 4947.90984013319,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 3.2677897949676273,
+            "final_blows_avg_per_10m": 3.494021396157694,
+            "time_played_total": 23869.34438687563
+          }
+        },
+        {
+          "hero_id": "0x02E000000000007A",
+          "name": "dva",
+          "stats": {
+            "eliminations_avg_per_10m": 0,
+            "deaths_avg_per_10m": 26.041133913983945,
+            "hero_damage_avg_per_10m": 2876.4108953012765,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 0,
+            "final_blows_avg_per_10m": 0,
+            "time_played_total": 69.12141406536102
+          }
+        },
+        {
+          "hero_id": "0x02E0000000000007",
+          "name": "reinhardt",
+          "stats": {
+            "eliminations_avg_per_10m": 13.927412295651827,
+            "deaths_avg_per_10m": 6.9908022806968315,
+            "hero_damage_avg_per_10m": 7799.832686636204,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 4.497958056572379,
+            "final_blows_avg_per_10m": 5.039880713990739,
+            "time_played_total": 11071.690614640713
+          }
+        },
+        {
+          "hero_id": "0x02E00000000001CA",
+          "name": "wreckingball",
+          "stats": {
+            "eliminations_avg_per_10m": 15.205654623633649,
+            "deaths_avg_per_10m": 6.824001099386808,
+            "hero_damage_avg_per_10m": 5749.200217530979,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 3.1894787747133995,
+            "final_blows_avg_per_10m": 4.376261574606757,
+            "time_played_total": 8089.096000432968
+          }
+        }
+      ]
+    }
+  },
+  "meta": {}
 }
