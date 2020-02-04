@@ -1,227 +1,240 @@
 {
-    "data": {
-        "player": {
-            "id": 8691,
+  "data": {
+    "player": {
+      "id": 8691,
+      "availableLanguages": [
+        "en",
+        "zh-cn"
+      ],
+      "name": "Kodak",
+      "homeLocation": "Frankfurt am Main",
+      "accounts": [
+        {
+          "id": 12891,
+          "competitorId": 8691,
+          "value": "https://twitter.com/KodakOW",
+          "accountType": "TWITTER",
+          "isPublic": true
+        },
+        {
+          "id": 12892,
+          "competitorId": 8691,
+          "value": "https://www.youtube.com/channel/UCp5eRVKTG9FfmNDnW6GHBsQ",
+          "accountType": "YOUTUBE_CHANNEL",
+          "isPublic": true
+        },
+        {
+          "id": 12814,
+          "competitorId": 8691,
+          "value": "https://www.twitch.tv/kodak_ow",
+          "accountType": "TWITCH",
+          "isPublic": true
+        }
+      ],
+      "game": "OVERWATCH",
+      "attributes": {
+        "heroes": [
+          "ana",
+          "moira",
+          "zenyatta"
+        ],
+        "player_number": 5,
+        "preferred_slot": "4",
+        "role": "support"
+      },
+      "attributesVersion": "1.0.2",
+      "familyName": "Rosenberger",
+      "givenName": "Steven",
+      "nationality": "DE",
+      "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/1QA8YKKVET2E1549580709703.png",
+      "teams": [
+        {
+          "team": {
+            "id": 7698,
             "availableLanguages": [
-                "en",
-                "zh-cn"
+              "en",
+              "ko",
+              "zh-cn"
             ],
-            "name": "Kodak",
-            "homeLocation": "Frankfurt am Main",
+            "handle": "atlanta.7813",
+            "name": "Atlanta Reign",
+            "homeLocation": "Atlanta, GA",
+            "primaryColor": "c4c4c4",
+            "secondaryColor": "910f1b",
             "accounts": [
-                {
-                    "id": 12891,
-                    "competitorId": 8691,
-                    "value": "https:\/\/twitter.com\/KodakOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                },
-                {
-                    "id": 12892,
-                    "competitorId": 8691,
-                    "value": "https:\/\/www.youtube.com\/channel\/UCp5eRVKTG9FfmNDnW6GHBsQ",
-                    "accountType": "YOUTUBE_CHANNEL",
-                    "isPublic": true
-                },
-                {
-                    "id": 12814,
-                    "competitorId": 8691,
-                    "value": "https:\/\/www.twitch.tv\/kodak_ow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                }
+              {
+                "id": 12834,
+                "competitorId": 7698,
+                "value": "https://www.instagram.com/ATLReign",
+                "accountType": "INSTAGRAM",
+                "isPublic": true
+              },
+              {
+                "id": 12885,
+                "competitorId": 7698,
+                "value": "https://www.twitch.tv/ATLReign",
+                "accountType": "TWITCH",
+                "isPublic": true
+              },
+              {
+                "id": 12886,
+                "competitorId": 7698,
+                "value": "https://www.facebook.com/ATLReign",
+                "accountType": "FACEBOOK",
+                "isPublic": true
+              },
+              {
+                "id": 12873,
+                "competitorId": 7698,
+                "value": "https://discord.gg/ATLReign",
+                "accountType": "DISCORD",
+                "isPublic": true
+              },
+              {
+                "id": 12835,
+                "competitorId": 7698,
+                "value": "https://twitter.com/ATLReign",
+                "accountType": "TWITTER",
+                "isPublic": true
+              },
+              {
+                "id": 12902,
+                "competitorId": 7698,
+                "value": "https://www.youtube.com/channel/UCcRYeBK7oHYcuChC4RhU6aQ",
+                "accountType": "YOUTUBE_CHANNEL",
+                "isPublic": true
+              }
             ],
             "game": "OVERWATCH",
             "attributes": {
-                "heroes": [
-                    "ana",
-                    "moira",
-                    "zenyatta"
-                ],
-                "player_number": 5,
-                "preferred_slot": "1",
-                "role": "support"
+              "team_guid": "0x0D70000000000061"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Rosenberger",
-            "givenName": "Steven",
-            "nationality": "DE",
-            "headshot": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/gallery\/1QA8YKKVET2E1549580709703.png",
-            "teams": [
-                {
-                    "team": {
-                        "id": 7698,
-                        "availableLanguages": [
-                            "en",
-                            "ko",
-                            "zh-cn"
-                        ],
-                        "handle": "atlanta.7813",
-                        "name": "Atlanta Reign",
-                        "homeLocation": "Atlanta, GA",
-                        "primaryColor": "c4c4c4",
-                        "secondaryColor": "910f1b",
-                        "accounts": [
-                            {
-                                "id": 12834,
-                                "competitorId": 7698,
-                                "value": "https:\/\/www.instagram.com\/ATLReign",
-                                "accountType": "INSTAGRAM",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12885,
-                                "competitorId": 7698,
-                                "value": "https:\/\/www.twitch.tv\/ATLReign",
-                                "accountType": "TWITCH",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12886,
-                                "competitorId": 7698,
-                                "value": "https:\/\/www.facebook.com\/ATLReign",
-                                "accountType": "FACEBOOK",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12873,
-                                "competitorId": 7698,
-                                "value": "https:\/\/discord.gg\/ATLReign",
-                                "accountType": "DISCORD",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12835,
-                                "competitorId": 7698,
-                                "value": "https:\/\/twitter.com\/ATLReign",
-                                "accountType": "TWITTER",
-                                "isPublic": true
-                            },
-                            {
-                                "id": 12902,
-                                "competitorId": 7698,
-                                "value": "https:\/\/www.youtube.com\/channel\/UCcRYeBK7oHYcuChC4RhU6aQ",
-                                "accountType": "YOUTUBE_CHANNEL",
-                                "isPublic": true
-                            }
-                        ],
-                        "game": "OVERWATCH",
-                        "attributes": {
-                            "team_guid": "0x0D70000000000061"
-                        },
-                        "attributesVersion": "1.0.0",
-                        "divisions": [
-                            {
-                                "competitor": {
-                                    "id": 7698
-                                },
-                                "division": {
-                                    "id": 61
-                                }
-                            },
-                            {
-                                "competitor": {
-                                    "id": 7698
-                                },
-                                "division": {
-                                    "id": 79
-                                }
-                            }
-                        ],
-                        "abbreviatedName": "ATL",
-                        "addressCountry": "US",
-                        "logo": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/32\/32MTX0PLEDY31542673991836.png",
-                        "icon": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
-                        "secondaryPhoto": "https:\/\/bnetcmsus-a.akamaihd.net\/cms\/page_media\/60\/609VVM89F1BY1542673347592.svg",
-                        "type": "TEAM"
-                    },
-                    "player": {
-                        "id": 8691,
-                        "type": "PLAYER"
-                    },
-                    "flags": []
+            "attributesVersion": "1.0.0",
+            "divisions": [
+              {
+                "competitor": {
+                  "id": 7698
+                },
+                "division": {
+                  "id": 233
                 }
+              },
+              {
+                "competitor": {
+                  "id": 7698
+                },
+                "division": {
+                  "id": 79
+                }
+              },
+              {
+                "competitor": {
+                  "id": 7698
+                },
+                "division": {
+                  "id": 61
+                }
+              }
             ],
+            "abbreviatedName": "ATL",
+            "addressCountry": "US",
+            "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/32/32MTX0PLEDY31542673991836.png",
+            "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/60/609VVM89F1BY1542673347592.svg",
+            "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/page_media/60/609VVM89F1BY1542673347592.svg",
+            "@etag": "cf54c70f",
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8691,
             "type": "PLAYER"
-        },
-        "stats": {
-            "all": {
-                "eliminations_avg_per_10m": 13.878683854751795,
-                "deaths_avg_per_10m": 5.252696320027589,
-                "hero_damage_avg_per_10m": 7758.01224101901,
-                "healing_avg_per_10m": 9836.415655187328,
-                "ultimates_earned_avg_per_10m": 4.915367198557926,
-                "final_blows_avg_per_10m": 4.04794945763594,
-                "time_played_total": 12450.748342454433
-            },
-            "heroes": [
-                {
-                    "hero_id": "0x02E0000000000020",
-                    "name": "zenyatta",
-                    "stats": {
-                        "eliminations_avg_per_10m": 14.165993806797498,
-                        "deaths_avg_per_10m": 5.091691724151415,
-                        "hero_damage_avg_per_10m": 7993.824091078039,
-                        "healing_avg_per_10m": 10031.721986949568,
-                        "ultimates_earned_avg_per_10m": 5.041278934803381,
-                        "final_blows_avg_per_10m": 4.083435937190738,
-                        "time_played_total": 11901.741755604744
-                    }
-                },
-                {
-                    "hero_id": "0x02E00000000001A2",
-                    "name": "moira",
-                    "stats": {
-                        "eliminations_avg_per_10m": 3.781601709240478,
-                        "deaths_avg_per_10m": 5.672402563860716,
-                        "hero_damage_avg_per_10m": 1979.331840998342,
-                        "healing_avg_per_10m": 6617.727862754673,
-                        "ultimates_earned_avg_per_10m": 1.890800854620239,
-                        "final_blows_avg_per_10m": 0,
-                        "time_played_total": 317.3258561491966
-                    }
-                },
-                {
-                    "hero_id": "0x02E0000000000003",
-                    "name": "tracer",
-                    "stats": {
-                        "eliminations_avg_per_10m": 0,
-                        "deaths_avg_per_10m": 0,
-                        "hero_damage_avg_per_10m": 1847.9568760540246,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 0,
-                        "final_blows_avg_per_10m": 0,
-                        "time_played_total": 3.896194815635681
-                    }
-                },
-                {
-                    "hero_id": "0x02E00000000001CA",
-                    "name": "wreckingball",
-                    "stats": {
-                        "eliminations_avg_per_10m": 22.331470824232905,
-                        "deaths_avg_per_10m": 17.865176659386325,
-                        "hero_damage_avg_per_10m": 5440.7543267587225,
-                        "healing_avg_per_10m": 0,
-                        "ultimates_earned_avg_per_10m": 0,
-                        "final_blows_avg_per_10m": 13.398882494539743,
-                        "time_played_total": 134.33956158161163
-                    }
-                },
-                {
-                    "hero_id": "0x02E0000000000221",
-                    "name": "baptiste",
-                    "stats": {
-                        "eliminations_avg_per_10m": 0,
-                        "deaths_avg_per_10m": 6.420891058869506,
-                        "hero_damage_avg_per_10m": 924.8903703194192,
-                        "healing_avg_per_10m": 10442.458883266994,
-                        "ultimates_earned_avg_per_10m": 6.420891058869506,
-                        "final_blows_avg_per_10m": 0,
-                        "time_played_total": 93.44497430324554
-                    }
-                }
-            ]
+          },
+          "flags": []
         }
+      ],
+      "user": {
+        "id": 1755
+      },
+      "@etag": "818b618a",
+      "type": "PLAYER"
     },
-    "meta": []
+    "stats": {
+      "all": {
+        "eliminations_avg_per_10m": 13.878683854751795,
+        "deaths_avg_per_10m": 5.252696320027589,
+        "hero_damage_avg_per_10m": 7758.01224101901,
+        "healing_avg_per_10m": 9836.415655187328,
+        "ultimates_earned_avg_per_10m": 4.915367198557926,
+        "final_blows_avg_per_10m": 4.04794945763594,
+        "time_played_total": 12450.748342454433
+      },
+      "heroes": [
+        {
+          "hero_id": "0x02E0000000000020",
+          "name": "zenyatta",
+          "stats": {
+            "eliminations_avg_per_10m": 14.165993806797498,
+            "deaths_avg_per_10m": 5.091691724151415,
+            "hero_damage_avg_per_10m": 7993.824091078039,
+            "healing_avg_per_10m": 10031.721986949568,
+            "ultimates_earned_avg_per_10m": 5.041278934803381,
+            "final_blows_avg_per_10m": 4.083435937190738,
+            "time_played_total": 11901.741755604744
+          }
+        },
+        {
+          "hero_id": "0x02E00000000001A2",
+          "name": "moira",
+          "stats": {
+            "eliminations_avg_per_10m": 3.781601709240478,
+            "deaths_avg_per_10m": 5.672402563860716,
+            "hero_damage_avg_per_10m": 1979.331840998342,
+            "healing_avg_per_10m": 6617.727862754673,
+            "ultimates_earned_avg_per_10m": 1.890800854620239,
+            "final_blows_avg_per_10m": 0,
+            "time_played_total": 317.3258561491966
+          }
+        },
+        {
+          "hero_id": "0x02E0000000000003",
+          "name": "tracer",
+          "stats": {
+            "eliminations_avg_per_10m": 0,
+            "deaths_avg_per_10m": 0,
+            "hero_damage_avg_per_10m": 1847.9568760540246,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 0,
+            "final_blows_avg_per_10m": 0,
+            "time_played_total": 3.896194815635681
+          }
+        },
+        {
+          "hero_id": "0x02E00000000001CA",
+          "name": "wreckingball",
+          "stats": {
+            "eliminations_avg_per_10m": 22.331470824232905,
+            "deaths_avg_per_10m": 17.865176659386325,
+            "hero_damage_avg_per_10m": 5440.7543267587225,
+            "healing_avg_per_10m": 0,
+            "ultimates_earned_avg_per_10m": 0,
+            "final_blows_avg_per_10m": 13.398882494539743,
+            "time_played_total": 134.33956158161163
+          }
+        },
+        {
+          "hero_id": "0x02E0000000000221",
+          "name": "baptiste",
+          "stats": {
+            "eliminations_avg_per_10m": 0,
+            "deaths_avg_per_10m": 6.420891058869506,
+            "hero_damage_avg_per_10m": 924.8903703194192,
+            "healing_avg_per_10m": 10442.458883266994,
+            "ultimates_earned_avg_per_10m": 6.420891058869506,
+            "final_blows_avg_per_10m": 0,
+            "time_played_total": 93.44497430324554
+          }
+        }
+      ]
+    }
+  },
+  "meta": {}
 }

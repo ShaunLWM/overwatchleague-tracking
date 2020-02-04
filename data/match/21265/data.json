@@ -564,9 +564,10 @@
               ],
               "player_number": 11,
               "preferred_slot": "0",
-              "role": "offense"
+              "role": "offense",
+              "role_star": "damage"
             },
-            "attributesVersion": "1.0.2",
+            "attributesVersion": "1.0.4",
             "familyName": "Nigra",
             "givenName": "Corey",
             "nationality": "US",
@@ -574,7 +575,7 @@
             "user": {
               "id": 1515
             },
-            "@etag": "69fa6416",
+            "@etag": "8ed1df4e",
             "type": "PLAYER"
           },
           "flags": []
@@ -1086,46 +1087,6 @@
       "players": [
         {
           "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8784,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Corey",
-            "homeLocation": "Philadelphia",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 11,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Nigra",
-            "givenName": "Corey",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
-            "user": {
-              "id": 1515
-            },
-            "@etag": "69fa6416",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20912
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1161,6 +1122,47 @@
               "id": 897
             },
             "@etag": "c996f31b",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20912
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8784,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Corey",
+            "homeLocation": "Philadelphia",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 11,
+              "preferred_slot": "0",
+              "role": "offense",
+              "role_star": "damage"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Nigra",
+            "givenName": "Corey",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
+            "user": {
+              "id": 1515
+            },
+            "@etag": "8ed1df4e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1257,6 +1259,50 @@
         },
         {
           "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4105,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "ryujehong.9666",
+            "name": "ryujehong",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "ana",
+                "zenyatta",
+                "mercy"
+              ],
+              "hometown": null,
+              "player_number": 41,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ryu",
+            "givenName": "Jehong",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 1511
+            },
+            "@etag": "ada69359",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20912
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 7697,
             "type": "TEAM"
           },
@@ -1288,50 +1334,6 @@
               "id": 550
             },
             "@etag": "dddd550c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20912
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4105,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "ryujehong.9666",
-            "name": "ryujehong",
-            "homeLocation": "Incheon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
-              ],
-              "hometown": null,
-              "player_number": 6,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ryu",
-            "givenName": "Jehong",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 1511
-            },
-            "@etag": "43e3d226",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1428,45 +1430,6 @@
         },
         {
           "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8684,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Fahzix",
-            "homeLocation": "Mckeesport, Pennsylvania",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "zenyatta"
-              ],
-              "player_number": 14,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Taylor",
-            "givenName": "Riley",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PO4515851HNE1549576973626.png",
-            "user": {
-              "id": 2497
-            },
-            "@etag": "ed1d954f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20912
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -1510,6 +1473,79 @@
             "type": "TEAM"
           },
           "player": {
+            "id": 8684,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Fahzix",
+            "homeLocation": "Mckeesport, Pennsylvania",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "zenyatta"
+              ],
+              "player_number": 14,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Taylor",
+            "givenName": "Riley",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PO4515851HNE1549576973626.png",
+            "user": {
+              "id": 2497
+            },
+            "@etag": "ed1d954f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20912
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8218,
+            "availableLanguages": [
+              "en"
+            ],
+            "name": "Marve1",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 11,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Hwang",
+            "givenName": "Min Seo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
+            "user": {
+              "id": 1078
+            },
+            "@etag": "4d5b88b3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20912
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
             "id": 5197,
             "availableLanguages": [
               "en",
@@ -1539,40 +1575,6 @@
               "id": 372
             },
             "@etag": "ee3f92b6",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20912
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8218,
-            "availableLanguages": [
-              "en"
-            ],
-            "name": "Marve1",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 11,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Hwang",
-            "givenName": "Min Seo",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
-            "user": {
-              "id": 1078
-            },
-            "@etag": "4d5b88b3",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1611,46 +1613,6 @@
       },
       "attributesVersion": "0.5.0",
       "players": [
-        {
-          "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8730,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Sansam",
-            "homeLocation": "Incheon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
-              ],
-              "player_number": 33,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Kim",
-            "givenName": "Hyang Gi",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/4CBNQCE3XA4K1549576974165.png",
-            "user": {
-              "id": 550
-            },
-            "@etag": "dddd550c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20913
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4409,
@@ -1701,6 +1663,46 @@
             "type": "TEAM"
           },
           "player": {
+            "id": 8730,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Sansam",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "dva",
+                "roadhog",
+                "zarya"
+              ],
+              "player_number": 33,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Kim",
+            "givenName": "Hyang Gi",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/4CBNQCE3XA4K1549576974165.png",
+            "user": {
+              "id": 550
+            },
+            "@etag": "dddd550c",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20913
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
             "id": 8784,
             "availableLanguages": [
               "en",
@@ -1717,9 +1719,10 @@
               ],
               "player_number": 11,
               "preferred_slot": "0",
-              "role": "offense"
+              "role": "offense",
+              "role_star": "damage"
             },
-            "attributesVersion": "1.0.2",
+            "attributesVersion": "1.0.4",
             "familyName": "Nigra",
             "givenName": "Corey",
             "nationality": "US",
@@ -1727,7 +1730,7 @@
             "user": {
               "id": 1515
             },
-            "@etag": "69fa6416",
+            "@etag": "8ed1df4e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1759,7 +1762,7 @@
                 "mercy"
               ],
               "hometown": null,
-              "player_number": 6,
+              "player_number": 41,
               "preferred_slot": "4",
               "role": "support"
             },
@@ -1771,13 +1774,57 @@
             "user": {
               "id": 1511
             },
-            "@etag": "43e3d226",
+            "@etag": "ada69359",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20913
           },
           "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4098,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "zunba.4946",
+            "name": "ZUNBA",
+            "homeLocation": "Boryung",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zarya",
+                "dva",
+                "soldier-76"
+              ],
+              "hometown": null,
+              "player_number": 5,
+              "preferred_slot": "1",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Kim",
+            "givenName": "Joonhyeok",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FKHYO7M90YU91549652304467.png",
+            "user": {
+              "id": 1151
+            },
+            "@etag": "c11bb6ea",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20913
+          },
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1822,50 +1869,6 @@
         },
         {
           "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4098,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "zunba.4946",
-            "name": "ZUNBA",
-            "homeLocation": "Boryung",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 5,
-              "preferred_slot": "1",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Kim",
-            "givenName": "Joonhyeok",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FKHYO7M90YU91549652304467.png",
-            "user": {
-              "id": 1151
-            },
-            "@etag": "c11bb6ea",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20913
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 7697,
             "type": "TEAM"
           },
@@ -2029,45 +2032,6 @@
         },
         {
           "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8684,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Fahzix",
-            "homeLocation": "Mckeesport, Pennsylvania",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "zenyatta"
-              ],
-              "player_number": 14,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Taylor",
-            "givenName": "Riley",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PO4515851HNE1549576973626.png",
-            "user": {
-              "id": 2497
-            },
-            "@etag": "ed1d954f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20913
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -2098,6 +2062,45 @@
               "id": 2173
             },
             "@etag": "120f311f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20913
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8684,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Fahzix",
+            "homeLocation": "Mckeesport, Pennsylvania",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "zenyatta"
+              ],
+              "player_number": 14,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Taylor",
+            "givenName": "Riley",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PO4515851HNE1549576973626.png",
+            "user": {
+              "id": 2497
+            },
+            "@etag": "ed1d954f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2138,46 +2141,6 @@
       "players": [
         {
           "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8784,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Corey",
-            "homeLocation": "Philadelphia",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 11,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Nigra",
-            "givenName": "Corey",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
-            "user": {
-              "id": 1515
-            },
-            "@etag": "69fa6416",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20914
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -2213,6 +2176,47 @@
               "id": 897
             },
             "@etag": "c996f31b",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20914
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8784,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Corey",
+            "homeLocation": "Philadelphia",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 11,
+              "preferred_slot": "0",
+              "role": "offense",
+              "role_star": "damage"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Nigra",
+            "givenName": "Corey",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
+            "user": {
+              "id": 1515
+            },
+            "@etag": "8ed1df4e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2309,50 +2313,6 @@
         },
         {
           "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4105,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "ryujehong.9666",
-            "name": "ryujehong",
-            "homeLocation": "Incheon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
-              ],
-              "hometown": null,
-              "player_number": 6,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ryu",
-            "givenName": "Jehong",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 1511
-            },
-            "@etag": "43e3d226",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20914
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 7697,
             "type": "TEAM"
           },
@@ -2384,6 +2344,50 @@
               "id": 550
             },
             "@etag": "dddd550c",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20914
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4105,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "ryujehong.9666",
+            "name": "ryujehong",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "ana",
+                "zenyatta",
+                "mercy"
+              ],
+              "hometown": null,
+              "player_number": 41,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ryu",
+            "givenName": "Jehong",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 1511
+            },
+            "@etag": "ada69359",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2558,6 +2562,40 @@
         },
         {
           "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8218,
+            "availableLanguages": [
+              "en"
+            ],
+            "name": "Marve1",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 11,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Hwang",
+            "givenName": "Min Seo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
+            "user": {
+              "id": 1078
+            },
+            "@etag": "4d5b88b3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20914
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 7697,
             "type": "TEAM"
           },
@@ -2591,40 +2629,6 @@
               "id": 372
             },
             "@etag": "ee3f92b6",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20914
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8218,
-            "availableLanguages": [
-              "en"
-            ],
-            "name": "Marve1",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 11,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Hwang",
-            "givenName": "Min Seo",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/A2XYGD183P501549652303862.png",
-            "user": {
-              "id": 1078
-            },
-            "@etag": "4d5b88b3",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2665,6 +2669,47 @@
       "players": [
         {
           "team": {
+            "id": 7697,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8784,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Corey",
+            "homeLocation": "Philadelphia",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 11,
+              "preferred_slot": "0",
+              "role": "offense",
+              "role_star": "damage"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Nigra",
+            "givenName": "Corey",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
+            "user": {
+              "id": 1515
+            },
+            "@etag": "8ed1df4e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20923
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4409,
             "type": "TEAM"
           },
@@ -2700,46 +2745,6 @@
               "id": 897
             },
             "@etag": "c996f31b",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20923
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 7697,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8784,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Corey",
-            "homeLocation": "Philadelphia",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 11,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Nigra",
-            "givenName": "Corey",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GATRQCCZ13I71549576973628.png",
-            "user": {
-              "id": 1515
-            },
-            "@etag": "69fa6416",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2836,6 +2841,50 @@
         },
         {
           "team": {
+            "id": 4409,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4105,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "ryujehong.9666",
+            "name": "ryujehong",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "ana",
+                "zenyatta",
+                "mercy"
+              ],
+              "hometown": null,
+              "player_number": 41,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ryu",
+            "givenName": "Jehong",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 1511
+            },
+            "@etag": "ada69359",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 20923
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 7697,
             "type": "TEAM"
           },
@@ -2880,43 +2929,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4105,
+            "id": 4098,
             "availableLanguages": [
               "en",
               "ko",
               "zh-cn"
             ],
-            "handle": "ryujehong.9666",
-            "name": "ryujehong",
-            "homeLocation": "Incheon",
+            "handle": "zunba.4946",
+            "name": "ZUNBA",
+            "homeLocation": "Boryung",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
+                "zarya",
+                "dva",
+                "soldier-76"
               ],
               "hometown": null,
-              "player_number": 6,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 5,
+              "preferred_slot": "1",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ryu",
-            "givenName": "Jehong",
+            "attributesVersion": "1.0.2",
+            "familyName": "Kim",
+            "givenName": "Joonhyeok",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FKHYO7M90YU91549652304467.png",
             "user": {
-              "id": 1511
+              "id": 1151
             },
-            "@etag": "43e3d226",
+            "@etag": "c11bb6ea",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 20923
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2954,50 +3003,6 @@
               "id": 1223
             },
             "@etag": "7bbb60e1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 20923
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4409,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4098,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "zunba.4946",
-            "name": "ZUNBA",
-            "homeLocation": "Boryung",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 5,
-              "preferred_slot": "1",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Kim",
-            "givenName": "Joonhyeok",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FKHYO7M90YU91549652304467.png",
-            "user": {
-              "id": 1151
-            },
-            "@etag": "c11bb6ea",
             "type": "PLAYER"
           },
           "matchGame": {
