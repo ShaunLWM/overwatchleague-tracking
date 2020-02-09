@@ -512,7 +512,7 @@
               ],
               "hometown": null,
               "player_number": 27,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -523,7 +523,7 @@
             "user": {
               "id": 1374
             },
-            "@etag": "681228f0",
+            "@etag": "d610cb44",
             "type": "PLAYER"
           },
           "flags": []
@@ -550,7 +550,7 @@
                 "widowmaker"
               ],
               "player_number": 17,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -561,7 +561,7 @@
             "user": {
               "id": 1453
             },
-            "@etag": "61fe5729",
+            "@etag": "b50e48c2",
             "type": "PLAYER"
           },
           "flags": []
@@ -588,7 +588,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -599,7 +599,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "flags": []
@@ -625,7 +625,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -636,7 +636,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "flags": []
@@ -656,6 +656,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 13,
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -666,7 +667,7 @@
             "user": {
               "id": 2287
             },
-            "@etag": "56647f63",
+            "@etag": "3d5402b0",
             "type": "PLAYER"
           },
           "flags": []
@@ -746,6 +747,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 20,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -756,7 +758,7 @@
             "user": {
               "id": 3358
             },
-            "@etag": "521e3e1b",
+            "@etag": "f1deda93",
             "type": "PLAYER"
           },
           "flags": []
@@ -891,7 +893,7 @@
             ],
             "hometown": null,
             "player_number": 27,
-            "preferred_slot": "1",
+            "preferred_slot": "0",
             "role": "offense"
           },
           "attributesVersion": "1.0.0",
@@ -902,7 +904,7 @@
           "user": {
             "id": 1374
           },
-          "@etag": "681228f0",
+          "@etag": "d610cb44",
           "type": "PLAYER"
         },
         "flags": []
@@ -922,6 +924,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 20,
+            "preferred_slot": "4",
             "role": "support"
           },
           "attributesVersion": "1.0.3",
@@ -932,37 +935,7 @@
           "user": {
             "id": 3358
           },
-          "@etag": "521e3e1b",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4402,
-          "type": "TEAM"
-        },
-        "player": {
-          "id": 12040,
-          "availableLanguages": [
-            "en"
-          ],
-          "name": "Mouffin",
-          "homeLocation": "Ontario",
-          "game": "OVERWATCH",
-          "attributes": {
-            "player_number": 7,
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.3",
-          "familyName": "Bassal",
-          "givenName": "Walid",
-          "nationality": "CA",
-          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-          "user": {
-            "id": 4695
-          },
-          "@etag": "6ba5a0a8",
+          "@etag": "f1deda93",
           "type": "PLAYER"
         },
         "flags": []
@@ -1003,6 +976,36 @@
           "type": "TEAM"
         },
         "player": {
+          "id": 12040,
+          "availableLanguages": [
+            "en"
+          ],
+          "name": "Mouffin",
+          "homeLocation": "Ontario",
+          "game": "OVERWATCH",
+          "attributes": {
+            "player_number": 7,
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.3",
+          "familyName": "Bassal",
+          "givenName": "Walid",
+          "nationality": "CA",
+          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+          "user": {
+            "id": 4695
+          },
+          "@etag": "6ba5a0a8",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4402,
+          "type": "TEAM"
+        },
+        "player": {
           "id": 5878,
           "availableLanguages": [
             "en",
@@ -1019,7 +1022,7 @@
               "winston"
             ],
             "player_number": 10,
-            "preferred_slot": "1",
+            "preferred_slot": "2",
             "role": "tank"
           },
           "attributesVersion": "1.0.2",
@@ -1030,7 +1033,7 @@
           "user": {
             "id": 2169
           },
-          "@etag": "27b0aaea",
+          "@etag": "af8fcb51",
           "type": "PLAYER"
         },
         "flags": []
@@ -1057,7 +1060,7 @@
               "widowmaker"
             ],
             "player_number": 17,
-            "preferred_slot": "0",
+            "preferred_slot": "1",
             "role": "offense"
           },
           "attributesVersion": "1.0.2",
@@ -1068,7 +1071,7 @@
           "user": {
             "id": 1453
           },
-          "@etag": "61fe5729",
+          "@etag": "b50e48c2",
           "type": "PLAYER"
         },
         "flags": []
@@ -1094,7 +1097,7 @@
               "winston"
             ],
             "player_number": 25,
-            "preferred_slot": "2",
+            "preferred_slot": "3",
             "role": "tank"
           },
           "attributesVersion": "1.0.2",
@@ -1105,7 +1108,7 @@
           "user": {
             "id": 3163
           },
-          "@etag": "5538a0f0",
+          "@etag": "49e881ef",
           "type": "PLAYER"
         },
         "flags": []
@@ -1125,6 +1128,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 13,
+            "preferred_slot": "5",
             "role": "support"
           },
           "attributesVersion": "1.0.3",
@@ -1135,7 +1139,7 @@
           "user": {
             "id": 2287
           },
-          "@etag": "56647f63",
+          "@etag": "3d5402b0",
           "type": "PLAYER"
         },
         "flags": []
@@ -1274,7 +1278,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -1285,7 +1289,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1485,7 +1489,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -1496,7 +1500,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1893,7 +1897,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -1904,7 +1908,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2107,7 +2111,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2118,7 +2122,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2390,7 +2394,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2401,7 +2405,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2557,7 +2561,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2568,7 +2572,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2882,7 +2886,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2893,7 +2897,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3050,7 +3054,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -3061,7 +3065,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3334,7 +3338,7 @@
                 "winston"
               ],
               "player_number": 25,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -3345,7 +3349,7 @@
             "user": {
               "id": 3163
             },
-            "@etag": "5538a0f0",
+            "@etag": "49e881ef",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3503,7 +3507,7 @@
                 "winston"
               ],
               "player_number": 10,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -3514,7 +3518,7 @@
             "user": {
               "id": 2169
             },
-            "@etag": "27b0aaea",
+            "@etag": "af8fcb51",
             "type": "PLAYER"
           },
           "matchGame": {
