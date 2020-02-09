@@ -79,7 +79,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 47,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -90,7 +90,7 @@
             "user": {
               "id": 3082
             },
-            "@etag": "b242e687",
+            "@etag": "4ad2158c",
             "type": "PLAYER"
           },
           "flags": []
@@ -207,7 +207,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -218,7 +218,7 @@
             "user": {
               "id": 3017
             },
-            "@etag": "ef9fc5a4",
+            "@etag": "434f0c13",
             "type": "PLAYER"
           },
           "flags": []
@@ -306,6 +306,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -316,7 +317,7 @@
             "user": {
               "id": 269
             },
-            "@etag": "a220a55c",
+            "@etag": "d20c66d1",
             "type": "PLAYER"
           },
           "flags": []
@@ -396,6 +397,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 27,
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -406,7 +408,7 @@
             "user": {
               "id": 2770
             },
-            "@etag": "d63c0390",
+            "@etag": "bdac4e3b",
             "type": "PLAYER"
           },
           "flags": []
@@ -832,47 +834,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 4666,
-          "availableLanguages": [
-            "en",
-            "zh-cn",
-            "ko"
-          ],
-          "handle": "gesture.2414",
-          "name": "Gesture",
-          "homeLocation": "Gunsan",
-          "game": "OVERWATCH",
-          "attributes": {
-            "hero_image": null,
-            "heroes": [
-              "winston",
-              "reinhardt",
-              "roadhog"
-            ],
-            "hometown": null,
-            "player_number": 7,
-            "preferred_slot": "2",
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.0",
-          "familyName": "Hong",
-          "givenName": "Jaehui",
-          "nationality": "KR",
-          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-          "user": {
-            "id": 1848
-          },
-          "@etag": "719e979b",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4409,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 8218,
           "availableLanguages": [
             "en"
@@ -904,34 +865,37 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 4655,
+          "id": 4666,
           "availableLanguages": [
             "en",
             "zh-cn",
             "ko"
           ],
-          "handle": "bdosin.7214",
-          "name": "Bdosin",
-          "homeLocation": "Suwon",
+          "handle": "gesture.2414",
+          "name": "Gesture",
+          "homeLocation": "Gunsan",
           "game": "OVERWATCH",
           "attributes": {
             "hero_image": null,
             "heroes": [
-              "zenyatta",
-              "ana",
-              "genji"
+              "winston",
+              "reinhardt",
+              "roadhog"
             ],
             "hometown": null,
-            "player_number": 10,
-            "preferred_slot": "4",
-            "role": "support"
+            "player_number": 7,
+            "preferred_slot": "2",
+            "role": "tank"
           },
           "attributesVersion": "1.0.0",
-          "familyName": "Choi",
-          "givenName": "Seungtae",
+          "familyName": "Hong",
+          "givenName": "Jaehui",
           "nationality": "KR",
           "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-          "@etag": "50781b5e",
+          "user": {
+            "id": 1848
+          },
+          "@etag": "719e979b",
           "type": "PLAYER"
         },
         "flags": []
@@ -1004,6 +968,44 @@
             "id": 920
           },
           "@etag": "ffc803a1",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4409,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 4655,
+          "availableLanguages": [
+            "en",
+            "zh-cn",
+            "ko"
+          ],
+          "handle": "bdosin.7214",
+          "name": "Bdosin",
+          "homeLocation": "Suwon",
+          "game": "OVERWATCH",
+          "attributes": {
+            "hero_image": null,
+            "heroes": [
+              "zenyatta",
+              "ana",
+              "genji"
+            ],
+            "hometown": null,
+            "player_number": 10,
+            "preferred_slot": "4",
+            "role": "support"
+          },
+          "attributesVersion": "1.0.0",
+          "familyName": "Choi",
+          "givenName": "Seungtae",
+          "nationality": "KR",
+          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+          "@etag": "50781b5e",
           "type": "PLAYER"
         },
         "flags": []
@@ -1242,7 +1244,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -1253,7 +1255,7 @@
             "user": {
               "id": 3017
             },
-            "@etag": "ef9fc5a4",
+            "@etag": "434f0c13",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1613,7 +1615,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 47,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -1624,7 +1626,7 @@
             "user": {
               "id": 3082
             },
-            "@etag": "b242e687",
+            "@etag": "4ad2158c",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1718,7 +1720,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -1729,7 +1731,7 @@
             "user": {
               "id": 3017
             },
-            "@etag": "ef9fc5a4",
+            "@etag": "434f0c13",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2052,7 +2054,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 47,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -2063,7 +2065,7 @@
             "user": {
               "id": 3082
             },
-            "@etag": "b242e687",
+            "@etag": "4ad2158c",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2194,7 +2196,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -2205,7 +2207,7 @@
             "user": {
               "id": 3017
             },
-            "@etag": "ef9fc5a4",
+            "@etag": "434f0c13",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2528,7 +2530,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 47,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -2539,7 +2541,7 @@
             "user": {
               "id": 3082
             },
-            "@etag": "b242e687",
+            "@etag": "4ad2158c",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2865,7 +2867,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -2876,7 +2878,7 @@
             "user": {
               "id": 3017
             },
-            "@etag": "ef9fc5a4",
+            "@etag": "434f0c13",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3006,7 +3008,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 47,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -3017,7 +3019,7 @@
             "user": {
               "id": 3082
             },
-            "@etag": "b242e687",
+            "@etag": "4ad2158c",
             "type": "PLAYER"
           },
           "matchGame": {

@@ -393,6 +393,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 20,
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -403,7 +404,7 @@
             "user": {
               "id": 1222
             },
-            "@etag": "623a5069",
+            "@etag": "698724da",
             "type": "PLAYER"
           },
           "flags": []
@@ -423,6 +424,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 28,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.4",
@@ -433,7 +435,7 @@
             "user": {
               "id": 2145
             },
-            "@etag": "56abb1d0",
+            "@etag": "e56b7d18",
             "type": "PLAYER"
           },
           "flags": []
@@ -960,6 +962,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 20,
+            "preferred_slot": "0",
             "role": "offense"
           },
           "attributesVersion": "1.0.3",
@@ -970,7 +973,7 @@
           "user": {
             "id": 1222
           },
-          "@etag": "623a5069",
+          "@etag": "698724da",
           "type": "PLAYER"
         },
         "flags": []
@@ -1063,6 +1066,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 28,
+            "preferred_slot": "4",
             "role": "support"
           },
           "attributesVersion": "1.0.4",
@@ -1073,7 +1077,7 @@
           "user": {
             "id": 2145
           },
-          "@etag": "56abb1d0",
+          "@etag": "e56b7d18",
           "type": "PLAYER"
         },
         "flags": []
@@ -1497,7 +1501,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -1508,55 +1512,13 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22799
           },
           "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4523,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 3985,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "akm.8009",
-            "name": "aKm",
-            "homeLocation": "Angoulême",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Bignet",
-            "givenName": "Dylan",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IZD5FOGR2KUW1549664649019.png",
-            "user": {
-              "id": 1534
-            },
-            "@etag": "f77cf51d",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22799
-          },
-          "sortIndex": 3
         },
         {
           "team": {
@@ -1595,6 +1557,48 @@
               "id": 902
             },
             "@etag": "6a3ed15e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22799
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4523,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 3985,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "akm.8009",
+            "name": "aKm",
+            "homeLocation": "Angoulême",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "soldier-76"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Bignet",
+            "givenName": "Dylan",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IZD5FOGR2KUW1549664649019.png",
+            "user": {
+              "id": 1534
+            },
+            "@etag": "f77cf51d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1790,6 +1794,41 @@
       "players": [
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8706,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kris",
+            "homeLocation": "Jinju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 96,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Choe",
+            "givenName": "Junsu",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/SRTYWJNSMFTW1549664654992.png",
+            "user": {
+              "id": 2254
+            },
+            "@etag": "6e367166",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22800
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -1825,41 +1864,6 @@
               "id": 26
             },
             "@etag": "dc535bc7",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22800
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8706,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Kris",
-            "homeLocation": "Jinju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 96,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Choe",
-            "givenName": "Junsu",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/SRTYWJNSMFTW1549664654992.png",
-            "user": {
-              "id": 2254
-            },
-            "@etag": "6e367166",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2018,7 +2022,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -2029,55 +2033,13 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22800
           },
           "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4523,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 3985,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "akm.8009",
-            "name": "aKm",
-            "homeLocation": "Angoulême",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Bignet",
-            "givenName": "Dylan",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IZD5FOGR2KUW1549664649019.png",
-            "user": {
-              "id": 1534
-            },
-            "@etag": "f77cf51d",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22800
-          },
-          "sortIndex": 3
         },
         {
           "team": {
@@ -2129,6 +2091,83 @@
             "type": "TEAM"
           },
           "player": {
+            "id": 3985,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "akm.8009",
+            "name": "aKm",
+            "homeLocation": "Angoulême",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "soldier-76"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Bignet",
+            "givenName": "Dylan",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IZD5FOGR2KUW1549664649019.png",
+            "user": {
+              "id": 1534
+            },
+            "@etag": "f77cf51d",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22800
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8705,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "SWoN",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 16,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Yoon",
+            "givenName": "Sangwon",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
+            "user": {
+              "id": 810
+            },
+            "@etag": "196fcda3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22800
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4523,
+            "type": "TEAM"
+          },
+          "player": {
             "id": 8642,
             "availableLanguages": [
               "en",
@@ -2160,41 +2199,6 @@
               "id": 763
             },
             "@etag": "4ac77ceb",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22800
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8705,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "SWoN",
-            "homeLocation": "Busan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 16,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Yoon",
-            "givenName": "Sangwon",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
-            "user": {
-              "id": 810
-            },
-            "@etag": "196fcda3",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2475,6 +2479,47 @@
         },
         {
           "team": {
+            "id": 4523,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5717,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "oge.9154",
+            "name": "OGE",
+            "homeLocation": "Gimcheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Son",
+            "givenName": "Minseok",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "user": {
+              "id": 492
+            },
+            "@etag": "063c0e8d",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22871
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -2519,44 +2564,47 @@
         },
         {
           "team": {
-            "id": 4523,
+            "id": 4407,
             "type": "TEAM"
           },
           "player": {
-            "id": 5717,
+            "id": 4640,
             "availableLanguages": [
               "en",
-              "zh-cn",
-              "ko"
+              "ko",
+              "zh-cn"
             ],
-            "handle": "oge.9154",
-            "name": "OGE",
-            "homeLocation": "Gimcheon",
+            "handle": "xepher.4082",
+            "name": "xepheR",
+            "homeLocation": "Busan",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "reinhardt",
-                "winston"
+                "zarya",
+                "dva",
+                "soldier-76"
               ],
-              "player_number": 2,
+              "hometown": null,
+              "player_number": 32,
               "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Son",
-            "givenName": "Minseok",
+            "familyName": "Koo",
+            "givenName": "Jaemo",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/VOMRLLOOGCCR1549664655208.png",
             "user": {
-              "id": 492
+              "id": 902
             },
-            "@etag": "6acc7df6",
+            "@etag": "6a3ed15e",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22871
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2593,50 +2641,6 @@
               "id": 1534
             },
             "@etag": "f77cf51d",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22871
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4640,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "xepher.4082",
-            "name": "xepheR",
-            "homeLocation": "Busan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 32,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Koo",
-            "givenName": "Jaemo",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/VOMRLLOOGCCR1549664655208.png",
-            "user": {
-              "id": 902
-            },
-            "@etag": "6a3ed15e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3016,7 +3020,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -3027,7 +3031,7 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {

@@ -718,6 +718,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 20,
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -728,7 +729,7 @@
             "user": {
               "id": 1222
             },
-            "@etag": "623a5069",
+            "@etag": "698724da",
             "type": "PLAYER"
           },
           "flags": []
@@ -748,6 +749,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 28,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.4",
@@ -758,7 +760,7 @@
             "user": {
               "id": 2145
             },
-            "@etag": "56abb1d0",
+            "@etag": "e56b7d18",
             "type": "PLAYER"
           },
           "flags": []
@@ -884,44 +886,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 8729,
-          "availableLanguages": [
-            "en",
-            "zh-cn"
-          ],
-          "name": "Twilight",
-          "homeLocation": "Mokpo",
-          "game": "OVERWATCH",
-          "attributes": {
-            "heroes": [
-              "ana",
-              "moira",
-              "zenyatta"
-            ],
-            "player_number": 7,
-            "preferred_slot": "4",
-            "role": "support",
-            "role_star": "support"
-          },
-          "attributesVersion": "1.0.4",
-          "familyName": "Lee",
-          "givenName": "Juseok",
-          "nationality": "KR",
-          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/DS550MN10Y821550108386581.png",
-          "user": {
-            "id": 2210
-          },
-          "@etag": "23ea3647",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 7696,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 4105,
           "availableLanguages": [
             "en",
@@ -953,6 +917,44 @@
             "id": 1511
           },
           "@etag": "d121d8cb",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 7696,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 8729,
+          "availableLanguages": [
+            "en",
+            "zh-cn"
+          ],
+          "name": "Twilight",
+          "homeLocation": "Mokpo",
+          "game": "OVERWATCH",
+          "attributes": {
+            "heroes": [
+              "ana",
+              "moira",
+              "zenyatta"
+            ],
+            "player_number": 7,
+            "preferred_slot": "4",
+            "role": "support",
+            "role_star": "support"
+          },
+          "attributesVersion": "1.0.4",
+          "familyName": "Lee",
+          "givenName": "Juseok",
+          "nationality": "KR",
+          "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/DS550MN10Y821550108386581.png",
+          "user": {
+            "id": 2210
+          },
+          "@etag": "23ea3647",
           "type": "PLAYER"
         },
         "flags": []
@@ -1134,6 +1136,45 @@
       "players": [
         {
           "team": {
+            "id": 7696,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8728,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "SeoMinSoo",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "hanzo",
+                "zarya"
+              ],
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Seo",
+            "givenName": "MinSoo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/RSW412V2G9151550108386254.png",
+            "user": {
+              "id": 2174
+            },
+            "@etag": "f8e8ccb6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22781
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -1182,38 +1223,38 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8728,
+            "id": 8771,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "SeoMinSoo",
+            "name": "BUMPER",
             "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "hanzo",
-                "zarya"
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 18,
-              "preferred_slot": "0",
-              "role": "offense"
+              "player_number": 4,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Seo",
-            "givenName": "MinSoo",
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Sangbeom",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/RSW412V2G9151550108386254.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
             "user": {
-              "id": 2174
+              "id": 1716
             },
-            "@etag": "f8e8ccb6",
+            "@etag": "e91799c7",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22781
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1260,45 +1301,6 @@
         },
         {
           "team": {
-            "id": 7696,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8771,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "BUMPER",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 4,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Sangbeom",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
-            "user": {
-              "id": 1716
-            },
-            "@etag": "e91799c7",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22781
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -1319,7 +1321,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -1330,7 +1332,7 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1654,6 +1656,45 @@
       "players": [
         {
           "team": {
+            "id": 7696,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8728,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "SeoMinSoo",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "hanzo",
+                "zarya"
+              ],
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Seo",
+            "givenName": "MinSoo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/RSW412V2G9151550108386254.png",
+            "user": {
+              "id": 2174
+            },
+            "@etag": "f8e8ccb6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22687
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -1702,38 +1743,38 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8728,
+            "id": 8771,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "SeoMinSoo",
+            "name": "BUMPER",
             "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "hanzo",
-                "zarya"
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 18,
-              "preferred_slot": "0",
-              "role": "offense"
+              "player_number": 4,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Seo",
-            "givenName": "MinSoo",
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Sangbeom",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/RSW412V2G9151550108386254.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
             "user": {
-              "id": 2174
+              "id": 1716
             },
-            "@etag": "f8e8ccb6",
+            "@etag": "e91799c7",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22687
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1780,45 +1821,6 @@
         },
         {
           "team": {
-            "id": 7696,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8771,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "BUMPER",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 4,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Sangbeom",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
-            "user": {
-              "id": 1716
-            },
-            "@etag": "e91799c7",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22687
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -1839,7 +1841,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -1850,7 +1852,7 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2359,7 +2361,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -2370,7 +2372,7 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2738,45 +2740,6 @@
         },
         {
           "team": {
-            "id": 7696,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8771,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "BUMPER",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 4,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Sangbeom",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
-            "user": {
-              "id": 1716
-            },
-            "@etag": "e91799c7",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22782
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -2820,6 +2783,45 @@
         },
         {
           "team": {
+            "id": 7696,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8771,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "BUMPER",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 4,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Sangbeom",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XGX26XAR68311550108385831.png",
+            "user": {
+              "id": 1716
+            },
+            "@etag": "e91799c7",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22782
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 4523,
             "type": "TEAM"
           },
@@ -2840,7 +2842,7 @@
                 "winston"
               ],
               "player_number": 2,
-              "preferred_slot": "3",
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
@@ -2851,7 +2853,7 @@
             "user": {
               "id": 492
             },
-            "@etag": "6acc7df6",
+            "@etag": "063c0e8d",
             "type": "PLAYER"
           },
           "matchGame": {
