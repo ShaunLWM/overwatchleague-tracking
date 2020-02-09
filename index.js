@@ -99,13 +99,27 @@ const API_BASE = "https://api.overwatchleague.com/";
         writeToFile(`./data/players/${player["id"]}.json`, await get(`players/${player["id"]}?expand=stats,stats.ranks`));
     }
 
+    // v2
+    fs.ensureDirSync("./v2");
+
+    const schedule2 = await get("", "https://wzavfvwgfk.execute-api.us-east-2.amazonaws.com/production/owl/schedule?lang=en-us&test=false");
+    writeToFile("./v2/schedule.json", schedule2);
+
+    const standings2 = await get("", "https://wzavfvwgfk.execute-api.us-east-2.amazonaws.com/production/owl/standings?lang=en-us");
+    writeToFile("./v2/standings.json", standings2);
+
+    const teams2 = await get("", "https://api.overwatchleague.com/v2/teams?locale=en-us");
+    writeToFile("./v2/teams.json", teams2);
+
     console.log("Done!");
 })();
 
 
-async function get(key) {
+async function get(key, full = "") {
     try {
-        const results = await fetch(`${API_BASE}${key}`);
+        let results = "";
+        if (full.length < 1) results = await fetch(`${API_BASE}${key}`);
+        else results = await fetch(full);
         return await results.json();
     } catch (error) {
         return false;
