@@ -549,7 +549,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -560,7 +560,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "flags": []
@@ -581,7 +581,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -592,7 +592,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "flags": []
@@ -715,6 +715,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -725,7 +726,7 @@
             "user": {
               "id": 3178
             },
-            "@etag": "268f1fc4",
+            "@etag": "53cfe7d4",
             "type": "PLAYER"
           },
           "flags": []
@@ -745,6 +746,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 7,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -755,7 +757,7 @@
             "user": {
               "id": 4713
             },
-            "@etag": "457a7a4d",
+            "@etag": "56a15127",
             "type": "PLAYER"
           },
           "flags": []
@@ -1227,6 +1229,41 @@
       "players": [
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8706,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kris",
+            "homeLocation": "Jinju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 96,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Choe",
+            "givenName": "Junsu",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
+            "user": {
+              "id": 2254
+            },
+            "@etag": "930be50a",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22777
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4408,
             "type": "TEAM"
           },
@@ -1264,76 +1301,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8706,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Kris",
-            "homeLocation": "Jinju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 96,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Choe",
-            "givenName": "Junsu",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
-            "user": {
-              "id": 2254
-            },
-            "@etag": "5f7b24cd",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22777
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4408,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8892,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "CoMa",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 13,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Son",
-            "givenName": "Gyeong Woo",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PA9D8L28RPRC1549652308196.png",
-            "user": {
-              "id": 3029
-            },
-            "@etag": "e4703286",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22777
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 5442,
             "availableLanguages": [
               "en",
@@ -1363,6 +1330,41 @@
               "id": 1628
             },
             "@etag": "84f0cbe1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22777
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4408,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8892,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "CoMa",
+            "homeLocation": "Daegu",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 13,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Son",
+            "givenName": "Gyeong Woo",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PA9D8L28RPRC1549652308196.png",
+            "user": {
+              "id": 3029
+            },
+            "@etag": "e4703286",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1540,6 +1542,41 @@
         },
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8705,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "SWoN",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 16,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Yoon",
+            "givenName": "Sangwon",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
+            "user": {
+              "id": 810
+            },
+            "@etag": "196fcda3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22777
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
             "id": 4408,
             "type": "TEAM"
           },
@@ -1584,34 +1621,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8705,
+            "id": 8704,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "SWoN",
-            "homeLocation": "Busan",
+            "name": "bqb",
+            "homeLocation": "Youngin",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 16,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Yoon",
-            "givenName": "Sangwon",
+            "familyName": "Lee",
+            "givenName": "Sangbum",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
             "user": {
-              "id": 810
+              "id": 3393
             },
-            "@etag": "196fcda3",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22777
           },
-          "sortIndex": 4
+          "sortIndex": 5
         },
         {
           "team": {
@@ -1644,41 +1681,6 @@
               "id": 1627
             },
             "@etag": "b33b9605",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22777
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8704,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "bqb",
-            "homeLocation": "Youngin",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 22,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "Sangbum",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
-            "user": {
-              "id": 3393
-            },
-            "@etag": "4d47e6d6",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1733,7 +1735,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -1744,7 +1746,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2119,7 +2121,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -2130,7 +2132,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2227,7 +2229,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2238,7 +2240,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2278,41 +2280,6 @@
             "id": 22779
           },
           "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4408,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8892,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "CoMa",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 13,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Son",
-            "givenName": "Gyeong Woo",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PA9D8L28RPRC1549652308196.png",
-            "user": {
-              "id": 3029
-            },
-            "@etag": "e4703286",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22779
-          },
-          "sortIndex": 1
         },
         {
           "team": {
@@ -2362,35 +2329,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8895,
+            "id": 8892,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "DDing",
-            "homeLocation": "Seoul",
+            "name": "CoMa",
+            "homeLocation": "Daegu",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 31,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "player_number": 13,
+              "preferred_slot": "5",
+              "role": "support"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Yang",
-            "givenName": "Jinhyeok",
+            "attributesVersion": "1.0.2",
+            "familyName": "Son",
+            "givenName": "Gyeong Woo",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GVRULDSIXS1K1549652308199.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/PA9D8L28RPRC1549652308196.png",
             "user": {
-              "id": 2550
+              "id": 3029
             },
-            "@etag": "925a0a6c",
+            "@etag": "e4703286",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22779
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2429,6 +2395,42 @@
               "id": 865
             },
             "@etag": "fd5106f4",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22779
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4408,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8895,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "DDing",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 31,
+              "preferred_slot": "1",
+              "role": "offense",
+              "role_star": "damage"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Yang",
+            "givenName": "Jinhyeok",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/GVRULDSIXS1K1549652308199.png",
+            "user": {
+              "id": 2550
+            },
+            "@etag": "925a0a6c",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2526,6 +2528,41 @@
         },
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8705,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "SWoN",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 16,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Yoon",
+            "givenName": "Sangwon",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
+            "user": {
+              "id": 810
+            },
+            "@etag": "196fcda3",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22779
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
             "id": 4408,
             "type": "TEAM"
           },
@@ -2570,34 +2607,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8705,
+            "id": 8704,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "SWoN",
-            "homeLocation": "Busan",
+            "name": "bqb",
+            "homeLocation": "Youngin",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 16,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Yoon",
-            "givenName": "Sangwon",
+            "familyName": "Lee",
+            "givenName": "Sangbum",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/XJPWLL33T5ED1549664655201.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
             "user": {
-              "id": 810
+              "id": 3393
             },
-            "@etag": "196fcda3",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22779
           },
-          "sortIndex": 4
+          "sortIndex": 5
         },
         {
           "team": {
@@ -2630,41 +2667,6 @@
               "id": 1627
             },
             "@etag": "b33b9605",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22779
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8704,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "bqb",
-            "homeLocation": "Youngin",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 22,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "Sangbum",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
-            "user": {
-              "id": 3393
-            },
-            "@etag": "4d47e6d6",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2719,7 +2721,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2730,7 +2732,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3145,7 +3147,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -3156,7 +3158,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {

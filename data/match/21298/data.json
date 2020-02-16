@@ -137,7 +137,7 @@
               ],
               "hometown": null,
               "player_number": 18,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -148,7 +148,7 @@
             "user": {
               "id": 286
             },
-            "@etag": "f588bb38",
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "flags": []
@@ -329,7 +329,7 @@
                 "mercy"
               ],
               "player_number": 33,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -340,7 +340,7 @@
             "user": {
               "id": 989
             },
-            "@etag": "b4d60e0e",
+            "@etag": "30c64f7f",
             "type": "PLAYER"
           },
           "flags": []
@@ -360,6 +360,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 17,
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -370,7 +371,7 @@
             "user": {
               "id": 4683
             },
-            "@etag": "feee79ba",
+            "@etag": "4ec973ed",
             "type": "PLAYER"
           },
           "flags": []
@@ -1309,6 +1310,50 @@
       "players": [
         {
           "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4620,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "hometown": null,
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
+            "user": {
+              "id": 286
+            },
+            "@etag": "972ab062",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22881
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -1350,91 +1395,6 @@
             "id": 22881
           },
           "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22881
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4083,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "eqo.8442",
-            "name": "eqo",
-            "homeLocation": "Netenya",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "genji",
-                "hanzo",
-                "soldier-76",
-                "tracer"
-              ],
-              "hometown": null,
-              "player_number": 15,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Corona",
-            "givenName": "Josue ",
-            "nationality": "IL",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-            "@etag": "d137379f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22881
-          },
-          "sortIndex": 1
         },
         {
           "team": {
@@ -1486,43 +1446,40 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4669,
+            "id": 4083,
             "availableLanguages": [
               "en",
-              "zh-cn",
-              "ko"
+              "zh-cn"
             ],
-            "handle": "ddeu-yong.1036",
-            "name": "SADO",
-            "homeLocation": "Gwangju",
+            "handle": "eqo.8442",
+            "name": "eqo",
+            "homeLocation": "Netenya",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "winston",
-                "reinhardt",
-                "dva"
+                "genji",
+                "hanzo",
+                "soldier-76",
+                "tracer"
               ],
               "hometown": null,
-              "player_number": 9,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 15,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Sumin",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5D3GZ0V7N6ZT1549652290929.png",
-            "user": {
-              "id": 3167
-            },
-            "@etag": "9a97f8a1",
+            "familyName": "Corona",
+            "givenName": "Josue ",
+            "nationality": "IL",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
+            "@etag": "d137379f",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22881
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1573,42 +1530,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4668,
+            "id": 4669,
             "availableLanguages": [
               "en",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "handle": "poko.6448",
-            "name": "Poko",
-            "homeLocation": "Nîmes",
+            "handle": "ddeu-yong.1036",
+            "name": "SADO",
+            "homeLocation": "Gwangju",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
+                "winston",
+                "reinhardt",
+                "dva"
               ],
               "hometown": null,
-              "player_number": 21,
-              "preferred_slot": "3",
+              "player_number": 9,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Gouzerch",
-            "givenName": "Gael",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
+            "familyName": "Kim",
+            "givenName": "Sumin",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5D3GZ0V7N6ZT1549652290929.png",
             "user": {
-              "id": 1251
+              "id": 3167
             },
-            "@etag": "5f8a64f9",
+            "@etag": "9a97f8a1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22881
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1652,43 +1610,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 4524,
             "type": "TEAM"
           },
           "player": {
-            "id": 8688,
+            "id": 4668,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Viol2t",
-            "homeLocation": "Incheon",
+            "handle": "poko.6448",
+            "name": "Poko",
+            "homeLocation": "Nîmes",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "ana",
-                "widowmaker",
-                "zenyatta"
+                "zarya",
+                "dva",
+                "soldier-76"
               ],
-              "player_number": 17,
-              "preferred_slot": "4",
-              "role": "support"
+              "hometown": null,
+              "player_number": 21,
+              "preferred_slot": "3",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Minki",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Gouzerch",
+            "givenName": "Gael",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
             "user": {
-              "id": 917
+              "id": 1251
             },
-            "@etag": "fe268718",
+            "@etag": "5f8a64f9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22881
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1739,41 +1700,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5716,
+            "id": 8688,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "moth.3967",
-            "name": "moth",
-            "homeLocation": "Worcester, MA",
+            "name": "Viol2t",
+            "homeLocation": "Incheon",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
                 "ana",
-                "lucio",
-                "mercy"
+                "widowmaker",
+                "zenyatta"
               ],
-              "player_number": 64,
-              "preferred_slot": "5",
-              "role": "support",
-              "role_star": "support"
+              "player_number": 17,
+              "preferred_slot": "4",
+              "role": "support"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Espe",
-            "givenName": "Grant",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Minki",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
             "user": {
-              "id": 129
+              "id": 917
             },
-            "@etag": "39c7cc8f",
+            "@etag": "fe268718",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22881
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -1811,6 +1770,48 @@
               "id": 1828
             },
             "@etag": "9eb0e715",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22881
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5716,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "moth.3967",
+            "name": "moth",
+            "homeLocation": "Worcester, MA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 64,
+              "preferred_slot": "5",
+              "role": "support",
+              "role_star": "support"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Espe",
+            "givenName": "Grant",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "user": {
+              "id": 129
+            },
+            "@etag": "39c7cc8f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1936,6 +1937,46 @@
         },
         {
           "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8688,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Viol2t",
+            "homeLocation": "Incheon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "widowmaker",
+                "zenyatta"
+              ],
+              "player_number": 17,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Minki",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
+            "user": {
+              "id": 917
+            },
+            "@etag": "fe268718",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22882
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -1971,46 +2012,6 @@
               "id": 3167
             },
             "@etag": "9a97f8a1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22882
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8688,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Viol2t",
-            "homeLocation": "Incheon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "widowmaker",
-                "zenyatta"
-              ],
-              "player_number": 17,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Minki",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
-            "user": {
-              "id": 917
-            },
-            "@etag": "fe268718",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2106,50 +2107,6 @@
         },
         {
           "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22882
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -2194,43 +2151,47 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 4524,
             "type": "TEAM"
           },
           "player": {
-            "id": 5831,
+            "id": 4620,
             "availableLanguages": [
               "en",
               "ko",
               "zh-cn"
             ],
-            "handle": "choihyobin.6059",
-            "name": "Choihyobin",
-            "homeLocation": "Seoul",
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
+                "mccree",
+                "tracer",
+                "widowmaker"
               ],
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank",
-              "role_star": "tank"
+              "hometown": null,
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Choi",
-            "givenName": "Hyobin",
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
-            "@etag": "a09ed555",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
+            "user": {
+              "id": 286
+            },
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22882
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2281,43 +2242,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4139,
+            "id": 5831,
             "availableLanguages": [
               "en",
+              "ko",
               "zh-cn"
             ],
-            "handle": "sinatraa.3257",
-            "name": "sinatraa",
-            "homeLocation": "Shoreline, WA",
+            "handle": "choihyobin.6059",
+            "name": "Choihyobin",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
               "heroes": [
-                "tracer",
-                "zarya",
-                "genji"
+                "dva",
+                "roadhog",
+                "zarya"
               ],
-              "hometown": "Shoreline, Washington",
-              "player_number": 2,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank",
+              "role_star": "tank"
             },
             "attributesVersion": "1.0.4",
-            "familyName": "Won",
-            "givenName": "Jay",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
-            "user": {
-              "id": 3256
-            },
-            "@etag": "7b67fb71",
+            "familyName": "Choi",
+            "givenName": "Hyobin",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
+            "@etag": "a09ed555",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22882
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2353,6 +2310,50 @@
             "nationality": "IL",
             "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
             "@etag": "d137379f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22882
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4139,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "sinatraa.3257",
+            "name": "sinatraa",
+            "homeLocation": "Shoreline, WA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "tracer",
+                "zarya",
+                "genji"
+              ],
+              "hometown": "Shoreline, Washington",
+              "player_number": 2,
+              "preferred_slot": "1",
+              "role": "offense",
+              "role_star": "damage"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Won",
+            "givenName": "Jay",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "user": {
+              "id": 3256
+            },
+            "@etag": "7b67fb71",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2460,7 +2461,7 @@
               ],
               "hometown": null,
               "player_number": 18,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -2471,54 +2472,13 @@
             "user": {
               "id": 286
             },
-            "@etag": "f588bb38",
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22883
           },
           "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4083,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "eqo.8442",
-            "name": "eqo",
-            "homeLocation": "Netenya",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "genji",
-                "hanzo",
-                "soldier-76",
-                "tracer"
-              ],
-              "hometown": null,
-              "player_number": 15,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Corona",
-            "givenName": "Josue ",
-            "nationality": "IL",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-            "@etag": "d137379f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22883
-          },
-          "sortIndex": 1
         },
         {
           "team": {
@@ -2570,43 +2530,40 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4669,
+            "id": 4083,
             "availableLanguages": [
               "en",
-              "zh-cn",
-              "ko"
+              "zh-cn"
             ],
-            "handle": "ddeu-yong.1036",
-            "name": "SADO",
-            "homeLocation": "Gwangju",
+            "handle": "eqo.8442",
+            "name": "eqo",
+            "homeLocation": "Netenya",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "winston",
-                "reinhardt",
-                "dva"
+                "genji",
+                "hanzo",
+                "soldier-76",
+                "tracer"
               ],
               "hometown": null,
-              "player_number": 9,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 15,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Sumin",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5D3GZ0V7N6ZT1549652290929.png",
-            "user": {
-              "id": 3167
-            },
-            "@etag": "9a97f8a1",
+            "familyName": "Corona",
+            "givenName": "Josue ",
+            "nationality": "IL",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
+            "@etag": "d137379f",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22883
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2657,42 +2614,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4668,
+            "id": 4669,
             "availableLanguages": [
               "en",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "handle": "poko.6448",
-            "name": "Poko",
-            "homeLocation": "Nîmes",
+            "handle": "ddeu-yong.1036",
+            "name": "SADO",
+            "homeLocation": "Gwangju",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
+                "winston",
+                "reinhardt",
+                "dva"
               ],
               "hometown": null,
-              "player_number": 21,
-              "preferred_slot": "3",
+              "player_number": 9,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Gouzerch",
-            "givenName": "Gael",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
+            "familyName": "Kim",
+            "givenName": "Sumin",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5D3GZ0V7N6ZT1549652290929.png",
             "user": {
-              "id": 1251
+              "id": 3167
             },
-            "@etag": "5f8a64f9",
+            "@etag": "9a97f8a1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22883
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -2736,43 +2694,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 4524,
             "type": "TEAM"
           },
           "player": {
-            "id": 8688,
+            "id": 4668,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Viol2t",
-            "homeLocation": "Incheon",
+            "handle": "poko.6448",
+            "name": "Poko",
+            "homeLocation": "Nîmes",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "ana",
-                "widowmaker",
-                "zenyatta"
+                "zarya",
+                "dva",
+                "soldier-76"
               ],
-              "player_number": 17,
-              "preferred_slot": "4",
-              "role": "support"
+              "hometown": null,
+              "player_number": 21,
+              "preferred_slot": "3",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Minki",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Gouzerch",
+            "givenName": "Gael",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
             "user": {
-              "id": 917
+              "id": 1251
             },
-            "@etag": "fe268718",
+            "@etag": "5f8a64f9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22883
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2823,41 +2784,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5716,
+            "id": 8688,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "moth.3967",
-            "name": "moth",
-            "homeLocation": "Worcester, MA",
+            "name": "Viol2t",
+            "homeLocation": "Incheon",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
                 "ana",
-                "lucio",
-                "mercy"
+                "widowmaker",
+                "zenyatta"
               ],
-              "player_number": 64,
-              "preferred_slot": "5",
-              "role": "support",
-              "role_star": "support"
+              "player_number": 17,
+              "preferred_slot": "4",
+              "role": "support"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Espe",
-            "givenName": "Grant",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Minki",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
             "user": {
-              "id": 129
+              "id": 917
             },
-            "@etag": "39c7cc8f",
+            "@etag": "fe268718",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22883
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2895,6 +2854,48 @@
               "id": 1828
             },
             "@etag": "9eb0e715",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22883
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5716,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "moth.3967",
+            "name": "moth",
+            "homeLocation": "Worcester, MA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 64,
+              "preferred_slot": "5",
+              "role": "support",
+              "role_star": "support"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Espe",
+            "givenName": "Grant",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "user": {
+              "id": 129
+            },
+            "@etag": "39c7cc8f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2958,7 +2959,7 @@
               ],
               "hometown": null,
               "player_number": 18,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -2969,7 +2970,7 @@
             "user": {
               "id": 286
             },
-            "@etag": "f588bb38",
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3195,49 +3196,6 @@
         },
         {
           "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4668,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "poko.6448",
-            "name": "Poko",
-            "homeLocation": "Nîmes",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 21,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Gouzerch",
-            "givenName": "Gael",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
-            "user": {
-              "id": 1251
-            },
-            "@etag": "5f8a64f9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22884
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -3278,43 +3236,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 4524,
             "type": "TEAM"
           },
           "player": {
-            "id": 8688,
+            "id": 4668,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Viol2t",
-            "homeLocation": "Incheon",
+            "handle": "poko.6448",
+            "name": "Poko",
+            "homeLocation": "Nîmes",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "ana",
-                "widowmaker",
-                "zenyatta"
+                "zarya",
+                "dva",
+                "soldier-76"
               ],
-              "player_number": 17,
-              "preferred_slot": "4",
-              "role": "support"
+              "hometown": null,
+              "player_number": 21,
+              "preferred_slot": "3",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Minki",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Gouzerch",
+            "givenName": "Gael",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
             "user": {
-              "id": 917
+              "id": 1251
             },
-            "@etag": "fe268718",
+            "@etag": "5f8a64f9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22884
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -3365,41 +3326,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5716,
+            "id": 8688,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "moth.3967",
-            "name": "moth",
-            "homeLocation": "Worcester, MA",
+            "name": "Viol2t",
+            "homeLocation": "Incheon",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
                 "ana",
-                "lucio",
-                "mercy"
+                "widowmaker",
+                "zenyatta"
               ],
-              "player_number": 64,
-              "preferred_slot": "5",
-              "role": "support",
-              "role_star": "support"
+              "player_number": 17,
+              "preferred_slot": "4",
+              "role": "support"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Espe",
-            "givenName": "Grant",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Minki",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd50f4e6df1a5444b/5e45f0ed80c3d41861a0f961/Shock_VIOL2T.png",
             "user": {
-              "id": 129
+              "id": 917
             },
-            "@etag": "39c7cc8f",
+            "@etag": "fe268718",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22884
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -3437,6 +3396,48 @@
               "id": 1828
             },
             "@etag": "9eb0e715",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22884
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5716,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "moth.3967",
+            "name": "moth",
+            "homeLocation": "Worcester, MA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 64,
+              "preferred_slot": "5",
+              "role": "support",
+              "role_star": "support"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Espe",
+            "givenName": "Grant",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "user": {
+              "id": 129
+            },
+            "@etag": "39c7cc8f",
             "type": "PLAYER"
           },
           "matchGame": {

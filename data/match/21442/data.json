@@ -128,7 +128,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -139,7 +139,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "flags": []
@@ -160,7 +160,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -171,7 +171,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "flags": []
@@ -294,6 +294,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -304,7 +305,7 @@
             "user": {
               "id": 3178
             },
-            "@etag": "268f1fc4",
+            "@etag": "53cfe7d4",
             "type": "PLAYER"
           },
           "flags": []
@@ -324,6 +325,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 7,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -334,7 +336,7 @@
             "user": {
               "id": 4713
             },
-            "@etag": "457a7a4d",
+            "@etag": "56a15127",
             "type": "PLAYER"
           },
           "flags": []
@@ -1251,6 +1253,41 @@
       "players": [
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8706,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kris",
+            "homeLocation": "Jinju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 96,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Choe",
+            "givenName": "Junsu",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
+            "user": {
+              "id": 2254
+            },
+            "@etag": "930be50a",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25157
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -1294,38 +1331,38 @@
         },
         {
           "team": {
-            "id": 4407,
+            "id": 7698,
             "type": "TEAM"
           },
           "player": {
-            "id": 8706,
+            "id": 9251,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Kris",
-            "homeLocation": "Jinju",
+            "name": "Dogman",
+            "homeLocation": "Gilbert, AZ",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 96,
-              "preferred_slot": "4",
+              "player_number": 11,
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Choe",
-            "givenName": "Junsu",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
+            "familyName": "Bowerman",
+            "givenName": "Dusttin",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
             "user": {
-              "id": 2254
+              "id": 438
             },
-            "@etag": "5f7b24cd",
+            "@etag": "4da531fc",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25157
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1375,34 +1412,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 9251,
+            "id": 8692,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Dogman",
-            "homeLocation": "Gilbert, AZ",
+            "name": "Erster",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 11,
-              "preferred_slot": "5",
-              "role": "support"
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Bowerman",
-            "givenName": "Dusttin",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
+            "familyName": "Jeong",
+            "givenName": "Jun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
             "user": {
-              "id": 438
+              "id": 2027
             },
-            "@etag": "4da531fc",
+            "@etag": "552962d2",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25157
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1435,41 +1472,6 @@
               "id": 374
             },
             "@etag": "d84fac4f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25157
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8692,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Erster",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Jeong",
-            "givenName": "Jun",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
-            "user": {
-              "id": 2027
-            },
-            "@etag": "552962d2",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1661,7 +1663,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -1672,7 +1674,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1766,7 +1768,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -1777,7 +1779,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1819,44 +1821,6 @@
             "id": 25158
           },
           "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 10031,
-            "availableLanguages": [
-              "en"
-            ],
-            "name": "byrem",
-            "homeLocation": "Gangwon-do",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "zenyatta"
-              ],
-              "player_number": 24,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "SeongJoo",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt475bb2b65e5daca4/5e45f35a210300185a9c9e4e/Mayhem_Byrem.png",
-            "user": {
-              "id": 374
-            },
-            "@etag": "d84fac4f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25158
-          },
-          "sortIndex": 1
         },
         {
           "team": {
@@ -1903,43 +1867,41 @@
         },
         {
           "team": {
-            "id": 7698,
+            "id": 4407,
             "type": "TEAM"
           },
           "player": {
-            "id": 8681,
+            "id": 10031,
             "availableLanguages": [
-              "en",
-              "zh-cn"
+              "en"
             ],
-            "name": "Masaa",
-            "homeLocation": "Pieksämäki",
+            "name": "byrem",
+            "homeLocation": "Gangwon-do",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "lucio",
-                "mercy",
+                "ana",
                 "zenyatta"
               ],
-              "player_number": 66,
+              "player_number": 24,
               "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Kantanen",
-            "givenName": "Petja",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
+            "familyName": "Lee",
+            "givenName": "SeongJoo",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt475bb2b65e5daca4/5e45f35a210300185a9c9e4e/Mayhem_Byrem.png",
             "user": {
-              "id": 2080
+              "id": 374
             },
-            "@etag": "57e34796",
+            "@etag": "d84fac4f",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25158
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1976,6 +1938,46 @@
               "id": 1628
             },
             "@etag": "84f0cbe1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25158
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8681,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Masaa",
+            "homeLocation": "Pieksämäki",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "lucio",
+                "mercy",
+                "zenyatta"
+              ],
+              "player_number": 66,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Kantanen",
+            "givenName": "Petja",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
+            "user": {
+              "id": 2080
+            },
+            "@etag": "57e34796",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2078,7 +2080,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -2089,7 +2091,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2253,6 +2255,48 @@
       "players": [
         {
           "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5442,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "sayaplayer.1525",
+            "name": "sayaplayer",
+            "homeLocation": "Daegu",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 4,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ha",
+            "givenName": "Jeongwoo",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
+            "user": {
+              "id": 1628
+            },
+            "@etag": "84f0cbe1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25159
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -2296,83 +2340,6 @@
         },
         {
           "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5442,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "sayaplayer.1525",
-            "name": "sayaplayer",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 4,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ha",
-            "givenName": "Jeongwoo",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
-            "user": {
-              "id": 1628
-            },
-            "@etag": "84f0cbe1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25159
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8706,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Kris",
-            "homeLocation": "Jinju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 96,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Choe",
-            "givenName": "Junsu",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
-            "user": {
-              "id": 2254
-            },
-            "@etag": "5f7b24cd",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25159
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -2399,6 +2366,41 @@
               "id": 438
             },
             "@etag": "4da531fc",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25159
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8706,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kris",
+            "homeLocation": "Jinju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 96,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Choe",
+            "givenName": "Junsu",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt23a99edf52981e98/5e472282cc8de70b69efa96d/Mayhem_Kris.png",
+            "user": {
+              "id": 2254
+            },
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2669,7 +2671,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -2680,7 +2682,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2760,6 +2762,41 @@
       "players": [
         {
           "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 9251,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Dogman",
+            "homeLocation": "Gilbert, AZ",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 11,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Bowerman",
+            "givenName": "Dusttin",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
+            "user": {
+              "id": 438
+            },
+            "@etag": "4da531fc",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25160
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -2804,38 +2841,38 @@
         },
         {
           "team": {
-            "id": 7698,
+            "id": 4407,
             "type": "TEAM"
           },
           "player": {
-            "id": 9251,
+            "id": 8704,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Dogman",
-            "homeLocation": "Gilbert, AZ",
+            "name": "bqb",
+            "homeLocation": "Youngin",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 11,
-              "preferred_slot": "5",
-              "role": "support"
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Bowerman",
-            "givenName": "Dusttin",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
+            "familyName": "Lee",
+            "givenName": "Sangbum",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
             "user": {
-              "id": 438
+              "id": 3393
             },
-            "@etag": "4da531fc",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25160
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2873,41 +2910,6 @@
               "id": 2626
             },
             "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25160
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8704,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "bqb",
-            "homeLocation": "Youngin",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 22,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "Sangbum",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
-            "user": {
-              "id": 3393
-            },
-            "@etag": "4d47e6d6",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2971,7 +2973,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2982,7 +2984,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {

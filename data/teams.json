@@ -994,7 +994,7 @@
                 ],
                 "hometown": null,
                 "player_number": 18,
-                "preferred_slot": "1",
+                "preferred_slot": "0",
                 "role": "offense"
               },
               "attributesVersion": "1.0.0",
@@ -1005,7 +1005,7 @@
               "user": {
                 "id": 286
               },
-              "@etag": "f588bb38",
+              "@etag": "972ab062",
               "type": "PLAYER"
             },
             "flags": []
@@ -1127,6 +1127,74 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 4083,
+              "availableLanguages": [
+                "en",
+                "zh-cn"
+              ],
+              "handle": "eqo.8442",
+              "name": "eqo",
+              "homeLocation": "Netenya",
+              "accounts": [
+                {
+                  "id": 1439,
+                  "competitorId": 4083,
+                  "value": "https://www.twitch.tv/eqobot",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                },
+                {
+                  "id": 1440,
+                  "competitorId": 4083,
+                  "value": "https://twitter.com/Eqo",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 13320,
+                  "competitorId": 4083,
+                  "value": "https://www.youtube.com/channel/UC9sxwrQacDXfixHcQdQY9UQ",
+                  "accountType": "YOUTUBE_CHANNEL",
+                  "isPublic": true
+                },
+                {
+                  "id": 13229,
+                  "competitorId": 4083,
+                  "value": "https://www.instagram.com/eqobot",
+                  "accountType": "INSTAGRAM",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "hero_image": null,
+                "heroes": [
+                  "genji",
+                  "hanzo",
+                  "soldier-76",
+                  "tracer"
+                ],
+                "hometown": null,
+                "player_number": 15,
+                "preferred_slot": "1",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Corona",
+              "givenName": "Josue ",
+              "nationality": "IL",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
+              "@etag": "d137379f",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4524,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 4659,
               "availableLanguages": [
                 "en",
@@ -1195,74 +1263,6 @@
                 "id": 868
               },
               "@etag": "d6f77c31",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4524,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 4083,
-              "availableLanguages": [
-                "en",
-                "zh-cn"
-              ],
-              "handle": "eqo.8442",
-              "name": "eqo",
-              "homeLocation": "Netenya",
-              "accounts": [
-                {
-                  "id": 1439,
-                  "competitorId": 4083,
-                  "value": "https://www.twitch.tv/eqobot",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                },
-                {
-                  "id": 1440,
-                  "competitorId": 4083,
-                  "value": "https://twitter.com/Eqo",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 13320,
-                  "competitorId": 4083,
-                  "value": "https://www.youtube.com/channel/UC9sxwrQacDXfixHcQdQY9UQ",
-                  "accountType": "YOUTUBE_CHANNEL",
-                  "isPublic": true
-                },
-                {
-                  "id": 13229,
-                  "competitorId": 4083,
-                  "value": "https://www.instagram.com/eqobot",
-                  "accountType": "INSTAGRAM",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "hero_image": null,
-                "heroes": [
-                  "genji",
-                  "hanzo",
-                  "soldier-76",
-                  "tracer"
-                ],
-                "hometown": null,
-                "player_number": 15,
-                "preferred_slot": "1",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Corona",
-              "givenName": "Josue ",
-              "nationality": "IL",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-              "@etag": "d137379f",
               "type": "PLAYER"
             },
             "flags": []
@@ -1362,7 +1362,7 @@
                   "mercy"
                 ],
                 "player_number": 33,
-                "preferred_slot": "5",
+                "preferred_slot": "4",
                 "role": "support"
               },
               "attributesVersion": "1.0.2",
@@ -1373,7 +1373,7 @@
               "user": {
                 "id": 989
               },
-              "@etag": "b4d60e0e",
+              "@etag": "30c64f7f",
               "type": "PLAYER"
             },
             "flags": []
@@ -1536,6 +1536,7 @@
               "game": "OVERWATCH",
               "attributes": {
                 "player_number": 17,
+                "preferred_slot": "5",
                 "role": "support"
               },
               "attributesVersion": "1.0.3",
@@ -1546,7 +1547,7 @@
               "user": {
                 "id": 4683
               },
-              "@etag": "feee79ba",
+              "@etag": "4ec973ed",
               "type": "PLAYER"
             },
             "flags": []
@@ -1943,7 +1944,7 @@
                 "en",
                 "zh-cn"
               ],
-              "name": "blasé",
+              "name": "blase",
               "homeLocation": "Burke, Virgina",
               "accounts": [
                 {
@@ -1983,7 +1984,7 @@
                   "sombra"
                 ],
                 "player_number": 22,
-                "preferred_slot": "3",
+                "preferred_slot": "0",
                 "role": "offense"
               },
               "attributesVersion": "1.0.2",
@@ -1994,7 +1995,7 @@
               "user": {
                 "id": 3385
               },
-              "@etag": "b92b2903",
+              "@etag": "93d03ea0",
               "type": "PLAYER"
             },
             "flags": []
@@ -2284,6 +2285,76 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 4489,
+              "availableLanguages": [
+                "en",
+                "zh-cn"
+              ],
+              "handle": "danteh.8452",
+              "name": "Danteh",
+              "homeLocation": "Chicago, IL",
+              "accounts": [
+                {
+                  "id": 6599,
+                  "competitorId": 4489,
+                  "value": "https://www.twitch.tv/Danteh",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                },
+                {
+                  "id": 6671,
+                  "competitorId": 4489,
+                  "value": "https://twitter.com/Danteh",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 13121,
+                  "competitorId": 4489,
+                  "value": "https://www.youtube.com/channel/UCytLAmmJOlRDD2VRR2OBtJQ",
+                  "accountType": "YOUTUBE_CHANNEL",
+                  "isPublic": true
+                },
+                {
+                  "id": 13122,
+                  "competitorId": 4489,
+                  "value": "https://www.instagram.com/dankteh",
+                  "accountType": "INSTAGRAM",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "hero_image": null,
+                "heroes": [
+                  "tracer",
+                  "genji",
+                  "sombra"
+                ],
+                "hometown": "Wonder Lake, illinois",
+                "player_number": 6,
+                "preferred_slot": "1",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Cruz",
+              "givenName": "Dante",
+              "nationality": "US",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee12aa925fb1cc5d/5e46f6813acdc70bd3d46e21/Outlaws_Danteh.png",
+              "user": {
+                "id": 2634
+              },
+              "@etag": "a5b1780f",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4525,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 4649,
               "availableLanguages": [
                 "en",
@@ -2351,76 +2422,6 @@
                 "id": 525
               },
               "@etag": "4e424544",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4525,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 4489,
-              "availableLanguages": [
-                "en",
-                "zh-cn"
-              ],
-              "handle": "danteh.8452",
-              "name": "Danteh",
-              "homeLocation": "Chicago, IL",
-              "accounts": [
-                {
-                  "id": 6599,
-                  "competitorId": 4489,
-                  "value": "https://www.twitch.tv/Danteh",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                },
-                {
-                  "id": 6671,
-                  "competitorId": 4489,
-                  "value": "https://twitter.com/Danteh",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 13121,
-                  "competitorId": 4489,
-                  "value": "https://www.youtube.com/channel/UCytLAmmJOlRDD2VRR2OBtJQ",
-                  "accountType": "YOUTUBE_CHANNEL",
-                  "isPublic": true
-                },
-                {
-                  "id": 13122,
-                  "competitorId": 4489,
-                  "value": "https://www.instagram.com/dankteh",
-                  "accountType": "INSTAGRAM",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "hero_image": null,
-                "heroes": [
-                  "tracer",
-                  "genji",
-                  "sombra"
-                ],
-                "hometown": "Wonder Lake, illinois",
-                "player_number": 6,
-                "preferred_slot": "1",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Cruz",
-              "givenName": "Dante",
-              "nationality": "US",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee12aa925fb1cc5d/5e46f6813acdc70bd3d46e21/Outlaws_Danteh.png",
-              "user": {
-                "id": 2634
-              },
-              "@etag": "a5b1780f",
               "type": "PLAYER"
             },
             "flags": []
@@ -2758,59 +2759,6 @@
               "type": "TEAM"
             },
             "player": {
-              "id": 12072,
-              "availableLanguages": [
-                "en"
-              ],
-              "name": "brussen",
-              "homeLocation": "Spanbroek",
-              "accounts": [
-                {
-                  "id": 15882,
-                  "competitorId": 12072,
-                  "value": "https://twitter.com/brussenn",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 15883,
-                  "competitorId": 12072,
-                  "value": "https://www.instagram.com/brussenn",
-                  "accountType": "INSTAGRAM",
-                  "isPublic": true
-                },
-                {
-                  "id": 15884,
-                  "competitorId": 12072,
-                  "value": "https://www.twitch.tv/brussenn",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "player_number": 19,
-                "role": "tank"
-              },
-              "attributesVersion": "1.0.3",
-              "familyName": "Brussen",
-              "givenName": "Thomas",
-              "nationality": "NL",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
-              "user": {
-                "id": 98
-              },
-              "@etag": "d643d261",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4402,
-              "type": "TEAM"
-            },
-            "player": {
               "id": 12040,
               "availableLanguages": [
                 "en"
@@ -2861,6 +2809,59 @@
                 "id": 4695
               },
               "@etag": "32dc75e2",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4402,
+              "type": "TEAM"
+            },
+            "player": {
+              "id": 12072,
+              "availableLanguages": [
+                "en"
+              ],
+              "name": "brussen",
+              "homeLocation": "Spanbroek",
+              "accounts": [
+                {
+                  "id": 15882,
+                  "competitorId": 12072,
+                  "value": "https://twitter.com/brussenn",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 15883,
+                  "competitorId": 12072,
+                  "value": "https://www.instagram.com/brussenn",
+                  "accountType": "INSTAGRAM",
+                  "isPublic": true
+                },
+                {
+                  "id": 15884,
+                  "competitorId": 12072,
+                  "value": "https://www.twitch.tv/brussenn",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "player_number": 19,
+                "role": "tank"
+              },
+              "attributesVersion": "1.0.3",
+              "familyName": "Brussen",
+              "givenName": "Thomas",
+              "nationality": "NL",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
+              "user": {
+                "id": 98
+              },
+              "@etag": "d643d261",
               "type": "PLAYER"
             },
             "flags": []
@@ -4858,11 +4859,11 @@
               "familyName": "McGarvey",
               "givenName": "Caleb",
               "nationality": "US",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/s4/S4ZB3AFGQHER1562696659028.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt79d4482b2d2f537f/5e47462a1a3b6617fcdcce19/Valiant_McGravy.png",
               "user": {
                 "id": 2203
               },
-              "@etag": "57e77edd",
+              "@etag": "b9e774a9",
               "type": "PLAYER"
             },
             "flags": []
@@ -4902,11 +4903,11 @@
               "familyName": "Park",
               "givenName": "Jae Ho",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt40227987928a8476/5e47462afbf2330bd4d047fe/Valiant_Rain.png",
               "user": {
                 "id": 1321
               },
-              "@etag": "fdeb4932",
+              "@etag": "e11969e3",
               "type": "PLAYER"
             },
             "flags": []
@@ -4949,11 +4950,11 @@
               "familyName": "Moon",
               "givenName": "JeongWon",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt122a8201881d762a/5e47462a210300185a9c9f8e/Valiant_Lastro.png",
               "user": {
                 "id": 1508
               },
-              "@etag": "85884ccf",
+              "@etag": "338856fb",
               "type": "PLAYER"
             },
             "flags": []
@@ -5003,11 +5004,11 @@
               "familyName": "Salazar",
               "givenName": "Rick",
               "nationality": "US",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltfc13003866b97f85/5e47462aa173e408b75c00fd/Valiant_Gig.png",
               "user": {
                 "id": 4686
               },
-              "@etag": "2401d20c",
+              "@etag": "1a0128a8",
               "type": "PLAYER"
             },
             "flags": []
@@ -5064,63 +5065,11 @@
               "familyName": "Collins",
               "givenName": "Kai",
               "nationality": "GB",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt13c34970c6abb979/5e47462a014cca0b68178ec8/Valiant_KSP.png",
               "user": {
                 "id": 310
               },
-              "@etag": "2cecf685",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4405,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 10041,
-              "availableLanguages": [
-                "en"
-              ],
-              "name": "Shax",
-              "homeLocation": "Skive",
-              "accounts": [
-                {
-                  "id": 14212,
-                  "competitorId": 10041,
-                  "value": "https://twitter.com/ShaxOW",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 14213,
-                  "competitorId": 10041,
-                  "value": "https://www.twitch.tv/shaxow_",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "heroes": [
-                  "mccree",
-                  "tracer",
-                  "widowmaker"
-                ],
-                "player_number": 12,
-                "preferred_slot": "0",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.2",
-              "familyName": "Nielsen",
-              "givenName": "Johannes",
-              "nationality": "DK",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ap/APW3YAAHWKZS1562697132698.png",
-              "user": {
-                "id": 741
-              },
-              "@etag": "d3156fb8",
+              "@etag": "faec9c21",
               "type": "PLAYER"
             },
             "flags": []
@@ -5171,11 +5120,63 @@
               "familyName": "Frandanisa",
               "givenName": "Kyle",
               "nationality": "US",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FDHS3GHI2JY31549580254953.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1eecc78575b45349/5e47462af9482b17fbc76034/Valiant_KSF.png",
               "user": {
                 "id": 151
               },
-              "@etag": "fb2b86d9",
+              "@etag": "bf49e668",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4405,
+              "type": "TEAM"
+            },
+            "player": {
+              "id": 10041,
+              "availableLanguages": [
+                "en"
+              ],
+              "name": "Shax",
+              "homeLocation": "Skive",
+              "accounts": [
+                {
+                  "id": 14212,
+                  "competitorId": 10041,
+                  "value": "https://twitter.com/ShaxOW",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 14213,
+                  "competitorId": 10041,
+                  "value": "https://www.twitch.tv/shaxow_",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "heroes": [
+                  "mccree",
+                  "tracer",
+                  "widowmaker"
+                ],
+                "player_number": 12,
+                "preferred_slot": "0",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.2",
+              "familyName": "Nielsen",
+              "givenName": "Johannes",
+              "nationality": "DK",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt372270065a745b43/5e47462a3acdc70bd3d46f49/Valiant_Shax.png",
+              "user": {
+                "id": 741
+              },
+              "@etag": "d2c45a32",
               "type": "PLAYER"
             },
             "flags": []
@@ -5238,11 +5239,11 @@
               "familyName": "Song",
               "givenName": "Sanglok",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc81bb9c04aa73a15/5e474db5cc8de70b69efaa35/Valiant_Dreamer.png",
               "user": {
                 "id": 2045
               },
-              "@etag": "bda3444f",
+              "@etag": "f3a3ce63",
               "type": "PLAYER"
             },
             "flags": []
@@ -6184,6 +6185,7 @@
               "game": "OVERWATCH",
               "attributes": {
                 "player_number": 11,
+                "preferred_slot": "4",
                 "role": "support"
               },
               "attributesVersion": "1.0.3",
@@ -6194,7 +6196,7 @@
               "user": {
                 "id": 3178
               },
-              "@etag": "268f1fc4",
+              "@etag": "53cfe7d4",
               "type": "PLAYER"
             },
             "flags": []
@@ -6230,6 +6232,7 @@
               "game": "OVERWATCH",
               "attributes": {
                 "player_number": 7,
+                "preferred_slot": "1",
                 "role": "offense"
               },
               "attributesVersion": "1.0.3",
@@ -6240,7 +6243,7 @@
               "user": {
                 "id": 4713
               },
-              "@etag": "457a7a4d",
+              "@etag": "56a15127",
               "type": "PLAYER"
             },
             "flags": []
@@ -6410,7 +6413,7 @@
               "game": "OVERWATCH",
               "attributes": {
                 "player_number": 96,
-                "preferred_slot": "4",
+                "preferred_slot": "5",
                 "role": "support"
               },
               "attributesVersion": "1.0.2",
@@ -6421,7 +6424,7 @@
               "user": {
                 "id": 2254
               },
-              "@etag": "5f7b24cd",
+              "@etag": "930be50a",
               "type": "PLAYER"
             },
             "flags": []
@@ -6533,6 +6536,47 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 8704,
+              "availableLanguages": [
+                "en",
+                "zh-cn"
+              ],
+              "name": "bqb",
+              "homeLocation": "Youngin",
+              "accounts": [
+                {
+                  "id": 12922,
+                  "competitorId": 8704,
+                  "value": "https://twitter.com/BQB_kr",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "player_number": 22,
+                "preferred_slot": "0",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.2",
+              "familyName": "Lee",
+              "givenName": "Sangbum",
+              "nationality": "KR",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
+              "user": {
+                "id": 3393
+              },
+              "@etag": "2ef6bef1",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4407,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 10144,
               "availableLanguages": [
                 "en"
@@ -6566,47 +6610,6 @@
                 "id": 4035
               },
               "@etag": "1662bd0a",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4407,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 8704,
-              "availableLanguages": [
-                "en",
-                "zh-cn"
-              ],
-              "name": "bqb",
-              "homeLocation": "Youngin",
-              "accounts": [
-                {
-                  "id": 12922,
-                  "competitorId": 8704,
-                  "value": "https://twitter.com/BQB_kr",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "player_number": 22,
-                "preferred_slot": "1",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.2",
-              "familyName": "Lee",
-              "givenName": "Sangbum",
-              "nationality": "KR",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
-              "user": {
-                "id": 3393
-              },
-              "@etag": "4d47e6d6",
               "type": "PLAYER"
             },
             "flags": []
@@ -7503,6 +7506,63 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 4666,
+              "availableLanguages": [
+                "en",
+                "zh-cn",
+                "ko"
+              ],
+              "handle": "gesture.2414",
+              "name": "Gesture",
+              "homeLocation": "Gunsan",
+              "accounts": [
+                {
+                  "id": 6846,
+                  "competitorId": 4666,
+                  "value": "https://twitter.com/gesture",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 6836,
+                  "competitorId": 4666,
+                  "value": "https://www.twitch.tv/gestureow",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "hero_image": null,
+                "heroes": [
+                  "winston",
+                  "reinhardt",
+                  "roadhog"
+                ],
+                "hometown": null,
+                "player_number": 7,
+                "preferred_slot": "2",
+                "role": "tank"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Hong",
+              "givenName": "Jaehui",
+              "nationality": "KR",
+              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "user": {
+                "id": 1848
+              },
+              "@etag": "719e979b",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4409,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 8218,
               "availableLanguages": [
                 "en"
@@ -7564,28 +7624,35 @@
               "type": "TEAM"
             },
             "player": {
-              "id": 4666,
+              "id": 4655,
               "availableLanguages": [
                 "en",
                 "zh-cn",
                 "ko"
               ],
-              "handle": "gesture.2414",
-              "name": "Gesture",
-              "homeLocation": "Gunsan",
+              "handle": "bdosin.7214",
+              "name": "Bdosin",
+              "homeLocation": "Suwon",
               "accounts": [
                 {
-                  "id": 6846,
-                  "competitorId": 4666,
-                  "value": "https://twitter.com/gesture",
+                  "id": 1388,
+                  "competitorId": 4655,
+                  "value": "https://twitter.com/BdosinOW",
                   "accountType": "TWITTER",
                   "isPublic": true
                 },
                 {
-                  "id": 6836,
-                  "competitorId": 4666,
-                  "value": "https://www.twitch.tv/gestureow",
+                  "id": 1392,
+                  "competitorId": 4655,
+                  "value": "https://www.twitch.tv/bdosin_ow",
                   "accountType": "TWITCH",
+                  "isPublic": true
+                },
+                {
+                  "id": 13254,
+                  "competitorId": 4655,
+                  "value": "https://www.instagram.com/bdosin_ow",
+                  "accountType": "INSTAGRAM",
                   "isPublic": true
                 }
               ],
@@ -7593,24 +7660,21 @@
               "attributes": {
                 "hero_image": null,
                 "heroes": [
-                  "winston",
-                  "reinhardt",
-                  "roadhog"
+                  "zenyatta",
+                  "ana",
+                  "genji"
                 ],
                 "hometown": null,
-                "player_number": 7,
-                "preferred_slot": "2",
-                "role": "tank"
+                "player_number": 10,
+                "preferred_slot": "4",
+                "role": "support"
               },
               "attributesVersion": "1.0.0",
-              "familyName": "Hong",
-              "givenName": "Jaehui",
+              "familyName": "Choi",
+              "givenName": "Seungtae",
               "nationality": "KR",
               "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-              "user": {
-                "id": 1848
-              },
-              "@etag": "719e979b",
+              "@etag": "50781b5e",
               "type": "PLAYER"
             },
             "flags": []
@@ -7729,67 +7793,6 @@
                 "id": 920
               },
               "@etag": "ffc803a1",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4409,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 4655,
-              "availableLanguages": [
-                "en",
-                "zh-cn",
-                "ko"
-              ],
-              "handle": "bdosin.7214",
-              "name": "Bdosin",
-              "homeLocation": "Suwon",
-              "accounts": [
-                {
-                  "id": 1388,
-                  "competitorId": 4655,
-                  "value": "https://twitter.com/BdosinOW",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 1392,
-                  "competitorId": 4655,
-                  "value": "https://www.twitch.tv/bdosin_ow",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                },
-                {
-                  "id": 13254,
-                  "competitorId": 4655,
-                  "value": "https://www.instagram.com/bdosin_ow",
-                  "accountType": "INSTAGRAM",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "hero_image": null,
-                "heroes": [
-                  "zenyatta",
-                  "ana",
-                  "genji"
-                ],
-                "hometown": null,
-                "player_number": 10,
-                "preferred_slot": "4",
-                "role": "support"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Choi",
-              "givenName": "Seungtae",
-              "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-              "@etag": "50781b5e",
               "type": "PLAYER"
             },
             "flags": []
@@ -8218,11 +8221,11 @@
               "familyName": "Cho",
               "givenName": "Geonhee",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc31a42b766403484/5e473fc180c3d41861a0fadf/Spitfire_Clestyn.png",
               "user": {
                 "id": 263
               },
-              "@etag": "98119400",
+              "@etag": "d611eefc",
               "type": "PLAYER"
             },
             "flags": []
@@ -8278,11 +8281,11 @@
               "familyName": "Jung",
               "givenName": "Hyeonwook",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd9f0e56622751466/5e473fc1f9482b17fbc76010/Spitfire_Although.png",
               "user": {
                 "id": 4687
               },
-              "@etag": "1b3914cc",
+              "@etag": "fa509156",
               "type": "PLAYER"
             },
             "flags": []
@@ -8338,11 +8341,11 @@
               "familyName": "Kim",
               "givenName": "Jihun",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd3f8d822a2a70127/5e473fd13acdc70bd3d46f23/Spitfire_Jihun.png",
               "user": {
                 "id": 4103
               },
-              "@etag": "f199080d",
+              "@etag": "d0b08577",
               "type": "PLAYER"
             },
             "flags": []
@@ -8399,11 +8402,11 @@
               "familyName": "Park",
               "givenName": "Sangjun",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt8ff0b3c5bd553e2d/5e473fc1af702f08b6a32acb/Spitfire_Babel.png",
               "user": {
                 "id": 491
               },
-              "@etag": "09fd8bed",
+              "@etag": "cffda179",
               "type": "PLAYER"
             },
             "flags": []
@@ -8453,11 +8456,11 @@
               "familyName": "Lim",
               "givenName": "Gilseong",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt109b4b6e3e70c074/5e473fc11a3b6617fcdccde7/Spitfire_Glister.png",
               "user": {
                 "id": 3246
               },
-              "@etag": "6cc84511",
+              "@etag": "2f777237",
               "type": "PLAYER"
             },
             "flags": []
@@ -8506,11 +8509,11 @@
               "familyName": "Kim",
               "givenName": "TaeHoon",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt12fa84cdf8909e73/5e473fc1fbf2330bd4d047de/Spitfire_Fuze.png",
               "user": {
                 "id": 3184
               },
-              "@etag": "2250d71c",
+              "@etag": "cc50ad30",
               "type": "PLAYER"
             },
             "flags": []
@@ -8560,11 +8563,11 @@
               "familyName": "Shin",
               "givenName": "Sewon",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt20d23e16b836b3f2/5e473fc1a173e408b75c00d5/Spitfire_Bernar.png",
               "user": {
                 "id": 2283
               },
-              "@etag": "acd571b6",
+              "@etag": "e7aa0e48",
               "type": "PLAYER"
             },
             "flags": []
@@ -8617,11 +8620,11 @@
               "familyName": "Lee",
               "givenName": "SungHyuk",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt9721c98b3f1e86d1/5e473fd180c3d41861a0fae5/Spitfire_Highly.png",
               "user": {
                 "id": 2171
               },
-              "@etag": "e24f20f7",
+              "@etag": "fc4fea8b",
               "type": "PLAYER"
             },
             "flags": []
@@ -8670,11 +8673,11 @@
               "familyName": "Lee",
               "givenName": "DongJae",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc3e6a54dc2bc8edc/5e473fd1af702f08b6a32ad1/Spitfire_Schwi.png",
               "user": {
                 "id": 1031
               },
-              "@etag": "7a9207ad",
+              "@etag": "64920d11",
               "type": "PLAYER"
             },
             "flags": []
@@ -8711,11 +8714,11 @@
               "familyName": "Jeong",
               "givenName": "Young Hoon",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/7ZOAR8M4RUVA1549580262046.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2c4f39eabf9825fd/5e473fd1cc8de70b69efa9f9/Spitfire_Krillin.png",
               "user": {
                 "id": 805
               },
-              "@etag": "b1456378",
+              "@etag": "a5474359",
               "type": "PLAYER"
             },
             "flags": []
@@ -8758,11 +8761,11 @@
               "familyName": "Lym",
               "givenName": "Gyumin",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1dc5b79616c53b97/5e473fd1302051091c6cf6b8/Spitfire_Sanguinar.png",
               "user": {
                 "id": 4703
               },
-              "@etag": "c1d6ef71",
+              "@etag": "6ab1b887",
               "type": "PLAYER"
             },
             "flags": []
@@ -8805,11 +8808,11 @@
               "familyName": "Choi",
               "givenName": "Dae Han",
               "nationality": "KR",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt384ee29137fee3f9/5e473fd17ffde40916a35bf3/Spitfire_JMAC1804.png",
               "user": {
                 "id": 2784
               },
-              "@etag": "3c127be1",
+              "@etag": "07fd6497",
               "type": "PLAYER"
             },
             "flags": []
@@ -9269,6 +9272,42 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 8811,
+              "availableLanguages": [
+                "en",
+                "zh-cn"
+              ],
+              "name": "JinMu",
+              "homeLocation": "Chengdu",
+              "accounts": [],
+              "game": "OVERWATCH",
+              "attributes": {
+                "heroes": [
+                  "genji"
+                ],
+                "player_number": 24,
+                "preferred_slot": "1",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Yi",
+              "givenName": "Hu",
+              "nationality": "CN",
+              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/52JZ1I2S8LKH1549581236337.png",
+              "user": {
+                "id": 3497
+              },
+              "@etag": "bb0e8508",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 7692,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 12171,
               "availableLanguages": [
                 "en"
@@ -9298,42 +9337,6 @@
                 "id": 4783
               },
               "@etag": "59d5b285",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 7692,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 8811,
-              "availableLanguages": [
-                "en",
-                "zh-cn"
-              ],
-              "name": "JinMu",
-              "homeLocation": "Chengdu",
-              "accounts": [],
-              "game": "OVERWATCH",
-              "attributes": {
-                "heroes": [
-                  "genji"
-                ],
-                "player_number": 24,
-                "preferred_slot": "1",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Yi",
-              "givenName": "Hu",
-              "nationality": "CN",
-              "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/52JZ1I2S8LKH1549581236337.png",
-              "user": {
-                "id": 3497
-              },
-              "@etag": "bb0e8508",
               "type": "PLAYER"
             },
             "flags": []
@@ -11620,6 +11623,63 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 4105,
+              "availableLanguages": [
+                "en",
+                "ko",
+                "zh-cn"
+              ],
+              "handle": "ryujehong.9666",
+              "name": "ryujehong",
+              "homeLocation": "Incheon",
+              "accounts": [
+                {
+                  "id": 6263,
+                  "competitorId": 4105,
+                  "value": "https://www.twitch.tv/wpghd321",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                },
+                {
+                  "id": 6253,
+                  "competitorId": 4105,
+                  "value": "https://www.youtube.com/channel/UCtt0Hg9MhraTkzWwNQpplHg",
+                  "accountType": "YOUTUBE_CHANNEL",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "hero_image": null,
+                "heroes": [
+                  "ana",
+                  "zenyatta",
+                  "mercy"
+                ],
+                "hometown": null,
+                "player_number": 6,
+                "preferred_slot": "4",
+                "role": "support"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Ryu",
+              "givenName": "Jehong",
+              "nationality": "KR",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltde691c1b6f1cefb8/5e45f2a2a173e408b75bff61/Titans_Ryujehong.png",
+              "user": {
+                "id": 1511
+              },
+              "@etag": "6a66efa5",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 7696,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 8729,
               "availableLanguages": [
                 "en",
@@ -11685,63 +11745,6 @@
                 "id": 2210
               },
               "@etag": "ddeabccb",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 7696,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 4105,
-              "availableLanguages": [
-                "en",
-                "ko",
-                "zh-cn"
-              ],
-              "handle": "ryujehong.9666",
-              "name": "ryujehong",
-              "homeLocation": "Incheon",
-              "accounts": [
-                {
-                  "id": 6263,
-                  "competitorId": 4105,
-                  "value": "https://www.twitch.tv/wpghd321",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                },
-                {
-                  "id": 6253,
-                  "competitorId": 4105,
-                  "value": "https://www.youtube.com/channel/UCtt0Hg9MhraTkzWwNQpplHg",
-                  "accountType": "YOUTUBE_CHANNEL",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "hero_image": null,
-                "heroes": [
-                  "ana",
-                  "zenyatta",
-                  "mercy"
-                ],
-                "hometown": null,
-                "player_number": 6,
-                "preferred_slot": "4",
-                "role": "support"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Ryu",
-              "givenName": "Jehong",
-              "nationality": "KR",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltde691c1b6f1cefb8/5e45f2a2a173e408b75bff61/Titans_Ryujehong.png",
-              "user": {
-                "id": 1511
-              },
-              "@etag": "6a66efa5",
               "type": "PLAYER"
             },
             "flags": []
@@ -12258,7 +12261,7 @@
                 ],
                 "hometown": null,
                 "player_number": 0,
-                "preferred_slot": "4",
+                "preferred_slot": "5",
                 "role": "support"
               },
               "attributesVersion": "1.0.0",
@@ -12269,7 +12272,7 @@
               "user": {
                 "id": 2775
               },
-              "@etag": "357f59c9",
+              "@etag": "fd6f72a6",
               "type": "PLAYER"
             },
             "flags": []
@@ -12601,6 +12604,7 @@
                   "dva"
                 ],
                 "player_number": 28,
+                "preferred_slot": "3",
                 "role": "tank"
               },
               "attributesVersion": "1.0.3",
@@ -12611,7 +12615,7 @@
               "user": {
                 "id": 3078
               },
-              "@etag": "ea838a09",
+              "@etag": "2d3f0f35",
               "type": "PLAYER"
             },
             "flags": []

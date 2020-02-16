@@ -535,7 +535,7 @@
               ],
               "hometown": null,
               "player_number": 18,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -546,7 +546,7 @@
             "user": {
               "id": 286
             },
-            "@etag": "f588bb38",
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "flags": []
@@ -727,7 +727,7 @@
                 "mercy"
               ],
               "player_number": 33,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -738,7 +738,7 @@
             "user": {
               "id": 989
             },
-            "@etag": "b4d60e0e",
+            "@etag": "30c64f7f",
             "type": "PLAYER"
           },
           "flags": []
@@ -758,6 +758,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 17,
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -768,7 +769,7 @@
             "user": {
               "id": 4683
             },
-            "@etag": "feee79ba",
+            "@etag": "4ec973ed",
             "type": "PLAYER"
           },
           "flags": []
@@ -1277,49 +1278,6 @@
       "players": [
         {
           "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4649,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "mek0.1853",
-            "name": "MekO",
-            "homeLocation": "Busan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya"
-              ],
-              "hometown": null,
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Tae-Hong",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
-            "user": {
-              "id": 525
-            },
-            "@etag": "4e424544",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22743
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -1367,43 +1325,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4654,
+            "id": 4649,
             "availableLanguages": [
               "en",
-              "ko",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "handle": "libero.2398",
-            "name": "Libero",
-            "homeLocation": "Anyang",
+            "handle": "mek0.1853",
+            "name": "MekO",
+            "homeLocation": "Busan",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "pharah",
                 "dva",
-                "hanzo"
+                "zarya"
               ],
               "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
             "familyName": "Kim",
-            "givenName": "Haeseong",
+            "givenName": "Tae-Hong",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltdfa5a283709c6759/5e45fc1b3acdc70bd3d46de3/NYXL_Libero.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
             "user": {
-              "id": 2529
+              "id": 525
             },
-            "@etag": "e9c9bd08",
+            "@etag": "4e424544",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22743
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -1441,6 +1398,50 @@
               "id": 2865
             },
             "@etag": "c83dc0fd",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22743
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4654,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "libero.2398",
+            "name": "Libero",
+            "homeLocation": "Anyang",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "pharah",
+                "dva",
+                "hanzo"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kim",
+            "givenName": "Haeseong",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltdfa5a283709c6759/5e45fc1b3acdc70bd3d46de3/NYXL_Libero.png",
+            "user": {
+              "id": 2529
+            },
+            "@etag": "e9c9bd08",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1697,6 +1698,50 @@
         },
         {
           "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4620,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "hometown": null,
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
+            "user": {
+              "id": 286
+            },
+            "@etag": "972ab062",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22743
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 4403,
             "type": "TEAM"
           },
@@ -1730,50 +1775,6 @@
               "id": 782
             },
             "@etag": "5a8f2e7c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22743
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1892,48 +1893,6 @@
         },
         {
           "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4841,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "anamo.3363",
-            "name": "Anamo",
-            "homeLocation": "Pohang",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "lucio",
-                "mercy"
-              ],
-              "player_number": 97,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Jung",
-            "givenName": "Tae-Sung",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt149c9716bf7ef9f2/5e45fc1b1a3b6617fcdccca9/NYXL_Anamo.png",
-            "user": {
-              "id": 782
-            },
-            "@etag": "5a8f2e7c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22744
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -1969,6 +1928,48 @@
               "id": 3167
             },
             "@etag": "9a97f8a1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22744
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4841,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "anamo.3363",
+            "name": "Anamo",
+            "homeLocation": "Pohang",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 97,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Jung",
+            "givenName": "Tae-Sung",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt149c9716bf7ef9f2/5e45fc1b1a3b6617fcdccca9/NYXL_Anamo.png",
+            "user": {
+              "id": 782
+            },
+            "@etag": "5a8f2e7c",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2065,50 +2066,6 @@
         },
         {
           "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22744
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4403,
             "type": "TEAM"
           },
@@ -2158,42 +2115,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4668,
+            "id": 4620,
             "availableLanguages": [
               "en",
+              "ko",
               "zh-cn"
             ],
-            "handle": "poko.6448",
-            "name": "Poko",
-            "homeLocation": "Nîmes",
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
+                "mccree",
+                "tracer",
+                "widowmaker"
               ],
               "hometown": null,
-              "player_number": 21,
-              "preferred_slot": "3",
-              "role": "tank"
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Gouzerch",
-            "givenName": "Gael",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
             "user": {
-              "id": 1251
+              "id": 286
             },
-            "@etag": "5f8a64f9",
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22744
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2227,6 +2185,49 @@
             "nationality": "KR",
             "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd3d43d6d7e36042c/5e45fc1bf9482b17fbc75e9a/NYXL_JJONAK.png",
             "@etag": "a7b1331e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22744
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4668,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "poko.6448",
+            "name": "Poko",
+            "homeLocation": "Nîmes",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zarya",
+                "dva",
+                "soldier-76"
+              ],
+              "hometown": null,
+              "player_number": 21,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Gouzerch",
+            "givenName": "Gael",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
+            "user": {
+              "id": 1251
+            },
+            "@etag": "5f8a64f9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2351,49 +2352,6 @@
       "players": [
         {
           "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4649,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "mek0.1853",
-            "name": "MekO",
-            "homeLocation": "Busan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya"
-              ],
-              "hometown": null,
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Tae-Hong",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
-            "user": {
-              "id": 525
-            },
-            "@etag": "4e424544",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22745
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -2441,43 +2399,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4654,
+            "id": 4649,
             "availableLanguages": [
               "en",
-              "ko",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "handle": "libero.2398",
-            "name": "Libero",
-            "homeLocation": "Anyang",
+            "handle": "mek0.1853",
+            "name": "MekO",
+            "homeLocation": "Busan",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "pharah",
                 "dva",
-                "hanzo"
+                "zarya"
               ],
               "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
             "familyName": "Kim",
-            "givenName": "Haeseong",
+            "givenName": "Tae-Hong",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltdfa5a283709c6759/5e45fc1b3acdc70bd3d46de3/NYXL_Libero.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
             "user": {
-              "id": 2529
+              "id": 525
             },
-            "@etag": "e9c9bd08",
+            "@etag": "4e424544",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22745
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -2515,6 +2472,50 @@
               "id": 2865
             },
             "@etag": "c83dc0fd",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22745
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4654,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "libero.2398",
+            "name": "Libero",
+            "homeLocation": "Anyang",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "pharah",
+                "dva",
+                "hanzo"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kim",
+            "givenName": "Haeseong",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltdfa5a283709c6759/5e45fc1b3acdc70bd3d46de3/NYXL_Libero.png",
+            "user": {
+              "id": 2529
+            },
+            "@etag": "e9c9bd08",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2612,41 +2613,6 @@
         },
         {
           "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8236,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Nenne",
-            "homeLocation": "Taebaek",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 31,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Jeong",
-            "givenName": "Yeon-Gwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb63effe4c2e8506c/5e45fc1baf702f08b6a3297b/NYXL_Nenne.png",
-            "user": {
-              "id": 2595
-            },
-            "@etag": "2e6bf98b",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22745
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -2695,38 +2661,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4653,
+            "id": 8236,
             "availableLanguages": [
               "en",
-              "zh-cn",
-              "ko"
+              "zh-cn"
             ],
-            "handle": "jjonak.8711",
-            "name": "JJonak",
-            "homeLocation": "Osan",
+            "name": "Nenne",
+            "homeLocation": "Taebaek",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zenyatta"
-              ],
-              "hometown": "Osan",
-              "player_number": 44,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 31,
+              "preferred_slot": "0",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Bang",
-            "givenName": "SeongHyun",
+            "familyName": "Jeong",
+            "givenName": "Yeon-Gwan",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd3d43d6d7e36042c/5e45fc1bf9482b17fbc75e9a/NYXL_JJONAK.png",
-            "@etag": "a7b1331e",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb63effe4c2e8506c/5e45fc1baf702f08b6a3297b/NYXL_Nenne.png",
+            "user": {
+              "id": 2595
+            },
+            "@etag": "2e6bf98b",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22745
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2775,6 +2737,89 @@
             "type": "TEAM"
           },
           "player": {
+            "id": 4653,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "jjonak.8711",
+            "name": "JJonak",
+            "homeLocation": "Osan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zenyatta"
+              ],
+              "hometown": "Osan",
+              "player_number": 44,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Bang",
+            "givenName": "SeongHyun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd3d43d6d7e36042c/5e45fc1bf9482b17fbc75e9a/NYXL_JJONAK.png",
+            "@etag": "a7b1331e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22745
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4620,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "hometown": null,
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
+            "user": {
+              "id": 286
+            },
+            "@etag": "972ab062",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22745
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
             "id": 4841,
             "availableLanguages": [
               "en",
@@ -2804,50 +2849,6 @@
               "id": 782
             },
             "@etag": "5a8f2e7c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22745
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2888,49 +2889,6 @@
       "players": [
         {
           "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4649,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "mek0.1853",
-            "name": "MekO",
-            "homeLocation": "Busan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya"
-              ],
-              "hometown": null,
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Tae-Hong",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
-            "user": {
-              "id": 525
-            },
-            "@etag": "4e424544",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22746
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4524,
             "type": "TEAM"
           },
@@ -2965,6 +2923,49 @@
               "id": 1828
             },
             "@etag": "9eb0e715",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22746
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4649,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "mek0.1853",
+            "name": "MekO",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "dva",
+                "zarya"
+              ],
+              "hometown": null,
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kim",
+            "givenName": "Tae-Hong",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
+            "user": {
+              "id": 525
+            },
+            "@etag": "4e424544",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3061,6 +3062,49 @@
         },
         {
           "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4668,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "poko.6448",
+            "name": "Poko",
+            "homeLocation": "Nîmes",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zarya",
+                "dva",
+                "soldier-76"
+              ],
+              "hometown": null,
+              "player_number": 21,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Gouzerch",
+            "givenName": "Gael",
+            "nationality": "FR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
+            "user": {
+              "id": 1251
+            },
+            "@etag": "5f8a64f9",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22746
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 4403,
             "type": "TEAM"
           },
@@ -3110,84 +3154,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4668,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "poko.6448",
-            "name": "Poko",
-            "homeLocation": "Nîmes",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "dva",
-                "soldier-76"
-              ],
-              "hometown": null,
-              "player_number": 21,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Gouzerch",
-            "givenName": "Gael",
-            "nationality": "FR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/IBTYWK5AF3O91549652290927.png",
-            "user": {
-              "id": 1251
-            },
-            "@etag": "5f8a64f9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22746
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4403,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8236,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Nenne",
-            "homeLocation": "Taebaek",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 31,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Jeong",
-            "givenName": "Yeon-Gwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb63effe4c2e8506c/5e45fc1baf702f08b6a3297b/NYXL_Nenne.png",
-            "user": {
-              "id": 2595
-            },
-            "@etag": "2e6bf98b",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22746
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 4669,
             "availableLanguages": [
               "en",
@@ -3219,6 +3185,41 @@
               "id": 3167
             },
             "@etag": "9a97f8a1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22746
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4403,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8236,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Nenne",
+            "homeLocation": "Taebaek",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 31,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Jeong",
+            "givenName": "Yeon-Gwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb63effe4c2e8506c/5e45fc1baf702f08b6a3297b/NYXL_Nenne.png",
+            "user": {
+              "id": 2595
+            },
+            "@etag": "2e6bf98b",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3308,50 +3309,6 @@
         },
         {
           "team": {
-            "id": 4524,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4620,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "carpe.7398",
-            "name": "carpe",
-            "homeLocation": "Daejeon",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "hometown": null,
-              "player_number": 18,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "JaeHyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
-            "user": {
-              "id": 286
-            },
-            "@etag": "f588bb38",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22746
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
             "id": 4403,
             "type": "TEAM"
           },
@@ -3385,6 +3342,50 @@
               "id": 782
             },
             "@etag": "5a8f2e7c",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22746
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4524,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4620,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "carpe.7398",
+            "name": "carpe",
+            "homeLocation": "Daejeon",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "hometown": null,
+              "player_number": 18,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "JaeHyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt73d71ba73abbd6a0/5e45efa7014cca0b68178d16/Fusion_Carpe.png",
+            "user": {
+              "id": 286
+            },
+            "@etag": "972ab062",
             "type": "PLAYER"
           },
           "matchGame": {

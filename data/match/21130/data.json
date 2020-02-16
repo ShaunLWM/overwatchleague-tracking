@@ -128,7 +128,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -139,7 +139,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "flags": []
@@ -160,7 +160,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -171,7 +171,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "flags": []
@@ -294,6 +294,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -304,7 +305,7 @@
             "user": {
               "id": 3178
             },
-            "@etag": "268f1fc4",
+            "@etag": "53cfe7d4",
             "type": "PLAYER"
           },
           "flags": []
@@ -324,6 +325,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 7,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -334,7 +336,7 @@
             "user": {
               "id": 4713
             },
-            "@etag": "457a7a4d",
+            "@etag": "56a15127",
             "type": "PLAYER"
           },
           "flags": []
@@ -735,7 +737,7 @@
               "en",
               "zh-cn"
             ],
-            "name": "blasé",
+            "name": "blase",
             "homeLocation": "Burke, Virgina",
             "game": "OVERWATCH",
             "attributes": {
@@ -745,7 +747,7 @@
                 "sombra"
               ],
               "player_number": 22,
-              "preferred_slot": "3",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -756,7 +758,7 @@
             "user": {
               "id": 3385
             },
-            "@etag": "b92b2903",
+            "@etag": "93d03ea0",
             "type": "PLAYER"
           },
           "flags": []
@@ -999,7 +1001,7 @@
             "en",
             "zh-cn"
           ],
-          "name": "blasé",
+          "name": "blase",
           "homeLocation": "Burke, Virgina",
           "game": "OVERWATCH",
           "attributes": {
@@ -1009,7 +1011,7 @@
               "sombra"
             ],
             "player_number": 22,
-            "preferred_slot": "3",
+            "preferred_slot": "0",
             "role": "offense"
           },
           "attributesVersion": "1.0.2",
@@ -1020,7 +1022,7 @@
           "user": {
             "id": 3385
           },
-          "@etag": "b92b2903",
+          "@etag": "93d03ea0",
           "type": "PLAYER"
         },
         "flags": []
@@ -1190,46 +1192,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 4649,
-          "availableLanguages": [
-            "en",
-            "zh-cn",
-            "ko"
-          ],
-          "handle": "mek0.1853",
-          "name": "MekO",
-          "homeLocation": "Busan",
-          "game": "OVERWATCH",
-          "attributes": {
-            "hero_image": null,
-            "heroes": [
-              "dva",
-              "zarya"
-            ],
-            "hometown": null,
-            "player_number": 11,
-            "preferred_slot": "3",
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.0",
-          "familyName": "Kim",
-          "givenName": "Tae-Hong",
-          "nationality": "KR",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
-          "user": {
-            "id": 525
-          },
-          "@etag": "4e424544",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4525,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 4489,
           "availableLanguages": [
             "en",
@@ -1260,6 +1222,46 @@
             "id": 2634
           },
           "@etag": "a5b1780f",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4525,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 4649,
+          "availableLanguages": [
+            "en",
+            "zh-cn",
+            "ko"
+          ],
+          "handle": "mek0.1853",
+          "name": "MekO",
+          "homeLocation": "Busan",
+          "game": "OVERWATCH",
+          "attributes": {
+            "hero_image": null,
+            "heroes": [
+              "dva",
+              "zarya"
+            ],
+            "hometown": null,
+            "player_number": 11,
+            "preferred_slot": "3",
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.0",
+          "familyName": "Kim",
+          "givenName": "Tae-Hong",
+          "nationality": "KR",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltee8afcce21440a6f/5e46f691014cca0b68178da2/Outlaws_Meko.png",
+          "user": {
+            "id": 525
+          },
+          "@etag": "4e424544",
           "type": "PLAYER"
         },
         "flags": []
@@ -1310,7 +1312,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -1321,7 +1323,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1614,11 +1616,11 @@
             "familyName": "McGarvey",
             "givenName": "Caleb",
             "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/s4/S4ZB3AFGQHER1562696659028.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt79d4482b2d2f537f/5e47462a1a3b6617fcdcce19/Valiant_McGravy.png",
             "user": {
               "id": 2203
             },
-            "@etag": "57e77edd",
+            "@etag": "b9e774a9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1763,7 +1765,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -1774,7 +1776,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1829,7 +1831,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -1840,7 +1842,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2116,7 +2118,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -2127,7 +2129,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2408,11 +2410,11 @@
             "familyName": "McGarvey",
             "givenName": "Caleb",
             "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/s4/S4ZB3AFGQHER1562696659028.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt79d4482b2d2f537f/5e47462a1a3b6617fcdcce19/Valiant_McGravy.png",
             "user": {
               "id": 2203
             },
-            "@etag": "57e77edd",
+            "@etag": "b9e774a9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2480,7 +2482,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -2491,7 +2493,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2762,7 +2764,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2773,7 +2775,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2914,7 +2916,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 96,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2925,7 +2927,7 @@
             "user": {
               "id": 2254
             },
-            "@etag": "5f7b24cd",
+            "@etag": "930be50a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3251,7 +3253,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 22,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
@@ -3262,7 +3264,7 @@
             "user": {
               "id": 3393
             },
-            "@etag": "4d47e6d6",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
