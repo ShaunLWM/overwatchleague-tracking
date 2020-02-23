@@ -230,6 +230,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 1,
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -240,7 +241,7 @@
             "user": {
               "id": 3389
             },
-            "@etag": "d91fd474",
+            "@etag": "99033f6b",
             "type": "PLAYER"
           },
           "flags": []
@@ -260,6 +261,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 7,
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -270,7 +272,7 @@
             "user": {
               "id": 4695
             },
-            "@etag": "32dc75e2",
+            "@etag": "b0c5295c",
             "type": "PLAYER"
           },
           "flags": []
@@ -829,6 +831,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 1,
+            "preferred_slot": "0",
             "role": "offense"
           },
           "attributesVersion": "1.0.3",
@@ -839,7 +842,7 @@
           "user": {
             "id": 3389
           },
-          "@etag": "d91fd474",
+          "@etag": "99033f6b",
           "type": "PLAYER"
         },
         "flags": []
@@ -922,36 +925,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 12040,
-          "availableLanguages": [
-            "en"
-          ],
-          "name": "Mouffin",
-          "homeLocation": "Ontario",
-          "game": "OVERWATCH",
-          "attributes": {
-            "player_number": 7,
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.3",
-          "familyName": "Bassal",
-          "givenName": "Walid",
-          "nationality": "CA",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc3e77eaba0a21868/5e46d8493acdc70bd3d46e0d/Uprising_Mouffin.png",
-          "user": {
-            "id": 4695
-          },
-          "@etag": "32dc75e2",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4402,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 12072,
           "availableLanguages": [
             "en"
@@ -972,6 +945,37 @@
             "id": 98
           },
           "@etag": "d643d261",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4402,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 12040,
+          "availableLanguages": [
+            "en"
+          ],
+          "name": "Mouffin",
+          "homeLocation": "Ontario",
+          "game": "OVERWATCH",
+          "attributes": {
+            "player_number": 7,
+            "preferred_slot": "3",
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.3",
+          "familyName": "Bassal",
+          "givenName": "Walid",
+          "nationality": "CA",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc3e77eaba0a21868/5e46d8493acdc70bd3d46e0d/Uprising_Mouffin.png",
+          "user": {
+            "id": 4695
+          },
+          "@etag": "b0c5295c",
           "type": "PLAYER"
         },
         "flags": []

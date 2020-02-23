@@ -707,6 +707,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 19,
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -717,7 +718,7 @@
             "user": {
               "id": 2175
             },
-            "@etag": "35c37952",
+            "@etag": "0a1f740a",
             "type": "PLAYER"
           },
           "flags": []
@@ -1370,41 +1371,6 @@
         },
         {
           "team": {
-            "id": 7694,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8745,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "LhCloudy",
-            "homeLocation": "Kotka",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 27,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tiihonen",
-            "givenName": "Roni",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
-            "user": {
-              "id": 2270
-            },
-            "@etag": "fbfcfe43",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22913
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 7695,
             "type": "TEAM"
           },
@@ -1447,34 +1413,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8743,
+            "id": 8745,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "NiCOgdh",
-            "homeLocation": "Bouilly",
+            "name": "LhCloudy",
+            "homeLocation": "Kotka",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 27,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Moret",
-            "givenName": "Nicolas",
-            "nationality": "FR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2e38c74c4cd0fb8/5e45f467f9482b17fbc75e86/Eternal_Nicogdh.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Tiihonen",
+            "givenName": "Roni",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
             "user": {
-              "id": 3017
+              "id": 2270
             },
-            "@etag": "ba2e09e9",
+            "@etag": "fbfcfe43",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22913
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1520,40 +1486,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8744,
+            "id": 8743,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Kruise",
-            "homeLocation": "St.Albans",
+            "name": "NiCOgdh",
+            "homeLocation": "Bouilly",
             "game": "OVERWATCH",
             "attributes": {
-              "heroes": [
-                "ana",
-                "genji",
-                "lucio",
-                "mercy"
-              ],
-              "player_number": 9,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Pond",
-            "givenName": "Harrison",
-            "nationality": "GB",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb8c15c18efd88832/5e45f4671a3b6617fcdccca3/Eternal_Kruise.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Moret",
+            "givenName": "Nicolas",
+            "nationality": "FR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2e38c74c4cd0fb8/5e45f467f9482b17fbc75e86/Eternal_Nicogdh.png",
             "user": {
-              "id": 3073
+              "id": 3017
             },
-            "@etag": "99598eba",
+            "@etag": "ba2e09e9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22913
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1587,6 +1547,47 @@
               "id": 2627
             },
             "@etag": "8d05900f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22913
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 7694,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8744,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kruise",
+            "homeLocation": "St.Albans",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "genji",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 9,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Pond",
+            "givenName": "Harrison",
+            "nationality": "GB",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb8c15c18efd88832/5e45f4671a3b6617fcdccca3/Eternal_Kruise.png",
+            "user": {
+              "id": 3073
+            },
+            "@etag": "99598eba",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1702,49 +1703,6 @@
       "players": [
         {
           "team": {
-            "id": 7694,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 3987,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "soon.8087",
-            "name": "SoOn",
-            "homeLocation": "Amiens",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "tracer",
-                "widowmaker",
-                "mccree"
-              ],
-              "hometown": "Hangest-En-Santerre, France",
-              "player_number": 99,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Tarlier",
-            "givenName": "Terence",
-            "nationality": "FR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt166311f633350c08/5e45f467a173e408b75bff67/Eternal_Soon.png",
-            "user": {
-              "id": 3319
-            },
-            "@etag": "7ecf0fd0",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22757
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 7695,
             "type": "TEAM"
           },
@@ -1789,6 +1747,84 @@
         },
         {
           "team": {
+            "id": 7694,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 3987,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "soon.8087",
+            "name": "SoOn",
+            "homeLocation": "Amiens",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "tracer",
+                "widowmaker",
+                "mccree"
+              ],
+              "hometown": "Hangest-En-Santerre, France",
+              "player_number": 99,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Tarlier",
+            "givenName": "Terence",
+            "nationality": "FR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt166311f633350c08/5e45f467a173e408b75bff67/Eternal_Soon.png",
+            "user": {
+              "id": 3319
+            },
+            "@etag": "7ecf0fd0",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22757
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 7694,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8745,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "LhCloudy",
+            "homeLocation": "Kotka",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 27,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Tiihonen",
+            "givenName": "Roni",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
+            "user": {
+              "id": 2270
+            },
+            "@etag": "fbfcfe43",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22757
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 7695,
             "type": "TEAM"
           },
@@ -1830,38 +1866,41 @@
         },
         {
           "team": {
-            "id": 7694,
+            "id": 7695,
             "type": "TEAM"
           },
           "player": {
-            "id": 8745,
+            "id": 8754,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "LhCloudy",
-            "homeLocation": "Kotka",
+            "name": "ivy",
+            "homeLocation": "Daegu",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 27,
-              "preferred_slot": "2",
-              "role": "tank"
+              "heroes": [
+                "hanzo"
+              ],
+              "player_number": 2,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Tiihonen",
-            "givenName": "Roni",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
+            "familyName": "Lee",
+            "givenName": "SeungHyun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2b357ee3bf199a4/5e45efa77ffde40916a35a81/Fusion_Ivy.png",
             "user": {
-              "id": 2270
+              "id": 202
             },
-            "@etag": "fbfcfe43",
+            "@etag": "672c3b79",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22757
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1904,37 +1943,37 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8754,
+            "id": 9602,
             "availableLanguages": [
-              "en",
-              "zh-cn"
+              "en"
             ],
-            "name": "ivy",
-            "homeLocation": "Daegu",
+            "name": "im37",
+            "homeLocation": "Cheonan",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "hanzo"
+                "mccree",
+                "widowmaker"
               ],
-              "player_number": 2,
-              "preferred_slot": "1",
+              "player_number": 37,
+              "preferred_slot": "2",
               "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "SeungHyun",
+            "familyName": "Hong",
+            "givenName": "Jin",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2b357ee3bf199a4/5e45efa77ffde40916a35a81/Fusion_Ivy.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/HHJHEGNJYE7X1555459293082.png",
             "user": {
-              "id": 202
+              "id": 770
             },
-            "@etag": "672c3b79",
+            "@etag": "caf97471",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22757
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1983,37 +2022,38 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 9602,
+            "id": 8753,
             "availableLanguages": [
-              "en"
+              "en",
+              "zh-cn"
             ],
-            "name": "im37",
-            "homeLocation": "Cheonan",
+            "name": "Yakpung",
+            "homeLocation": "Gwangju",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "mccree",
-                "widowmaker"
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 37,
+              "player_number": 1,
               "preferred_slot": "2",
-              "role": "offense"
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Hong",
-            "givenName": "Jin",
+            "attributesVersion": "1.0.0",
+            "familyName": "Cho",
+            "givenName": "Kyeongmu",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/HHJHEGNJYE7X1555459293082.png",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/QNQD02M7J3I81549576800289.png",
             "user": {
-              "id": 770
+              "id": 2627
             },
-            "@etag": "caf97471",
+            "@etag": "8d05900f",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22757
           },
-          "sortIndex": 3
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2043,45 +2083,6 @@
               "id": 3082
             },
             "@etag": "59bdca82",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22757
-          },
-          "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 7695,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8753,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Yakpung",
-            "homeLocation": "Gwangju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 1,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Cho",
-            "givenName": "Kyeongmu",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/QNQD02M7J3I81549576800289.png",
-            "user": {
-              "id": 2627
-            },
-            "@etag": "8d05900f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2284,47 +2285,6 @@
         },
         {
           "team": {
-            "id": 7695,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4634,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "envy.3537",
-            "name": "Envy",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya",
-                "roadhog"
-              ],
-              "hometown": "Seoul",
-              "player_number": 10,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "Kang-Jae",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "@etag": "a121d7f4",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22758
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 7694,
             "type": "TEAM"
           },
@@ -2368,38 +2328,44 @@
         },
         {
           "team": {
-            "id": 7694,
+            "id": 7695,
             "type": "TEAM"
           },
           "player": {
-            "id": 8745,
+            "id": 4634,
             "availableLanguages": [
               "en",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "name": "LhCloudy",
-            "homeLocation": "Kotka",
+            "handle": "envy.3537",
+            "name": "Envy",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 27,
-              "preferred_slot": "2",
+              "hero_image": null,
+              "heroes": [
+                "dva",
+                "zarya",
+                "roadhog"
+              ],
+              "hometown": "Seoul",
+              "player_number": 10,
+              "preferred_slot": "3",
               "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tiihonen",
-            "givenName": "Roni",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
-            "user": {
-              "id": 2270
-            },
-            "@etag": "fbfcfe43",
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "Kang-Jae",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "@etag": "a121d7f4",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22758
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2432,6 +2398,41 @@
               "id": 202
             },
             "@etag": "672c3b79",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22758
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 7694,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8745,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "LhCloudy",
+            "homeLocation": "Kotka",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 27,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Tiihonen",
+            "givenName": "Roni",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
+            "user": {
+              "id": 2270
+            },
+            "@etag": "fbfcfe43",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2787,6 +2788,47 @@
         },
         {
           "team": {
+            "id": 7695,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4634,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "envy.3537",
+            "name": "Envy",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "dva",
+                "zarya",
+                "roadhog"
+              ],
+              "hometown": "Seoul",
+              "player_number": 10,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "Kang-Jae",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "@etag": "a121d7f4",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22759
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 7694,
             "type": "TEAM"
           },
@@ -2834,82 +2876,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4634,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "envy.3537",
-            "name": "Envy",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya",
-                "roadhog"
-              ],
-              "hometown": "Seoul",
-              "player_number": 10,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lee",
-            "givenName": "Kang-Jae",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "@etag": "a121d7f4",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22759
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 7694,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8745,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "LhCloudy",
-            "homeLocation": "Kotka",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 27,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tiihonen",
-            "givenName": "Roni",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
-            "user": {
-              "id": 2270
-            },
-            "@etag": "fbfcfe43",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22759
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 7695,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 8754,
             "availableLanguages": [
               "en",
@@ -2948,34 +2914,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8743,
+            "id": 8745,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "NiCOgdh",
-            "homeLocation": "Bouilly",
+            "name": "LhCloudy",
+            "homeLocation": "Kotka",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 27,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Moret",
-            "givenName": "Nicolas",
-            "nationality": "FR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2e38c74c4cd0fb8/5e45f467f9482b17fbc75e86/Eternal_Nicogdh.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Tiihonen",
+            "givenName": "Roni",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltad3a99e0de369d9b/5e45f1b980c3d41861a0f967/LAGladiators_LHCloudy.png",
             "user": {
-              "id": 3017
+              "id": 2270
             },
-            "@etag": "ba2e09e9",
+            "@etag": "fbfcfe43",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22759
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -3021,40 +2987,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8744,
+            "id": 8743,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Kruise",
-            "homeLocation": "St.Albans",
+            "name": "NiCOgdh",
+            "homeLocation": "Bouilly",
             "game": "OVERWATCH",
             "attributes": {
-              "heroes": [
-                "ana",
-                "genji",
-                "lucio",
-                "mercy"
-              ],
-              "player_number": 9,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Pond",
-            "givenName": "Harrison",
-            "nationality": "GB",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb8c15c18efd88832/5e45f4671a3b6617fcdccca3/Eternal_Kruise.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Moret",
+            "givenName": "Nicolas",
+            "nationality": "FR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd2e38c74c4cd0fb8/5e45f467f9482b17fbc75e86/Eternal_Nicogdh.png",
             "user": {
-              "id": 3073
+              "id": 3017
             },
-            "@etag": "99598eba",
+            "@etag": "ba2e09e9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22759
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -3088,6 +3048,47 @@
               "id": 2627
             },
             "@etag": "8d05900f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22759
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 7694,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8744,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kruise",
+            "homeLocation": "St.Albans",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "genji",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 9,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Pond",
+            "givenName": "Harrison",
+            "nationality": "GB",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb8c15c18efd88832/5e45f4671a3b6617fcdccca3/Eternal_Kruise.png",
+            "user": {
+              "id": 3073
+            },
+            "@etag": "99598eba",
             "type": "PLAYER"
           },
           "matchGame": {
