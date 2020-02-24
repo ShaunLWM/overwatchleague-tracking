@@ -1294,6 +1294,46 @@
         },
         {
           "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8203,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Fusions",
+            "homeLocation": "London",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 25,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Bosworth",
+            "givenName": "Cameron",
+            "nationality": "GB",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
+            "user": {
+              "id": 3163
+            },
+            "@etag": "5a0f56e1",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25040
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -1334,43 +1374,43 @@
         },
         {
           "team": {
-            "id": 4402,
+            "id": 4404,
             "type": "TEAM"
           },
           "player": {
-            "id": 8203,
+            "id": 5831,
             "availableLanguages": [
               "en",
+              "ko",
               "zh-cn"
             ],
-            "name": "Fusions",
-            "homeLocation": "London",
+            "handle": "choihyobin.6059",
+            "name": "Choihyobin",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
+                "dva",
+                "roadhog",
+                "zarya"
               ],
-              "player_number": 25,
+              "player_number": 11,
               "preferred_slot": "3",
-              "role": "tank"
+              "role": "tank",
+              "role_star": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Bosworth",
-            "givenName": "Cameron",
-            "nationality": "GB",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
-            "user": {
-              "id": 3163
-            },
-            "@etag": "5a0f56e1",
+            "attributesVersion": "1.0.4",
+            "familyName": "Choi",
+            "givenName": "Hyobin",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
+            "@etag": "a09ed555",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25040
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1419,39 +1459,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5831,
+            "id": 4490,
             "availableLanguages": [
               "en",
-              "ko",
               "zh-cn"
             ],
-            "handle": "choihyobin.6059",
-            "name": "Choihyobin",
-            "homeLocation": "Seoul",
+            "handle": "super.6832",
+            "name": "super",
+            "homeLocation": "Philadelphia, PA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
+                "pharah",
+                "roadhog"
               ],
-              "player_number": 11,
-              "preferred_slot": "3",
+              "hometown": "Philadelphia, Pennsylvania",
+              "player_number": 1,
+              "preferred_slot": "2",
               "role": "tank",
               "role_star": "tank"
             },
             "attributesVersion": "1.0.4",
-            "familyName": "Choi",
-            "givenName": "Hyobin",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
-            "@etag": "a09ed555",
+            "familyName": "DeLisi",
+            "givenName": "Matthew",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt187a77a9335f054a/5e45f0ed210300185a9c9e38/Shock_Super.png",
+            "user": {
+              "id": 2380
+            },
+            "@etag": "3400570d",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25040
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1487,49 +1530,6 @@
               "id": 1453
             },
             "@etag": "c2f56b97",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25040
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4490,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "super.6832",
-            "name": "super",
-            "homeLocation": "Philadelphia, PA",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "pharah",
-                "roadhog"
-              ],
-              "hometown": "Philadelphia, Pennsylvania",
-              "player_number": 1,
-              "preferred_slot": "2",
-              "role": "tank",
-              "role_star": "tank"
-            },
-            "attributesVersion": "1.0.4",
-            "familyName": "DeLisi",
-            "givenName": "Matthew",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt187a77a9335f054a/5e45f0ed210300185a9c9e38/Shock_Super.png",
-            "user": {
-              "id": 2380
-            },
-            "@etag": "3400570d",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1620,44 +1620,6 @@
         },
         {
           "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8672,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "alemao",
-            "homeLocation": "São Caetano do Sul, São Paulo",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "lucio"
-              ],
-              "player_number": 14,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Moretto",
-            "givenName": "Renan",
-            "nationality": "BR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/6SN5JXEMRSSP1549581231340.png",
-            "user": {
-              "id": 3243
-            },
-            "@etag": "55a2eeb4",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25040
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -1693,6 +1655,44 @@
               "id": 2156
             },
             "@etag": "b34291d6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25040
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8672,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "alemao",
+            "homeLocation": "São Caetano do Sul, São Paulo",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "lucio"
+              ],
+              "player_number": 14,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Moretto",
+            "givenName": "Renan",
+            "nationality": "BR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/6SN5JXEMRSSP1549581231340.png",
+            "user": {
+              "id": 3243
+            },
+            "@etag": "55a2eeb4",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1976,47 +1976,6 @@
         },
         {
           "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5306,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "colourhex.2365",
-            "name": "ColourHex",
-            "homeLocation": "Queenstown",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "genji",
-                "pharah",
-                "widowmaker"
-              ],
-              "player_number": 17,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Birse",
-            "givenName": "Kelsey",
-            "nationality": "NZ",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5540fa6c9076b23b/5e46d8497ffde40916a35ab9/Uprising_Colourhex.png",
-            "user": {
-              "id": 1453
-            },
-            "@etag": "c2f56b97",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25101
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -2064,36 +2023,40 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 9412,
+            "id": 5306,
             "availableLanguages": [
-              "en"
+              "en",
+              "zh-cn"
             ],
-            "name": "Persia",
-            "homeLocation": "Busan",
+            "handle": "colourhex.2365",
+            "name": "ColourHex",
+            "homeLocation": "Queenstown",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "zenyatta"
+                "genji",
+                "pharah",
+                "widowmaker"
               ],
-              "player_number": 21,
-              "preferred_slot": "4",
-              "role": "support"
+              "player_number": 17,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Yang",
-            "givenName": "Zion",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jy/JYIZO8Y6272S1562696805322.png",
+            "familyName": "Birse",
+            "givenName": "Kelsey",
+            "nationality": "NZ",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5540fa6c9076b23b/5e46d8497ffde40916a35ab9/Uprising_Colourhex.png",
             "user": {
-              "id": 587
+              "id": 1453
             },
-            "@etag": "c35e8419",
+            "@etag": "c2f56b97",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25101
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2132,6 +2095,43 @@
               "id": 3256
             },
             "@etag": "7b67fb71",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25101
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 9412,
+            "availableLanguages": [
+              "en"
+            ],
+            "name": "Persia",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "zenyatta"
+              ],
+              "player_number": 21,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Yang",
+            "givenName": "Zion",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jy/JYIZO8Y6272S1562696805322.png",
+            "user": {
+              "id": 587
+            },
+            "@etag": "c35e8419",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2336,46 +2336,6 @@
         },
         {
           "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8203,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Fusions",
-            "homeLocation": "London",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 25,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Bosworth",
-            "givenName": "Cameron",
-            "nationality": "GB",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
-            "user": {
-              "id": 3163
-            },
-            "@etag": "5a0f56e1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25074
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -2407,6 +2367,46 @@
               "id": 917
             },
             "@etag": "fe268718",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25074
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8203,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Fusions",
+            "homeLocation": "London",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 25,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Bosworth",
+            "givenName": "Cameron",
+            "nationality": "GB",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
+            "user": {
+              "id": 3163
+            },
+            "@etag": "5a0f56e1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2497,47 +2497,6 @@
         },
         {
           "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5306,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "colourhex.2365",
-            "name": "ColourHex",
-            "homeLocation": "Queenstown",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "genji",
-                "pharah",
-                "widowmaker"
-              ],
-              "player_number": 17,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Birse",
-            "givenName": "Kelsey",
-            "nationality": "NZ",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5540fa6c9076b23b/5e46d8497ffde40916a35ab9/Uprising_Colourhex.png",
-            "user": {
-              "id": 1453
-            },
-            "@etag": "c2f56b97",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25074
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -2572,6 +2531,47 @@
               "id": 2380
             },
             "@etag": "3400570d",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25074
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5306,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "colourhex.2365",
+            "name": "ColourHex",
+            "homeLocation": "Queenstown",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "genji",
+                "pharah",
+                "widowmaker"
+              ],
+              "player_number": 17,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Birse",
+            "givenName": "Kelsey",
+            "nationality": "NZ",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5540fa6c9076b23b/5e46d8497ffde40916a35ab9/Uprising_Colourhex.png",
+            "user": {
+              "id": 1453
+            },
+            "@etag": "c2f56b97",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2662,6 +2662,44 @@
         },
         {
           "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8672,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "alemao",
+            "homeLocation": "São Caetano do Sul, São Paulo",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "lucio"
+              ],
+              "player_number": 14,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Moretto",
+            "givenName": "Renan",
+            "nationality": "BR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/6SN5JXEMRSSP1549581231340.png",
+            "user": {
+              "id": 3243
+            },
+            "@etag": "55a2eeb4",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25074
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -2703,44 +2741,6 @@
             "id": 25074
           },
           "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8672,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "alemao",
-            "homeLocation": "São Caetano do Sul, São Paulo",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "lucio"
-              ],
-              "player_number": 14,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Moretto",
-            "givenName": "Renan",
-            "nationality": "BR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/6SN5JXEMRSSP1549581231340.png",
-            "user": {
-              "id": 3243
-            },
-            "@etag": "55a2eeb4",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25074
-          },
-          "sortIndex": 5
         }
       ],
       "state": "CONCLUDED",
@@ -2773,46 +2773,6 @@
       },
       "attributesVersion": "0.6.0",
       "players": [
-        {
-          "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8184,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "blase",
-            "homeLocation": "Burke, Virgina",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "doomfist",
-                "genji",
-                "sombra"
-              ],
-              "player_number": 22,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tsang",
-            "givenName": "Jeffrey",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
-            "user": {
-              "id": 3385
-            },
-            "@etag": "93d03ea0",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25075
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4404,
@@ -2848,6 +2808,46 @@
               "id": 129
             },
             "@etag": "39c7cc8f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25075
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8184,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "blase",
+            "homeLocation": "Burke, Virgina",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "doomfist",
+                "genji",
+                "sombra"
+              ],
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Tsang",
+            "givenName": "Jeffrey",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
+            "user": {
+              "id": 3385
+            },
+            "@etag": "93d03ea0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2937,6 +2937,46 @@
         },
         {
           "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5831,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "choihyobin.6059",
+            "name": "Choihyobin",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "dva",
+                "roadhog",
+                "zarya"
+              ],
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank",
+              "role_star": "tank"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Choi",
+            "givenName": "Hyobin",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
+            "@etag": "a09ed555",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 25075
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -2982,39 +3022,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5831,
+            "id": 4490,
             "availableLanguages": [
               "en",
-              "ko",
               "zh-cn"
             ],
-            "handle": "choihyobin.6059",
-            "name": "Choihyobin",
-            "homeLocation": "Seoul",
+            "handle": "super.6832",
+            "name": "super",
+            "homeLocation": "Philadelphia, PA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
+                "pharah",
+                "roadhog"
               ],
-              "player_number": 11,
-              "preferred_slot": "3",
+              "hometown": "Philadelphia, Pennsylvania",
+              "player_number": 1,
+              "preferred_slot": "2",
               "role": "tank",
               "role_star": "tank"
             },
             "attributesVersion": "1.0.4",
-            "familyName": "Choi",
-            "givenName": "Hyobin",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
-            "@etag": "a09ed555",
+            "familyName": "DeLisi",
+            "givenName": "Matthew",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt187a77a9335f054a/5e45f0ed210300185a9c9e38/Shock_Super.png",
+            "user": {
+              "id": 2380
+            },
+            "@etag": "3400570d",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 25075
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -3050,49 +3093,6 @@
               "id": 1453
             },
             "@etag": "c2f56b97",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 25075
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4490,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "super.6832",
-            "name": "super",
-            "homeLocation": "Philadelphia, PA",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "pharah",
-                "roadhog"
-              ],
-              "hometown": "Philadelphia, Pennsylvania",
-              "player_number": 1,
-              "preferred_slot": "2",
-              "role": "tank",
-              "role_star": "tank"
-            },
-            "attributesVersion": "1.0.4",
-            "familyName": "DeLisi",
-            "givenName": "Matthew",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt187a77a9335f054a/5e45f0ed210300185a9c9e38/Shock_Super.png",
-            "user": {
-              "id": 2380
-            },
-            "@etag": "3400570d",
             "type": "PLAYER"
           },
           "matchGame": {
