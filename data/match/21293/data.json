@@ -925,36 +925,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 12072,
-          "availableLanguages": [
-            "en"
-          ],
-          "name": "brussen",
-          "homeLocation": "Spanbroek",
-          "game": "OVERWATCH",
-          "attributes": {
-            "player_number": 19,
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.3",
-          "familyName": "Brussen",
-          "givenName": "Thomas",
-          "nationality": "NL",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
-          "user": {
-            "id": 98
-          },
-          "@etag": "d643d261",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4402,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 12040,
           "availableLanguages": [
             "en"
@@ -976,6 +946,36 @@
             "id": 4695
           },
           "@etag": "b0c5295c",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4402,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 12072,
+          "availableLanguages": [
+            "en"
+          ],
+          "name": "brussen",
+          "homeLocation": "Spanbroek",
+          "game": "OVERWATCH",
+          "attributes": {
+            "player_number": 19,
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.3",
+          "familyName": "Brussen",
+          "givenName": "Thomas",
+          "nationality": "NL",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
+          "user": {
+            "id": 98
+          },
+          "@etag": "d643d261",
           "type": "PLAYER"
         },
         "flags": []
@@ -1242,6 +1242,41 @@
         },
         {
           "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 9251,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Dogman",
+            "homeLocation": "Gilbert, AZ",
+            "game": "OVERWATCH",
+            "attributes": {
+              "player_number": 11,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Bowerman",
+            "givenName": "Dusttin",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
+            "user": {
+              "id": 438
+            },
+            "@etag": "4da531fc",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22622
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -1286,34 +1321,38 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 9251,
+            "id": 9591,
             "availableLanguages": [
-              "en",
-              "zh-cn"
+              "en"
             ],
-            "name": "Dogman",
-            "homeLocation": "Gilbert, AZ",
+            "name": "frd",
+            "homeLocation": "Saint Louis, MO",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 11,
-              "preferred_slot": "5",
-              "role": "support"
+              "heroes": [
+                "dva",
+                "roadhog",
+                "zarya"
+              ],
+              "player_number": 4,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Bowerman",
-            "givenName": "Dusttin",
+            "familyName": "Goebel",
+            "givenName": "Nathan",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt9682c09da48f74f4/5e46fb0bfbf2330bd4d046d4/Reign_FRD.png",
             "user": {
-              "id": 438
+              "id": 1717
             },
-            "@etag": "4da531fc",
+            "@etag": "14194eb9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22622
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1349,45 +1388,6 @@
               "id": 1453
             },
             "@etag": "c2f56b97",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22622
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 9591,
-            "availableLanguages": [
-              "en"
-            ],
-            "name": "frd",
-            "homeLocation": "Saint Louis, MO",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
-              ],
-              "player_number": 4,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Goebel",
-            "givenName": "Nathan",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt9682c09da48f74f4/5e46fb0bfbf2330bd4d046d4/Reign_FRD.png",
-            "user": {
-              "id": 1717
-            },
-            "@etag": "14194eb9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1554,6 +1554,46 @@
         },
         {
           "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8681,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Masaa",
+            "homeLocation": "Pieksämäki",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "lucio",
+                "mercy",
+                "zenyatta"
+              ],
+              "player_number": 66,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Kantanen",
+            "givenName": "Petja",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
+            "user": {
+              "id": 2080
+            },
+            "@etag": "57e34796",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22622
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -1588,46 +1628,6 @@
               "id": 829
             },
             "@etag": "ce309ccc",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22622
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8681,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Masaa",
-            "homeLocation": "Pieksämäki",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "lucio",
-                "mercy",
-                "zenyatta"
-              ],
-              "player_number": 66,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Kantanen",
-            "givenName": "Petja",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
-            "user": {
-              "id": 2080
-            },
-            "@etag": "57e34796",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2174,6 +2174,46 @@
       "players": [
         {
           "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8184,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "blase",
+            "homeLocation": "Burke, Virgina",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "doomfist",
+                "genji",
+                "sombra"
+              ],
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Tsang",
+            "givenName": "Jeffrey",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
+            "user": {
+              "id": 3385
+            },
+            "@etag": "93d03ea0",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22624
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -2221,39 +2261,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8184,
+            "id": 8203,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "blase",
-            "homeLocation": "Burke, Virgina",
+            "name": "Fusions",
+            "homeLocation": "London",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "doomfist",
-                "genji",
-                "sombra"
+                "orisa",
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 22,
-              "preferred_slot": "0",
-              "role": "offense"
+              "player_number": 25,
+              "preferred_slot": "3",
+              "role": "tank"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Tsang",
-            "givenName": "Jeffrey",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
+            "familyName": "Bosworth",
+            "givenName": "Cameron",
+            "nationality": "GB",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
             "user": {
-              "id": 3385
+              "id": 3163
             },
-            "@etag": "93d03ea0",
+            "@etag": "5a0f56e1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22624
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2287,46 +2327,6 @@
               "id": 1717
             },
             "@etag": "14194eb9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22624
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8203,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Fusions",
-            "homeLocation": "London",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 25,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Bosworth",
-            "givenName": "Cameron",
-            "nationality": "GB",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltabca77f60de669c6/5e46d849014cca0b68178d4e/Uprising_Fusions.png",
-            "user": {
-              "id": 3163
-            },
-            "@etag": "5a0f56e1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2412,46 +2412,6 @@
         },
         {
           "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8702,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Pokpo",
-            "homeLocation": "Gwangju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 6,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Hyeonjun",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
-            "user": {
-              "id": 1745
-            },
-            "@etag": "19931b1a",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22624
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -2484,6 +2444,46 @@
               "id": 2587
             },
             "@etag": "8f747220",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22624
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8702,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Pokpo",
+            "homeLocation": "Gwangju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 6,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Hyeonjun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
+            "user": {
+              "id": 1745
+            },
+            "@etag": "19931b1a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2571,46 +2571,6 @@
             "id": 22624
           },
           "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8691,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Kodak",
-            "homeLocation": "Frankfurt am Main",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "moira",
-                "zenyatta"
-              ],
-              "player_number": 5,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Rosenberger",
-            "givenName": "Steven",
-            "nationality": "DE",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt30868a6f0d570946/5e46fb1c1a3b6617fcdccd37/Reign_Kodak.png",
-            "user": {
-              "id": 1755
-            },
-            "@etag": "878beb8e",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22624
-          },
-          "sortIndex": 5
         },
         {
           "team": {
@@ -2654,6 +2614,46 @@
             "id": 22624
           },
           "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8691,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Kodak",
+            "homeLocation": "Frankfurt am Main",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "moira",
+                "zenyatta"
+              ],
+              "player_number": 5,
+              "preferred_slot": "4",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Rosenberger",
+            "givenName": "Steven",
+            "nationality": "DE",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt30868a6f0d570946/5e46fb1c1a3b6617fcdccd37/Reign_Kodak.png",
+            "user": {
+              "id": 1755
+            },
+            "@etag": "878beb8e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22624
+          },
+          "sortIndex": 5
         }
       ],
       "state": "CONCLUDED",
@@ -2686,6 +2686,46 @@
       },
       "attributesVersion": "0.5.0",
       "players": [
+        {
+          "team": {
+            "id": 4402,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8184,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "blase",
+            "homeLocation": "Burke, Virgina",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "doomfist",
+                "genji",
+                "sombra"
+              ],
+              "player_number": 22,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Tsang",
+            "givenName": "Jeffrey",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
+            "user": {
+              "id": 3385
+            },
+            "@etag": "93d03ea0",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22625
+          },
+          "sortIndex": 0
+        },
         {
           "team": {
             "id": 7698,
@@ -2722,46 +2762,6 @@
               "id": 2626
             },
             "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22625
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4402,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8184,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "blase",
-            "homeLocation": "Burke, Virgina",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "doomfist",
-                "genji",
-                "sombra"
-              ],
-              "player_number": 22,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Tsang",
-            "givenName": "Jeffrey",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt7247e65f115eed93/5e46f681fbf2330bd4d046c2/Outlaws_Blase.png",
-            "user": {
-              "id": 3385
-            },
-            "@etag": "93d03ea0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2850,41 +2850,6 @@
         },
         {
           "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 8692,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Erster",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Jeong",
-            "givenName": "Jun",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
-            "user": {
-              "id": 2027
-            },
-            "@etag": "552962d2",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22625
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -2930,39 +2895,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8702,
+            "id": 8692,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Pokpo",
-            "homeLocation": "Gwangju",
+            "name": "Erster",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 6,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Hyeonjun",
+            "familyName": "Jeong",
+            "givenName": "Jun",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
             "user": {
-              "id": 1745
+              "id": 2027
             },
-            "@etag": "19931b1a",
+            "@etag": "552962d2",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22625
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -3011,39 +2971,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8681,
+            "id": 8702,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Masaa",
-            "homeLocation": "Pieksämäki",
+            "name": "Pokpo",
+            "homeLocation": "Gwangju",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "lucio",
-                "mercy",
-                "zenyatta"
+                "orisa",
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 66,
-              "preferred_slot": "5",
-              "role": "support"
+              "player_number": 6,
+              "preferred_slot": "2",
+              "role": "tank"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Kantanen",
-            "givenName": "Petja",
-            "nationality": "FI",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
+            "familyName": "Park",
+            "givenName": "Hyeonjun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
             "user": {
-              "id": 2080
+              "id": 1745
             },
-            "@etag": "57e34796",
+            "@etag": "19931b1a",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22625
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -3079,6 +3039,46 @@
               "id": 887
             },
             "@etag": "1ebec352",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22625
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8681,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Masaa",
+            "homeLocation": "Pieksämäki",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "lucio",
+                "mercy",
+                "zenyatta"
+              ],
+              "player_number": 66,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Kantanen",
+            "givenName": "Petja",
+            "nationality": "FI",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt408d717e0ba1a797/5e46fb1c80c3d41861a0f9f5/Reign_MASAA.png",
+            "user": {
+              "id": 2080
+            },
+            "@etag": "57e34796",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3285,41 +3285,6 @@
         },
         {
           "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 9251,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "Dogman",
-            "homeLocation": "Gilbert, AZ",
-            "game": "OVERWATCH",
-            "attributes": {
-              "player_number": 11,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.2",
-            "familyName": "Bowerman",
-            "givenName": "Dusttin",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
-            "user": {
-              "id": 438
-            },
-            "@etag": "4da531fc",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 23261
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4402,
             "type": "TEAM"
           },
@@ -3364,34 +3329,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8692,
+            "id": 9251,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Erster",
-            "homeLocation": "Seoul",
+            "name": "Dogman",
+            "homeLocation": "Gilbert, AZ",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 10,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 11,
+              "preferred_slot": "5",
+              "role": "support"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Jeong",
-            "givenName": "Jun",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
+            "familyName": "Bowerman",
+            "givenName": "Dusttin",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte9169d61c5cba776/5e46fb0b014cca0b68178dba/Reign_Dogman.png",
             "user": {
-              "id": 2027
+              "id": 438
             },
-            "@etag": "552962d2",
+            "@etag": "4da531fc",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 23261
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -3440,39 +3405,34 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 8702,
+            "id": 8692,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Pokpo",
-            "homeLocation": "Gwangju",
+            "name": "Erster",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 6,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 10,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.2",
-            "familyName": "Park",
-            "givenName": "Hyeonjun",
+            "familyName": "Jeong",
+            "givenName": "Jun",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte2ed561b6d2622c2/5e46fb0b1a3b6617fcdccd31/Reign_Erster.png",
             "user": {
-              "id": 1745
+              "id": 2027
             },
-            "@etag": "19931b1a",
+            "@etag": "552962d2",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 23261
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -3508,6 +3468,46 @@
               "id": 2587
             },
             "@etag": "8f747220",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 23261
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8702,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Pokpo",
+            "homeLocation": "Gwangju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 6,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Park",
+            "givenName": "Hyeonjun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt839cd16f87d86021/5e46fb1ccc8de70b69efa903/Reign_PokPo.png",
+            "user": {
+              "id": 1745
+            },
+            "@etag": "19931b1a",
             "type": "PLAYER"
           },
           "matchGame": {
