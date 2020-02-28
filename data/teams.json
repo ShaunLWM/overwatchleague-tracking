@@ -2760,6 +2760,59 @@
               "type": "TEAM"
             },
             "player": {
+              "id": 12072,
+              "availableLanguages": [
+                "en"
+              ],
+              "name": "brussen",
+              "homeLocation": "Spanbroek",
+              "accounts": [
+                {
+                  "id": 15882,
+                  "competitorId": 12072,
+                  "value": "https://twitter.com/brussenn",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                },
+                {
+                  "id": 15883,
+                  "competitorId": 12072,
+                  "value": "https://www.instagram.com/brussenn",
+                  "accountType": "INSTAGRAM",
+                  "isPublic": true
+                },
+                {
+                  "id": 15884,
+                  "competitorId": 12072,
+                  "value": "https://www.twitch.tv/brussenn",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "player_number": 19,
+                "role": "tank"
+              },
+              "attributesVersion": "1.0.3",
+              "familyName": "Brussen",
+              "givenName": "Thomas",
+              "nationality": "NL",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
+              "user": {
+                "id": 98
+              },
+              "@etag": "d643d261",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4402,
+              "type": "TEAM"
+            },
+            "player": {
               "id": 12040,
               "availableLanguages": [
                 "en"
@@ -2811,59 +2864,6 @@
                 "id": 4695
               },
               "@etag": "b0c5295c",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4402,
-              "type": "TEAM"
-            },
-            "player": {
-              "id": 12072,
-              "availableLanguages": [
-                "en"
-              ],
-              "name": "brussen",
-              "homeLocation": "Spanbroek",
-              "accounts": [
-                {
-                  "id": 15882,
-                  "competitorId": 12072,
-                  "value": "https://twitter.com/brussenn",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                },
-                {
-                  "id": 15883,
-                  "competitorId": 12072,
-                  "value": "https://www.instagram.com/brussenn",
-                  "accountType": "INSTAGRAM",
-                  "isPublic": true
-                },
-                {
-                  "id": 15884,
-                  "competitorId": 12072,
-                  "value": "https://www.twitch.tv/brussenn",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "player_number": 19,
-                "role": "tank"
-              },
-              "attributesVersion": "1.0.3",
-              "familyName": "Brussen",
-              "givenName": "Thomas",
-              "nationality": "NL",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltd4cbdf1e00b61b60/5e46d849fbf2330bd4d0467e/Uprising_Brussen.png",
-              "user": {
-                "id": 98
-              },
-              "@etag": "d643d261",
               "type": "PLAYER"
             },
             "flags": []
@@ -6538,47 +6538,6 @@
               "type": "TEAM"
             },
             "player": {
-              "id": 8704,
-              "availableLanguages": [
-                "en",
-                "zh-cn"
-              ],
-              "name": "bqb",
-              "homeLocation": "Youngin",
-              "accounts": [
-                {
-                  "id": 12922,
-                  "competitorId": 8704,
-                  "value": "https://twitter.com/BQB_kr",
-                  "accountType": "TWITTER",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "player_number": 22,
-                "preferred_slot": "0",
-                "role": "offense"
-              },
-              "attributesVersion": "1.0.2",
-              "familyName": "Lee",
-              "givenName": "Sangbum",
-              "nationality": "KR",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
-              "user": {
-                "id": 3393
-              },
-              "@etag": "2ef6bef1",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 4407,
-              "type": "TEAM"
-            },
-            "player": {
               "id": 10144,
               "availableLanguages": [
                 "en"
@@ -6612,6 +6571,47 @@
                 "id": 4035
               },
               "@etag": "1662bd0a",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 4407,
+              "type": "TEAM"
+            },
+            "player": {
+              "id": 8704,
+              "availableLanguages": [
+                "en",
+                "zh-cn"
+              ],
+              "name": "bqb",
+              "homeLocation": "Youngin",
+              "accounts": [
+                {
+                  "id": 12922,
+                  "competitorId": 8704,
+                  "value": "https://twitter.com/BQB_kr",
+                  "accountType": "TWITTER",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "player_number": 22,
+                "preferred_slot": "0",
+                "role": "offense"
+              },
+              "attributesVersion": "1.0.2",
+              "familyName": "Lee",
+              "givenName": "Sangbum",
+              "nationality": "KR",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
+              "user": {
+                "id": 3393
+              },
+              "@etag": "2ef6bef1",
               "type": "PLAYER"
             },
             "flags": []
@@ -11628,63 +11628,6 @@
               "type": "TEAM"
             },
             "player": {
-              "id": 4105,
-              "availableLanguages": [
-                "en",
-                "ko",
-                "zh-cn"
-              ],
-              "handle": "ryujehong.9666",
-              "name": "ryujehong",
-              "homeLocation": "Incheon",
-              "accounts": [
-                {
-                  "id": 6263,
-                  "competitorId": 4105,
-                  "value": "https://www.twitch.tv/wpghd321",
-                  "accountType": "TWITCH",
-                  "isPublic": true
-                },
-                {
-                  "id": 6253,
-                  "competitorId": 4105,
-                  "value": "https://www.youtube.com/channel/UCtt0Hg9MhraTkzWwNQpplHg",
-                  "accountType": "YOUTUBE_CHANNEL",
-                  "isPublic": true
-                }
-              ],
-              "game": "OVERWATCH",
-              "attributes": {
-                "hero_image": null,
-                "heroes": [
-                  "ana",
-                  "zenyatta",
-                  "mercy"
-                ],
-                "hometown": null,
-                "player_number": 6,
-                "preferred_slot": "4",
-                "role": "support"
-              },
-              "attributesVersion": "1.0.0",
-              "familyName": "Ryu",
-              "givenName": "Jehong",
-              "nationality": "KR",
-              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltde691c1b6f1cefb8/5e45f2a2a173e408b75bff61/Titans_Ryujehong.png",
-              "user": {
-                "id": 1511
-              },
-              "@etag": "6a66efa5",
-              "type": "PLAYER"
-            },
-            "flags": []
-          },
-          {
-            "team": {
-              "id": 7696,
-              "type": "TEAM"
-            },
-            "player": {
               "id": 8729,
               "availableLanguages": [
                 "en",
@@ -11750,6 +11693,63 @@
                 "id": 2210
               },
               "@etag": "ddeabccb",
+              "type": "PLAYER"
+            },
+            "flags": []
+          },
+          {
+            "team": {
+              "id": 7696,
+              "type": "TEAM"
+            },
+            "player": {
+              "id": 4105,
+              "availableLanguages": [
+                "en",
+                "ko",
+                "zh-cn"
+              ],
+              "handle": "ryujehong.9666",
+              "name": "ryujehong",
+              "homeLocation": "Incheon",
+              "accounts": [
+                {
+                  "id": 6263,
+                  "competitorId": 4105,
+                  "value": "https://www.twitch.tv/wpghd321",
+                  "accountType": "TWITCH",
+                  "isPublic": true
+                },
+                {
+                  "id": 6253,
+                  "competitorId": 4105,
+                  "value": "https://www.youtube.com/channel/UCtt0Hg9MhraTkzWwNQpplHg",
+                  "accountType": "YOUTUBE_CHANNEL",
+                  "isPublic": true
+                }
+              ],
+              "game": "OVERWATCH",
+              "attributes": {
+                "hero_image": null,
+                "heroes": [
+                  "ana",
+                  "zenyatta",
+                  "mercy"
+                ],
+                "hometown": null,
+                "player_number": 6,
+                "preferred_slot": "4",
+                "role": "support"
+              },
+              "attributesVersion": "1.0.0",
+              "familyName": "Ryu",
+              "givenName": "Jehong",
+              "nationality": "KR",
+              "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltde691c1b6f1cefb8/5e45f2a2a173e408b75bff61/Titans_Ryujehong.png",
+              "user": {
+                "id": 1511
+              },
+              "@etag": "6a66efa5",
               "type": "PLAYER"
             },
             "flags": []
