@@ -325,6 +325,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 8,
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -335,7 +336,7 @@
             "user": {
               "id": 1224
             },
-            "@etag": "4f145695",
+            "@etag": "c0d48ff9",
             "type": "PLAYER"
           },
           "flags": []
@@ -1076,44 +1077,6 @@
           "type": "TEAM"
         },
         "player": {
-          "id": 4083,
-          "availableLanguages": [
-            "en",
-            "zh-cn"
-          ],
-          "handle": "eqo.8442",
-          "name": "eqo",
-          "homeLocation": "Netenya",
-          "game": "OVERWATCH",
-          "attributes": {
-            "hero_image": null,
-            "heroes": [
-              "genji",
-              "hanzo",
-              "soldier-76",
-              "tracer"
-            ],
-            "hometown": null,
-            "player_number": 15,
-            "preferred_slot": "1",
-            "role": "offense"
-          },
-          "attributesVersion": "1.0.0",
-          "familyName": "Corona",
-          "givenName": "Josue ",
-          "nationality": "IL",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-          "@etag": "d137379f",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4524,
-          "type": "TEAM"
-        },
-        "player": {
           "id": 4659,
           "availableLanguages": [
             "en",
@@ -1145,6 +1108,44 @@
             "id": 868
           },
           "@etag": "d6f77c31",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4524,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 4083,
+          "availableLanguages": [
+            "en",
+            "zh-cn"
+          ],
+          "handle": "eqo.8442",
+          "name": "eqo",
+          "homeLocation": "Netenya",
+          "game": "OVERWATCH",
+          "attributes": {
+            "hero_image": null,
+            "heroes": [
+              "genji",
+              "hanzo",
+              "soldier-76",
+              "tracer"
+            ],
+            "hometown": null,
+            "player_number": 15,
+            "preferred_slot": "1",
+            "role": "offense"
+          },
+          "attributesVersion": "1.0.0",
+          "familyName": "Corona",
+          "givenName": "Josue ",
+          "nationality": "IL",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
+          "@etag": "d137379f",
           "type": "PLAYER"
         },
         "flags": []
