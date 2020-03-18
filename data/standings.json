@@ -1792,6 +1792,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -1802,7 +1803,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -1906,7 +1907,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -1917,7 +1918,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -1959,7 +1960,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -1970,7 +1971,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -2018,7 +2019,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -2029,7 +2030,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -2669,7 +2670,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -2677,7 +2678,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -3403,7 +3404,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -3414,7 +3415,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -3675,7 +3676,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -3686,7 +3687,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -4281,13 +4282,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -4299,6 +4293,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -4345,17 +4346,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -4514,17 +4515,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -5753,77 +5754,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -6050,6 +5980,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -6436,7 +6413,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -6493,7 +6470,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -6504,7 +6481,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -9596,7 +9573,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -9618,7 +9595,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -9935,6 +9912,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -9953,13 +9937,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -17228,7 +17205,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -17250,7 +17227,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -17860,6 +17837,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -17870,7 +17848,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -17974,7 +17952,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -17985,7 +17963,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -18027,7 +18005,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -18038,7 +18016,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -18086,7 +18064,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -18097,7 +18075,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -18321,6 +18299,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -18339,13 +18324,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -21122,7 +21100,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -21130,7 +21108,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -21856,7 +21834,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -21867,7 +21845,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -22128,7 +22106,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -22139,7 +22117,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -22734,13 +22712,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -22752,6 +22723,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -22798,17 +22776,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -22967,17 +22945,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -24940,77 +24918,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -25237,6 +25144,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -25623,7 +25577,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -25680,7 +25634,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -25691,7 +25645,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -27444,13 +27398,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -27462,6 +27409,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -27508,17 +27462,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -27677,17 +27631,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -28354,77 +28308,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -28651,6 +28534,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -30259,6 +30189,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -30277,13 +30214,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -33203,7 +33133,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -33211,7 +33141,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -35644,7 +35574,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -35655,7 +35585,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -35916,7 +35846,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -35927,7 +35857,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -36159,7 +36089,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -36216,7 +36146,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -36227,7 +36157,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -38026,6 +37956,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -38036,7 +37967,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -38140,7 +38071,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -38151,7 +38082,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -38193,7 +38124,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -38204,7 +38135,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -38252,7 +38183,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -38263,7 +38194,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -38708,7 +38639,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -38730,7 +38661,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -45808,6 +45739,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -45818,7 +45750,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -45922,7 +45854,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -45933,7 +45865,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -45975,7 +45907,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -45986,7 +45918,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -46034,7 +45966,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -46045,7 +45977,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -46369,77 +46301,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -46666,6 +46527,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -47283,7 +47191,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -47291,7 +47199,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -47624,6 +47532,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -47642,13 +47557,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -48399,7 +48307,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -48456,7 +48364,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -48467,7 +48375,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -49226,7 +49134,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -49237,7 +49145,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -49498,7 +49406,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -49509,7 +49417,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -49779,7 +49687,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -49801,7 +49709,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -51222,13 +51130,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -51240,6 +51141,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -51286,17 +51194,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -51455,17 +51363,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -53414,13 +53322,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -53432,6 +53333,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -53478,17 +53386,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -53647,17 +53555,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -54324,77 +54232,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -54621,6 +54458,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -56229,6 +56113,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -56247,13 +56138,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -59173,7 +59057,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -59181,7 +59065,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -61614,7 +61498,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -61625,7 +61509,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -61886,7 +61770,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -61897,7 +61781,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -62129,7 +62013,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -62186,7 +62070,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -62197,7 +62081,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -63996,6 +63880,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -64006,7 +63891,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -64110,7 +63995,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -64121,7 +64006,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -64163,7 +64048,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -64174,7 +64059,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -64222,7 +64107,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -64233,7 +64118,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -64678,7 +64563,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -64700,7 +64585,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -68187,6 +68072,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -68205,13 +68097,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -68785,13 +68670,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -68803,6 +68681,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -68849,17 +68734,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -69018,17 +68903,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -71193,7 +71078,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -71215,7 +71100,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -71947,7 +71832,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -71955,7 +71840,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -72680,7 +72565,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -72691,7 +72576,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -72952,7 +72837,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -72963,7 +72848,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -74492,6 +74377,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -74502,7 +74388,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -74606,7 +74492,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -74617,7 +74503,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -74659,7 +74545,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -74670,7 +74556,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -74718,7 +74604,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -74729,7 +74615,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -75053,77 +74939,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -75350,6 +75165,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -77028,7 +76890,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -77085,7 +76947,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -77096,7 +76958,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -78980,6 +78842,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -78990,7 +78853,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -79094,7 +78957,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -79105,7 +78968,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -79147,7 +79010,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -79158,7 +79021,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -79206,7 +79069,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -79217,7 +79080,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -79662,7 +79525,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -79684,7 +79547,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -83385,6 +83248,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -83403,13 +83273,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -85109,7 +84972,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -85117,7 +84980,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -86479,7 +86342,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -86490,7 +86353,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -86751,7 +86614,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -86762,7 +86625,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -87544,13 +87407,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -87562,6 +87418,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -87608,17 +87471,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -87777,17 +87640,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -89219,7 +89082,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -89276,7 +89139,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -89287,7 +89150,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -90488,77 +90351,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -90785,6 +90577,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -94424,7 +94263,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -94446,7 +94285,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
@@ -96387,6 +96226,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -96397,7 +96237,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -96501,7 +96341,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -96512,7 +96352,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -96554,7 +96394,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -96565,7 +96405,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -96613,7 +96453,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -96624,7 +96464,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -98297,6 +98137,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -98315,13 +98162,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -100378,7 +100218,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -100389,7 +100229,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -100650,7 +100490,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -100661,7 +100501,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -100893,7 +100733,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -100950,7 +100790,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -100961,7 +100801,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -101335,13 +101175,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -101353,6 +101186,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -101399,17 +101239,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -101568,17 +101408,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -102245,77 +102085,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -102542,6 +102311,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -103159,7 +102975,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -103167,7 +102983,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -105354,13 +105170,6 @@
               "isPublic": true
             },
             {
-              "id": 15025,
-              "competitorId": 4525,
-              "value": "https://www.facebook.com/outlawsow",
-              "accountType": "FACEBOOK",
-              "isPublic": true
-            },
-            {
               "id": 15026,
               "competitorId": 4525,
               "value": "https://www.twitch.tv/HoustonOutlaws",
@@ -105372,6 +105181,13 @@
               "competitorId": 4525,
               "value": "https://www.instagram.com/outlawsow",
               "accountType": "INSTAGRAM",
+              "isPublic": true
+            },
+            {
+              "id": 15025,
+              "competitorId": 4525,
+              "value": "https://www.facebook.com/outlawsow",
+              "accountType": "FACEBOOK",
               "isPublic": true
             }
           ],
@@ -105418,17 +105234,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 13111,
-                    "competitorId": 4623,
-                    "value": "https://www.instagram.com/austin.wilmot",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  },
-                  {
                     "id": 12960,
                     "competitorId": 4623,
                     "value": "https://www.youtube.com/channel/UCtKXEdVCIRbBOFDwXApVj1w",
                     "accountType": "YOUTUBE_CHANNEL",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 13111,
+                    "competitorId": 4623,
+                    "value": "https://www.instagram.com/austin.wilmot",
+                    "accountType": "INSTAGRAM",
                     "isPublic": true
                   }
                 ],
@@ -105587,17 +105403,17 @@
                     "isPublic": true
                   },
                   {
-                    "id": 6736,
-                    "competitorId": 4625,
-                    "value": "https://twitter.com/Forceboink",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
                     "id": 6811,
                     "competitorId": 4625,
                     "value": "https://www.youtube.com/user/forceboink",
                     "accountType": "YOUTUBE_USER",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 6736,
+                    "competitorId": 4625,
+                    "value": "https://twitter.com/Forceboink",
+                    "accountType": "TWITTER",
                     "isPublic": true
                   }
                 ],
@@ -106264,77 +106080,6 @@
                 "type": "TEAM"
               },
               "player": {
-                "id": 4642,
-                "availableLanguages": [
-                  "en",
-                  "zh-cn",
-                  "ko"
-                ],
-                "handle": "munchkin.6037",
-                "name": "Munchkin",
-                "homeLocation": "Seoul",
-                "accounts": [
-                  {
-                    "id": 6909,
-                    "competitorId": 4642,
-                    "value": "https://twitter.com/MunchkinOW",
-                    "accountType": "TWITTER",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 6963,
-                    "competitorId": 4642,
-                    "value": "https://www.twitch.tv/munchkinow",
-                    "accountType": "TWITCH",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15911,
-                    "competitorId": 4642,
-                    "value": "https://www.facebook.com/fkdldjsqja",
-                    "accountType": "FACEBOOK",
-                    "isPublic": true
-                  },
-                  {
-                    "id": 15912,
-                    "competitorId": 4642,
-                    "value": "https://www.instagram.com/byunsangbeom",
-                    "accountType": "INSTAGRAM",
-                    "isPublic": true
-                  }
-                ],
-                "game": "OVERWATCH",
-                "attributes": {
-                  "hero_image": null,
-                  "heroes": [
-                    "tracer",
-                    "mccree",
-                    "widowmaker"
-                  ],
-                  "hometown": null,
-                  "player_number": 27,
-                  "preferred_slot": "0",
-                  "role": "offense"
-                },
-                "attributesVersion": "1.0.0",
-                "familyName": "Byun",
-                "givenName": "Sangbeom",
-                "nationality": "KR",
-                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt1219f560adf0fa49/5e46d849f9482b17fbc75ec4/Uprising_Munchkin.png",
-                "user": {
-                  "id": 1374
-                },
-                "@etag": "3810d168",
-                "type": "PLAYER"
-              },
-              "flags": []
-            },
-            {
-              "team": {
-                "id": 4402,
-                "type": "TEAM"
-              },
-              "player": {
                 "id": 12051,
                 "availableLanguages": [
                   "en"
@@ -106561,6 +106306,53 @@
                   "id": 2169
                 },
                 "@etag": "c448dc8f",
+                "type": "PLAYER"
+              },
+              "flags": []
+            },
+            {
+              "team": {
+                "id": 4402,
+                "type": "TEAM"
+              },
+              "player": {
+                "id": 12541,
+                "availableLanguages": [
+                  "en"
+                ],
+                "name": "Halo",
+                "homeLocation": "Stillwater, OK",
+                "accounts": [
+                  {
+                    "id": 16361,
+                    "competitorId": 12541,
+                    "value": "https://www.twitch.tv/helloimhalo",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                  },
+                  {
+                    "id": 16371,
+                    "competitorId": 12541,
+                    "value": "https://twitter.com/HelloImHalo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                  }
+                ],
+                "game": "OVERWATCH",
+                "attributes": {
+                  "player_number": 24,
+                  "preferred_slot": "4",
+                  "role": "support"
+                },
+                "attributesVersion": "1.0.4",
+                "familyName": "Hamand",
+                "givenName": "Kobe",
+                "nationality": "US",
+                "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt96d7261be8c27e8f/5e6565bc8286c81bdae78f2f/Uprising_HALO.png",
+                "user": {
+                  "id": 280
+                },
+                "@etag": "da87997a",
                 "type": "PLAYER"
               },
               "flags": []
@@ -108169,6 +107961,13 @@
               "isPublic": true
             },
             {
+              "id": 2292,
+              "competitorId": 4405,
+              "value": "https://twitter.com/lavaliant",
+              "accountType": "TWITTER",
+              "isPublic": true
+            },
+            {
               "id": 2379,
               "competitorId": 4405,
               "value": "https://www.instagram.com/lavaliant",
@@ -108187,13 +107986,6 @@
               "competitorId": 4405,
               "value": "https://discord.gg/lavaliant",
               "accountType": "DISCORD",
-              "isPublic": true
-            },
-            {
-              "id": 2292,
-              "competitorId": 4405,
-              "value": "https://twitter.com/lavaliant",
-              "accountType": "TWITTER",
               "isPublic": true
             }
           ],
@@ -111113,7 +110905,7 @@
                   ],
                   "hometown": null,
                   "player_number": 15,
-                  "preferred_slot": "1",
+                  "preferred_slot": "4",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -111121,7 +110913,7 @@
                 "givenName": "Josue ",
                 "nationality": "IL",
                 "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt2f70b54c390b6f91/5e45efa7f9482b17fbc75e74/Fusion_EQO.png",
-                "@etag": "d137379f",
+                "@etag": "72933fdb",
                 "type": "PLAYER"
               },
               "flags": []
@@ -113554,7 +113346,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -113565,7 +113357,7 @@
                 "user": {
                   "id": 269
                 },
-                "@etag": "d1fb819f",
+                "@etag": "d9ebaeee",
                 "type": "PLAYER"
               },
               "flags": []
@@ -113826,7 +113618,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 3,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -113837,7 +113629,7 @@
                 "user": {
                   "id": 445
                 },
-                "@etag": "c52acf75",
+                "@etag": "f25bfbb8",
                 "type": "PLAYER"
               },
               "flags": []
@@ -114069,7 +113861,7 @@
                 "user": {
                   "id": 2084
                 },
-                "@etag": "6b8a01ba",
+                "@etag": "44a1c2ff",
                 "type": "PLAYER"
               },
               "flags": []
@@ -114126,7 +113918,7 @@
                     "soldier-76"
                   ],
                   "player_number": 22,
-                  "preferred_slot": "0",
+                  "preferred_slot": "1",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.0",
@@ -114137,7 +113929,7 @@
                 "user": {
                   "id": 1551
                 },
-                "@etag": "af70f972",
+                "@etag": "c562262e",
                 "type": "PLAYER"
               },
               "flags": []
@@ -115936,6 +115728,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 7,
+                  "preferred_slot": "0",
                   "role": "offense"
                 },
                 "attributesVersion": "1.0.3",
@@ -115946,7 +115739,7 @@
                 "user": {
                   "id": 4704
                 },
-                "@etag": "bcdf2feb",
+                "@etag": "c8c37696",
                 "type": "PLAYER"
               },
               "flags": []
@@ -116050,7 +115843,7 @@
                 "game": "OVERWATCH",
                 "attributes": {
                   "player_number": 11,
-                  "preferred_slot": "5",
+                  "preferred_slot": "4",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -116061,7 +115854,7 @@
                 "user": {
                   "id": 438
                 },
-                "@etag": "4da531fc",
+                "@etag": "b535ea67",
                 "type": "PLAYER"
               },
               "flags": []
@@ -116103,7 +115896,7 @@
                     "zenyatta"
                   ],
                   "player_number": 66,
-                  "preferred_slot": "4",
+                  "preferred_slot": "5",
                   "role": "support"
                 },
                 "attributesVersion": "1.0.2",
@@ -116114,7 +115907,7 @@
                 "user": {
                   "id": 2080
                 },
-                "@etag": "f0224171",
+                "@etag": "68729850",
                 "type": "PLAYER"
               },
               "flags": []
@@ -116162,7 +115955,7 @@
                     "winston"
                   ],
                   "player_number": 1,
-                  "preferred_slot": "3",
+                  "preferred_slot": "2",
                   "role": "tank"
                 },
                 "attributesVersion": "1.0.2",
@@ -116173,7 +115966,7 @@
                 "user": {
                   "id": 2517
                 },
-                "@etag": "a2d5f2ca",
+                "@etag": "22859f8f",
                 "type": "PLAYER"
               },
               "flags": []
@@ -116618,7 +116411,7 @@
                   {
                     "id": 13212,
                     "competitorId": 8723,
-                    "value": "https://www.twitch.tv/happppppy1",
+                    "value": "https://www.twitch.tv/owhappy2",
                     "accountType": "TWITCH",
                     "isPublic": true
                   }
@@ -116640,7 +116433,7 @@
                 "user": {
                   "id": 2659
                 },
-                "@etag": "3e25568e",
+                "@etag": "a025fc42",
                 "type": "PLAYER"
               },
               "flags": []
