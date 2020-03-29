@@ -490,7 +490,7 @@
               ],
               "hometown": "Shoreline, Washington",
               "player_number": 2,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "offense",
               "role_star": "damage"
             },
@@ -502,7 +502,7 @@
             "user": {
               "id": 3256
             },
-            "@etag": "7b67fb71",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "flags": []
@@ -530,7 +530,7 @@
               ],
               "hometown": "Philadelphia, Pennsylvania",
               "player_number": 1,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank",
               "role_star": "tank"
             },
@@ -542,7 +542,7 @@
             "user": {
               "id": 2380
             },
-            "@etag": "3400570d",
+            "@etag": "790f4752",
             "type": "PLAYER"
           },
           "flags": []
@@ -651,7 +651,7 @@
                 "pharah"
               ],
               "player_number": 3,
-              "preferred_slot": "4",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -662,7 +662,7 @@
             "user": {
               "id": 2260
             },
-            "@etag": "6df2c7ce",
+            "@etag": "cda1484c",
             "type": "PLAYER"
           },
           "flags": []
@@ -689,7 +689,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -701,7 +701,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "flags": []
@@ -799,7 +799,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -810,7 +810,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "flags": []
@@ -830,6 +830,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 10,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -840,7 +841,7 @@
             "user": {
               "id": 4688
             },
-            "@etag": "6351ab49",
+            "@etag": "0d159d39",
             "type": "PLAYER"
           },
           "flags": []
@@ -1334,49 +1335,6 @@
       "players": [
         {
           "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4491,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "babybay.7271",
-            "name": "babybay",
-            "homeLocation": "Chicago, IL",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "soldier-76",
-                "mccree",
-                "genji"
-              ],
-              "hometown": "Chicago, Illionis",
-              "player_number": 13,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Francisty",
-            "givenName": "Andrej",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
-            "user": {
-              "id": 2626
-            },
-            "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28700
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -1421,47 +1379,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 7698,
             "type": "TEAM"
           },
           "player": {
-            "id": 4139,
+            "id": 4491,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "sinatraa.3257",
-            "name": "sinatraa",
-            "homeLocation": "Shoreline, WA",
+            "handle": "babybay.7271",
+            "name": "babybay",
+            "homeLocation": "Chicago, IL",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "tracer",
-                "zarya",
+                "soldier-76",
+                "mccree",
                 "genji"
               ],
-              "hometown": "Shoreline, Washington",
-              "player_number": 2,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "hometown": "Chicago, Illionis",
+              "player_number": 13,
+              "preferred_slot": "0",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Won",
-            "givenName": "Jay",
+            "attributesVersion": "1.0.0",
+            "familyName": "Francisty",
+            "givenName": "Andrej",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
             "user": {
-              "id": 3256
+              "id": 2626
             },
-            "@etag": "7b67fb71",
+            "@etag": "c86a0874",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28700
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -1504,37 +1461,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 7831,
+            "id": 4139,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
+            "handle": "sinatraa.3257",
+            "name": "sinatraa",
+            "homeLocation": "Shoreline, WA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "winston"
+                "tracer",
+                "zarya",
+                "genji"
               ],
-              "player_number": 5,
+              "hometown": "Shoreline, Washington",
+              "player_number": 2,
               "preferred_slot": "2",
-              "role": "tank"
+              "role": "offense",
+              "role_star": "damage"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "attributesVersion": "1.0.4",
+            "familyName": "Won",
+            "givenName": "Jay",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
             "user": {
-              "id": 2290
+              "id": 3256
             },
-            "@etag": "a610e4b9",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28700
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1578,42 +1541,41 @@
         },
         {
           "team": {
-            "id": 7698,
+            "id": 4404,
             "type": "TEAM"
           },
           "player": {
-            "id": 8712,
+            "id": 7831,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "Gator",
-            "homeLocation": "Nashville, Tennessee",
+            "name": "smurf",
+            "homeLocation": "Jeonju",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "reinhardt",
                 "winston"
               ],
-              "player_number": 1,
+              "player_number": 5,
               "preferred_slot": "2",
               "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Scott",
-            "givenName": "Blake",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt6e7a0a0a4baa1a06/5e46fb1c210300185a9c9eac/Reign_Gator.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
             "user": {
-              "id": 2517
+              "id": 2290
             },
-            "@etag": "22859f8f",
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28700
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1648,6 +1610,45 @@
             "nationality": "KR",
             "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
             "@etag": "a09ed555",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28700
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 7698,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 8712,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "Gator",
+            "homeLocation": "Nashville, Tennessee",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 1,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Scott",
+            "givenName": "Blake",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt6e7a0a0a4baa1a06/5e46fb1c210300185a9c9eac/Reign_Gator.png",
+            "user": {
+              "id": 2517
+            },
+            "@etag": "22859f8f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1716,7 +1717,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -1727,7 +1728,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1757,7 +1758,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -1769,7 +1770,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1954,7 +1955,7 @@
               ],
               "hometown": "Shoreline, Washington",
               "player_number": 2,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "offense",
               "role_star": "damage"
             },
@@ -1966,7 +1967,7 @@
             "user": {
               "id": 3256
             },
-            "@etag": "7b67fb71",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2008,44 +2009,6 @@
             "id": 28781
           },
           "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 7831,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "winston"
-              ],
-              "player_number": 5,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
-            "user": {
-              "id": 2290
-            },
-            "@etag": "a610e4b9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28781
-          },
-          "sortIndex": 2
         },
         {
           "team": {
@@ -2093,39 +2056,37 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5831,
+            "id": 7831,
             "availableLanguages": [
               "en",
-              "ko",
               "zh-cn"
             ],
-            "handle": "choihyobin.6059",
-            "name": "Choihyobin",
-            "homeLocation": "Seoul",
+            "name": "smurf",
+            "homeLocation": "Jeonju",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
+                "winston"
               ],
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank",
-              "role_star": "tank"
+              "player_number": 5,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Choi",
-            "givenName": "Hyobin",
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
-            "@etag": "a09ed555",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "user": {
+              "id": 2290
+            },
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28781
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -2159,6 +2120,46 @@
               "id": 2517
             },
             "@etag": "22859f8f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28781
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5831,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "choihyobin.6059",
+            "name": "Choihyobin",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "dva",
+                "roadhog",
+                "zarya"
+              ],
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank",
+              "role_star": "tank"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Choi",
+            "givenName": "Hyobin",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
+            "@etag": "a09ed555",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2227,7 +2228,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2238,55 +2239,13 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28781
           },
           "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5716,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "moth.3967",
-            "name": "moth",
-            "homeLocation": "Worcester, MA",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "lucio",
-                "mercy"
-              ],
-              "player_number": 64,
-              "preferred_slot": "5",
-              "role": "support",
-              "role_star": "support"
-            },
-            "attributesVersion": "1.0.4",
-            "familyName": "Espe",
-            "givenName": "Grant",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
-            "user": {
-              "id": 129
-            },
-            "@etag": "39c7cc8f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28781
-          },
-          "sortIndex": 5
         },
         {
           "team": {
@@ -2316,6 +2275,48 @@
               "id": 438
             },
             "@etag": "b535ea67",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28781
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5716,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "moth.3967",
+            "name": "moth",
+            "homeLocation": "Worcester, MA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 64,
+              "preferred_slot": "4",
+              "role": "support",
+              "role_star": "support"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Espe",
+            "givenName": "Grant",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "user": {
+              "id": 129
+            },
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2354,49 +2355,6 @@
       },
       "attributesVersion": "0.6.0",
       "players": [
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4491,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "babybay.7271",
-            "name": "babybay",
-            "homeLocation": "Chicago, IL",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "soldier-76",
-                "mccree",
-                "genji"
-              ],
-              "hometown": "Chicago, Illionis",
-              "player_number": 13,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Francisty",
-            "givenName": "Andrej",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
-            "user": {
-              "id": 2626
-            },
-            "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28743
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4404,
@@ -2443,47 +2401,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 7698,
             "type": "TEAM"
           },
           "player": {
-            "id": 4139,
+            "id": 4491,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "sinatraa.3257",
-            "name": "sinatraa",
-            "homeLocation": "Shoreline, WA",
+            "handle": "babybay.7271",
+            "name": "babybay",
+            "homeLocation": "Chicago, IL",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "tracer",
-                "zarya",
+                "soldier-76",
+                "mccree",
                 "genji"
               ],
-              "hometown": "Shoreline, Washington",
-              "player_number": 2,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "hometown": "Chicago, Illionis",
+              "player_number": 13,
+              "preferred_slot": "0",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Won",
-            "givenName": "Jay",
+            "attributesVersion": "1.0.0",
+            "familyName": "Francisty",
+            "givenName": "Andrej",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
             "user": {
-              "id": 3256
+              "id": 2626
             },
-            "@etag": "7b67fb71",
+            "@etag": "c86a0874",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28743
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -2526,37 +2483,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 7831,
+            "id": 4139,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
+            "handle": "sinatraa.3257",
+            "name": "sinatraa",
+            "homeLocation": "Shoreline, WA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "winston"
+                "tracer",
+                "zarya",
+                "genji"
               ],
-              "player_number": 5,
+              "hometown": "Shoreline, Washington",
+              "player_number": 2,
               "preferred_slot": "2",
-              "role": "tank"
+              "role": "offense",
+              "role_star": "damage"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "attributesVersion": "1.0.4",
+            "familyName": "Won",
+            "givenName": "Jay",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
             "user": {
-              "id": 2290
+              "id": 3256
             },
-            "@etag": "a610e4b9",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28743
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2591,6 +2554,44 @@
               "id": 1745
             },
             "@etag": "19931b1a",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28743
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 7831,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "smurf",
+            "homeLocation": "Jeonju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "winston"
+              ],
+              "player_number": 5,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "user": {
+              "id": 2290
+            },
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2738,7 +2739,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -2749,7 +2750,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2779,7 +2780,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -2791,7 +2792,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2867,6 +2868,50 @@
       "players": [
         {
           "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4610,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "striker.5893",
+            "name": "STRIKER",
+            "homeLocation": "Wonju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "tracer",
+                "mccree",
+                "genji"
+              ],
+              "hometown": "Wonju",
+              "player_number": 7,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Gwon",
+            "givenName": "NamJu",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltae8f3f9579e390cd/5e45f0ed014cca0b68178d1c/Shock_Striker.png",
+            "user": {
+              "id": 2780
+            },
+            "@etag": "14130ef5",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28772
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -2914,50 +2959,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4610,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "striker.5893",
-            "name": "STRIKER",
-            "homeLocation": "Wonju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "tracer",
-                "mccree",
-                "genji"
-              ],
-              "hometown": "Wonju",
-              "player_number": 7,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Gwon",
-            "givenName": "NamJu",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltae8f3f9579e390cd/5e45f0ed014cca0b68178d1c/Shock_Striker.png",
-            "user": {
-              "id": 2780
-            },
-            "@etag": "14130ef5",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28772
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 4139,
             "availableLanguages": [
               "en",
@@ -2976,7 +2977,7 @@
               ],
               "hometown": "Shoreline, Washington",
               "player_number": 2,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "offense",
               "role_star": "damage"
             },
@@ -2988,7 +2989,7 @@
             "user": {
               "id": 3256
             },
-            "@etag": "7b67fb71",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3033,44 +3034,6 @@
         },
         {
           "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 7831,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "winston"
-              ],
-              "player_number": 5,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
-            "user": {
-              "id": 2290
-            },
-            "@etag": "a610e4b9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28772
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 7698,
             "type": "TEAM"
           },
@@ -3102,6 +3065,44 @@
               "id": 1745
             },
             "@etag": "19931b1a",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28772
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 7831,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "smurf",
+            "homeLocation": "Jeonju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "winston"
+              ],
+              "player_number": 5,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "user": {
+              "id": 2290
+            },
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3249,7 +3250,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -3260,55 +3261,13 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28772
           },
           "sortIndex": 4
-        },
-        {
-          "team": {
-            "id": 4404,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5716,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "moth.3967",
-            "name": "moth",
-            "homeLocation": "Worcester, MA",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "ana",
-                "lucio",
-                "mercy"
-              ],
-              "player_number": 64,
-              "preferred_slot": "5",
-              "role": "support",
-              "role_star": "support"
-            },
-            "attributesVersion": "1.0.4",
-            "familyName": "Espe",
-            "givenName": "Grant",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
-            "user": {
-              "id": 129
-            },
-            "@etag": "39c7cc8f",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28772
-          },
-          "sortIndex": 5
         },
         {
           "team": {
@@ -3338,6 +3297,48 @@
               "id": 438
             },
             "@etag": "b535ea67",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28772
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5716,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "moth.3967",
+            "name": "moth",
+            "homeLocation": "Worcester, MA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "ana",
+                "lucio",
+                "mercy"
+              ],
+              "player_number": 64,
+              "preferred_slot": "4",
+              "role": "support",
+              "role_star": "support"
+            },
+            "attributesVersion": "1.0.4",
+            "familyName": "Espe",
+            "givenName": "Grant",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc9ebf40184e11b0c/5e45f0edfbf2330bd4d04624/Shock_Moth.png",
+            "user": {
+              "id": 129
+            },
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3376,49 +3377,6 @@
       },
       "attributesVersion": "0.6.0",
       "players": [
-        {
-          "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4491,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "babybay.7271",
-            "name": "babybay",
-            "homeLocation": "Chicago, IL",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "soldier-76",
-                "mccree",
-                "genji"
-              ],
-              "hometown": "Chicago, Illionis",
-              "player_number": 13,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Francisty",
-            "givenName": "Andrej",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
-            "user": {
-              "id": 2626
-            },
-            "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28744
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4404,
@@ -3465,47 +3423,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 7698,
             "type": "TEAM"
           },
           "player": {
-            "id": 4139,
+            "id": 4491,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "sinatraa.3257",
-            "name": "sinatraa",
-            "homeLocation": "Shoreline, WA",
+            "handle": "babybay.7271",
+            "name": "babybay",
+            "homeLocation": "Chicago, IL",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "tracer",
-                "zarya",
+                "soldier-76",
+                "mccree",
                 "genji"
               ],
-              "hometown": "Shoreline, Washington",
-              "player_number": 2,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "hometown": "Chicago, Illionis",
+              "player_number": 13,
+              "preferred_slot": "0",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Won",
-            "givenName": "Jay",
+            "attributesVersion": "1.0.0",
+            "familyName": "Francisty",
+            "givenName": "Andrej",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
             "user": {
-              "id": 3256
+              "id": 2626
             },
-            "@etag": "7b67fb71",
+            "@etag": "c86a0874",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28744
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -3548,39 +3505,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5831,
+            "id": 4139,
             "availableLanguages": [
               "en",
-              "ko",
               "zh-cn"
             ],
-            "handle": "choihyobin.6059",
-            "name": "Choihyobin",
-            "homeLocation": "Seoul",
+            "handle": "sinatraa.3257",
+            "name": "sinatraa",
+            "homeLocation": "Shoreline, WA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "dva",
-                "roadhog",
-                "zarya"
+                "tracer",
+                "zarya",
+                "genji"
               ],
-              "player_number": 11,
-              "preferred_slot": "3",
-              "role": "tank",
-              "role_star": "tank"
+              "hometown": "Shoreline, Washington",
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "offense",
+              "role_star": "damage"
             },
             "attributesVersion": "1.0.4",
-            "familyName": "Choi",
-            "givenName": "Hyobin",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
-            "@etag": "a09ed555",
+            "familyName": "Won",
+            "givenName": "Jay",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "user": {
+              "id": 3256
+            },
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28744
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -3628,37 +3589,39 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 7831,
+            "id": 5831,
             "availableLanguages": [
               "en",
+              "ko",
               "zh-cn"
             ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
+            "handle": "choihyobin.6059",
+            "name": "Choihyobin",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "winston"
+                "dva",
+                "roadhog",
+                "zarya"
               ],
-              "player_number": 5,
-              "preferred_slot": "2",
-              "role": "tank"
+              "player_number": 11,
+              "preferred_slot": "3",
+              "role": "tank",
+              "role_star": "tank"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
+            "attributesVersion": "1.0.4",
+            "familyName": "Choi",
+            "givenName": "Hyobin",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
-            "user": {
-              "id": 2290
-            },
-            "@etag": "a610e4b9",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt102f9ba97c90429e/5e45f0edcc8de70b69efa85f/Shock_Choihyobin.png",
+            "@etag": "a09ed555",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28744
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -3692,6 +3655,44 @@
               "id": 2517
             },
             "@etag": "22859f8f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28744
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 7831,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "smurf",
+            "homeLocation": "Jeonju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "winston"
+              ],
+              "player_number": 5,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "user": {
+              "id": 2290
+            },
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3760,7 +3761,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -3771,7 +3772,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3801,7 +3802,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -3813,7 +3814,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3998,7 +3999,7 @@
               ],
               "hometown": "Shoreline, Washington",
               "player_number": 2,
-              "preferred_slot": "1",
+              "preferred_slot": "2",
               "role": "offense",
               "role_star": "damage"
             },
@@ -4010,7 +4011,7 @@
             "user": {
               "id": 3256
             },
-            "@etag": "7b67fb71",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -4271,7 +4272,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -4282,7 +4283,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -4312,7 +4313,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -4324,7 +4325,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -4400,49 +4401,6 @@
       "players": [
         {
           "team": {
-            "id": 7698,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4491,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "babybay.7271",
-            "name": "babybay",
-            "homeLocation": "Chicago, IL",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "soldier-76",
-                "mccree",
-                "genji"
-              ],
-              "hometown": "Chicago, Illionis",
-              "player_number": 13,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Francisty",
-            "givenName": "Andrej",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
-            "user": {
-              "id": 2626
-            },
-            "@etag": "c86a0874",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 28774
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4404,
             "type": "TEAM"
           },
@@ -4487,47 +4445,46 @@
         },
         {
           "team": {
-            "id": 4404,
+            "id": 7698,
             "type": "TEAM"
           },
           "player": {
-            "id": 4139,
+            "id": 4491,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "sinatraa.3257",
-            "name": "sinatraa",
-            "homeLocation": "Shoreline, WA",
+            "handle": "babybay.7271",
+            "name": "babybay",
+            "homeLocation": "Chicago, IL",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "tracer",
-                "zarya",
+                "soldier-76",
+                "mccree",
                 "genji"
               ],
-              "hometown": "Shoreline, Washington",
-              "player_number": 2,
-              "preferred_slot": "1",
-              "role": "offense",
-              "role_star": "damage"
+              "hometown": "Chicago, Illionis",
+              "player_number": 13,
+              "preferred_slot": "0",
+              "role": "offense"
             },
-            "attributesVersion": "1.0.4",
-            "familyName": "Won",
-            "givenName": "Jay",
+            "attributesVersion": "1.0.0",
+            "familyName": "Francisty",
+            "givenName": "Andrej",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt5fb8a980526e4ac2/5e46fb0bcc8de70b69efa8fd/Reign_BabyBay.png",
             "user": {
-              "id": 3256
+              "id": 2626
             },
-            "@etag": "7b67fb71",
+            "@etag": "c86a0874",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28774
           },
-          "sortIndex": 1
+          "sortIndex": 0
         },
         {
           "team": {
@@ -4570,37 +4527,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 7831,
+            "id": 4139,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "name": "smurf",
-            "homeLocation": "Jeonju",
+            "handle": "sinatraa.3257",
+            "name": "sinatraa",
+            "homeLocation": "Shoreline, WA",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "winston"
+                "tracer",
+                "zarya",
+                "genji"
               ],
-              "player_number": 5,
+              "hometown": "Shoreline, Washington",
+              "player_number": 2,
               "preferred_slot": "2",
-              "role": "tank"
+              "role": "offense",
+              "role_star": "damage"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Yoo",
-            "givenName": "Myeong Hwan",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "attributesVersion": "1.0.4",
+            "familyName": "Won",
+            "givenName": "Jay",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc37d2ea64c52ba63/5e45f0eda173e408b75bff55/Shock_Sinatraa.png",
             "user": {
-              "id": 2290
+              "id": 3256
             },
-            "@etag": "a610e4b9",
+            "@etag": "da030924",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 28774
           },
-          "sortIndex": 2
+          "sortIndex": 1
         },
         {
           "team": {
@@ -4635,6 +4598,44 @@
               "id": 1745
             },
             "@etag": "19931b1a",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 28774
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4404,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 7831,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "name": "smurf",
+            "homeLocation": "Jeonju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "winston"
+              ],
+              "player_number": 5,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Yoo",
+            "givenName": "Myeong Hwan",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb1972e21915716ca/5e45f0ed7ffde40916a35a87/Shock_Smurf.png",
+            "user": {
+              "id": 2290
+            },
+            "@etag": "a610e4b9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -4782,7 +4783,7 @@
                 "zenyatta"
               ],
               "player_number": 17,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.2",
@@ -4793,7 +4794,7 @@
             "user": {
               "id": 917
             },
-            "@etag": "fe268718",
+            "@etag": "56b66c77",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -4823,7 +4824,7 @@
                 "mercy"
               ],
               "player_number": 64,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support",
               "role_star": "support"
             },
@@ -4835,7 +4836,7 @@
             "user": {
               "id": 129
             },
-            "@etag": "39c7cc8f",
+            "@etag": "01d7979e",
             "type": "PLAYER"
           },
           "matchGame": {

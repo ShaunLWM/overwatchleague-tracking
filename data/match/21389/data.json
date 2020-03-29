@@ -260,6 +260,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 1,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -270,7 +271,7 @@
             "user": {
               "id": 2045
             },
-            "@etag": "f3a3ce63",
+            "@etag": "aaebce9c",
             "type": "PLAYER"
           },
           "flags": []
@@ -400,7 +401,7 @@
               ],
               "hometown": null,
               "player_number": 4,
-              "preferred_slot": "5",
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -411,7 +412,7 @@
             "user": {
               "id": 28
             },
-            "@etag": "70656336",
+            "@etag": "5162afc5",
             "type": "PLAYER"
           },
           "flags": [
@@ -443,7 +444,7 @@
               ],
               "hometown": null,
               "player_number": 10,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -451,7 +452,7 @@
             "givenName": "Seungtae",
             "nationality": "KR",
             "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
-            "@etag": "9678a1fa",
+            "@etag": "b34fa5a9",
             "type": "PLAYER"
           },
           "flags": []
@@ -553,7 +554,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -564,7 +565,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "flags": []
@@ -758,6 +759,37 @@
           "type": "TEAM"
         },
         "player": {
+          "id": 8218,
+          "availableLanguages": [
+            "en"
+          ],
+          "name": "Marve1",
+          "homeLocation": "Seoul",
+          "game": "OVERWATCH",
+          "attributes": {
+            "player_number": 11,
+            "preferred_slot": "3",
+            "role": "tank"
+          },
+          "attributesVersion": "1.0.2",
+          "familyName": "Hwang",
+          "givenName": "Min Seo",
+          "nationality": "KR",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt335a6958d0f453fd/5e751b196427121bd6298d05/DYNASTY_MARVE1.png",
+          "user": {
+            "id": 1078
+          },
+          "@etag": "2ef414c0",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4409,
+          "type": "TEAM"
+        },
+        "player": {
           "id": 4666,
           "availableLanguages": [
             "en",
@@ -789,75 +821,6 @@
             "id": 1848
           },
           "@etag": "719e979b",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4409,
-          "type": "TEAM"
-        },
-        "player": {
-          "id": 8218,
-          "availableLanguages": [
-            "en"
-          ],
-          "name": "Marve1",
-          "homeLocation": "Seoul",
-          "game": "OVERWATCH",
-          "attributes": {
-            "player_number": 11,
-            "preferred_slot": "2",
-            "role": "tank"
-          },
-          "attributesVersion": "1.0.2",
-          "familyName": "Hwang",
-          "givenName": "Min Seo",
-          "nationality": "KR",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt335a6958d0f453fd/5e751b196427121bd6298d05/DYNASTY_MARVE1.png",
-          "user": {
-            "id": 1078
-          },
-          "@etag": "935bc24f",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 4409,
-          "type": "TEAM"
-        },
-        "player": {
-          "id": 4655,
-          "availableLanguages": [
-            "en",
-            "zh-cn",
-            "ko"
-          ],
-          "handle": "bdosin.7214",
-          "name": "Bdosin",
-          "homeLocation": "Suwon",
-          "game": "OVERWATCH",
-          "attributes": {
-            "hero_image": null,
-            "heroes": [
-              "zenyatta",
-              "ana",
-              "genji"
-            ],
-            "hometown": null,
-            "player_number": 10,
-            "preferred_slot": "4",
-            "role": "support"
-          },
-          "attributesVersion": "1.0.0",
-          "familyName": "Choi",
-          "givenName": "Seungtae",
-          "nationality": "KR",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
-          "@etag": "9678a1fa",
           "type": "PLAYER"
         },
         "flags": []
@@ -930,6 +893,44 @@
             "id": 920
           },
           "@etag": "253639c5",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 4409,
+          "type": "TEAM"
+        },
+        "player": {
+          "id": 4655,
+          "availableLanguages": [
+            "en",
+            "zh-cn",
+            "ko"
+          ],
+          "handle": "bdosin.7214",
+          "name": "Bdosin",
+          "homeLocation": "Suwon",
+          "game": "OVERWATCH",
+          "attributes": {
+            "hero_image": null,
+            "heroes": [
+              "zenyatta",
+              "ana",
+              "genji"
+            ],
+            "hometown": null,
+            "player_number": 10,
+            "preferred_slot": "5",
+            "role": "support"
+          },
+          "attributesVersion": "1.0.0",
+          "familyName": "Choi",
+          "givenName": "Seungtae",
+          "nationality": "KR",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
+          "@etag": "b34fa5a9",
           "type": "PLAYER"
         },
         "flags": []
@@ -1021,7 +1022,7 @@
             ],
             "hometown": null,
             "player_number": 4,
-            "preferred_slot": "5",
+            "preferred_slot": "4",
             "role": "support"
           },
           "attributesVersion": "1.0.0",
@@ -1032,7 +1033,7 @@
           "user": {
             "id": 28
           },
-          "@etag": "70656336",
+          "@etag": "5162afc5",
           "type": "PLAYER"
         },
         "flags": [
@@ -1327,7 +1328,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -1338,7 +1339,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1796,7 +1797,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -1807,7 +1808,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2229,7 +2230,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2240,7 +2241,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2600,7 +2601,7 @@
               ],
               "hometown": null,
               "player_number": 1,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -2611,7 +2612,7 @@
             "user": {
               "id": 897
             },
-            "@etag": "c996f31b",
+            "@etag": "625fcb06",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2789,7 +2790,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -2800,7 +2801,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3040,7 +3041,7 @@
               ],
               "hometown": null,
               "player_number": 1,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -3051,7 +3052,7 @@
             "user": {
               "id": 897
             },
-            "@etag": "c996f31b",
+            "@etag": "625fcb06",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3341,7 +3342,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 11,
-              "preferred_slot": "2",
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.2",
@@ -3352,7 +3353,7 @@
             "user": {
               "id": 1078
             },
-            "@etag": "935bc24f",
+            "@etag": "2ef414c0",
             "type": "PLAYER"
           },
           "matchGame": {

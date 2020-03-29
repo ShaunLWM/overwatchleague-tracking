@@ -423,7 +423,7 @@
               ],
               "hometown": null,
               "player_number": 1,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -434,7 +434,46 @@
             "user": {
               "id": 897
             },
-            "@etag": "c996f31b",
+            "@etag": "625fcb06",
+            "type": "PLAYER"
+          },
+          "flags": []
+        },
+        {
+          "team": {
+            "id": 4408,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5207,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "fearless.9778",
+            "name": "FEARLESS",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "reinhardt",
+                "roadhog",
+                "winston"
+              ],
+              "player_number": 8,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lee",
+            "givenName": "Euiseok",
+            "nationality": "KR",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/7R0BTI0G749C1549652308662.png",
+            "user": {
+              "id": 486
+            },
+            "@etag": "2244cbac",
             "type": "PLAYER"
           },
           "flags": []
@@ -539,7 +578,7 @@
                 "zenyatta"
               ],
               "player_number": 22,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -547,7 +586,7 @@
             "givenName": "Min chul",
             "nationality": "KR",
             "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "@etag": "ecd2ecf5",
+            "@etag": "00c2dfe2",
             "type": "PLAYER"
           },
           "flags": []
@@ -635,7 +674,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 31,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense",
               "role_star": "damage"
             },
@@ -647,7 +686,7 @@
             "user": {
               "id": 2550
             },
-            "@etag": "925a0a6c",
+            "@etag": "6e4aa565",
             "type": "PLAYER"
           },
           "flags": []
@@ -667,6 +706,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 2,
+              "preferred_slot": "4",
               "role": "support"
             },
             "attributesVersion": "1.0.3",
@@ -677,7 +717,7 @@
             "user": {
               "id": 3176
             },
-            "@etag": "4c240231",
+            "@etag": "8de4ca31",
             "type": "PLAYER"
           },
           "flags": []
@@ -697,6 +737,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 70,
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.3",
@@ -707,7 +748,7 @@
             "user": {
               "id": 2368
             },
-            "@etag": "7cd84409",
+            "@etag": "423c02a1",
             "type": "PLAYER"
           },
           "flags": []
@@ -727,6 +768,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 17,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -737,7 +779,7 @@
             "user": {
               "id": 1775
             },
-            "@etag": "bccd556c",
+            "@etag": "ecf4ae51",
             "type": "PLAYER"
           },
           "flags": []
@@ -863,6 +905,44 @@
           "type": "TEAM"
         },
         "player": {
+          "id": 8729,
+          "availableLanguages": [
+            "en",
+            "zh-cn"
+          ],
+          "name": "Twilight",
+          "homeLocation": "Mokpo",
+          "game": "OVERWATCH",
+          "attributes": {
+            "heroes": [
+              "ana",
+              "moira",
+              "zenyatta"
+            ],
+            "player_number": 7,
+            "preferred_slot": "4",
+            "role": "support",
+            "role_star": "support"
+          },
+          "attributesVersion": "1.0.4",
+          "familyName": "Lee",
+          "givenName": "Juseok",
+          "nationality": "KR",
+          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte4e555a116417289/5e45f2a2210300185a9c9e48/Titans_Twlight.png",
+          "user": {
+            "id": 2210
+          },
+          "@etag": "ddeabccb",
+          "type": "PLAYER"
+        },
+        "flags": []
+      },
+      {
+        "team": {
+          "id": 7696,
+          "type": "TEAM"
+        },
+        "player": {
           "id": 4105,
           "availableLanguages": [
             "en",
@@ -894,44 +974,6 @@
             "id": 1511
           },
           "@etag": "6a66efa5",
-          "type": "PLAYER"
-        },
-        "flags": []
-      },
-      {
-        "team": {
-          "id": 7696,
-          "type": "TEAM"
-        },
-        "player": {
-          "id": 8729,
-          "availableLanguages": [
-            "en",
-            "zh-cn"
-          ],
-          "name": "Twilight",
-          "homeLocation": "Mokpo",
-          "game": "OVERWATCH",
-          "attributes": {
-            "heroes": [
-              "ana",
-              "moira",
-              "zenyatta"
-            ],
-            "player_number": 7,
-            "preferred_slot": "4",
-            "role": "support",
-            "role_star": "support"
-          },
-          "attributesVersion": "1.0.4",
-          "familyName": "Lee",
-          "givenName": "Juseok",
-          "nationality": "KR",
-          "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blte4e555a116417289/5e45f2a2210300185a9c9e48/Titans_Twlight.png",
-          "user": {
-            "id": 2210
-          },
-          "@etag": "ddeabccb",
           "type": "PLAYER"
         },
         "flags": []
@@ -1266,7 +1308,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 31,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense",
               "role_star": "damage"
             },
@@ -1278,7 +1320,7 @@
             "user": {
               "id": 2550
             },
-            "@etag": "925a0a6c",
+            "@etag": "6e4aa565",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2769,7 +2811,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 31,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense",
               "role_star": "damage"
             },
@@ -2781,7 +2823,7 @@
             "user": {
               "id": 2550
             },
-            "@etag": "925a0a6c",
+            "@etag": "6e4aa565",
             "type": "PLAYER"
           },
           "matchGame": {

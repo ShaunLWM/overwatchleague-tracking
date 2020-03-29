@@ -605,6 +605,7 @@
             "game": "OVERWATCH",
             "attributes": {
               "player_number": 1,
+              "preferred_slot": "2",
               "role": "tank"
             },
             "attributesVersion": "1.0.3",
@@ -615,7 +616,7 @@
             "user": {
               "id": 2045
             },
-            "@etag": "f3a3ce63",
+            "@etag": "aaebce9c",
             "type": "PLAYER"
           },
           "flags": []
@@ -1019,6 +1020,7 @@
           "game": "OVERWATCH",
           "attributes": {
             "player_number": 1,
+            "preferred_slot": "2",
             "role": "tank"
           },
           "attributesVersion": "1.0.3",
@@ -1029,7 +1031,7 @@
           "user": {
             "id": 2045
           },
-          "@etag": "f3a3ce63",
+          "@etag": "aaebce9c",
           "type": "PLAYER"
         },
         "flags": []
@@ -1069,48 +1071,6 @@
       "players": [
         {
           "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5442,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "sayaplayer.1525",
-            "name": "sayaplayer",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 4,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ha",
-            "givenName": "Jeongwoo",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
-            "user": {
-              "id": 1628
-            },
-            "@etag": "84f0cbe1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27134
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -1145,6 +1105,48 @@
               "id": 1808
             },
             "@etag": "6c1e12bf",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27134
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5442,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "sayaplayer.1525",
+            "name": "sayaplayer",
+            "homeLocation": "Daegu",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 4,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ha",
+            "givenName": "Jeongwoo",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
+            "user": {
+              "id": 1628
+            },
+            "@etag": "84f0cbe1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1231,6 +1233,46 @@
         },
         {
           "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5624,
+            "availableLanguages": [
+              "en"
+            ],
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Campbell",
+            "givenName": "Russell",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
+            "user": {
+              "id": 1913
+            },
+            "@etag": "17118de9",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27134
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -1279,39 +1321,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 5624,
+            "id": 4637,
             "availableLanguages": [
-              "en"
+              "en",
+              "zh-cn"
             ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
+            "handle": "space.7513",
+            "name": "SPACE",
+            "homeLocation": "New York City, NY",
             "game": "OVERWATCH",
             "attributes": {
+              "hero_image": null,
               "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
+                "zarya",
+                "roadhog",
+                "dva"
               ],
-              "player_number": 2,
-              "preferred_slot": "2",
+              "hometown": "New York City, New York",
+              "player_number": 16,
+              "preferred_slot": "3",
               "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
+            "familyName": "Halpern",
+            "givenName": "Indy",
             "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltbf54bd203672b820/5e45f1b93acdc70bd3d46dbd/LAGladiators_Space.png",
             "user": {
-              "id": 1913
+              "id": 3356
             },
-            "@etag": "17118de9",
+            "@etag": "6e80228b",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27134
           },
-          "sortIndex": 2
+          "sortIndex": 3
         },
         {
           "team": {
@@ -1343,49 +1388,6 @@
               "id": 4035
             },
             "@etag": "1662bd0a",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27134
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4637,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "space.7513",
-            "name": "SPACE",
-            "homeLocation": "New York City, NY",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zarya",
-                "roadhog",
-                "dva"
-              ],
-              "hometown": "New York City, New York",
-              "player_number": 16,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Halpern",
-            "givenName": "Indy",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltbf54bd203672b820/5e45f1b93acdc70bd3d46dbd/LAGladiators_Space.png",
-            "user": {
-              "id": 3356
-            },
-            "@etag": "6e80228b",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1475,6 +1477,49 @@
         },
         {
           "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 3577,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "custa.8424",
+            "name": "Custa",
+            "homeLocation": "Blackwood, South Australia",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zenyatta",
+                "lucio",
+                "mercy"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kennedy",
+            "givenName": "Scott",
+            "nationality": "AU",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FY0VMK6HXVJQ1549580254274.png",
+            "user": {
+              "id": 1489
+            },
+            "@etag": "5e096577",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27134
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -1516,49 +1561,6 @@
             "id": 27134
           },
           "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 3577,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "custa.8424",
-            "name": "Custa",
-            "homeLocation": "Blackwood, South Australia",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zenyatta",
-                "lucio",
-                "mercy"
-              ],
-              "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kennedy",
-            "givenName": "Scott",
-            "nationality": "AU",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FY0VMK6HXVJQ1549580254274.png",
-            "user": {
-              "id": 1489
-            },
-            "@etag": "5e096577",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27134
-          },
-          "sortIndex": 5
         }
       ],
       "state": "CONCLUDED",
@@ -1591,48 +1593,6 @@
       },
       "attributesVersion": "0.6.0",
       "players": [
-        {
-          "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5442,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "sayaplayer.1525",
-            "name": "sayaplayer",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 4,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ha",
-            "givenName": "Jeongwoo",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
-            "user": {
-              "id": 1628
-            },
-            "@etag": "84f0cbe1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27135
-          },
-          "sortIndex": 0
-        },
         {
           "team": {
             "id": 4405,
@@ -1669,6 +1629,48 @@
               "id": 1808
             },
             "@etag": "6c1e12bf",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27135
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5442,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "sayaplayer.1525",
+            "name": "sayaplayer",
+            "homeLocation": "Daegu",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 4,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ha",
+            "givenName": "Jeongwoo",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
+            "user": {
+              "id": 1628
+            },
+            "@etag": "84f0cbe1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2117,6 +2119,49 @@
       "players": [
         {
           "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4142,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "agilities.5443",
+            "name": "Agilities",
+            "homeLocation": "Lethbridge",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "genji",
+                "tracer",
+                "pharah"
+              ],
+              "hometown": "Blairmore, AB",
+              "player_number": 9,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Girardi",
+            "givenName": "Brady",
+            "nationality": "CA",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blta94002e49db66980/5e45ee0daf702f08b6a32953/Defiant_Agilities.png",
+            "user": {
+              "id": 1808
+            },
+            "@etag": "6c1e12bf",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27136
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -2159,46 +2204,38 @@
         },
         {
           "team": {
-            "id": 4405,
+            "id": 4407,
             "type": "TEAM"
           },
           "player": {
-            "id": 4142,
+            "id": 8704,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "agilities.5443",
-            "name": "Agilities",
-            "homeLocation": "Lethbridge",
+            "name": "bqb",
+            "homeLocation": "Youngin",
             "game": "OVERWATCH",
             "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "genji",
-                "tracer",
-                "pharah"
-              ],
-              "hometown": "Blairmore, AB",
-              "player_number": 9,
-              "preferred_slot": "1",
+              "player_number": 22,
+              "preferred_slot": "0",
               "role": "offense"
             },
-            "attributesVersion": "1.0.0",
-            "familyName": "Girardi",
-            "givenName": "Brady",
-            "nationality": "CA",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blta94002e49db66980/5e45ee0daf702f08b6a32953/Defiant_Agilities.png",
+            "attributesVersion": "1.0.2",
+            "familyName": "Lee",
+            "givenName": "Sangbum",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
             "user": {
-              "id": 1808
+              "id": 3393
             },
-            "@etag": "6c1e12bf",
+            "@etag": "2ef6bef1",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27136
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -2244,38 +2281,43 @@
         },
         {
           "team": {
-            "id": 4407,
+            "id": 4405,
             "type": "TEAM"
           },
           "player": {
-            "id": 8704,
+            "id": 5624,
             "availableLanguages": [
-              "en",
-              "zh-cn"
+              "en"
             ],
-            "name": "bqb",
-            "homeLocation": "Youngin",
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
             "game": "OVERWATCH",
             "attributes": {
-              "player_number": 22,
-              "preferred_slot": "0",
-              "role": "offense"
+              "heroes": [
+                "orisa",
+                "reinhardt",
+                "winston"
+              ],
+              "player_number": 2,
+              "preferred_slot": "2",
+              "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "Sangbum",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt54f1b9eea8dadd51/5e472282af702f08b6a32a53/Mayhem_BQB.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Campbell",
+            "givenName": "Russell",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
             "user": {
-              "id": 3393
+              "id": 1913
             },
-            "@etag": "2ef6bef1",
+            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27136
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -2314,46 +2356,6 @@
               "id": 3394
             },
             "@etag": "ec260057",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27136
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5624,
-            "availableLanguages": [
-              "en"
-            ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 2,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
-            "user": {
-              "id": 1913
-            },
-            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2641,48 +2643,6 @@
       "players": [
         {
           "team": {
-            "id": 4407,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5442,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "sayaplayer.1525",
-            "name": "sayaplayer",
-            "homeLocation": "Daegu",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "mccree",
-                "tracer",
-                "widowmaker"
-              ],
-              "player_number": 4,
-              "preferred_slot": "0",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Ha",
-            "givenName": "Jeongwoo",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
-            "user": {
-              "id": 1628
-            },
-            "@etag": "84f0cbe1",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27137
-          },
-          "sortIndex": 0
-        },
-        {
-          "team": {
             "id": 4405,
             "type": "TEAM"
           },
@@ -2717,6 +2677,48 @@
               "id": 1808
             },
             "@etag": "6c1e12bf",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27137
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 5442,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "sayaplayer.1525",
+            "name": "sayaplayer",
+            "homeLocation": "Daegu",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "mccree",
+                "tracer",
+                "widowmaker"
+              ],
+              "player_number": 4,
+              "preferred_slot": "0",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Ha",
+            "givenName": "Jeongwoo",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3e2b9cc3f360c317/5e45f35a7ffde40916a35a95/Mayhem_Sayaplayer.png",
+            "user": {
+              "id": 1628
+            },
+            "@etag": "84f0cbe1",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2803,46 +2805,6 @@
         },
         {
           "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 5624,
-            "availableLanguages": [
-              "en"
-            ],
-            "handle": "fctfctn.2872",
-            "name": "FCTFCTN",
-            "homeLocation": "Midland, MI",
-            "game": "OVERWATCH",
-            "attributes": {
-              "heroes": [
-                "orisa",
-                "reinhardt",
-                "winston"
-              ],
-              "player_number": 2,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Campbell",
-            "givenName": "Russell",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
-            "user": {
-              "id": 1913
-            },
-            "@etag": "17118de9",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27137
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -2887,40 +2849,43 @@
         },
         {
           "team": {
-            "id": 4407,
+            "id": 4405,
             "type": "TEAM"
           },
           "player": {
-            "id": 10144,
+            "id": 5624,
             "availableLanguages": [
               "en"
             ],
-            "name": "GARGOYLE",
-            "homeLocation": "Busan",
+            "handle": "fctfctn.2872",
+            "name": "FCTFCTN",
+            "homeLocation": "Midland, MI",
             "game": "OVERWATCH",
             "attributes": {
               "heroes": [
-                "zarya"
+                "orisa",
+                "reinhardt",
+                "winston"
               ],
-              "player_number": 18,
-              "preferred_slot": "3",
+              "player_number": 2,
+              "preferred_slot": "2",
               "role": "tank"
             },
-            "attributesVersion": "1.0.2",
-            "familyName": "Lee",
-            "givenName": "Beom-jun",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc57b1c6617c80628/5e45f35afbf2330bd4d04636/Mayhem_Gargoyle.png",
+            "attributesVersion": "1.0.0",
+            "familyName": "Campbell",
+            "givenName": "Russell",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dw/DWR0CLOVO6WS1562696057384.png",
             "user": {
-              "id": 4035
+              "id": 1913
             },
-            "@etag": "1662bd0a",
+            "@etag": "17118de9",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 27137
           },
-          "sortIndex": 3
+          "sortIndex": 2
         },
         {
           "team": {
@@ -2958,6 +2923,43 @@
               "id": 3356
             },
             "@etag": "6e80228b",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27137
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4407,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 10144,
+            "availableLanguages": [
+              "en"
+            ],
+            "name": "GARGOYLE",
+            "homeLocation": "Busan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "heroes": [
+                "zarya"
+              ],
+              "player_number": 18,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Lee",
+            "givenName": "Beom-jun",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc57b1c6617c80628/5e45f35afbf2330bd4d04636/Mayhem_Gargoyle.png",
+            "user": {
+              "id": 4035
+            },
+            "@etag": "1662bd0a",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3047,6 +3049,49 @@
         },
         {
           "team": {
+            "id": 4405,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 3577,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "custa.8424",
+            "name": "Custa",
+            "homeLocation": "Blackwood, South Australia",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "zenyatta",
+                "lucio",
+                "mercy"
+              ],
+              "hometown": null,
+              "player_number": 10,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kennedy",
+            "givenName": "Scott",
+            "nationality": "AU",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FY0VMK6HXVJQ1549580254274.png",
+            "user": {
+              "id": 1489
+            },
+            "@etag": "5e096577",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 27137
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
             "id": 4407,
             "type": "TEAM"
           },
@@ -3082,49 +3127,6 @@
               "id": 865
             },
             "@etag": "fd5106f4",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 27137
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4405,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 3577,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "custa.8424",
-            "name": "Custa",
-            "homeLocation": "Blackwood, South Australia",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "zenyatta",
-                "lucio",
-                "mercy"
-              ],
-              "hometown": null,
-              "player_number": 10,
-              "preferred_slot": "5",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kennedy",
-            "givenName": "Scott",
-            "nationality": "AU",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/FY0VMK6HXVJQ1549580254274.png",
-            "user": {
-              "id": 1489
-            },
-            "@etag": "5e096577",
             "type": "PLAYER"
           },
           "matchGame": {
