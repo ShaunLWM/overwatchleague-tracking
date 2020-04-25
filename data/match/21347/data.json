@@ -505,7 +505,7 @@
               ],
               "hometown": "New York City, NY",
               "player_number": 1,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -516,7 +516,7 @@
             "user": {
               "id": 1175
             },
-            "@etag": "23f52b0c",
+            "@etag": "76be279e",
             "type": "PLAYER"
           },
           "flags": []
@@ -545,7 +545,7 @@
               ],
               "hometown": "Wonder Lake, illinois",
               "player_number": 6,
-              "preferred_slot": "1",
+              "preferred_slot": "0",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -556,7 +556,7 @@
             "user": {
               "id": 2634
             },
-            "@etag": "a5b1780f",
+            "@etag": "dcaefc72",
             "type": "PLAYER"
           },
           "flags": []
@@ -666,7 +666,7 @@
               ],
               "hometown": null,
               "player_number": 49,
-              "preferred_slot": "0",
+              "preferred_slot": "1",
               "role": "offense"
             },
             "attributesVersion": "1.0.0",
@@ -677,7 +677,7 @@
             "user": {
               "id": 2884
             },
-            "@etag": "952a4b41",
+            "@etag": "51ba2e90",
             "type": "PLAYER"
           },
           "flags": []
@@ -1323,6 +1323,49 @@
       "players": [
         {
           "team": {
+            "id": 4525,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4625,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "boink.8793",
+            "name": "Boink",
+            "homeLocation": "Chicago, IL",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "lucio",
+                "zenyatta",
+                "roadhog"
+              ],
+              "hometown": null,
+              "player_number": 13,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Pence",
+            "givenName": "Daniel",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc23176a52431a1a2/5e46f681a173e408b75bffbd/Outlaws_Boink.png",
+            "user": {
+              "id": 761
+            },
+            "@etag": "8203371e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22843
+          },
+          "sortIndex": 0
+        },
+        {
+          "team": {
             "id": 4410,
             "type": "TEAM"
           },
@@ -1371,42 +1414,42 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4625,
+            "id": 4136,
             "availableLanguages": [
               "en",
               "zh-cn"
             ],
-            "handle": "boink.8793",
-            "name": "Boink",
-            "homeLocation": "Chicago, IL",
+            "handle": "rawkus.2238",
+            "name": "Rawkus",
+            "homeLocation": "New York City, NY",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "lucio",
+                "ana",
                 "zenyatta",
-                "roadhog"
+                "mercy"
               ],
-              "hometown": null,
-              "player_number": 13,
+              "hometown": "New York City, NY",
+              "player_number": 1,
               "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Pence",
-            "givenName": "Daniel",
+            "familyName": "Flaherty",
+            "givenName": "Shane",
             "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltc23176a52431a1a2/5e46f681a173e408b75bffbd/Outlaws_Boink.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt4c092c169b049523/5e46f691f9482b17fbc75eec/Outlaws_Rawkus.png",
             "user": {
-              "id": 761
+              "id": 1175
             },
-            "@etag": "8203371e",
+            "@etag": "76be279e",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22843
           },
-          "sortIndex": 0
+          "sortIndex": 1
         },
         {
           "team": {
@@ -1440,8 +1483,8 @@
             "familyName": "Choi",
             "givenName": "Seungtae",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
-            "@etag": "b34fa5a9",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt111446ff8f79b637/5ea1d94abab7700be710ecab/Dynasty_Bdosin.png",
+            "@etag": "4c7eda0f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1451,46 +1494,47 @@
         },
         {
           "team": {
-            "id": 4525,
+            "id": 4410,
             "type": "TEAM"
           },
           "player": {
-            "id": 4136,
+            "id": 4656,
             "availableLanguages": [
               "en",
+              "ko",
               "zh-cn"
             ],
-            "handle": "rawkus.2238",
-            "name": "Rawkus",
-            "homeLocation": "New York City, NY",
+            "handle": "birdring.7861",
+            "name": "Birdring",
+            "homeLocation": "Seoul",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
+                "tracer",
+                "genji",
+                "mccree"
               ],
-              "hometown": "New York City, NY",
-              "player_number": 1,
-              "preferred_slot": "4",
-              "role": "support"
+              "hometown": null,
+              "player_number": 20,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Flaherty",
-            "givenName": "Shane",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt4c092c169b049523/5e46f691f9482b17fbc75eec/Outlaws_Rawkus.png",
+            "familyName": "Kim",
+            "givenName": "Ji Hyeok",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3b2ec96e47771372/5e45f1b9210300185a9c9e3e/LAGladiators_Birdring.png",
             "user": {
-              "id": 1175
+              "id": 1449
             },
-            "@etag": "23f52b0c",
+            "@etag": "b329f466",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22843
           },
-          "sortIndex": 1
+          "sortIndex": 2
         },
         {
           "team": {
@@ -1541,50 +1585,6 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4656,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "birdring.7861",
-            "name": "Birdring",
-            "homeLocation": "Seoul",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "tracer",
-                "genji",
-                "mccree"
-              ],
-              "hometown": null,
-              "player_number": 20,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Ji Hyeok",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt3b2ec96e47771372/5e45f1b9210300185a9c9e3e/LAGladiators_Birdring.png",
-            "user": {
-              "id": 1449
-            },
-            "@etag": "b329f466",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22843
-          },
-          "sortIndex": 2
-        },
-        {
-          "team": {
-            "id": 4410,
-            "type": "TEAM"
-          },
-          "player": {
             "id": 4666,
             "availableLanguages": [
               "en",
@@ -1611,11 +1611,11 @@
             "familyName": "Hong",
             "givenName": "Jaehui",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt0af85e7348e1fbc6/5ea1d94a5f9ae00bfd5005d5/Dynasty_Gesture.png",
             "user": {
               "id": 1848
             },
-            "@etag": "719e979b",
+            "@etag": "5e0f20e5",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1741,11 +1741,11 @@
             "familyName": "Park",
             "givenName": "Junyoung",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt8c8d5dd505785f85/5e751b1890aa6f732b7ee3be/DYNASTY_PROFIT.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt20de278896d70483/5ea1d94b5f9ae00bfd5005d9/Dynasty_Profit.png",
             "user": {
               "id": 157
             },
-            "@etag": "908949be",
+            "@etag": "dd467cac",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -1990,8 +1990,8 @@
             "familyName": "Choi",
             "givenName": "Seungtae",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
-            "@etag": "b34fa5a9",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt111446ff8f79b637/5ea1d94abab7700be710ecab/Dynasty_Bdosin.png",
+            "@etag": "4c7eda0f",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2023,7 +2023,7 @@
               ],
               "hometown": "New York City, NY",
               "player_number": 1,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -2034,56 +2034,13 @@
             "user": {
               "id": 1175
             },
-            "@etag": "23f52b0c",
+            "@etag": "76be279e",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22844
           },
           "sortIndex": 1
-        },
-        {
-          "team": {
-            "id": 4525,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4140,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "jake.3203",
-            "name": "Jake",
-            "homeLocation": "San Diego, CA",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "soldier-76",
-                "genji",
-                "junkrat"
-              ],
-              "hometown": "San Diego, CA",
-              "player_number": 76,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Lyon",
-            "givenName": "Jake",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/he/HEXRWVOW3F5J1551375894774.png",
-            "user": {
-              "id": 1919
-            },
-            "@etag": "b8d51835",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22844
-          },
-          "sortIndex": 2
         },
         {
           "team": {
@@ -2122,6 +2079,49 @@
               "id": 1449
             },
             "@etag": "b329f466",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22844
+          },
+          "sortIndex": 2
+        },
+        {
+          "team": {
+            "id": 4525,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4140,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "jake.3203",
+            "name": "Jake",
+            "homeLocation": "San Diego, CA",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "soldier-76",
+                "genji",
+                "junkrat"
+              ],
+              "hometown": "San Diego, CA",
+              "player_number": 76,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Lyon",
+            "givenName": "Jake",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/he/HEXRWVOW3F5J1551375894774.png",
+            "user": {
+              "id": 1919
+            },
+            "@etag": "b8d51835",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2205,61 +2205,17 @@
             "familyName": "Hong",
             "givenName": "Jaehui",
             "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt0af85e7348e1fbc6/5ea1d94a5f9ae00bfd5005d5/Dynasty_Gesture.png",
             "user": {
               "id": 1848
             },
-            "@etag": "719e979b",
+            "@etag": "5e0f20e5",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22844
           },
           "sortIndex": 3
-        },
-        {
-          "team": {
-            "id": 4410,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4662,
-            "availableLanguages": [
-              "en",
-              "ko",
-              "zh-cn"
-            ],
-            "handle": "profit.1553",
-            "name": "Profit",
-            "homeLocation": "Jinju",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "tracer",
-                "genji",
-                "zarya"
-              ],
-              "hometown": null,
-              "player_number": 13,
-              "preferred_slot": "1",
-              "role": "offense"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Park",
-            "givenName": "Junyoung",
-            "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt8c8d5dd505785f85/5e751b1890aa6f732b7ee3be/DYNASTY_PROFIT.png",
-            "user": {
-              "id": 157
-            },
-            "@etag": "908949be",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22844
-          },
-          "sortIndex": 4
         },
         {
           "team": {
@@ -2309,43 +2265,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4659,
+            "id": 4662,
             "availableLanguages": [
               "en",
               "ko",
               "zh-cn"
             ],
-            "handle": "fury.7796",
-            "name": "Fury",
-            "homeLocation": "Seoul",
+            "handle": "profit.1553",
+            "name": "Profit",
+            "homeLocation": "Jinju",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "dva",
-                "zarya",
-                "roadhog"
+                "tracer",
+                "genji",
+                "zarya"
               ],
               "hometown": null,
-              "player_number": 19,
-              "preferred_slot": "3",
-              "role": "tank"
+              "player_number": 13,
+              "preferred_slot": "1",
+              "role": "offense"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Kim",
-            "givenName": "Junho",
+            "familyName": "Park",
+            "givenName": "Junyoung",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt80f956a4a765f939/5e45efa7a173e408b75bff4d/Fusion_Fury.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt20de278896d70483/5ea1d94b5f9ae00bfd5005d9/Dynasty_Profit.png",
             "user": {
-              "id": 868
+              "id": 157
             },
-            "@etag": "d6f77c31",
+            "@etag": "dd467cac",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22844
           },
-          "sortIndex": 5
+          "sortIndex": 4
         },
         {
           "team": {
@@ -2383,6 +2339,50 @@
               "id": 1593
             },
             "@etag": "ec8a07bd",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22844
+          },
+          "sortIndex": 5
+        },
+        {
+          "team": {
+            "id": 4410,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4659,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "fury.7796",
+            "name": "Fury",
+            "homeLocation": "Seoul",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "dva",
+                "zarya",
+                "roadhog"
+              ],
+              "hometown": null,
+              "player_number": 19,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Kim",
+            "givenName": "Junho",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt80f956a4a765f939/5e45efa7a173e408b75bff4d/Fusion_Fury.png",
+            "user": {
+              "id": 868
+            },
+            "@etag": "d6f77c31",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2510,49 +2510,6 @@
         },
         {
           "team": {
-            "id": 4525,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4136,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "rawkus.2238",
-            "name": "Rawkus",
-            "homeLocation": "New York City, NY",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "ana",
-                "zenyatta",
-                "mercy"
-              ],
-              "hometown": "New York City, NY",
-              "player_number": 1,
-              "preferred_slot": "4",
-              "role": "support"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Flaherty",
-            "givenName": "Shane",
-            "nationality": "US",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt4c092c169b049523/5e46f691f9482b17fbc75eec/Outlaws_Rawkus.png",
-            "user": {
-              "id": 1175
-            },
-            "@etag": "23f52b0c",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22845
-          },
-          "sortIndex": 1
-        },
-        {
-          "team": {
             "id": 4410,
             "type": "TEAM"
           },
@@ -2583,8 +2540,51 @@
             "familyName": "Choi",
             "givenName": "Seungtae",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltecb3c1b2b212e45c/5e751b198d83401be1196fcb/DYNASTY_BDOSIN.png",
-            "@etag": "b34fa5a9",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt111446ff8f79b637/5ea1d94abab7700be710ecab/Dynasty_Bdosin.png",
+            "@etag": "4c7eda0f",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22845
+          },
+          "sortIndex": 1
+        },
+        {
+          "team": {
+            "id": 4525,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4136,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "rawkus.2238",
+            "name": "Rawkus",
+            "homeLocation": "New York City, NY",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "ana",
+                "zenyatta",
+                "mercy"
+              ],
+              "hometown": "New York City, NY",
+              "player_number": 1,
+              "preferred_slot": "5",
+              "role": "support"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Flaherty",
+            "givenName": "Shane",
+            "nationality": "US",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt4c092c169b049523/5e46f691f9482b17fbc75eec/Outlaws_Rawkus.png",
+            "user": {
+              "id": 1175
+            },
+            "@etag": "76be279e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -2681,50 +2681,6 @@
         },
         {
           "team": {
-            "id": 4410,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4666,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "gesture.2414",
-            "name": "Gesture",
-            "homeLocation": "Gunsan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "winston",
-                "reinhardt",
-                "roadhog"
-              ],
-              "hometown": null,
-              "player_number": 7,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Hong",
-            "givenName": "Jaehui",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 1848
-            },
-            "@etag": "719e979b",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22845
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4525,
             "type": "TEAM"
           },
@@ -2773,43 +2729,43 @@
             "type": "TEAM"
           },
           "player": {
-            "id": 4662,
+            "id": 4666,
             "availableLanguages": [
               "en",
-              "ko",
-              "zh-cn"
+              "zh-cn",
+              "ko"
             ],
-            "handle": "profit.1553",
-            "name": "Profit",
-            "homeLocation": "Jinju",
+            "handle": "gesture.2414",
+            "name": "Gesture",
+            "homeLocation": "Gunsan",
             "game": "OVERWATCH",
             "attributes": {
               "hero_image": null,
               "heroes": [
-                "tracer",
-                "genji",
-                "zarya"
+                "winston",
+                "reinhardt",
+                "roadhog"
               ],
               "hometown": null,
-              "player_number": 13,
-              "preferred_slot": "1",
-              "role": "offense"
+              "player_number": 7,
+              "preferred_slot": "2",
+              "role": "tank"
             },
             "attributesVersion": "1.0.0",
-            "familyName": "Park",
-            "givenName": "Junyoung",
+            "familyName": "Hong",
+            "givenName": "Jaehui",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt8c8d5dd505785f85/5e751b1890aa6f732b7ee3be/DYNASTY_PROFIT.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt0af85e7348e1fbc6/5ea1d94a5f9ae00bfd5005d5/Dynasty_Gesture.png",
             "user": {
-              "id": 157
+              "id": 1848
             },
-            "@etag": "908949be",
+            "@etag": "5e0f20e5",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22845
           },
-          "sortIndex": 4
+          "sortIndex": 3
         },
         {
           "team": {
@@ -2846,6 +2802,50 @@
               "id": 2487
             },
             "@etag": "bcc17da6",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22845
+          },
+          "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4410,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4662,
+            "availableLanguages": [
+              "en",
+              "ko",
+              "zh-cn"
+            ],
+            "handle": "profit.1553",
+            "name": "Profit",
+            "homeLocation": "Jinju",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "tracer",
+                "genji",
+                "zarya"
+              ],
+              "hometown": null,
+              "player_number": 13,
+              "preferred_slot": "1",
+              "role": "offense"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Park",
+            "givenName": "Junyoung",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt20de278896d70483/5ea1d94b5f9ae00bfd5005d9/Dynasty_Profit.png",
+            "user": {
+              "id": 157
+            },
+            "@etag": "dd467cac",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3117,7 +3117,7 @@
               ],
               "hometown": "New York City, NY",
               "player_number": 1,
-              "preferred_slot": "4",
+              "preferred_slot": "5",
               "role": "support"
             },
             "attributesVersion": "1.0.0",
@@ -3128,7 +3128,7 @@
             "user": {
               "id": 1175
             },
-            "@etag": "23f52b0c",
+            "@etag": "76be279e",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3225,50 +3225,6 @@
         },
         {
           "team": {
-            "id": 4410,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4666,
-            "availableLanguages": [
-              "en",
-              "zh-cn",
-              "ko"
-            ],
-            "handle": "gesture.2414",
-            "name": "Gesture",
-            "homeLocation": "Gunsan",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "winston",
-                "reinhardt",
-                "roadhog"
-              ],
-              "hometown": null,
-              "player_number": 7,
-              "preferred_slot": "2",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Hong",
-            "givenName": "Jaehui",
-            "nationality": "KR",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/page_media/S02042JXNHF81515718127993.png",
-            "user": {
-              "id": 1848
-            },
-            "@etag": "719e979b",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22846
-          },
-          "sortIndex": 3
-        },
-        {
-          "team": {
             "id": 4525,
             "type": "TEAM"
           },
@@ -3304,6 +3260,50 @@
               "id": 2981
             },
             "@etag": "d8c3ea5e",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22846
+          },
+          "sortIndex": 3
+        },
+        {
+          "team": {
+            "id": 4410,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4666,
+            "availableLanguages": [
+              "en",
+              "zh-cn",
+              "ko"
+            ],
+            "handle": "gesture.2414",
+            "name": "Gesture",
+            "homeLocation": "Gunsan",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "winston",
+                "reinhardt",
+                "roadhog"
+              ],
+              "hometown": null,
+              "player_number": 7,
+              "preferred_slot": "2",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Hong",
+            "givenName": "Jaehui",
+            "nationality": "KR",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt0af85e7348e1fbc6/5ea1d94a5f9ae00bfd5005d5/Dynasty_Gesture.png",
+            "user": {
+              "id": 1848
+            },
+            "@etag": "5e0f20e5",
             "type": "PLAYER"
           },
           "matchGame": {
@@ -3385,17 +3385,60 @@
             "familyName": "Park",
             "givenName": "Junyoung",
             "nationality": "KR",
-            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt8c8d5dd505785f85/5e751b1890aa6f732b7ee3be/DYNASTY_PROFIT.png",
+            "headshot": "https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt20de278896d70483/5ea1d94b5f9ae00bfd5005d9/Dynasty_Profit.png",
             "user": {
               "id": 157
             },
-            "@etag": "908949be",
+            "@etag": "dd467cac",
             "type": "PLAYER"
           },
           "matchGame": {
             "id": 22846
           },
           "sortIndex": 4
+        },
+        {
+          "team": {
+            "id": 4525,
+            "type": "TEAM"
+          },
+          "player": {
+            "id": 4138,
+            "availableLanguages": [
+              "en",
+              "zh-cn"
+            ],
+            "handle": "coolmatt69.4049",
+            "name": "coolmatt",
+            "homeLocation": "Laporte, IN",
+            "game": "OVERWATCH",
+            "attributes": {
+              "hero_image": null,
+              "heroes": [
+                "dva",
+                "zarya",
+                "roadhog"
+              ],
+              "hometown": null,
+              "player_number": 69,
+              "preferred_slot": "3",
+              "role": "tank"
+            },
+            "attributesVersion": "1.0.0",
+            "familyName": "Iorio",
+            "givenName": "Matt",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/Z6IBPWY60T3I1549580267288.png",
+            "user": {
+              "id": 1593
+            },
+            "@etag": "ec8a07bd",
+            "type": "PLAYER"
+          },
+          "matchGame": {
+            "id": 22846
+          },
+          "sortIndex": 5
         },
         {
           "team": {
@@ -3434,49 +3477,6 @@
               "id": 868
             },
             "@etag": "d6f77c31",
-            "type": "PLAYER"
-          },
-          "matchGame": {
-            "id": 22846
-          },
-          "sortIndex": 5
-        },
-        {
-          "team": {
-            "id": 4525,
-            "type": "TEAM"
-          },
-          "player": {
-            "id": 4138,
-            "availableLanguages": [
-              "en",
-              "zh-cn"
-            ],
-            "handle": "coolmatt69.4049",
-            "name": "coolmatt",
-            "homeLocation": "Laporte, IN",
-            "game": "OVERWATCH",
-            "attributes": {
-              "hero_image": null,
-              "heroes": [
-                "dva",
-                "zarya",
-                "roadhog"
-              ],
-              "hometown": null,
-              "player_number": 69,
-              "preferred_slot": "3",
-              "role": "tank"
-            },
-            "attributesVersion": "1.0.0",
-            "familyName": "Iorio",
-            "givenName": "Matt",
-            "nationality": "US",
-            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/Z6IBPWY60T3I1549580267288.png",
-            "user": {
-              "id": 1593
-            },
-            "@etag": "ec8a07bd",
             "type": "PLAYER"
           },
           "matchGame": {
